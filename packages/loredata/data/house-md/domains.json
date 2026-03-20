@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["ppth.edu", "princeton-plainsboro.org", "rutgers.edu", "njms.edu", "diagnosticsgenius.net", "ppth.org"],
+  "phonePrefixes": ["609", "732", "848"],
+  "phoneEasterEggs": [],
+  "passwordEasterEggs": ["everybody_lies", "its_never_lupus", "vicodin", "what_would_house_do", "solving_puzzles", "not_your_call", "dead_end_diagnostics", "thirteen_hadley"]
+}

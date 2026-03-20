@@ -1,0 +1,213 @@
+[
+  {
+    "id": "gregory-house",
+    "firstName": "Gregory",
+    "lastName": "House",
+    "usernames": ["everybody_lies", "vicodin_md", "cane_and_able", "diagnostics_genius", "not_lupus"],
+    "profession": "diagnostician",
+    "interests": ["medicine", "piano", "motorcycle", "puzzles", "vicodin"],
+    "quotes": [
+      "Everybody lies.",
+      "There's no such thing! Our bodies break down, sometimes when we're 90, sometimes before we're even born, but it always happens and there's never any dignity in it. I don't care if you can walk, see, wipe your own ass. It's always ugly - always! We can live with dignity - we can't die with it.",
+      "Reality is almost always wrong.",
+      "I said I was an addict, I didn't say I had a problem. I pay my bills, I make my meals. I function.",
+      "I take risks; sometimes patients die. But not taking risks causes more patients to die, so I guess my biggest problem is I've been cursed with the ability to do the math.",
+      "Treating illnesses is why we became doctors. Treating patients is what makes most doctors miserable.",
+      "Almost dying changes nothing. Dying changes everything.",
+      "Like I always say, there's no 'I' in 'team.' There is a 'me,' though, if you jumble it up.",
+      "Solving puzzles. Saving lives is just collateral damage.",
+      "If the wonder's gone when the truth is known, there never was any wonder."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "james-wilson",
+    "firstName": "James",
+    "lastName": "Wilson",
+    "usernames": ["best_friend_of_house", "oncology_wilson", "enabler_in_chief", "three_divorces_wilson"],
+    "profession": "oncologist",
+    "interests": ["oncology", "friendship", "cooking", "relationships"],
+    "quotes": [
+      "You don't like yourself. But you do admire yourself. It's all you've got so you cling to it. You're so afraid if you change, you'll lose what makes you special. Being miserable doesn't make you better than anybody else, House. It just makes you miserable.",
+      "I have no kids, my marriage sucks... I only got two things that work for me: this job and this stupid screwed up friendship, and neither mattered enough for you to give one lousy speech.",
+      "You value our friendship more than your ethical responsibilities? Our friendship is an ethical responsibility.",
+      "Billionaires buy movie studios to get laid. They buy hospitals to get respect.",
+      "Stop being an ass.",
+      "No. I was there. You are not just some regular guy who's getting older. You've changed! You're miserable! And you're afraid to face yourself.",
+      "You spread misery because you can't feel anything else. You manipulate people because you can't handle any kind of real relationship.",
+      "Dying's easy. Living's hard!",
+      "Because you're not ordinary, House. You're way out there on the fringe somewhere. I'm your best friend, and half the time I don't understand you. You're alone. Been alone your whole life."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "lisa-cuddy",
+    "firstName": "Lisa",
+    "lastName": "Cuddy",
+    "usernames": ["dean_of_medicine", "ppth_dean", "house_wrangler", "cuddy_md"],
+    "profession": "Dean of Medicine",
+    "interests": ["hospital administration", "medicine", "family", "fundraising"],
+    "quotes": [
+      "Your reputation won't last if you don't do your job; the clinic is part of your job. I want you to do your job.",
+      "I assume those are two separate points.",
+      "If you think House deserves to go, if you think I deserve to go, Wilson deserved to go then vote yes. But if you're doing this because you are afraid of losing his money, then he's right, he does own you.",
+      "He did his job.",
+      "I'm stuck, House. I keep wanting to move forward. I keep wanting to move on, and I can't. I mean, my new house, with my new fiance, and all I can think about is you. I just need to know if you and I can work.",
+      "You can't make a competition out of patient care.",
+      "An egomaniacal, narcissistic pain in the ass — same as before you left.",
+      "You are waking her up so that you could both say goodbye to each other. She would want it."
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "eric-foreman",
+    "firstName": "Eric",
+    "lastName": "Foreman",
+    "usernames": ["foreman_neurologist", "not_a_car_thief", "dean_foreman", "team_foreman"],
+    "profession": "neurologist",
+    "interests": ["neurology", "medicine", "ethics", "career advancement"],
+    "quotes": [
+      "Isn't treating patients why we became doctors?",
+      "From what I've read false paternity is more like ten percent.",
+      "You have no evidence to support a poisoning diagnosis.",
+      "Get this straight. You break the law, you go back to jail. Scam extra Vicodin, back to jail. Flout my authority, make the hospital look bad, back to jail. I own you.",
+      "I know how you operate. So when I see symptoms magically show up right when you need them...",
+      "Even if House is messed up by Kutner's suicide, wouldn't matter. He already thinks that life is nasty, brutish and long. And misery helps his diagnostic skills.",
+      "Every slavemaster thought they were doing the black man a favour.",
+      "I think you got her in because of your usual messiah complex. I think you messed with the appointment schedule because of your I-like-to-have-sex complex."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "robert-chase",
+    "firstName": "Robert",
+    "lastName": "Chase",
+    "usernames": ["pretty_boy_chase", "aussie_doctor", "not_british", "dr_chase_ppth"],
+    "profession": "intensivist",
+    "interests": ["surgery", "intensive care", "surfing", "religion"],
+    "quotes": [
+      "They tend to keep quiet on account of them not having any mouths.",
+      "I don't hate him. I loved him until I figured out it hurts a lot less to just not care. You don't expect him to turn up to your football match? No disappointments. You don't expect a call on your birthday, don't expect to see him for months? No disappointments.",
+      "How would you feel if I interfered in your personal life? I'd hate it. That's why I cleverly have no personal life.",
+      "He likes crazy people. He likes the way they think.",
+      "Tired of surfing.",
+      "You know how I got interested in medicine? When my mother drank, she couldn't handle me, so she locked me in my father's study.",
+      "If people told nothing but the truth, the world would probably burn down overnight.",
+      "This is why we left House's team. To avoid this constant flood of pure craziness."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "allison-cameron",
+    "firstName": "Allison",
+    "lastName": "Cameron",
+    "usernames": ["dr_cameron_er", "always_caring_cameron", "cameron_immunology", "mercy_and_reason"],
+    "profession": "emergency medicine physician",
+    "interests": ["medicine", "ethics", "immunology", "human rights"],
+    "quotes": [
+      "He cured you. You didn't cure him.",
+      "Dr. House doesn't like dealing with patients.",
+      "Sex could kill you. Do you know what the human body goes through when you have sex? Pupils dilate, arteries constrict, core temperature rises, heart races, blood pressure skyrockets, respiration becomes rapid and shallow, the brain fires bursts of electrical impulses from nowhere to nowhere, and secretions spit out of every gland, and the muscles tense and spasm like you're lifting three times your body weight. It's violent, it's ugly and it's messy, and if God hadn't made it unbelievably fun, the human race would have died out eons ago.",
+      "Parents are never as bad as kids think they are.",
+      "I hate sports metaphors.",
+      "I love Dr. House.",
+      "It's why I left House. You got fired.",
+      "In ER we like to actually resuscitate dying people, not just let them flop around."
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "chris-taub",
+    "firstName": "Chris",
+    "lastName": "Taub",
+    "usernames": ["taub_plastics", "nose_job_taub", "dr_taub_ppth", "taub_survivor"],
+    "profession": "physician",
+    "interests": ["medicine", "plastic surgery", "family", "poker"],
+    "quotes": [
+      "We treat her like a sixty-year-old Asian man, too?",
+      "Sane people don't attempt suicide.",
+      "House always has an agenda, just screwing with us isn't...",
+      "If anarchy breaks out, I plan to do what my ancestors have done throughout the ages: run.",
+      "House always has an agenda.",
+      "Save people's lives instead of just their noses.",
+      "I'll bring it up at the next world domination subcommittee meeting.",
+      "Why me?"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "remy-hadley",
+    "firstName": "Remy",
+    "lastName": "Hadley",
+    "usernames": ["thirteen_hadley", "huntingtons_thirteen", "dr_thirteen", "remy_hadley_md"],
+    "profession": "internist",
+    "interests": ["medicine", "clinical trials", "Huntington's disease", "neurology"],
+    "quotes": [
+      "No one can describe themselves in ten words. Why would we wanna hear anyone else do it?",
+      "You spend your whole life looking for answers, because you think the next answer will change something, maybe make you a little less miserable. And you know that when you run out of questions, you don't just run out of answers, you run out of hope.",
+      "I'm not giving up on life. I'm just giving up on you. I finally feel like I have a grip on things. I can handle this. What I can't handle is dragging anyone else down with me.",
+      "This is Dr. House. He's too brilliant for introductions.",
+      "Drugs are always a mask for something else.",
+      "Here I thought I was just into boobs.",
+      "Patient has spinal muscular atrophy. It's genetic, incurable. This is not a diagnostic mystery.",
+      "We could save this patient but all you care about is getting your answer!"
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "lawrence-kutner",
+    "firstName": "Lawrence",
+    "lastName": "Kutner",
+    "usernames": ["kutner_md", "foster_kid_kutner", "kutner_diagnostics", "excitable_kutner"],
+    "profession": "sports medicine physician",
+    "interests": ["medicine", "sports medicine", "pranks", "pop culture"],
+    "quotes": [
+      "Belonging's overrated. I was adopted by a white family when I was nine. I like being different the view's better from the outside looking in.",
+      "Not every teenager is having sex.",
+      "But not every teenager is stupid... Wait—",
+      "The infection destroyed your liver which released toxins that caused the locked-in syndrome. You were dying of a paper cut.",
+      "I treated her based on the symptoms she presented.",
+      "Why are you pushing a crash cart?",
+      "You slept with Foreman? Sorry, you were busy.",
+      "Yeah he'd never do that. Oh wait — he already did last year!"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "jessica-adams",
+    "firstName": "Jessica",
+    "lastName": "Adams",
+    "usernames": ["dr_adams_ppth", "formerly_incarcerated_md", "adams_diagnostics", "jail_doc_adams"],
+    "profession": "diagnostician",
+    "interests": ["medicine", "ethics", "charity work", "volunteering"],
+    "quotes": [
+      "I checked your file. You didn't have a bad lawyer. You had no lawyer. You took the first deal they offered because you wanted to punish yourself.",
+      "So you want to research it? Why? It's the greatest mystery there is. Theory of everything. And completely divorced from humanity.",
+      "Some people think it's burning now. Maybe if everybody didn't lie...",
+      "There is a free clinic in Trenton.",
+      "Sex releases oxytocin. It's the neurochemical basis for bonding.",
+      "Was it Santa?",
+      "Thad Barton? We only help rich white guys?",
+      "I could do $5,000. If you double your clinic hours."
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "chi-park",
+    "firstName": "Chi",
+    "lastName": "Park",
+    "usernames": ["dr_park_ppth", "punched_the_boss", "park_diagnostics", "dr_chi_park"],
+    "profession": "neurologist",
+    "interests": ["medicine", "neurology", "family", "self-defense"],
+    "quotes": [
+      "You do know I punched the last person that pissed me off?",
+      "My mom's Filipino, dad's Korean, and my boss grabbed my behind.",
+      "I'm sorry. I thought I was here to treat the patients, not entertain you.",
+      "No it's not. I've tapped over 30 guys and never wanted to see most of them again. I live next to a Jewish frat.",
+      "First patriotism, now loyalty. You hate ice cream, too?",
+      "If you were me, what would you do?",
+      "Would it hurt to do both?"
+    ],
+    "gender": "female"
+  }
+]

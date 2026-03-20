@@ -1,0 +1,31 @@
+[
+  {
+    "street": "221B Baker Street",
+    "city": "London",
+    "country": "GB"
+  },
+  {
+    "street": "West Smithfield",
+    "city": "London",
+    "country": "GB"
+  },
+  {
+    "street": "Broadway",
+    "city": "London",
+    "country": "GB"
+  },
+  {
+    "street": "Pall Mall",
+    "city": "London",
+    "country": "GB"
+  },
+  {
+    "street": "Montague Street",
+    "city": "London",
+    "country": "GB"
+  },
+  {
+    "city": "London",
+    "country": "GB"
+  }
+]

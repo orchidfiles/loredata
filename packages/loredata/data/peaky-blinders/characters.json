@@ -1,0 +1,198 @@
+[
+  {
+    "id": "tommy-shelby",
+    "firstName": "Thomas",
+    "lastName": "Shelby",
+    "usernames": ["by_order_of_pb", "garrison_razor", "one_minute_soldier", "shelby_company_ltd"],
+    "profession": "Gangster, businessman, MP",
+    "interests": ["horse racing", "whiskey", "business", "politics", "war strategy"],
+    "quotes": [
+      "I think, Arthur. That's what I do. I think. So that you don't have to.",
+      "Everyone is a whore, Grace. We just sell different parts of ourselves.",
+      "There is no rest for me in this world. Perhaps in the next.",
+      "Sometimes it lasts all night. And I lie here and I listen to the shovels... and the picks against that wall there. And I pray that the sun will come up at the curtains before they break through. No, I don't pray. I hope.",
+      "I will continue... 'till I find a man, that I can't defeat.",
+      "In the bleak, midwinter.",
+      "The eleventh hour. Armistice. Peace at last. Peace at last."
+    ],
+    "gender": "male",
+    "address": {"city": "Small Heath", "country": "GB"}
+  },
+  {
+    "id": "arthur-shelby",
+    "firstName": "Arthur",
+    "lastName": "Shelby",
+    "usernames": ["eldest_shelby", "wild_arthur", "by_order_pb"],
+    "profession": "Gangster, enforcer",
+    "interests": ["fighting", "horses", "drawing", "family"],
+    "quotes": [
+      "You're stealing from the Peaky Blinders, man.",
+      "Liar.",
+      "I know. I stole your keys.",
+      "Fuck you and your contracts.",
+      "On your feet, soldier. On your feet. Stand the fuck up!",
+      "Her name was Elizabeth Gray. She was my Aunt Polly. My Aunt Polly.",
+      "Not in Small Heath, it ain't."
+    ],
+    "gender": "male",
+    "address": {"city": "Small Heath", "country": "GB"}
+  },
+  {
+    "id": "polly-gray",
+    "firstName": "Polly",
+    "lastName": "Gray",
+    "usernames": ["aunt_pol", "matriarch_shelby", "polly_of_small_heath"],
+    "profession": "Bookkeeper, Shelby Company treasurer",
+    "interests": ["family", "tarot", "whiskey", "Romani traditions"],
+    "quotes": [
+      "You have your mother's common sense, but your father's devilment. I see them fighting. Let your mother win.",
+      "He laughed, a lot. He wanted to work with horses.",
+      "Shit, maybe it's in us? Cause were Shelbys. It's in our gypsy blood. We live somewhere between life and death. Waiting to move on, and in the end, we accept it. We shake hands with devils, and we walk past them.",
+      "Arthur asked, whose side I was on. There will be a war, and one of you will die. But which one, I cannot tell.",
+      "Kill, and kill.",
+      "Soon, you will have a stage to stand on. Millions of people will listen to you.",
+      "Not anymore. My resignation."
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "alfie-solomons",
+    "firstName": "Alfred",
+    "lastName": "Solomons",
+    "usernames": ["camden_baker", "old_testament_alfie", "rum_and_torah"],
+    "profession": "Gangster, rum distiller, boxing promoter",
+    "interests": ["rum", "religion", "boxing", "his dog", "seagulls"],
+    "quotes": [
+      "Intelligence is a very valuable thing, innit, my friend? But usually, it comes far too fucking late.",
+      "I sit all day, every day, in that chair on that balcony. Contemplating the fact, right, that life is so much easier to deal with, when you are dead.",
+      "Good people die in their bed, Tommy. Good people.",
+      "Since my resurrection, I am considered to be a god.",
+      "Speaking as someone who has been dead for a number of years, I can only heartily recommend it.",
+      "I do not give a FUCK right now, kid, right?! I do not want him, to spare me because of some fucking peace pact!",
+      "You've got fuckin' angry, aint ya?!"
+    ],
+    "gender": "male",
+    "address": {"city": "Camden", "country": "GB"}
+  },
+  {
+    "id": "michael-gray",
+    "firstName": "Michael",
+    "lastName": "Gray",
+    "usernames": ["shelby_cousin", "michaels_ledger", "gray_returns"],
+    "profession": "Shelby Company accountant",
+    "interests": ["business", "family", "gambling"],
+    "quotes": [
+      "I KNOW THIS BASTARD DESERVES IT, ALL RIGHT?! I fucking know! But if you kill him now, the truce with the London outfits will be blown to fucking pieces.",
+      "WHICH FUCKING SIDE ARE YOU ON, ALFIE?!",
+      "Tommy, I know this bastard deserves it!",
+      "I have consulted my mother.",
+      "Nonetheless, I've consulted her. And, yes. When I'm released, it is my intention to kill Tommy Shelby.",
+      "You killed her.",
+      "No one close to you makes a choice without your opinion, Tom. Not Arthur, not me, not Ada. We can't escape you. Your lethal hand is always on our shoulders."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "ada-shelby",
+    "firstName": "Ada",
+    "lastName": "Thorne",
+    "usernames": ["ada_thorne_shelby", "shelby_sister", "cinema_ada"],
+    "profession": "Activist, Shelby Company director",
+    "interests": ["politics", "cinema", "Rudolph Valentino", "socialist causes"],
+    "quotes": [
+      "Oi! I'm a Shelby, too, you know. Put my fucking film back on!",
+      "Freddie fucking Thorne! Yeah! Your best mate since school. The man who saved your life in France! So go on! Cut him!",
+      "No one's gonna hang you, Tommy. You're gonna hang yourself.",
+      "I've never seen you read the paper. I've only seen you light fires with them.",
+      "Not a normal man, your brother."
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "john-shelby",
+    "firstName": "John",
+    "lastName": "Shelby",
+    "usernames": ["john_pb", "youngest_brother_shelby", "garrison_john"],
+    "profession": "Gangster",
+    "interests": ["family", "fighting", "horses"],
+    "quotes": [
+      "Are you fucking repenting or something?",
+      "What fucking class? You were never there.",
+      "Arthur, please. For God's sake, I don't need this.",
+      "Not stallions, not now.",
+      "Arthur."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "grace-burgess",
+    "firstName": "Grace",
+    "lastName": "Burgess",
+    "usernames": ["grace_sings", "garrison_barmaid", "grace_of_birmingham"],
+    "profession": "Barmaid, intelligence operative",
+    "interests": ["singing", "horses", "Ireland"],
+    "quotes": [
+      "Happy or sad?",
+      "Okay. But I warn you, it'll break your heart.",
+      "I am. But I love to sing.",
+      "Was he lame?",
+      "Should I be on my guard?",
+      "I have rum.",
+      "In what way?"
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "chester-campbell",
+    "firstName": "Chester",
+    "lastName": "Campbell",
+    "usernames": ["inspector_campbell", "belfast_bloodhound", "major_campbell"],
+    "profession": "Inspector, later Major in British Intelligence",
+    "interests": ["law enforcement", "order", "Protestantism", "hunting criminals"],
+    "quotes": [
+      "God help those who stand in our way!",
+      "My fury is a thing to behold.",
+      "Men like us, Mr. Shelby, will always be alone.",
+      "So find some stairs, throw him down, and call the coroner.",
+      "I find the more obvious vices the easiest to resist. It's the sneaky little obscure ones that bring you to your knees.",
+      "I have been ahead of you, every step of the way.",
+      "The end of the rope has been this man's destiny since the night he was born."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "luca-changretta",
+    "firstName": "Luca",
+    "lastName": "Changretta",
+    "usernames": ["new_york_vendetta", "changretta_famiglia", "italian_in_birmingham"],
+    "profession": "American-Italian mafia boss",
+    "interests": ["vendetta", "honor", "New York", "tailoring"],
+    "quotes": [
+      "I want you to be last. I want you to be alive after your entire family is dead, 'cause my mother says, that is what will hurt you the most.",
+      "You people have traditions of honor, as do we.",
+      "I could've killed you when you walked through the door.",
+      "No police.",
+      "I am surprised how easy it was to get into a room with you.",
+      "Your level of security is pitiful and we are an organization of a different dimension.",
+      "None of you will survive."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "lizzie-stark",
+    "firstName": "Lizzie",
+    "lastName": "Stark",
+    "usernames": ["lizzie_shelby", "company_director_lizzie", "garrison_lizzie"],
+    "profession": "Secretary, Shelby Company director",
+    "interests": ["family", "business", "her children"],
+    "quotes": [
+      "I am company director. I will join the meeting as well.",
+      "She's all better Tommy. You came back for nothing. But I'm glad you're back.",
+      "My husband is very sorry and he is calm now.",
+      "I gave her your kiss goodbye.",
+      "You're not so good at lying anymore, Tommy! These days the truth gets in your eyes.",
+      "No more Polly, no more whiskey, no more Tommy."
+    ],
+    "gender": "female"
+  }
+]

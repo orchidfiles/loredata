@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["shelbylimited.co.uk", "garrisonbar.co.uk", "smallheathmail.com", "peakymail.co.uk"],
+  "phonePrefixes": ["0121", "0207"],
+  "phoneEasterEggs": [],
+  "passwordEasterEggs": ["by_order_of_the_peaky_blinders", "garrison_whiskey", "small_heath", "by_order", "razor_sharp"]
+}

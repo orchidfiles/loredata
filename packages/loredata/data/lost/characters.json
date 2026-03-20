@@ -1,0 +1,204 @@
+[
+  {
+    "id": "jack-shephard",
+    "firstName": "Jack",
+    "lastName": "Shephard",
+    "usernames": ["live_together_die_alone", "chief_of_surgery", "man_of_science", "oceanic815_doc", "spinal_surgeon"],
+    "profession": "spinal surgeon",
+    "interests": ["medicine", "leadership", "rock climbing", "reading", "fixing things"],
+    "quotes": [
+      "We can't do this. Everyman for himself is not going to work. It's time to start organizing. If we can't live together, we're going to die alone.",
+      "Three days ago we all died. We should all be able to start over.",
+      "I just made a choice. I'd let the fear in, let it take over, let it do its thing, but only for five seconds, that's all I was going to give it.",
+      "I don't believe in destiny.",
+      "I'm gonna kill you.",
+      "You're not John Locke. You disrespect his memory by wearing his face, but you're nothing like him. Turns out he was right about most everything. I just wish I could've told him that while he was still alive."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "kate-austen",
+    "firstName": "Kate",
+    "lastName": "Austen",
+    "usernames": ["always_running", "freckles_fugitive", "marshal_bait", "oceanic815_kate", "not_running_now"],
+    "profession": "fugitive, former farmer",
+    "interests": ["survival", "firearms", "climbing", "running", "fixing engines"],
+    "quotes": [
+      "Live together, die alone.",
+      "Welcome to the wonderful world of not knowing what the hell's going on.",
+      "I need to find Claire. I thought, maybe if I could catch up to you, you could help me — and then, maybe if we could find her and bring her back to Aaron then maybe all of this wouldn't have been for nothing.",
+      "Since when did shooting kids and blowing up hydrogen bombs become okay?",
+      "I saved you a bullet!"
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "john-locke",
+    "firstName": "John",
+    "lastName": "Locke",
+    "usernames": ["man_of_faith", "dont_tell_me_what_i_cant", "walkabout_john", "box_company_hunter", "the_island_chose_me"],
+    "profession": "box company employee, survivalist",
+    "interests": ["hunting", "backgammon", "nature", "philosophy", "destiny"],
+    "quotes": [
+      "Don't tell me what I can't do.",
+      "I've looked into the eye of this Island. And what I saw was beautiful.",
+      "I'm a man of faith. Do you really think all this is an accident — that we, a group of strangers survived, many of us with just superficial injuries? We were brought here for a purpose, for a reason, all of us.",
+      "I believe that I was being tested.",
+      "No, I don't think that's true. You're not running now.",
+      "Two players. Two sides. One is light... one is dark."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "hugo-hurley-reyes",
+    "firstName": "Hugo",
+    "lastName": "Reyes",
+    "usernames": ["hurley_dude", "number_42_hugo", "clucks_lottery_winner", "dharma_chef", "156_million_problems"],
+    "profession": "fast food restaurant owner, lottery winner",
+    "interests": ["golf", "comic books", "Star Wars", "chicken", "people"],
+    "quotes": [
+      "Dude, look, I'd never lie.",
+      "Our lives suck! Everyone's nerves are stretched to the max! We're lost on an island, running from boars and monsters... freakin' polar bears!",
+      "All of us — the Oceanic Six, we lied about what happened after the crash.",
+      "You're not a zombie, right?",
+      "I can sorta use someone with, like, experience. For a little while. So... will you help me, Ben?",
+      "It's kind of true, dude. He's worse than Yoda."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "james-sawyer-ford",
+    "firstName": "James",
+    "lastName": "Ford",
+    "usernames": ["sawyer_nicknames", "dharmaville_lafleur", "confidence_man_jim", "redneck_man", "dharma_cowboy"],
+    "profession": "con man, DHARMA Initiative security chief",
+    "interests": ["reading", "poker", "nicknames", "cons", "whiskey"],
+    "quotes": [
+      "I'm a complex guy, sweetheart.",
+      "Me? I'm in the wild.",
+      "Baby, I am tied to a tree in a jungle of mystery. I just got tortured by a damn spinal surgeon and a gen-u-ine I-raqi. Of course, I'm serious.",
+      "I became the man I was hunting. Became Sawyer. Don't you feel sorry for me.",
+      "I ain't no hero, Mike.",
+      "Some of us are meant to be alone."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "sayid-jarrah",
+    "firstName": "Sayid",
+    "lastName": "Jarrah",
+    "usernames": ["republican_guard_sayid", "torturer_of_the_island", "nadia_letter", "iraqi_soldier", "communications_officer"],
+    "profession": "former Iraqi Republican Guard communications officer",
+    "interests": ["electronics", "cooking", "engineering", "chess", "Nadia"],
+    "quotes": [
+      "My name is Sayid Jarrah, and I am a torturer.",
+      "If we tell them what we know, we take away their hope... and hope is a very dangerous thing to lose.",
+      "You'll find me in the next life, if not in this one.",
+      "You would remember! You would remember how deep! You would remember every shovelful, every moment! You would remember what it felt like to place her body inside. You would remember if you buried the woman you loved!",
+      "I've tortured more people than I can remember. I murdered. Wherever I'm going... it can't be very pleasant.",
+      "Because it is going to be you, Jack."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "charlie-pace",
+    "firstName": "Charlie",
+    "lastName": "Pace",
+    "usernames": ["driveshaft_bass", "bloody_rock_god", "not_pennys_boat_charlie", "gods_pianist", "heroin_hobbit"],
+    "profession": "rock musician, bass player of Drive Shaft",
+    "interests": ["music", "guitar", "Drive Shaft", "Claire", "Aaron"],
+    "quotes": [
+      "I'm a bloody rock god!",
+      "That's French! The French are coming! I've never been so happy to hear the French!",
+      "Guys. Where are we?",
+      "You think you're the only person with baggage? You know what I was doing when the plane went down? I was snorting heroin in the toilet.",
+      "It wouldn't be an irrational fear of bees if I could just pull myself together, would it?",
+      "Charlie! Tell him I said hi!"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "desmond-hume",
+    "firstName": "Desmond",
+    "lastName": "Hume",
+    "usernames": ["see_you_in_another_life", "button_pusher_3years", "pennys_constant", "brother_desmond", "failsafe_key_man"],
+    "profession": "former Royal Scots soldier, button pusher",
+    "interests": ["sailing", "Penny", "running", "philosophy", "Dickens"],
+    "quotes": [
+      "Good luck, brother. See you in another life, yeah?",
+      "We are stuck in a bloody snowglobe! There's no outside world! There's no escape!",
+      "I love you, Penny. I've always loved you. I'm so sorry. I love you.",
+      "I'll see you in another life, brother.",
+      "What's the point in being afraid?",
+      "Calling my bloody constant."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "sun-hwa-kwon",
+    "firstName": "Sun",
+    "lastName": "Kwon",
+    "usernames": ["paiks_daughter", "sun_speaks_english", "ji_yeon_mama", "oceanic6_sun", "controlling_interest_sun"],
+    "profession": "businesswoman, daughter of a Korean industrialist",
+    "interests": ["gardening", "languages", "painting", "Ji Yeon", "Jin"],
+    "quotes": [
+      "My husband is many things. But he is not a liar.",
+      "We are in shock, Jack.",
+      "You ruined my husband's life. It is because of you we were on that plane. Two people are responsible for his death. You are one of them.",
+      "Oceanic paid us our settlement for the crash. It was very significant. This morning, I bought a controlling interest in your company. So you will now respect me.",
+      "We can start a new life. We'll go away.",
+      "So, Seoul. Is that in the good Korea or the bad Korea? The good one."
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "jin-soo-kwon",
+    "firstName": "Jin",
+    "lastName": "Kwon",
+    "usernames": ["jin_kwon_fisherman", "paik_enforcer_jin", "dharma_security_jin", "korean_survivor", "sun_husband"],
+    "profession": "hotel doorman, Paik Industries enforcer",
+    "interests": ["fishing", "family", "cooking", "Sun", "honor"],
+    "quotes": [
+      "I do this for you, Sun! I do this because your father expects it. I do this because that's what it takes to be married to you!",
+      "In a good world... she would hate her father, not me.",
+      "Married.",
+      "Daniel... No more flash?",
+      "Please, translate!"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "benjamin-linus",
+    "firstName": "Benjamin",
+    "lastName": "Linus",
+    "usernames": ["henry_gale_ben", "the_good_guys_leader", "i_always_have_a_plan", "otherville_ben", "jacob_was_wrong_ben"],
+    "profession": "leader of the Others, former DHARMA Initiative member",
+    "interests": ["reading", "power", "manipulation", "the Island", "Dostoevsky"],
+    "quotes": [
+      "I always have a plan.",
+      "We're the good guys, Michael.",
+      "God doesn't know how long we've been here, John. He can't see this island any better than the rest of the world can.",
+      "Dead is dead. You don't get to come back from that, not even here. So the fact that John Locke is walking around this Island... scares the living hell out of me.",
+      "John Locke was a... a believer, he was a man of faith, he was... a much better man than I will ever be. And I'm very sorry I murdered him.",
+      "I would be honored."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "richard-alpert",
+    "firstName": "Richard",
+    "lastName": "Alpert",
+    "usernames": ["never_ages_richard", "jacobus_emissary", "eyeliner_richard", "advisor_to_the_island", "ab_aeterno_richard"],
+    "profession": "adviser to the Others, immortal",
+    "interests": ["the Island", "Jacob", "history", "faith", "serving"],
+    "quotes": [
+      "It points north, John.",
+      "You're gonna have to die, John.",
+      "I devoted my life — longer than you can possibly imagine — in service of a man who told me that everything was happening for a reason, that he had a plan — a plan that I was a part of — and when the time was right that he'd share it with me. And now that man's gone. So why do I want to die? Because I just found out my entire life had no purpose.",
+      "I am in Hell. I know that I am in Hell.",
+      "I want my wife back.",
+      "I never want to die. I want to live forever."
+    ],
+    "gender": "male"
+  }
+]

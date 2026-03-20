@@ -1,0 +1,26 @@
+[
+  {
+    "city": "Birmingham",
+    "state": "Small Heath",
+    "country": "GB"
+  },
+  {
+    "city": "Birmingham",
+    "country": "GB"
+  },
+  {
+    "city": "London",
+    "state": "Camden Town",
+    "country": "GB"
+  },
+  {
+    "city": "Stratford-upon-Avon",
+    "state": "Warwickshire",
+    "country": "GB"
+  },
+  {
+    "city": "Margate",
+    "state": "Kent",
+    "country": "GB"
+  }
+]

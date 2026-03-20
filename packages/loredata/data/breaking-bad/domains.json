@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["lospollos.com", "madrigal.de", "vamonos-pest.com"],
+  "phonePrefixes": ["505", "575"],
+  "phoneEasterEggs": ["505-555-0126", "505-555-0199"],
+  "passwordEasterEggs": ["heisenberg", "iamthedanger", "say_my_name", "tread_lightly"]
+}

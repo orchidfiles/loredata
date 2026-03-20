@@ -1,0 +1,1 @@
+export { PersonFormatter } from './PersonFormatter';

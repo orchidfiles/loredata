@@ -1,0 +1,270 @@
+[
+  {
+    "id": "jon-snow",
+    "firstName": "Jon",
+    "lastName": "Snow",
+    "usernames": ["lord_commander", "jon_snow", "knows_nothing"],
+    "profession": "Night's Watch commander",
+    "interests": ["swordsmanship", "honor", "direwolves"],
+    "quotes": [
+      "I don't want it.",
+      "The dead are coming.",
+      "I've seen the army of the dead. I've seen the Night King. I know what they can do.",
+      "We're all going to die. But at least we die together.",
+      "Love is the death of duty."
+    ],
+    "gender": "male",
+    "birthYear": 281,
+    "address": {"city": "Castle Black"}
+  },
+  {
+    "id": "daenerys-targaryen",
+    "firstName": "Daenerys",
+    "lastName": "Targaryen",
+    "usernames": ["khaleesi", "mother_of_dragons", "breaker_of_chains"],
+    "profession": "Queen of the Seven Kingdoms",
+    "interests": ["dragons", "liberation", "conquest"],
+    "quotes": [
+      "Dracarys.",
+      "I will take what is mine with fire and blood.",
+      "I am not your little princess. I am Daenerys Stormborn.",
+      "I'm not going to stop the wheel. I'm going to break the wheel.",
+      "They can live in my new world or they can die in their old one."
+    ],
+    "gender": "female",
+    "birthYear": 284,
+    "address": {"city": "Dragonstone"}
+  },
+  {
+    "id": "tyrion-lannister",
+    "firstName": "Tyrion",
+    "lastName": "Lannister",
+    "usernames": ["halfman", "imp_of_kings_landing", "wine_and_wisdom"],
+    "profession": "Hand of the King",
+    "interests": ["wine", "reading", "strategy"],
+    "quotes": [
+      "I drink and I know things.",
+      "Never forget what you are, for surely the world will not.",
+      "A mind needs books as a sword needs a whetstone.",
+      "It's not easy being drunk all the time. Everyone would do it, if it were easy.",
+      "A Lannister always pays his debts."
+    ],
+    "gender": "male",
+    "birthYear": 273,
+    "address": {"city": "King's Landing"}
+  },
+  {
+    "id": "cersei-lannister",
+    "firstName": "Cersei",
+    "lastName": "Lannister",
+    "usernames": ["queen_regent", "lioness_of_casterly", "power_is_power"],
+    "profession": "Queen Regent of the Seven Kingdoms",
+    "interests": ["power", "wine", "her children"],
+    "quotes": [
+      "When you play the game of thrones, you win or you die.",
+      "Power is power.",
+      "I am the queen. I don't need a reason.",
+      "Tears aren't a woman's only weapon. The best one's between your legs.",
+      "Everyone who isn't us is an enemy."
+    ],
+    "gender": "female",
+    "birthYear": 267,
+    "address": {"street": "The Red Keep", "city": "King's Landing"}
+  },
+  {
+    "id": "arya-stark",
+    "firstName": "Arya",
+    "lastName": "Stark",
+    "usernames": ["no_one", "faceless_girl", "needle_and_list"],
+    "profession": "No One",
+    "interests": ["swordsmanship", "revenge", "travel"],
+    "quotes": [
+      "Not today.",
+      "A girl has no name.",
+      "Stick them with the pointy end.",
+      "Leave one wolf alive and the sheep are never safe.",
+      "I'm going to kill the queen."
+    ],
+    "gender": "female",
+    "birthYear": 289,
+    "address": {"city": "Winterfell"}
+  },
+  {
+    "id": "ned-stark",
+    "firstName": "Eddard",
+    "lastName": "Stark",
+    "usernames": ["lord_eddard", "warden_of_the_north", "winter_is_coming"],
+    "profession": "Lord of Winterfell",
+    "interests": ["honor", "family", "justice"],
+    "quotes": [
+      "Winter is coming.",
+      "The man who passes the sentence should swing the sword.",
+      "I grew up with soldiers. I learned how to die a long time ago.",
+      "There must always be a Stark in Winterfell.",
+      "A ruler who hides behind paid executioners soon forgets what death is."
+    ],
+    "gender": "male",
+    "birthYear": 263,
+    "address": {"city": "Winterfell"}
+  },
+  {
+    "id": "sansa-stark",
+    "firstName": "Sansa",
+    "lastName": "Stark",
+    "usernames": ["lady_stark", "queen_in_the_north", "slow_learner"],
+    "profession": "Queen in the North",
+    "interests": ["politics", "needlework", "leadership"],
+    "quotes": [
+      "I am a slow learner, it's true. But I learn.",
+      "No need to seize the last word, Lord Baelish. I'll assume it was something clever.",
+      "I used to think you were the stupidest man alive. I was wrong.",
+      "Everyone who's ever crossed you ends up dead or worse.",
+      "The North remembers."
+    ],
+    "gender": "female",
+    "birthYear": 286,
+    "address": {"city": "Winterfell"}
+  },
+  {
+    "id": "ygritte",
+    "firstName": "Ygritte",
+    "lastName": "",
+    "usernames": ["kissed_by_fire", "you_know_nothing", "free_folk_forever"],
+    "profession": "Free Folk warrior",
+    "interests": ["archery", "survival", "freedom"],
+    "quotes": [
+      "You know nothing, Jon Snow.",
+      "We're just people who don't kneel.",
+      "If we die, we die. But first, we live.",
+      "You're mine and I'm yours. And if we die, we die.",
+      "Free folk don't kneel."
+    ],
+    "gender": "female",
+    "birthYear": 283
+  },
+  {
+    "id": "jaime-lannister",
+    "firstName": "Jaime",
+    "lastName": "Lannister",
+    "usernames": ["kingslayer", "ser_jaime", "things_i_do_for_love"],
+    "profession": "knight",
+    "interests": ["swordsmanship", "honor", "Cersei"],
+    "quotes": [
+      "There are no men like me. Only me.",
+      "By what right does the wolf judge the lion?",
+      "The things I do for love.",
+      "No man can make you less if you don't allow it.",
+      "I don't plan on knitting by the fire. I'll die in the field."
+    ],
+    "gender": "male",
+    "birthYear": 266,
+    "address": {"city": "Casterly Rock"}
+  },
+  {
+    "id": "bran-stark",
+    "firstName": "Bran",
+    "lastName": "Stark",
+    "usernames": ["three_eyed_raven", "the_broken", "i_remember_everything"],
+    "profession": "Three-Eyed Raven",
+    "interests": ["greenseeing", "history", "ravens"],
+    "quotes": [
+      "I'm not really, not anymore.",
+      "I remember everything.",
+      "I can never be Lord of Winterfell. I can never be anything, actually.",
+      "Everything you did brought you where you are now.",
+      "I don't want to be king."
+    ],
+    "gender": "male",
+    "birthYear": 290,
+    "address": {"city": "Winterfell"}
+  },
+  {
+    "id": "joffrey-baratheon",
+    "firstName": "Joffrey",
+    "lastName": "Baratheon",
+    "usernames": ["king_joffrey", "first_of_his_name", "everyone_is_mine"],
+    "profession": "King of the Seven Kingdoms",
+    "interests": ["crossbows", "cruelty", "power"],
+    "quotes": [
+      "I am the king! I will punish you.",
+      "Everyone is mine to torment.",
+      "I could have their tongues if I wanted.",
+      "The king can do as he likes.",
+      "You'll be sorry for that."
+    ],
+    "gender": "male",
+    "birthYear": 286,
+    "address": {"street": "The Red Keep", "city": "King's Landing"}
+  },
+  {
+    "id": "petyr-baelish",
+    "firstName": "Petyr",
+    "lastName": "Baelish",
+    "usernames": ["littlefinger", "master_of_coin", "chaos_is_a_ladder"],
+    "profession": "Master of Coin",
+    "interests": ["politics", "scheming", "chaos"],
+    "quotes": [
+      "Chaos isn't a pit. Chaos is a ladder.",
+      "Always keep your foes confused. If they are never certain who you are or what you want, they cannot know what you are like to do next.",
+      "Knowledge is power.",
+      "A man with no motive is a man no one suspects.",
+      "I did warn you not to trust me."
+    ],
+    "gender": "male",
+    "birthYear": 268,
+    "address": {"city": "King's Landing"}
+  },
+  {
+    "id": "stannis-baratheon",
+    "firstName": "Stannis",
+    "lastName": "Baratheon",
+    "usernames": ["the_mannis", "rightful_king", "not_a_page_in_history"],
+    "profession": "King of the Seven Kingdoms",
+    "interests": ["law", "duty", "siege warfare"],
+    "quotes": [
+      "The iron throne is mine by right.",
+      "I will not become a page in someone else's history book.",
+      "I was born to rule the Seven Kingdoms.",
+      "You don't have to like it. You just have to do it.",
+      "Good men and bad men both serve the realm."
+    ],
+    "gender": "male",
+    "birthYear": 264,
+    "address": {"city": "Dragonstone"}
+  },
+  {
+    "id": "melisandre",
+    "firstName": "Melisandre",
+    "lastName": "",
+    "usernames": ["red_woman", "priestess_of_light", "night_is_dark"],
+    "profession": "Red Priestess",
+    "interests": ["prophecy", "fire magic", "the Lord of Light"],
+    "quotes": [
+      "The night is dark and full of terrors.",
+      "Death by fire is the purest death.",
+      "I have seen the darkness in your soul.",
+      "The Lord of Light commands it.",
+      "For the night is dark and full of terrors, and only the Lord of Light can protect us."
+    ],
+    "gender": "female",
+    "birthYear": 240
+  },
+  {
+    "id": "theon-greyjoy",
+    "firstName": "Theon",
+    "lastName": "Greyjoy",
+    "usernames": ["reek", "prince_of_iron_islands", "what_is_dead_may_never"],
+    "profession": "Prince of the Iron Islands",
+    "interests": ["sailing", "redemption", "the Iron Islands"],
+    "quotes": [
+      "My name is Theon Greyjoy.",
+      "I've made my choice. I choose the Starks.",
+      "I always wanted to do the right thing. I just... never knew what it was.",
+      "What is dead may never die.",
+      "I'm not the one who ran away."
+    ],
+    "gender": "male",
+    "birthYear": 278,
+    "address": {"city": "Pyke"}
+  }
+]

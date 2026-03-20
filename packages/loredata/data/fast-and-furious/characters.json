@@ -1,0 +1,115 @@
+[
+  {
+    "id": "dominic-toretto",
+    "firstName": "Dominic",
+    "lastName": "Toretto",
+    "usernames": ["dom_toretto", "quarter_mile_king", "ride_or_die"],
+    "profession": "mechanic",
+    "interests": ["cars", "racing", "family", "barbecue"],
+    "quotes": [
+      "I live my life a quarter mile at a time.",
+      "It doesn't matter if you win by an inch or a mile. Winning's winning.",
+      "I used to say I live my life a quarter mile at a time and I think that's why we were brothers.",
+      "Money will come and go. We all know that. The most important thing in life will always be the people in this room.",
+      "Nobody makes me do anything I don't want to."
+    ],
+    "gender": "male",
+    "address": {"street": "1327 East Adams Boulevard", "city": "Los Angeles", "state": "CA", "country": "US"}
+  },
+  {
+    "id": "brian-oconner",
+    "firstName": "Brian",
+    "lastName": "O'Conner",
+    "usernames": ["bsquad", "bullet_brian", "always_one_more_ride"],
+    "profession": "former FBI agent",
+    "interests": ["cars", "surfing", "racing", "family"],
+    "quotes": [
+      "I'm a boy who appreciates a good body, regardless of the make.",
+      "Ask any racer, any real racer. It doesn't matter if you win by an inch or a mile.",
+      "Smoke him.",
+      "You almost had me? You never had me.",
+      "See you around, Dom."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "letty-ortiz",
+    "firstName": "Letty",
+    "lastName": "Ortiz",
+    "usernames": ["ghost_driver", "ride_or_die_letty", "ortiz_racing"],
+    "profession": "mechanic",
+    "interests": ["racing", "cars", "fighting", "family"],
+    "quotes": [
+      "I don't have friends. I have family.",
+      "You know, the thing about street fights? The street always wins.",
+      "I might not remember us, but I feel us.",
+      "You want me? You're gonna have to catch me first.",
+      "This is who I am."
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "roman-pearce",
+    "firstName": "Roman",
+    "lastName": "Pearce",
+    "usernames": ["roman_pearce", "pretty_ricky", "no_time_to_die"],
+    "profession": "driver",
+    "interests": ["cars", "money", "women", "food"],
+    "quotes": [
+      "I don't do risk.",
+      "Did I just drive off a cliff?",
+      "We're the good guys!",
+      "You know what I say? I say we take the money, we take the car, and we go.",
+      "This is crazy. This is absolutely crazy."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "tej-parker",
+    "firstName": "Tej",
+    "lastName": "Parker",
+    "usernames": ["tej_tech", "garage_genius", "tej_parker"],
+    "profession": "mechanic and hacker",
+    "interests": ["technology", "cars", "money", "engineering"],
+    "quotes": [
+      "I'm a lover, not a fighter.",
+      "That's not possible.",
+      "Give me thirty seconds.",
+      "I just need to reroute the transponder through the auxiliary grid.",
+      "Money ain't a thing."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "han-lue",
+    "firstName": "Han",
+    "lastName": "Lue",
+    "usernames": ["han_seoul_o", "drifting_han", "tokyo_ghost"],
+    "profession": "driver",
+    "interests": ["drifting", "snacking", "cars", "travel"],
+    "quotes": [
+      "I'm always hungry, man. I just never let it affect me.",
+      "You know what I've learned? It's not about the destination. It's about the journey.",
+      "Life is simple. You make choices and you don't look back.",
+      "Chaos, yeah. You know what that is? It's everything. It's your life.",
+      "I have to try things for myself. That's just who I am."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "hobbs",
+    "firstName": "Luke",
+    "lastName": "Hobbs",
+    "usernames": ["dsp_hobbs", "diplomatic_security", "hobbs_smash"],
+    "profession": "DSS agent",
+    "interests": ["law enforcement", "fitness", "his daughter", "waffles"],
+    "quotes": [
+      "I'm gonna go home, drink a beer, and watch the game.",
+      "The only thing that stands between you and me is the law, and I am the law.",
+      "Daddy's gotta go to work.",
+      "You just earned yourself a dance with the devil, boy.",
+      "I will beat you like a Cherokee drum."
+    ],
+    "gender": "male"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["zion.io", "redpill.net", "matrix.sys", "metacortex.com"],
+  "phonePrefixes": ["212", "310"],
+  "phoneEasterEggs": [],
+  "passwordEasterEggs": ["there_is_no_spoon", "red_pill", "wake_up_neo", "follow_the_white_rabbit"]
+}

@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["kingslanding.gov", "winterfell.net", "dragonstone.com", "citadel.edu"],
+  "phonePrefixes": ["777", "888"],
+  "phoneEasterEggs": ["777-555-0001", "888-555-0002"],
+  "passwordEasterEggs": ["winter1scoming", "youknownothing", "dracarys42", "not_today"]
+}

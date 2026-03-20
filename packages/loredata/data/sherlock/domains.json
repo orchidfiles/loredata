@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["221b.co.uk", "scotlandyard.gov.uk", "thescienceofdeduction.com", "diogenesclub.co.uk", "bakerstreet.co.uk", "barts.nhs.uk"],
+  "phonePrefixes": ["020", "207", "208"],
+  "phoneEasterEggs": [],
+  "passwordEasterEggs": ["the_game_is_on", "elementary", "vatican_cameos", "sherlock_is_dead", "i_am_sherlocked", "did_you_miss_me", "high_functioning_sociopath", "burning_the_heart"]
+}

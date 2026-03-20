@@ -1,0 +1,31 @@
+[
+  {
+    "city": "The Island"
+  },
+  {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "city": "Sydney",
+    "country": "AU"
+  },
+  {
+    "city": "Tikrit",
+    "country": "IQ"
+  },
+  {
+    "city": "London",
+    "country": "GB"
+  },
+  {
+    "city": "Albuquerque",
+    "state": "NM",
+    "country": "US"
+  },
+  {
+    "city": "Seoul",
+    "country": "KR"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["torettogarage.com", "teamtorretto.net", "dsmission.gov", "racersonly.com"],
+  "phonePrefixes": ["213", "305", "818"],
+  "phoneEasterEggs": ["213-555-0174", "305-555-0327"],
+  "passwordEasterEggs": ["ride_or_die", "quarter_mile", "family4ever", "toretto76"]
+}

@@ -1,0 +1,184 @@
+[
+  {
+    "id": "sherlock-holmes",
+    "firstName": "Sherlock",
+    "lastName": "Holmes",
+    "usernames": ["high_functioning_sociopath", "the_game_is_on", "consulting_detective", "221b_resident", "science_of_deduction"],
+    "profession": "consulting detective",
+    "interests": ["deduction", "forensic science", "violin", "chemistry", "bees", "boxing", "disguises"],
+    "quotes": [
+      "I'm not a psychopath, Anderson, I'm a high-functioning sociopath. Do your research.",
+      "Sentiment is a chemical defect found in the losing side.",
+      "The game, Mrs. Hudson, is on!",
+      "Anderson, don't talk out loud. You lower the IQ of the whole street.",
+      "Dear God. What is it like in your funny little brains? It must be so boring.",
+      "I'm not your sniffer dog.",
+      "Alone is what I have. Alone protects me.",
+      "Oh, I may be on the side of the angels... but don't think for one second that I am one of them.",
+      "I'm a show-off, that's what we do.",
+      "Mrs Hudson, leave Baker Street? England would fall!"
+    ],
+    "gender": "male",
+    "address": { "street": "221B Baker Street", "city": "London", "country": "GB" }
+  },
+  {
+    "id": "john-watson",
+    "firstName": "John",
+    "lastName": "Watson",
+    "usernames": ["army_doctor_blogger", "friend_of_sherlock", "dr_watson_221b", "brave_and_kind", "not_actually_gay"],
+    "profession": "army doctor",
+    "interests": ["medicine", "blogging", "cricket", "military history", "football"],
+    "quotes": [
+      "You told me once that you weren't a hero. There were times I didn't even think you were human, but let me tell you this. You were the best man, the most human... human being that I've ever known.",
+      "The problems of your past are your business. The problems of your future are my privilege.",
+      "Afghanistan. Sorry, how did you...?",
+      "Brilliant. It was extraordinary. It was quite... extraordinary.",
+      "We solve crimes. I blog about it, and he forgets his pants. I wouldn't hold out too much hope.",
+      "I am very pissed off, and it will come out now and then.",
+      "I don't shave for Sherlock Holmes.",
+      "Friends protect people.",
+      "Yeah, well, apparently it's against the law to chin the Chief Superintendent.",
+      "I cheated on you, Mary. There was a woman on the bus..."
+    ],
+    "gender": "male",
+    "address": { "street": "221B Baker Street", "city": "London", "country": "GB" }
+  },
+  {
+    "id": "james-moriarty",
+    "firstName": "James",
+    "lastName": "Moriarty",
+    "usernames": ["consulting_criminal", "jim_from_it", "i_will_burn_you", "napoleon_of_crime", "did_you_miss_me"],
+    "profession": "consulting criminal",
+    "interests": ["crime", "puzzles", "opera", "manipulation", "chaos"],
+    "quotes": [
+      "I will burn the heart out of you.",
+      "Every fairy tale needs a good old-fashioned villain. You need me or you're nothing — because we're just alike, you and I. Except you're boring. You're on the side of the angels.",
+      "In a world of locked rooms, the man with the key is king. And honey, you should see me in a crown.",
+      "Falling is just like flying, except there's a more... permanent destination.",
+      "People get so sentimental about their pets. They're so touchingly loyal.",
+      "Did you miss me?",
+      "That's what people DO!",
+      "I wrote my own version of the Nativity when I was a child, 'The Hungry Donkey'. It was a bit gory, but if you're going to put a baby in a manger, you're asking for trouble."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "irene-adler",
+    "firstName": "Irene",
+    "lastName": "Adler",
+    "usernames": ["the_woman", "i_am_sherlocked", "brainy_is_sexy", "dominatrix_london", "goodnight_mr_holmes"],
+    "profession": "dominatrix",
+    "interests": ["power", "secrets", "intelligence", "photography", "fashion"],
+    "quotes": [
+      "Brainy is the new sexy.",
+      "D'you know the big problem with a disguise, Mr. Holmes? However hard you try, it's always a self-portrait.",
+      "I think you're damaged, delusional and believe in a higher power. In your case, it's yourself.",
+      "Look at those cheekbones. I could cut myself slapping that face. Would you like me to try?",
+      "Are you expecting me to beg?",
+      "Goodbye, Mr Holmes.",
+      "I told you that camera phone was my life. I know when it's in my hands.",
+      "Well, I am. Look at us both."
+    ],
+    "gender": "female",
+    "address": { "street": "Egerton Gardens", "city": "London", "country": "GB" }
+  },
+  {
+    "id": "mycroft-holmes",
+    "firstName": "Mycroft",
+    "lastName": "Holmes",
+    "usernames": ["british_government", "minor_position_really", "diogenes_member", "smarter_brother", "seven_percent_smarter"],
+    "profession": "government official",
+    "interests": ["intelligence", "chess", "Diet Coke", "opera", "power"],
+    "quotes": [
+      "Caring is not an advantage, Sherlock.",
+      "I occupy a minor position in the British Government.",
+      "If you seem slow to me, Sherlock, can you imagine what real people are like? I'm living in a world of goldfish.",
+      "Also... your loss would break my heart.",
+      "My brother has the brain of a scientist or a philosopher, yet he elects to be a detective. What might we deduce about his heart?",
+      "I'll be mother. And there is a whole childhood in a nutshell.",
+      "I am the smart one.",
+      "Sorry. The memories are disturbing.",
+      "Babies? Humans."
+    ],
+    "gender": "male",
+    "address": { "street": "Pall Mall", "city": "London", "country": "GB" }
+  },
+  {
+    "id": "mrs-hudson",
+    "firstName": "Martha",
+    "lastName": "Hudson",
+    "usernames": ["landlady_221b", "not_your_housekeeper", "hudders_of_baker_st", "hip_is_atrocious", "cup_of_tea_dear"],
+    "profession": "landlady",
+    "interests": ["tea", "tenants", "gossip", "hip exercises", "baking"],
+    "quotes": [
+      "I'm your landlady, not your housekeeper.",
+      "Family is all we have in the end, Mycroft Holmes.",
+      "Oh, Sherlock! What have you done to my kitchen?",
+      "It stings.",
+      "I had a husband like that once, always rushing about.",
+      "I've got a hip.",
+      "Oh, it's atrocious, but thanks for asking.",
+      "Sherlock Holmes, if you've been YouTubing--"
+    ],
+    "gender": "female",
+    "address": { "street": "221B Baker Street", "city": "London", "country": "GB" }
+  },
+  {
+    "id": "greg-lestrade",
+    "firstName": "Greg",
+    "lastName": "Lestrade",
+    "usernames": ["di_lestrade", "scotland_yard_dci", "longest_suffering_detective", "gregs_the_name", "wakey_wakey"],
+    "profession": "Detective Inspector",
+    "interests": ["crime investigation", "football", "jogging", "pub quiz"],
+    "quotes": [
+      "Bollocks!",
+      "He's an arrogant sod.",
+      "There was a body. It was him, it was definitely him.",
+      "I believe in Sherlock Holmes.",
+      "Ooh, you bastard.",
+      "Let it go, Sherlock's dead.",
+      "NOT REALLY!",
+      "Two years and the theories keep getting more stupid."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "molly-hooper",
+    "firstName": "Molly",
+    "lastName": "Hooper",
+    "usernames": ["pathologist_barts", "molly_counts", "quiet_one_at_barts", "saw_him_first", "always_trusted"],
+    "profession": "pathologist",
+    "interests": ["pathology", "cats", "crime", "medicine", "Sherlock Holmes"],
+    "quotes": [
+      "What I'm trying to say is that, if there's anything I can do, anything you need, anything at all, you can have me.",
+      "You're a bit like my dad. He's dead. Oh, sorry...",
+      "You look sad... when you think he can't see you.",
+      "I don't count.",
+      "No idea why people think you're incapable of human emotion.",
+      "You are a graduate chemist, can't you just work it out?",
+      "Not a sociopath. And we're having quite a lot of sex.",
+      "I was wondering if you'd like to have coffee? ...Okay."
+    ],
+    "gender": "female",
+    "address": { "street": "West Smithfield", "city": "London", "country": "GB" }
+  },
+  {
+    "id": "mary-watson",
+    "firstName": "Mary",
+    "lastName": "Watson",
+    "usernames": ["retired_assassin", "mary_morstan_watson", "liar_with_a_heart", "baker_street_girl", "john_watson_wife"],
+    "profession": "nurse",
+    "interests": ["medicine", "family", "intelligence work", "knitting", "self-defence"],
+    "quotes": [
+      "I like him.",
+      "Oh no, you're... Oh my God.",
+      "Can you believe his nerve?",
+      "You don't even know my name.",
+      "You should put that on a t-shirt.",
+      "There is a last refuge for the desperate, the unloved, the persecuted. There is a final court of appeal for everyone.",
+      "My Baker Street Boys; Sherlock Holmes and Doctor Watson.",
+      "Well, then...John Watson. Get the hell on with it."
+    ],
+    "gender": "female"
+  }
+]

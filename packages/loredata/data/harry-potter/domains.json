@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["hogwarts.edu", "ministry.gov.uk", "diagon.com", "hogsmeade.co.uk"],
+  "phonePrefixes": ["020", "0131"],
+  "phoneEasterEggs": ["020-555-0742", "0131-555-0001"],
+  "passwordEasterEggs": ["alohomora!", "expelliarmus1", "mischief_managed", "always"]
+}

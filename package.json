@@ -1,0 +1,17 @@
+{
+	"name": "@loredata/root",
+	"private": true,
+	"scripts": {
+		"package:build": "pnpm --filter @loredata/loredata build",
+		"package:build:watch": "pnpm --filter @loredata/loredata build:watch",
+		"demo:dev": "pnpm --filter @loredata/demo dev",
+		"lint": "pnpm -r lint",
+		"lint:fix": "pnpm -r lint:fix",
+		"prepare": "husky"
+	},
+	"devDependencies": {
+		"@loredata/dev-kit": "workspace:*",
+		"husky": "~9.1.7"
+	},
+	"packageManager": "pnpm@10.24.0"
+}

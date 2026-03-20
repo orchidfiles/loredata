@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["centralperk.coffee", "nycfriends.net", "pivotmail.com", "gellernet.org"],
+  "phonePrefixes": ["212", "718", "646", "347"],
+  "phoneEasterEggs": [],
+  "passwordEasterEggs": ["we_were_on_a_break", "how_you_doin", "oh_my_god_janice", "pivot", "smelly_cat", "joey_doesnt_share_food", "could_i_be_more"]
+}

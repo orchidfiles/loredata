@@ -1,0 +1,28 @@
+[
+  {
+    "street": "1327 East Adams Boulevard",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90011",
+    "country": "US"
+  },
+  {
+    "street": "Toretto's Market & Service",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "city": "Miami",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "city": "Tokyo",
+    "country": "JP"
+  },
+  {
+    "city": "London",
+    "country": "GB"
+  }
+]

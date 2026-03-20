@@ -1,0 +1,34 @@
+[
+  {
+    "street": "90 Bedford Street",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "street": "2880 Broadway",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "city": "Westchester",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "city": "Long Island",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "city": "Tulsa",
+    "state": "OK",
+    "country": "US"
+  }
+]

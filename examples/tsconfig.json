@@ -1,0 +1,7 @@
+{
+  "extends": "@loredata/dev-kit/tsconfig-base",
+  "compilerOptions": {
+    "types": ["node"]
+  },
+  "include": ["."]
+}

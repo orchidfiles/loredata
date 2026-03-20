@@ -1,0 +1,37 @@
+[
+  {
+    "street": "308 Negra Arroyo Lane",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87104",
+    "country": "US"
+  },
+  {
+    "street": "9809 Margo Street",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87105",
+    "country": "US"
+  },
+  {
+    "street": "160 Juan Tabo Boulevard NE",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87123",
+    "country": "US"
+  },
+  {
+    "street": "3828 Piermont Drive NE",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87111",
+    "country": "US"
+  },
+  {
+    "street": "1216 Coal Avenue SW",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87102",
+    "country": "US"
+  }
+]

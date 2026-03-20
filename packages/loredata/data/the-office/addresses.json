@@ -1,0 +1,30 @@
+[
+  {
+    "street": "1725 Slough Ave",
+    "city": "Scranton",
+    "state": "PA",
+    "zip": "18540",
+    "country": "US"
+  },
+  {
+    "street": "Schrute Farms, Honesdale Road",
+    "city": "Honesdale",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "city": "Scranton",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "city": "Stamford",
+    "state": "CT",
+    "country": "US"
+  },
+  {
+    "city": "Tallahassee",
+    "state": "FL",
+    "country": "US"
+  }
+]

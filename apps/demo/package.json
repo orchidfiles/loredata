@@ -1,0 +1,35 @@
+{
+  "name": "@loredata/demo",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@loredata/loredata": "workspace:*"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "~1.2.98",
+    "@iconify-json/simple-icons": "~1.2.74",
+    "@loredata/dev-kit": "workspace:*",
+    "@skeletonlabs/skeleton": "~4.13.0",
+    "@sveltejs/adapter-static": "~3.0.8",
+    "@sveltejs/kit": "~2.20.1",
+    "@sveltejs/vite-plugin-svelte": "~5.0.3",
+    "@tailwindcss/vite": "~4.0.14",
+    "eslint": "~9.39.4",
+    "svelte": "~5.25.3",
+    "svelte-check": "~4.1.5",
+    "tailwindcss": "~4.0.14",
+    "typescript": "~5.8.2",
+    "unplugin-icons": "~23.0.1",
+    "vite": "~6.2.3"
+  }
+}

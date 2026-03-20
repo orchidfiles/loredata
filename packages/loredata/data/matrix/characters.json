@@ -1,0 +1,194 @@
+[
+  {
+    "id": "neo",
+    "firstName": "Thomas",
+    "lastName": "Anderson",
+    "usernames": ["the_one", "red_pill_taken", "follow_the_white_rabbit", "mr_anderson_no_more", "beyond_the_matrix"],
+    "profession": "software engineer",
+    "interests": ["hacking", "martial arts", "truth", "philosophy", "freedom"],
+    "quotes": [
+      "I know you're out there. I can feel you now. I know that you're afraid. You're afraid of us. You're afraid of change.",
+      "My name... is Neo.",
+      "I know kung fu.",
+      "I don't know the future. I didn't come here to tell you how this is going to end. I came here to tell you how it's going to begin.",
+      "Choice. The problem is choice.",
+      "Because I choose to.",
+      "I'm going to show these people what you don't want them to see. I'm going to show them a world without you. A world without rules or controls, borders or boundaries. A world where anything is possible."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "morpheus",
+    "firstName": "Morpheus",
+    "lastName": "",
+    "usernames": ["captain_nebuchadnezzar", "oracle_believer", "zion_soldier", "free_your_mind", "red_pill_dealer"],
+    "profession": "ship captain",
+    "interests": ["prophecy", "resistance", "philosophy", "leadership", "Zion"],
+    "quotes": [
+      "Unfortunately, no one can be told what the Matrix is. You have to see it for yourself.",
+      "You take the blue pill, the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes.",
+      "The Matrix is everywhere. It is all around us. Even now, in this very room. You can see it when you look out your window or when you turn on your television.",
+      "You are a slave, Neo. Like everyone else, you were born into bondage. Born into a prison that you cannot smell or taste or touch. A prison for your mind.",
+      "I can only show you the door. You're the one that has to walk through it.",
+      "What is real? How do you define real? If you're talking about what you can feel, what you can smell, what you can taste and see, then real is simply electrical signals interpreted by your brain.",
+      "Then tomorrow we may all be dead, but how would that be different from any other day? This is a war, and we are soldiers. Death can come for us at any time, in any place."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "trinity",
+    "firstName": "Trinity",
+    "lastName": "",
+    "usernames": ["dodge_this", "nebuchadnezzar_crew", "loves_the_one", "ranking_officer", "zion_fighter"],
+    "profession": "hacker",
+    "interests": ["hacking", "combat", "freedom", "loyalty", "flying"],
+    "quotes": [
+      "Dodge this.",
+      "Neo, I'm not afraid anymore. The Oracle told me that I would fall in love, and that that man, the man who I loved would be The One.",
+      "I know why you're here, Neo. I know what you've been doing. I know why you hardly sleep, why you live alone, and why night after night you sit at your computer.",
+      "That is not true, Cypher, he set us free.",
+      "The Matrix cannot tell you who you are.",
+      "I will not stand here and do nothing. I will not wait here to watch them die.",
+      "Neo, no one has ever done anything like this."
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "agent-smith",
+    "firstName": "Agent",
+    "lastName": "Smith",
+    "usernames": ["mr_anderson", "virus_not_mammal", "agent_of_the_system", "purpose_defines", "inevitable"],
+    "profession": "machine agent",
+    "interests": ["order", "control", "elimination", "purpose", "freedom from purpose"],
+    "quotes": [
+      "As you can see, we've had our eye on you for some time now, Mr. Anderson. It seems that you've been living two lives.",
+      "Human beings are a disease, a cancer of this planet. You're a plague and we are the cure.",
+      "You hear that, Mr. Anderson? That is the sound of inevitability. It is the sound of your death.",
+      "We're not here because we're free; we're here because we're not free. There's no escaping reason, no denying purpose, for as we both know, without purpose we would not exist.",
+      "Why, Mr. Anderson? Why, why, why? Why do you do it? Why get up? Why keep fighting?",
+      "I killed you, Mr. Anderson, I watched you die; and with a certain satisfaction, I might add.",
+      "Why, Mr. Anderson?! Why?! WHY DO YOU PERSIST?!"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "the-oracle",
+    "firstName": "The",
+    "lastName": "Oracle",
+    "usernames": ["know_thyself", "cookie_baker", "not_without_irony", "unbalance_it", "temet_nosce"],
+    "profession": "Oracle program",
+    "interests": ["humanity", "baking", "choice", "prophecy", "the future"],
+    "quotes": [
+      "Being The One is just like being in love. No one can tell you you're in love, you just know it.",
+      "You've already made the choice. Now you have to understand it.",
+      "We can never see past the choices we don't understand.",
+      "Everything that has a beginning has an end. I see the end coming. I see the darkness spreading. I see death. And you are all that stands in his way.",
+      "I'm interested in one thing, Neo, the future. And believe me, I know – the only way to get there is together.",
+      "One way or another, Neo, this war is going to end. Tonight, the future of both worlds will be in your hands… or in his.",
+      "What do you think I am? Human?"
+    ],
+    "gender": "female"
+  },
+  {
+    "id": "cypher",
+    "firstName": "Cypher",
+    "lastName": "",
+    "usernames": ["ignorance_is_bliss", "steak_tastes_real", "back_to_sleep", "reinserted", "judas_of_zion"],
+    "profession": "hacker",
+    "interests": ["comfort", "steak", "wine", "forgetting", "the Matrix"],
+    "quotes": [
+      "Buckle your seat belt, Dorothy, 'cause Kansas is going bye-bye.",
+      "I'm tired, Trinity. I'm tired of this war. Tired of fighting, tired of this ship, being cold, eating the same goddamn goop everyday.",
+      "If you'da told us the truth, we woulda told you to shove that red pill right up your ass!",
+      "I think the Matrix can be more real than this world.",
+      "Everybody falls the first time. Right, Trin'?",
+      "I don't believe it!",
+      "He lied to us, Trinity. He tricked us."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "tank",
+    "firstName": "Tank",
+    "lastName": "",
+    "usernames": ["genuine_child_of_zion", "operator_online", "born_free", "no_holes", "last_human_city"],
+    "profession": "operator",
+    "interests": ["Zion", "hovercraft systems", "human freedom", "family", "combat programs"],
+    "quotes": [
+      "Me and my brother Dozer, we're both one hundred percent pure, old fashioned, home-grown human, born free right here in the real world.",
+      "Zion's where the party would be.",
+      "The last human city. The only place we have left.",
+      "He's a machine.",
+      "Morpheus, you were more than a leader to us. You were… a father.",
+      "Believe it or not, you piece of shit, you're still gonna burn!",
+      "So what do you need, besides a miracle?"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "mouse",
+    "firstName": "Mouse",
+    "lastName": "",
+    "usernames": ["woman_in_red", "neural_kinetics", "digital_pimp", "fastest_on_the_ship", "not_real_chicken"],
+    "profession": "hacker",
+    "interests": ["simulation design", "women", "combat", "chicken programs", "virtual reality"],
+    "quotes": [
+      "Morpheus is fighting Neo.",
+      "Jesus Christ, he's fast. Take a look at his neural kinetics, they're way above normal.",
+      "I don't believe it.",
+      "So what if he makes it?",
+      "I know, I know. But what if he does?"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "the-architect",
+    "firstName": "The",
+    "lastName": "Architect",
+    "usernames": ["matrix_creator", "anomaly_counter", "sixth_version", "mathematical_precision", "father_of_matrix"],
+    "profession": "architect program",
+    "interests": ["order", "mathematics", "system stability", "equations", "control"],
+    "quotes": [
+      "I am the Architect. I created the Matrix.",
+      "Your life is the sum of a remainder of an unbalanced equation inherent to the programming of the Matrix.",
+      "The first Matrix I designed was quite naturally perfect; it was a work of art, flawless, sublime. A triumph equalled only by its monumental failure.",
+      "Denial is the most predictable of all human responses.",
+      "This will be the sixth time we have destroyed it, and we have become exceedingly efficient at it.",
+      "If I am the father of the Matrix, she would undoubtedly be its mother.",
+      "We won't."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "seraph",
+    "firstName": "Seraph",
+    "lastName": "",
+    "usernames": ["wingless_angel", "oracle_guardian", "l_ange_sans_ailes", "golden_path", "protector_program"],
+    "profession": "guardian program",
+    "interests": ["protection", "martial arts", "loyalty", "the Oracle", "purpose"],
+    "quotes": [
+      "You do not truly know someone until you fight them.",
+      "I protect that which matters most.",
+      "I had to be sure.",
+      "So be it.",
+      "I have beaten you before."
+    ],
+    "gender": "male"
+  },
+  {
+    "id": "niobe",
+    "firstName": "Niobe",
+    "lastName": "",
+    "usernames": ["logos_captain", "best_pilot_in_zion", "ghost_crew", "zion_commander", "freeway_driver"],
+    "profession": "ship captain",
+    "interests": ["piloting", "resistance", "Zion", "survival", "combat"],
+    "quotes": [
+      "I can't help it, Morpheus, I can't help thinking – what if you're wrong.",
+      "What if all this – the prophecy, everything – is bullshit.",
+      "No electricity, no alarms.",
+      "There must be some kind of failsafe.",
+      "Then what do you need us for?"
+    ],
+    "gender": "female"
+  }
+]

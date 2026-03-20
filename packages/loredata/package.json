@@ -1,0 +1,45 @@
+{
+  "name": "@loredata/loredata",
+  "version": "0.1.0",
+  "description": "Generate cohesive fake personas from pop culture universes",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./browser": {
+      "types": "./dist/browser.d.ts",
+      "import": "./dist/browser.js",
+      "require": "./dist/browser.cjs"
+    },
+    "./data/*": "./data/*"
+  },
+  "bin": {
+    "loredata": "./dist/cli/cli.js"
+  },
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "validate": "node --import tsx/esm scripts/validate-universe.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@loredata/dev-kit": "workspace:*",
+    "@types/node": "~22.13.14",
+    "eslint": "~9.39.4",
+    "tsup": "~8.4.0",
+    "tsx": "~4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "~6.2.7"
+  },
+  "dependencies": {
+    "commander": "~14.0.3"
+  }
+}

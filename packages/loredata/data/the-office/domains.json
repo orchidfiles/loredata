@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["dundermifflin.com", "schrute-farms.com", "vancerefrigeration.com", "michaelscottpaperco.com"],
+  "phonePrefixes": ["570", "484"],
+  "phoneEasterEggs": ["570-555-0177"],
+  "passwordEasterEggs": ["thats_what_she_said", "pretzel_day", "bears_beets_bsg", "nard_dog_2005"]
+}

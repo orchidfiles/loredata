@@ -1,0 +1,23 @@
+{
+  "name": "@loredata/examples",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "basic": "tsx basic-usage/main.ts",
+    "browser": "tsx browser-usage/main.ts",
+    "filter": "tsx filter-by-universe/main.ts",
+    "query": "tsx query-api/main.ts",
+    "seed": "tsx seed-deterministic/main.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@loredata/loredata": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "~22.13.17",
+    "tsx": "~4.19.3",
+    "typescript": "~5.8.2"
+  }
+}

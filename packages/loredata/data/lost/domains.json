@@ -1,0 +1,6 @@
+{
+  "emailDomains": ["dharma-initiative.org", "oceanic-air.com", "hanso-foundation.org", "lostisland.net", "theothers.org", "widmore-corp.com"],
+  "phonePrefixes": ["310", "213", "323", "424"],
+  "phoneEasterEggs": [],
+  "passwordEasterEggs": ["the_numbers", "4_8_15_16_23_42", "oceanic815", "not_pennys_boat", "execute_button", "dharma_namaste", "live_together_die_alone", "man_of_faith", "see_you_in_another_life", "push_the_button"]
+}
