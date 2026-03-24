@@ -15,7 +15,7 @@ importers:
         specifier: ~9.1.7
         version: 9.1.7
 
-  apps/demo:
+  apps/web:
     dependencies:
       loredata:
         specifier: workspace:*
@@ -34,7 +34,7 @@ importers:
         specifier: ~4.13.0
         version: 4.13.0(tailwindcss@4.0.17)
       '@sveltejs/adapter-static':
-        specifier: ~3.0.8
+        specifier: ^3.0.10
         version: 3.0.10(@sveltejs/kit@2.20.8(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.25.12)(vite@6.2.7(@types/node@22.13.17)(jiti@2.6.1)(lightningcss@1.29.2)(tsx@4.21.0)))(svelte@5.25.12)(vite@6.2.7(@types/node@22.13.17)(jiti@2.6.1)(lightningcss@1.29.2)(tsx@4.21.0)))
       '@sveltejs/kit':
         specifier: ~2.20.1

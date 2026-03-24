@@ -1,18 +1,14 @@
 <script lang="ts">
-interface Universe {
-	id: string;
-	name: string;
-	characterCount: number;
-}
+import { goto } from '$app/navigation';
+
+import type { UniverseMeta } from 'loredata/browser';
 
 interface Props {
-	universes: Universe[];
-	selected: string[];
+	universes: UniverseMeta[];
 	featured?: number;
-	ontoggle: (id: string) => void;
 }
 
-let { universes, selected, featured = 12, ontoggle }: Props = $props();
+let { universes, featured = 12 }: Props = $props();
 
 let searchQuery = $state('');
 
@@ -51,28 +47,22 @@ function handleKeydown(event: KeyboardEvent): void {
 		const u = searchResults[highlightedIndex];
 
 		if (u) {
-			ontoggle(u.id);
-			searchQuery = '';
+			void goto(`/universes/${u.id}`);
 		}
 	} else if (event.key === 'Escape') {
 		searchQuery = '';
 	}
-}
-
-function selectFromSearch(id: string): void {
-	ontoggle(id);
-	searchQuery = '';
 }
 </script>
 
 <div class="space-y-2">
 	<div class="flex flex-wrap gap-2 -ml-2">
 		{#each featuredUniverses as universe (universe.id)}
-			<button
-				class="btn btn-sm {selected.includes(universe.id) ? 'preset-filled-primary-500' : 'preset-tonal-surface'} transition-all"
-				onclick={() => ontoggle(universe.id)}>
+			<a
+				href="/universes/{universe.id}"
+				class="btn btn-sm preset-tonal-surface transition-all">
 				{universe.name}
-			</button>
+			</a>
 		{/each}
 	</div>
 
@@ -90,17 +80,13 @@ function selectFromSearch(id: string): void {
 					<div
 						class="absolute z-10 top-full mt-1 w-full card preset-tonal-surface border border-surface-700/20 divide-y divide-surface-700/20">
 						{#each searchResults as u, i (u.id)}
-							<button
-								class="w-full text-left px-4 py-2 text-sm transition-colors flex items-center justify-between {i ===
-								highlightedIndex
+							<a
+								href="/universes/{u.id}"
+								class="block px-4 py-2 text-sm transition-colors {i === highlightedIndex
 									? 'preset-tonal-primary'
-									: 'hover:preset-tonal-primary'} {selected.includes(u.id) ? 'opacity-60' : ''}"
-								onclick={() => selectFromSearch(u.id)}>
-								<span>{u.name}</span>
-								{#if selected.includes(u.id)}
-									<span class="text-xs opacity-60">selected</span>
-								{/if}
-							</button>
+									: 'hover:preset-tonal-primary'}">
+								{u.name}
+							</a>
 						{/each}
 					</div>
 				{:else}
@@ -109,21 +95,6 @@ function selectFromSearch(id: string): void {
 					</div>
 				{/if}
 			{/if}
-		</div>
-	{/if}
-
-	{#if selected.length > 0}
-		<div class="flex flex-wrap gap-2 -ml-2">
-			{#each selected as id (id)}
-				{@const u = universes.find((x) => x.id === id)}
-				{#if u && !featuredUniverses.find((f) => f.id === id)}
-					<button
-						class="btn btn-sm preset-filled-primary-500 transition-all"
-						onclick={() => ontoggle(id)}>
-						{u.name}
-					</button>
-				{/if}
-			{/each}
 		</div>
 	{/if}
 </div>

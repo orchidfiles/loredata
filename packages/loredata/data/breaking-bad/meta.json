@@ -1,4 +1,6 @@
 {
   "id": "breaking-bad",
-  "name": "Breaking Bad"
+  "name": "Breaking Bad",
+  "genre": ["crime", "drama", "thriller"],
+  "description": "A high school chemistry teacher turned methamphetamine manufacturer navigates the criminal underworld of Albuquerque, New Mexico."
 }

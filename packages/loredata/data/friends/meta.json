@@ -1,1 +1,6 @@
-{"id": "friends", "name": "Friends"}
+{
+  "id": "friends",
+  "name": "Friends",
+  "genre": ["comedy", "romance"],
+  "description": "Six friends navigate life, love, and careers in New York City over ten years of coffee-shop conversations and apartment mishaps."
+}

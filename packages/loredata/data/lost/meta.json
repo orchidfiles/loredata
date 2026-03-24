@@ -1,1 +1,6 @@
-{"id": "lost", "name": "Lost"}
+{
+  "id": "lost",
+  "name": "Lost",
+  "genre": ["drama", "mystery", "sci-fi"],
+  "description": "Survivors of a plane crash are stranded on a mysterious island that harbors supernatural forces and hidden conspiracies."
+}

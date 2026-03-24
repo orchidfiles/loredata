@@ -2,7 +2,7 @@ import { UniverseLoader } from '@/universes';
 
 import { PersonFactory } from './person-factory';
 
-import type { Person, PersonOptions, GroupOptions, UniverseInfo, UniverseData } from '@/types';
+import type { Person, PersonOptions, GroupOptions, UniverseMeta, UniverseData } from '@/types';
 
 export class PersonaBuilder {
 	static buildPersonFromData(universe: UniverseData, options: Omit<PersonOptions, 'universe'>): Person {
@@ -27,19 +27,20 @@ export class PersonaBuilder {
 		return persons;
 	}
 
-	static listUniverses(): UniverseInfo[] {
+	static listUniverses(): UniverseMeta[] {
 		const ids = UniverseLoader.listAvailable();
 
-		const result: UniverseInfo[] = ids.map((id) => {
+		const result: UniverseMeta[] = ids.map((id) => {
 			const data = UniverseLoader.load(id);
 
-			const info: UniverseInfo = {
+			const meta: UniverseMeta = {
 				id,
 				name: data.name,
-				characterCount: data.characters.length
+				genre: data.genre,
+				description: data.description
 			};
 
-			return info;
+			return meta;
 		});
 
 		return result;

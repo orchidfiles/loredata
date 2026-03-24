@@ -126,7 +126,7 @@ program
 		}
 
 		for (const u of list) {
-			console.log(`  ${u.id.padEnd(20)} ${u.name} (${u.characterCount} characters)`);
+			console.log(`  ${u.id.padEnd(20)} ${u.name}`);
 		}
 	});
 

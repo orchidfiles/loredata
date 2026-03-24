@@ -1,4 +1,6 @@
 {
   "id": "harry-potter",
-  "name": "Harry Potter"
+  "name": "Harry Potter",
+  "genre": ["fantasy", "adventure"],
+  "description": "A young wizard discovers his place in the magical world and fights the dark lord who killed his parents."
 }

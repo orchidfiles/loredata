@@ -1,1 +1,6 @@
-{"id": "sherlock", "name": "Sherlock"}
+{
+  "id": "sherlock",
+  "name": "Sherlock",
+  "genre": ["crime", "drama", "mystery"],
+  "description": "A modern-day Sherlock Holmes and his partner Dr. Watson solve complex crimes in contemporary London."
+}

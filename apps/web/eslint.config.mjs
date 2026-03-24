@@ -12,9 +12,9 @@ export default createSvelteEslintConfig({
 		'$layouts/*': ['./src/layouts/*']
 	},
 	additionalRules: {
-		'import-x/no-unresolved': ['error', { ignore: ['^virtual:icons/'] }]
+		'import-x/no-unresolved': ['error', { ignore: ['^virtual:icons/', '^\\$app/'] }]
 	},
 	additionalSvelteRules: {
-		'import-x/no-unresolved': ['error', { ignore: ['^virtual:icons/'] }]
+		'import-x/no-unresolved': ['error', { ignore: ['^virtual:icons/', '^\\$app/'] }]
 	}
 });

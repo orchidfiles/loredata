@@ -1,5 +1,5 @@
 {
-  "name": "@loredata/demo",
+  "name": "@loredata/web",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -20,7 +20,7 @@
     "@iconify-json/simple-icons": "~1.2.74",
     "@loredata/dev-kit": "workspace:*",
     "@skeletonlabs/skeleton": "~4.13.0",
-    "@sveltejs/adapter-static": "~3.0.8",
+    "@sveltejs/adapter-static": "~3.0.10",
     "@sveltejs/kit": "~2.20.1",
     "@sveltejs/vite-plugin-svelte": "~5.0.3",
     "@tailwindcss/vite": "~4.0.14",

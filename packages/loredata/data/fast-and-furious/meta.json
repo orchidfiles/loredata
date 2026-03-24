@@ -1,4 +1,6 @@
 {
   "id": "fast-and-furious",
-  "name": "Fast & Furious"
+  "name": "Fast & Furious",
+  "genre": ["action", "thriller"],
+  "description": "A crew of street racers and ex-convicts take on increasingly dangerous heists and missions around the world."
 }

@@ -9,9 +9,10 @@ interface Props {
 	persona: Person;
 	onreroll?: () => void;
 	oninterest?: (interest: string) => void;
+	onshowjson?: () => void;
 }
 
-let { persona, onreroll, oninterest }: Props = $props();
+let { persona, onreroll, oninterest, onshowjson }: Props = $props();
 
 let showJson = $state(false);
 
@@ -34,16 +35,18 @@ function closeJson(): void {
 		</div>
 		<div class="shrink-0 flex flex-col items-end gap-1.5">
 			<span class="badge preset-tonal-primary">{persona.universeName}</span>
-			<div class="flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-150">
-				{#if onreroll}
+			{#if !onshowjson}
+				<div class="flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+					{#if onreroll}
+						<button
+							class="btn btn-sm preset-filled-primary-500"
+							onclick={onreroll}>Regenerate</button>
+					{/if}
 					<button
 						class="btn btn-sm preset-filled-primary-500"
-						onclick={onreroll}>Regenerate</button>
-				{/if}
-				<button
-					class="btn btn-sm preset-filled-primary-500"
-					onclick={openJson}>Show JSON</button>
-			</div>
+						onclick={openJson}>Show JSON</button>
+				</div>
+			{/if}
 		</div>
 	</div>
 

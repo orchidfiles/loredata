@@ -1,1 +1,6 @@
-{"id": "peaky-blinders", "name": "Peaky Blinders"}
+{
+  "id": "peaky-blinders",
+  "name": "Peaky Blinders",
+  "genre": ["crime", "drama", "historical"],
+  "description": "The Shelby crime family rises from the streets of post-WWI Birmingham to become one of Britain's most powerful criminal empires."
+}

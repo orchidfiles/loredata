@@ -1,4 +1,6 @@
 {
   "id": "game-of-thrones",
-  "name": "Game of Thrones"
+  "name": "Game of Thrones",
+  "genre": ["fantasy", "drama", "action"],
+  "description": "Noble families of Westeros fight for control of the Iron Throne while an ancient threat stirs beyond the Wall."
 }

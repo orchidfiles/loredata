@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync } from 'fs';
 import { join } from 'path';
 
-import type { UniverseData, CharacterData, AddressData, DomainsData } from '@/types';
+import type { UniverseData, UniverseMeta, CharacterData, AddressData, DomainsData } from '@/types';
 
 const dataDir = join(import.meta.dirname, '../data');
 
@@ -23,6 +23,8 @@ export class UniverseLoader {
 		const meta = JSON.parse(readFileSync(join(universeDir, 'meta.json'), 'utf-8')) as {
 			id: string;
 			name: string;
+			genre: string[];
+			description: string;
 		};
 
 		const characters = JSON.parse(readFileSync(join(universeDir, 'characters.json'), 'utf-8')) as CharacterData[];
@@ -34,6 +36,8 @@ export class UniverseLoader {
 		const universeData: UniverseData = {
 			id: meta.id,
 			name: meta.name,
+			genre: meta.genre,
+			description: meta.description,
 			characters,
 			addresses,
 			domains
@@ -42,6 +46,64 @@ export class UniverseLoader {
 		this.cache.set(universeId, universeData);
 
 		return universeData;
+	}
+
+	static getManifest(): UniverseMeta[] {
+		const ids = this.listAvailable();
+
+		const result = ids.map((id) => {
+			const universeDir = join(dataDir, id);
+			const meta = JSON.parse(readFileSync(join(universeDir, 'meta.json'), 'utf-8')) as UniverseMeta;
+
+			const entry: UniverseMeta = {
+				id: meta.id,
+				name: meta.name,
+				genre: meta.genre,
+				description: meta.description
+			};
+
+			return entry;
+		});
+
+		return result;
+	}
+
+	static getAllInterests(): string[] {
+		const ids = this.listAvailable();
+		const interestSet = new Set<string>();
+
+		for (const id of ids) {
+			const universe = this.load(id);
+
+			for (const character of universe.characters) {
+				for (const interest of character.interests) {
+					interestSet.add(interest);
+				}
+			}
+		}
+
+		const result = Array.from(interestSet).sort();
+
+		return result;
+	}
+
+	static getAllLocations(): string[] {
+		const ids = this.listAvailable();
+		const citySet = new Set<string>();
+
+		for (const id of ids) {
+			const universe = this.load(id);
+
+			for (const address of universe.addresses) {
+				if (address.city) {
+					citySet.add(address.city);
+				}
+			}
+		}
+
+		const result = Array.from(citySet).sort();
+
+		return result;
 	}
 
 	static listAvailable(): string[] {

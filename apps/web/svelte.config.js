@@ -9,6 +9,9 @@ const config = {
 			fallback: 'index.html',
 			precompress: false
 		}),
+		prerender: {
+			handleHttpError: 'warn'
+		},
 		alias: {
 			$shared: 'src/shared',
 			$components: 'src/components',

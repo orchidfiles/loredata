@@ -5,6 +5,8 @@ import type { UniverseData, CharacterData, AddressData, DomainsData } from 'lore
 interface MetaJson {
 	id: string;
 	name: string;
+	genre: string[];
+	description: string;
 }
 
 const metaFiles = import.meta.glob('$data/*/meta.json', { eager: true });
@@ -41,6 +43,8 @@ function buildUniverses(): UniverseData[] {
 		const universe: UniverseData = {
 			id,
 			name: metaModule.default.name,
+			genre: metaModule.default.genre,
+			description: metaModule.default.description,
 			characters: charactersModule.default,
 			addresses: addressesModule.default,
 			domains: domainsModule.default

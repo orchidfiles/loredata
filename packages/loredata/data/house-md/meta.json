@@ -1,1 +1,6 @@
-{"id": "house-md", "name": "House M.D."}
+{
+  "id": "house-md",
+  "name": "House M.D.",
+  "genre": ["drama", "mystery", "medical"],
+  "description": "A misanthropic diagnostic genius leads a team of doctors solving medical mysteries no one else can crack."
+}

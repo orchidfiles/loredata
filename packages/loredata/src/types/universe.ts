@@ -30,13 +30,16 @@ export interface DomainsData {
 export interface UniverseData {
 	id: string;
 	name: string;
+	genre: string[];
+	description: string;
 	characters: CharacterData[];
 	addresses: AddressData[];
 	domains: DomainsData;
 }
 
-export interface UniverseInfo {
+export interface UniverseMeta {
 	id: string;
 	name: string;
-	characterCount: number;
+	genre: string[];
+	description: string;
 }

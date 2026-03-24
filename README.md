@@ -12,7 +12,14 @@ Generate fake personas using real characters from pop culture universes. Every f
 import { person, group } from 'loredata';
 
 const p = person({ universe: 'breaking-bad' });
-// { firstName: 'Walter', lastName: 'White', email: 'heisenberg@lospollos.com', ... }
+// {
+//   firstName: 'Walter',
+//   lastName: 'White',
+//   email: 'heisenberg@lospollos.com',
+//   profession: 'chemistry teacher',
+//   address: { street: '308 Negra Arroyo Lane', city: 'Albuquerque', state: 'NM' },
+//   ...
+// }
 
 const team = group({ universe: 'game-of-thrones', size: 3 });
 ```
@@ -34,8 +41,8 @@ import { universes } from 'loredata';
 
 universes();
 // [
-//   { id: 'sherlock', name: 'Sherlock', characterCount: 9 },
-//   { id: 'game-of-thrones', name: 'Game of Thrones', characterCount: 15 },
+//   { id: 'sherlock', name: 'Sherlock', genre: ['crime', 'drama', 'mystery'], description: '...' },
+//   { id: 'game-of-thrones', name: 'Game of Thrones', genre: ['fantasy', 'drama', 'action'], description: '...' },
 //   ...
 // ]
 ```

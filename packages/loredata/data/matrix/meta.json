@@ -1,1 +1,6 @@
-{"id": "matrix", "name": "The Matrix"}
+{
+  "id": "matrix",
+  "name": "The Matrix",
+  "genre": ["sci-fi", "action"],
+  "description": "A hacker discovers that reality is a simulation controlled by machines and joins the resistance fighting for humanity's freedom."
+}

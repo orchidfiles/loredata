@@ -5,7 +5,7 @@ const available = universes();
 console.log('Available universes:');
 
 for (const u of available) {
-  console.log(`  ${u.id} — ${u.name} (${u.characterCount} characters)`);
+  console.log(`  ${u.id} — ${u.name}`);
 }
 
 console.log('');

@@ -1,26 +1,84 @@
 <script lang="ts">
+import { loadUniverse, UniverseStore } from 'loredata/browser';
+
 import PersonaCard from '$features/persona/PersonaCard.svelte';
 import UniverseSelector from '$features/universes/UniverseSelector.svelte';
-import { store } from '$shared/data/data-loader';
 
+import type { PageData } from './$types';
 import type { CharacterEntry, CharacterQuery, Person } from 'loredata/browser';
 
-const universeList = store.getUniverses();
+let { data }: { data: PageData } = $props();
+
+const manifest = data.manifest;
+
 const COUNTS = [1, 4, 8, 16] as const;
 
+let store = $state<UniverseStore | null>(null);
+let loadedUniverseId = $state<string | null>(null);
+
 let searchQuery = $state('');
-let selectedUniverses = $state<string[]>([]);
 let selectedInterests = $state<string[]>([]);
 let personaCount = $state<number>(4);
 let personas = $state<Person[]>([]);
+let loading = $state(false);
+
+async function ensureUniverseLoaded(id: string): Promise<void> {
+	if (loadedUniverseId === id) {
+		return;
+	}
+
+	loading = true;
+
+	const universeData = await loadUniverse(id);
+
+	store = new UniverseStore([universeData]);
+	loadedUniverseId = id;
+	loading = false;
+}
+
+async function generateFromUniverse(id: string): Promise<void> {
+	await ensureUniverseLoaded(id);
+
+	if (!store) {
+		return;
+	}
+
+	const query: CharacterQuery = {
+		interests: selectedInterests,
+		interestsMode: 'and'
+	};
+
+	personas = store.generatePersonas(query, personaCount);
+}
+
+async function generate(): Promise<void> {
+	if (loadedUniverseId) {
+		await generateFromUniverse(loadedUniverseId);
+
+		return;
+	}
+
+	const firstId = manifest[0]?.id;
+
+	if (!firstId) {
+		return;
+	}
+
+	await generateFromUniverse(firstId);
+}
+
+void generate();
 
 let searchResults = $derived.by(() => {
 	if (searchQuery.trim().length === 0) {
 		return null;
 	}
 
+	if (!store) {
+		return null;
+	}
+
 	const query: CharacterQuery = {
-		universes: selectedUniverses,
 		interests: selectedInterests,
 		interestsMode: 'and',
 		name: searchQuery
@@ -61,26 +119,11 @@ $effect(() => {
 	highlightedIndex = -1;
 });
 
-let searchTimeout: ReturnType<typeof setTimeout> | undefined;
-
-function buildQuery(): CharacterQuery {
-	const query: CharacterQuery = {
-		universes: selectedUniverses,
-		interests: selectedInterests,
-		interestsMode: 'and',
-		name: searchQuery
-	};
-
-	return query;
-}
-
-function generate(): void {
-	personas = store.generatePersonas(buildQuery(), personaCount);
-}
-
-generate();
-
 function rerollOne(index: number): void {
+	if (!store) {
+		return;
+	}
+
 	const current = personas[index];
 
 	if (!current) {
@@ -92,23 +135,20 @@ function rerollOne(index: number): void {
 	personas = personas.map((p, i) => (i === index ? fresh : p));
 }
 
-function randomUniverse(): void {
-	const ids = universeList.map((u) => u.id);
-	const randomId = ids[Math.floor(Math.random() * ids.length)];
+async function randomUniverse(): Promise<void> {
+	const randomId = manifest[Math.floor(Math.random() * manifest.length)]?.id;
 
-	selectedUniverses = [randomId];
-	selectedInterests = [];
-	generate();
+	if (!randomId) {
+		return;
+	}
+
+	await generateFromUniverse(randomId);
 }
 
 function handleSearchInput(event: Event): void {
 	const input = event.target as HTMLInputElement;
 
-	clearTimeout(searchTimeout);
-
-	searchTimeout = setTimeout(() => {
-		searchQuery = input.value;
-	}, 150);
+	searchQuery = input.value;
 }
 
 function handleSearchKeydown(event: KeyboardEvent): void {
@@ -139,6 +179,10 @@ function handleSearchKeydown(event: KeyboardEvent): void {
 }
 
 function generateFromCharacter(entry: CharacterEntry): void {
+	if (!store) {
+		return;
+	}
+
 	const persona = store.personByCharacterId(entry.characterId);
 
 	personas = [persona];
@@ -151,24 +195,14 @@ function generateFromCharacter(entry: CharacterEntry): void {
 	}
 }
 
-function toggleUniverse(id: string): void {
-	if (selectedUniverses.includes(id)) {
-		selectedUniverses = [];
-	} else {
-		selectedUniverses = [id];
-	}
-
-	generate();
-}
-
 function filterByInterest(interest: string): void {
 	selectedInterests = [interest];
-	generate();
+	void generate();
 }
 
 function clearInterests(): void {
 	selectedInterests = [];
-	generate();
+	void generate();
 }
 
 function setCount(count: number): void {
@@ -180,13 +214,22 @@ function setCount(count: number): void {
 	<title>loredata — pop culture fake data generator</title>
 	<meta
 		name="description"
-		content="Generate cohesive fake personas from pop culture universes: Breaking Bad, Game of Thrones, Harry Potter." />
+		content="Generate cohesive fake personas from pop culture universes: Breaking Bad, Game of Thrones, Harry Potter and more." />
+	<meta
+		property="og:title"
+		content="loredata — pop culture fake data generator" />
+	<meta
+		property="og:description"
+		content="Generate cohesive fake personas from pop culture universes: Breaking Bad, Game of Thrones, Harry Potter and more." />
+	<meta
+		property="og:type"
+		content="website" />
 </svelte:head>
 
 <div class="space-y-8 pt-4">
 	<div class="space-y-2">
 		<h1 class="h1 text-surface-950-50">Fake personas from pop culture</h1>
-		<p class="text-surface-400 text-sm"> Generate test data from Breaking Bad, Game of Thrones, Harry Potter and more. </p>
+		<p class="text-surface-400 text-sm">Generate test data from Breaking Bad, Game of Thrones, Harry Potter and more.</p>
 	</div>
 
 	<div class="space-y-5">
@@ -227,10 +270,7 @@ function setCount(count: number): void {
 					class="btn btn-sm preset-tonal-surface"
 					onclick={randomUniverse}>↻ Random</button>
 			</div>
-			<UniverseSelector
-				universes={universeList}
-				selected={selectedUniverses}
-				ontoggle={toggleUniverse} />
+			<UniverseSelector universes={manifest} />
 		</div>
 
 		{#if selectedInterests.length > 0}
@@ -255,7 +295,10 @@ function setCount(count: number): void {
 			</div>
 			<button
 				class="btn preset-filled-primary-500"
-				onclick={generate}>Generate</button>
+				onclick={generate}
+				disabled={loading}>
+				{loading ? 'Loading…' : 'Generate'}
+			</button>
 		</div>
 	</div>
 
@@ -268,7 +311,7 @@ function setCount(count: number): void {
 					oninterest={filterByInterest} />
 			{/each}
 		</div>
-	{:else}
+	{:else if !loading}
 		<div class="card preset-tonal-surface p-12 text-center border border-surface-700/20">
 			<p class="text-surface-400 text-sm">No characters match the selected filters.</p>
 		</div>

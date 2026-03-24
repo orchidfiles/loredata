@@ -2,7 +2,7 @@ import { createRng } from '@/generators';
 
 import { PersonFactory } from './person-factory';
 
-import type { UniverseData, Person, CharacterEntry, CharacterQuery } from '@/types';
+import type { UniverseData, UniverseMeta, Person, CharacterEntry, CharacterQuery } from '@/types';
 
 export class UniverseStore {
 	private universes: UniverseData[];
@@ -36,12 +36,17 @@ export class UniverseStore {
 		return result;
 	}
 
-	getUniverses(): { id: string; name: string; characterCount: number }[] {
-		const result = this.universes.map((u) => ({
-			id: u.id,
-			name: u.name,
-			characterCount: u.characters.length
-		}));
+	getUniverses(): UniverseMeta[] {
+		const result = this.universes.map((u) => {
+			const meta: UniverseMeta = {
+				id: u.id,
+				name: u.name,
+				genre: u.genre,
+				description: u.description
+			};
+
+			return meta;
+		});
 
 		return result;
 	}

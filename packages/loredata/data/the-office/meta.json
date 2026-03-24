@@ -1,4 +1,6 @@
 {
   "id": "the-office",
-  "name": "The Office"
+  "name": "The Office",
+  "genre": ["comedy", "mockumentary"],
+  "description": "A mockumentary following the mundane daily lives of employees at a Scranton, Pennsylvania paper company managed by an oblivious boss."
 }
