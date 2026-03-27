@@ -1,4 +1,7 @@
 <script lang="ts">
+import Breadcrumb from '$components/ui/Breadcrumb.svelte';
+import { slugify } from '$shared/utils';
+
 import type { PageData } from './$types';
 
 let { data }: { data: PageData } = $props();
@@ -7,13 +10,13 @@ const { interests } = data;
 </script>
 
 <svelte:head>
-	<title>All interests — loredata</title>
+	<title>All interests — LoreData</title>
 	<meta
 		name="description"
 		content="Browse all interests across pop culture universes: Breaking Bad, Game of Thrones, Harry Potter and more." />
 	<meta
 		property="og:title"
-		content="All interests — loredata" />
+		content="All interests — LoreData" />
 	<meta
 		property="og:type"
 		content="website" />
@@ -21,13 +24,7 @@ const { interests } = data;
 
 <div class="space-y-8">
 	<div class="space-y-2">
-		<p class="text-surface-500 text-sm">
-			<a
-				href="/"
-				class="hover:text-surface-300 transition-colors">loredata</a>
-			<span class="mx-1">›</span>
-			interests
-		</p>
+		<Breadcrumb crumbs={[{ label: 'Interests' }]} />
 		<h1 class="h1 text-surface-950-50">All interests</h1>
 		<p class="text-surface-400 text-sm">{interests.length} interests across all universes</p>
 	</div>
@@ -35,7 +32,7 @@ const { interests } = data;
 	<div class="flex flex-wrap gap-2">
 		{#each interests as interest (interest)}
 			<a
-				href="/interests/{interest}"
+				href="/interests/{slugify(interest)}"
 				class="badge preset-tonal-surface hover:preset-filled-primary-500 transition-colors">
 				{interest}
 			</a>

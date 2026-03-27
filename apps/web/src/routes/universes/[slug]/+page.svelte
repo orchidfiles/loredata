@@ -52,13 +52,13 @@ function rerollOne(index: number): void {
 </script>
 
 <svelte:head>
-	<title>{universe.name} fake personas — loredata</title>
+	<title>{universe.name} fake personas — LoreData</title>
 	<meta
 		name="description"
 		content="Generate fake {universe.name} personas with realistic names, emails, addresses and more. {universe.description}" />
 	<meta
 		property="og:title"
-		content="{universe.name} fake personas — loredata" />
+		content="{universe.name} fake personas — LoreData" />
 	<meta
 		property="og:description"
 		content={universe.description} />

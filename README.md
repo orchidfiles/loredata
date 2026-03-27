@@ -1,4 +1,4 @@
-# loredata
+# LoreData
 
 [![npm version](https://img.shields.io/npm/v/loredata)](https://www.npmjs.com/package/loredata)
 [![npm downloads per month](https://img.shields.io/npm/dm/loredata)](https://www.npmjs.com/package/loredata)
@@ -140,7 +140,7 @@ pnpm run demo:dev
 
 Faker.js generates random names and emails. They are internally consistent but meaningless. No shared context, no character identity.
 
-`loredata` generates personas from real fictional characters. Each persona is recognizable and internally consistent, which makes it useful for demos, screenshots, and seed files where the content matters.
+`LoreData` generates personas from real fictional characters. Each persona is recognizable and internally consistent, which makes it useful for demos, screenshots, and seed files where the content matters.
 
 ## License
 

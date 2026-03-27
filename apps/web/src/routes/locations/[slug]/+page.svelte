@@ -1,4 +1,6 @@
 <script lang="ts">
+import Breadcrumb from '$components/ui/Breadcrumb.svelte';
+
 import type { PageData } from './$types';
 
 let { data }: { data: PageData } = $props();
@@ -7,7 +9,7 @@ const { location, universes } = data;
 </script>
 
 <svelte:head>
-	<title>{location} — fictional location — loredata</title>
+	<title>{location} — fictional location — LoreData</title>
 	<meta
 		name="description"
 		content="Pop culture universes set in {location}: {universes.map((u) => u.universe.name).join(', ')}." />
@@ -21,13 +23,7 @@ const { location, universes } = data;
 
 <div class="space-y-8">
 	<div class="space-y-2">
-		<p class="text-surface-500 text-sm">
-			<a
-				href="/"
-				class="hover:text-surface-300 transition-colors">loredata</a>
-			<span class="mx-1">›</span>
-			{location}
-		</p>
+		<Breadcrumb crumbs={[{ label: location }]} />
 		<h1 class="h1 text-surface-950-50">{location}</h1>
 		<p class="text-surface-400 text-sm"
 			>{universes.length} {universes.length === 1 ? 'universe' : 'universes'} set in {location}</p>

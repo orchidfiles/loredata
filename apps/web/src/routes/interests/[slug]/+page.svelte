@@ -1,4 +1,6 @@
 <script lang="ts">
+import Breadcrumb from '$components/ui/Breadcrumb.svelte';
+
 import type { PageData } from './$types';
 
 let { data }: { data: PageData } = $props();
@@ -7,7 +9,7 @@ const { interest, characters } = data;
 </script>
 
 <svelte:head>
-	<title>Characters interested in {interest} — loredata</title>
+	<title>Characters interested in {interest} — LoreData</title>
 	<meta
 		name="description"
 		content="Pop culture characters interested in {interest}: {characters
@@ -24,17 +26,7 @@ const { interest, characters } = data;
 
 <div class="space-y-8">
 	<div class="space-y-2">
-		<p class="text-surface-500 text-sm">
-			<a
-				href="/"
-				class="hover:text-surface-300 transition-colors">loredata</a>
-			<span class="mx-1">›</span>
-			<a
-				href="/interests"
-				class="hover:text-surface-300 transition-colors">interests</a>
-			<span class="mx-1">›</span>
-			{interest}
-		</p>
+		<Breadcrumb crumbs={[{ label: 'Interests', href: '/interests' }, { label: interest }]} />
 		<h1 class="h1 text-surface-950-50">Characters interested in {interest}</h1>
 		<p class="text-surface-400 text-sm"
 			>{characters.length} characters across {new Set(characters.map((c) => c.universe.id)).size} universes</p>

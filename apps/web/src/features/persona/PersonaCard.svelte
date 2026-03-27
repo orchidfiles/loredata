@@ -113,7 +113,7 @@ function closeJson(): void {
 			<div class="flex flex-wrap gap-2">
 				{#each persona.interests as interest (interest)}
 					<a
-						href="/interests/{interest}"
+						href="/interests/{slugify(interest)}"
 						class="badge preset-tonal-primary text-xs px-3 py-1 rounded-full hover:preset-filled-primary-500 transition-colors">
 						{interest}
 					</a>

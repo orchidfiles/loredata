@@ -1,11 +1,11 @@
 <svelte:head>
-	<title>loredata — pop culture fake data generator</title>
+	<title>LoreData — pop culture fake data generator</title>
 	<meta
 		name="description"
 		content="Generate cohesive fake personas from pop culture universes: Breaking Bad, Game of Thrones, Harry Potter and more." />
 	<meta
 		property="og:title"
-		content="loredata — pop culture fake data generator" />
+		content="LoreData — pop culture fake data generator" />
 	<meta
 		property="og:description"
 		content="Generate cohesive fake personas from pop culture universes: Breaking Bad, Game of Thrones, Harry Potter and more." />

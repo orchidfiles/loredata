@@ -1,9 +1,11 @@
 <script lang="ts">
 import { UniverseStore } from 'loredata/browser';
 
+import Breadcrumb from '$components/ui/Breadcrumb.svelte';
 import JsonModal from '$features/persona/JsonModal.svelte';
 import PersonaCard from '$features/persona/PersonaCard.svelte';
 import { PersonFormatter } from '$shared/formatters';
+import { slugify } from '$shared/utils';
 
 import type { PageData } from './$types';
 import type { Person } from 'loredata/browser';
@@ -24,7 +26,7 @@ function reroll(): void {
 </script>
 
 <svelte:head>
-	<title>{character.firstName} {character.lastName} — {universe.name} — loredata</title>
+	<title>{character.firstName} {character.lastName} — {universe.name} — LoreData</title>
 	<meta
 		name="description"
 		content="Generate fake data for {character.firstName} {character.lastName} from {universe.name}. Realistic email, address and more." />
@@ -41,24 +43,17 @@ function reroll(): void {
 
 <div class="space-y-8">
 	<div class="space-y-2">
-		<p class="text-surface-500 text-sm">
-			<a
-				href="/"
-				class="hover:text-surface-300 transition-colors">loredata</a>
-			<span class="mx-1">›</span>
-			<a
-				href="/universes/{universe.id}"
-				class="hover:text-surface-300 transition-colors">{universe.name}</a>
-			<span class="mx-1">›</span>
-			{character.firstName}
-			{character.lastName}
-		</p>
+		<Breadcrumb
+			crumbs={[
+				{ label: universe.name, href: `/universes/${universe.id}` },
+				{ label: `${character.firstName} ${character.lastName}` }
+			]} />
 		<h1 class="h1 text-surface-950-50">{character.firstName} {character.lastName}</h1>
 		<p class="text-surface-400 text-sm">{character.profession}</p>
 		<div class="flex gap-2 flex-wrap">
 			{#each character.interests as interest (interest)}
 				<a
-					href="/interests/{interest}"
+					href="/interests/{slugify(interest)}"
 					class="badge preset-tonal-surface text-xs hover:preset-filled-primary-500 transition-colors">
 					{interest}
 				</a>
