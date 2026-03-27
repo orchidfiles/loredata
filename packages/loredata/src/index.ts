@@ -23,4 +23,4 @@ export { UniverseStore, PersonFactory } from '@/engine';
 
 export type { Person, UniverseMeta, PersonOptions, GroupOptions } from '@/types';
 export type { Address, UniverseData, CharacterData, AddressData } from '@/types';
-export type { CharacterEntry, CharacterQuery } from '@/types';
+export type { CharacterEntry, CharacterQuery, LocationEntry, LocationType } from '@/types';

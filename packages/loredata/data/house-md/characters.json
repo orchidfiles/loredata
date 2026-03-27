@@ -10,7 +10,7 @@
       "diagnostics_genius",
       "not_lupus"
     ],
-    "profession": "diagnostician",
+    "profession": "Diagnostician",
     "interests": ["medicine", "piano", "motorcycle", "puzzles", "vicodin"],
     "quotes": [
       "Everybody lies.",
@@ -39,7 +39,7 @@
       "enabler_in_chief",
       "three_divorces_wilson"
     ],
-    "profession": "oncologist",
+    "profession": "Oncologist",
     "interests": ["oncology", "friendship", "cooking", "relationships"],
     "quotes": [
       "You don't like yourself. But you do admire yourself. It's all you've got so you cling to it. You're so afraid if you change, you'll lose what makes you special. Being miserable doesn't make you better than anybody else, House. It just makes you miserable.",
@@ -84,7 +84,7 @@
     "firstName": "Eric",
     "lastName": "Foreman",
     "usernames": ["foreman_neurologist", "not_a_car_thief", "dean_foreman", "team_foreman"],
-    "profession": "neurologist",
+    "profession": "Neurologist",
     "interests": ["neurology", "medicine", "ethics", "career advancement"],
     "quotes": [
       "Isn't treating patients why we became doctors?",
@@ -106,7 +106,7 @@
     "firstName": "Robert",
     "lastName": "Chase",
     "usernames": ["pretty_boy_chase", "aussie_doctor", "not_british", "dr_chase_ppth"],
-    "profession": "intensivist",
+    "profession": "Intensivist",
     "interests": ["surgery", "intensive care", "surfing", "religion"],
     "quotes": [
       "They tend to keep quiet on account of them not having any mouths.",
@@ -133,7 +133,7 @@
       "cameron_immunology",
       "mercy_and_reason"
     ],
-    "profession": "emergency medicine physician",
+    "profession": "Emergency medicine physician",
     "interests": ["medicine", "ethics", "immunology", "human rights"],
     "quotes": [
       "He cured you. You didn't cure him.",
@@ -155,7 +155,7 @@
     "firstName": "Chris",
     "lastName": "Taub",
     "usernames": ["taub_plastics", "nose_job_taub", "dr_taub_ppth", "taub_survivor"],
-    "profession": "physician",
+    "profession": "Physician",
     "interests": ["medicine", "plastic surgery", "family", "poker"],
     "quotes": [
       "We treat her like a sixty-year-old Asian man, too?",
@@ -177,7 +177,7 @@
     "firstName": "Remy",
     "lastName": "Hadley",
     "usernames": ["thirteen_hadley", "huntingtons_thirteen", "dr_thirteen", "remy_hadley_md"],
-    "profession": "internist",
+    "profession": "Internist",
     "interests": ["medicine", "clinical trials", "Huntington's disease", "neurology"],
     "quotes": [
       "No one can describe themselves in ten words. Why would we wanna hear anyone else do it?",
@@ -199,7 +199,7 @@
     "firstName": "Lawrence",
     "lastName": "Kutner",
     "usernames": ["kutner_md", "foster_kid_kutner", "kutner_diagnostics", "excitable_kutner"],
-    "profession": "sports medicine physician",
+    "profession": "Sports medicine physician",
     "interests": ["medicine", "sports medicine", "pranks", "pop culture"],
     "quotes": [
       "Belonging's overrated. I was adopted by a white family when I was nine. I like being different the view's better from the outside looking in.",
@@ -226,7 +226,7 @@
       "adams_diagnostics",
       "jail_doc_adams"
     ],
-    "profession": "diagnostician",
+    "profession": "Diagnostician",
     "interests": ["medicine", "ethics", "charity work", "volunteering"],
     "quotes": [
       "I checked your file. You didn't have a bad lawyer. You had no lawyer. You took the first deal they offered because you wanted to punish yourself.",
@@ -248,7 +248,7 @@
     "firstName": "Chi",
     "lastName": "Park",
     "usernames": ["dr_park_ppth", "punched_the_boss", "park_diagnostics", "dr_chi_park"],
-    "profession": "neurologist",
+    "profession": "Neurologist",
     "interests": ["medicine", "neurology", "family", "self-defense"],
     "quotes": [
       "You do know I punched the last person that pissed me off?",

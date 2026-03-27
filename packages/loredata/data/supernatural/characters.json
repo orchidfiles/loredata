@@ -4,7 +4,7 @@
     "firstName": "Dean",
     "lastName": "Winchester",
     "usernames": ["baby_driver", "righteous_man", "driver_picks_music"],
-    "profession": "hunter",
+    "profession": "Hunter",
     "interests": ["hunting", "classic rock", "pie", "car mechanics", "burgers"],
     "quotes": [
       "Saving people, hunting things — the family business.",
@@ -23,7 +23,7 @@
     "firstName": "Sam",
     "lastName": "Winchester",
     "usernames": ["moose_winchester", "lost_my_shoe", "say_yes_never"],
-    "profession": "hunter",
+    "profession": "Hunter",
     "interests": ["research", "law", "hunting", "mythology", "books"],
     "quotes": [
       "I lost my shoe.",
@@ -41,7 +41,7 @@
     "id": "castiel",
     "firstName": "Castiel",
     "usernames": ["gripped_tight", "holy_tax_accountant", "profound_bond"],
-    "profession": "angel",
+    "profession": "Angel",
     "interests": ["bees", "human customs", "prayer", "justice", "pop culture"],
     "quotes": [
       "I'm the one who gripped you tight and raised you from perdition.",
@@ -78,7 +78,7 @@
     "firstName": "Bobby",
     "lastName": "Singer",
     "usernames": ["salvage_yard_bobby", "idjit_hunter", "family_dont_end"],
-    "profession": "hunter",
+    "profession": "Hunter",
     "interests": ["hunting", "research", "whiskey", "salvage yard", "books"],
     "quotes": [
       "Idjit.",
@@ -96,7 +96,7 @@
     "id": "lucifer",
     "firstName": "Lucifer",
     "usernames": ["morningstar_falls", "say_yes_sam", "the_cage"],
-    "profession": "archangel",
+    "profession": "Archangel",
     "interests": ["theological debate", "free will", "Enochian scripture", "the Cage"],
     "quotes": [
       "You know why God cast me down? Because I loved Him. More than anything.",

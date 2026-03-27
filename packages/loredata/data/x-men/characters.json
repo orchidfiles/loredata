@@ -3,7 +3,7 @@
     "id": "logan",
     "firstName": "Logan",
     "usernames": ["wolverine", "weapon_x", "yellow_spandex"],
-    "profession": "soldier",
+    "profession": "Soldier",
     "interests": ["motorcycles", "cigars", "cage fighting", "wilderness"],
     "quotes": [
       "I'm the best there is at what I do. But what I do best isn't very nice.",
@@ -28,7 +28,7 @@
     "firstName": "Charles",
     "lastName": "Xavier",
     "usernames": ["professor_x", "cerebro_mind", "hope_remains"],
-    "profession": "professor",
+    "profession": "Professor",
     "interests": ["genetics", "telepathy", "chess", "education"],
     "quotes": [
       "Mutation: it is the key to our evolution.",
@@ -53,7 +53,7 @@
     "firstName": "Erik",
     "lastName": "Lehnsherr",
     "usernames": ["magneto", "plastic_prison", "homo_superior"],
-    "profession": "activist",
+    "profession": "Activist",
     "interests": ["magnetism", "chess", "mutant rights", "history"],
     "quotes": [
       "Peace was never an option.",
@@ -72,7 +72,7 @@
     "firstName": "Jean",
     "lastName": "Grey",
     "usernames": ["phoenix_force", "dark_phoenix", "grey_matter"],
-    "profession": "doctor",
+    "profession": "Doctor",
     "interests": ["genetics", "research", "medicine", "psychology"],
     "quotes": [
       "I am not the woman I was. I am something more.",
@@ -97,8 +97,8 @@
     "firstName": "Ororo",
     "lastName": "Munroe",
     "usernames": ["storm_goddess", "weather_witch", "wind_rider"],
-    "profession": "teacher",
-    "interests": ["africa", "gardening", "flying", "leadership"],
+    "profession": "Teacher",
+    "interests": ["Africa", "gardening", "flying", "leadership"],
     "quotes": [
       "Do you know what happens to a toad when it's struck by lightning? The same thing that happens to everything else.",
       "Sometimes anger can help you survive.",
@@ -116,7 +116,7 @@
     "firstName": "Raven",
     "lastName": "Darkhölme",
     "usernames": ["shapeshifter", "natural_blue", "mutant_and_proud"],
-    "profession": "spy",
+    "profession": "Spy",
     "interests": ["espionage", "disguise", "combat", "mutant liberation"],
     "quotes": [
       "Mutant and proud.",
@@ -135,7 +135,7 @@
     "firstName": "Scott",
     "lastName": "Summers",
     "usernames": ["optic_blast", "visor_on", "prove_it"],
-    "profession": "team leader",
+    "profession": "Team leader",
     "interests": ["tactics", "aviation", "leadership", "motorcycles"],
     "quotes": [
       "We're a team, Professor. We take care of each other.",

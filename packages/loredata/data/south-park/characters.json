@@ -4,7 +4,7 @@
     "firstName": "Eric",
     "lastName": "Cartman",
     "usernames": ["respect_my_authoritah", "screw_you_guys", "cartmanland", "big_boned_not_fat"],
-    "profession": "student",
+    "profession": "Student",
     "interests": ["KFC", "television", "theme parks", "politics", "religion"],
     "quotes": [
       "Respect my authoritah!",
@@ -29,7 +29,7 @@
     "firstName": "Stan",
     "lastName": "Marsh",
     "usernames": ["dude_seriously", "vomits_on_wendy", "learned_something_today"],
-    "profession": "student",
+    "profession": "Student",
     "interests": ["football", "music", "environmentalism", "animal rights"],
     "quotes": [
       "You know, I think I've learned something today.",
@@ -53,7 +53,7 @@
     "firstName": "Kyle",
     "lastName": "Broflovski",
     "usernames": ["kyle_the_jew", "super_kyle", "green_ushanka"],
-    "profession": "student",
+    "profession": "Student",
     "interests": ["basketball", "Judaism", "video games", "debate", "charity"],
     "quotes": [
       "You bastards!",
@@ -78,7 +78,7 @@
     "firstName": "Kenny",
     "lastName": "McCormick",
     "usernames": ["poor_kenny", "immortal_kenny", "muffled_voice"],
-    "profession": "student",
+    "profession": "Student",
     "interests": ["pornography", "weapons", "motorcycles", "girls"],
     "quotes": [
       "Mmph mmph mmph mmph mmph.",
@@ -98,7 +98,7 @@
     "firstName": "Leopold",
     "lastName": "Stotch",
     "usernames": ["professor_chaos", "lil_butters", "oh_hamburgers"],
-    "profession": "student",
+    "profession": "Student",
     "interests": ["dancing", "singing", "cooking", "theater"],
     "quotes": [
       "Well, yeah, and I'm sad, but at the same time I'm really happy that something could make me feel that sad.",
@@ -119,7 +119,7 @@
     "firstName": "Randy",
     "lastName": "Marsh",
     "usernames": ["tegridy_farms", "this_is_america", "lorde_randy"],
-    "profession": "geologist",
+    "profession": "Geologist",
     "interests": ["wine", "marijuana", "sports", "cooking", "farming"],
     "quotes": [
       "I thought this was America!",
@@ -138,7 +138,7 @@
     "firstName": "Jerome",
     "lastName": "McElroy",
     "usernames": ["salty_chocolate_balls", "hello_there_children", "time_and_place"],
-    "profession": "chef",
+    "profession": "Chef",
     "interests": ["cooking", "music", "women", "soul food"],
     "quotes": [
       "Hello there, children!",
@@ -157,7 +157,7 @@
     "firstName": "Herbert",
     "lastName": "Garrison",
     "usernames": ["ms_garrison", "go_to_hell_and_die", "mr_hat_says"],
-    "profession": "teacher",
+    "profession": "Teacher",
     "interests": ["politics", "ventriloquism", "writing", "gender studies"],
     "quotes": [
       "You go to hell! You go to hell and you die!",
@@ -175,7 +175,7 @@
     "firstName": "Mr.",
     "lastName": "Mackey",
     "usernames": ["drugs_are_bad", "mkay_counselor", "dook_in_urinal"],
-    "profession": "school counselor",
+    "profession": "School counselor",
     "interests": ["drug prevention", "collecting junk", "motivational speaking"],
     "quotes": [
       "Drugs are bad, m'kay.",
@@ -194,7 +194,7 @@
     "firstName": "Tweek",
     "lastName": "Tweak",
     "usernames": ["too_much_pressure", "tweek_coffee", "gnomes_got_me"],
-    "profession": "student",
+    "profession": "Student",
     "interests": ["coffee", "underpants gnomes", "electricity"],
     "quotes": [
       "Too much pressure!",
@@ -213,7 +213,7 @@
     "firstName": "Craig",
     "lastName": "Tucker",
     "usernames": ["craig_the_flicker", "guinea_pig_owner", "i_dont_care"],
-    "profession": "student",
+    "profession": "Student",
     "interests": ["guinea pigs", "cable television", "Peru", "flipping people off"],
     "quotes": [
       "I hate you guys.",

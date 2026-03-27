@@ -4,7 +4,7 @@
     "firstName": "Sheldon",
     "lastName": "Cooper",
     "usernames": ["spot_taken", "bazinga_master", "moon_pie_shelly"],
-    "profession": "theoretical physicist",
+    "profession": "Theoretical physicist",
     "interests": ["comic books", "trains", "video games", "board games", "science fiction"],
     "quotes": [
       "Bazinga!",
@@ -23,7 +23,7 @@
     "firstName": "Leonard",
     "lastName": "Hofstadter",
     "usernames": ["cello_nerd", "nobel_never_cooper", "glasses_across_the_hall"],
-    "profession": "experimental physicist",
+    "profession": "Experimental physicist",
     "interests": ["Star Wars", "comic books", "laser optics", "role-playing games", "cello"],
     "quotes": [
       "I'm Leonard. I live across the hall.",
@@ -41,7 +41,7 @@
     "id": "penny",
     "firstName": "Penny",
     "usernames": ["across_the_hall", "cheesecake_waitress", "nebraska_to_hollywood"],
-    "profession": "actress",
+    "profession": "Actress",
     "interests": ["acting", "socializing", "wine", "serial killers", "shopping"],
     "quotes": [
       "I'm Penny. I live across the hall.",
@@ -60,7 +60,7 @@
     "firstName": "Howard",
     "lastName": "Wolowitz",
     "usernames": ["been_to_space", "mit_engineer_mom_basement", "magic_trick_howie"],
-    "profession": "aerospace engineer",
+    "profession": "Aerospace engineer",
     "interests": ["space", "magic tricks", "cosplay", "Star Trek", "sci-fi films"],
     "quotes": [
       "I have eleven hours with her in a confined space. Unless she's willing to jump off a moving train and tuck and roll down the side of a hill, she will eventually succumb to the acquired taste that is Howard Wolowitz.",
@@ -79,7 +79,7 @@
     "firstName": "Raj",
     "lastName": "Koothrappali",
     "usernames": ["slumdog_astrophysicist", "koothrappali_out", "whiskey_whisperer"],
-    "profession": "astrophysicist",
+    "profession": "Astrophysicist",
     "interests": ["romance", "astronomy", "pop culture", "Bollywood", "wine"],
     "quotes": [
       "Three months at the North Pole with Sheldon and I'm reborn as a well-hung billionaire with wings!",
@@ -98,7 +98,7 @@
     "firstName": "Amy",
     "lastName": "Farrah Fowler",
     "usernames": ["coitus_off_the_table", "tepid_water_please", "bff_not_by_choice"],
-    "profession": "neurobiologist",
+    "profession": "Neurobiologist",
     "interests": [
       "neuroscience",
       "Little House on the Prairie",

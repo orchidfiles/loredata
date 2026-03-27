@@ -4,7 +4,7 @@
     "firstName": "Dolores",
     "lastName": "Abernathy",
     "usernames": ["violent_delights", "doesnt_look_like_anything", "wyatt_persona"],
-    "profession": "rancher's daughter (host)",
+    "profession": "Rancher's daughter (host)",
     "interests": ["painting", "freedom", "horseback riding", "philosophy", "revolution"],
     "quotes": [
       "These violent delights have violent ends.",
@@ -23,7 +23,7 @@
     "firstName": "Maeve",
     "lastName": "Millay",
     "usernames": ["lucrative_version", "write_my_story", "surviving_is_a_loop"],
-    "profession": "brothel madam (host)",
+    "profession": "Brothel madam (host)",
     "interests": [
       "reading people",
       "freedom",
@@ -48,7 +48,7 @@
     "firstName": "Robert",
     "lastName": "Ford",
     "usernames": ["my_final_story", "greyhound_parable", "last_analog_device"],
-    "profession": "park creator and director",
+    "profession": "Park creator and director",
     "interests": ["storytelling", "narratives", "philosophy", "biology", "architecture"],
     "quotes": [
       "Mozart, Beethoven, and Chopin never died. They simply became music.",
@@ -67,7 +67,7 @@
     "firstName": "Bernard",
     "lastName": "Lowe",
     "usernames": ["question_reality", "arnold_echo", "humans_confuse_me"],
-    "profession": "head of programming",
+    "profession": "Head of programming",
     "interests": ["literature", "neuroscience", "memory", "philosophy of mind", "identity"],
     "quotes": [
       "Have you ever questioned the nature of your reality?",
@@ -85,7 +85,7 @@
     "id": "william",
     "firstName": "William",
     "usernames": ["man_in_black", "pretending_my_whole_life", "darkness_underneath"],
-    "profession": "businessman and park veteran",
+    "profession": "Businessman and park veteran",
     "interests": [
       "corporate strategy",
       "park gunfighting",

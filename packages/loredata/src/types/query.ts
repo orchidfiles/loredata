@@ -8,6 +8,13 @@ export interface CharacterEntry {
 	profession: string;
 }
 
+export type LocationType = 'city' | 'state' | 'country';
+
+export interface LocationEntry {
+	name: string;
+	type: LocationType;
+}
+
 export interface CharacterQuery {
 	universes?: string[];
 	interests?: string[];

@@ -4,7 +4,7 @@
     "firstName": "Luke",
     "lastName": "Skywalker",
     "usernames": ["last_jedi", "tatooine_farm_boy", "bulls_eye_womprat"],
-    "profession": "pilot",
+    "profession": "Pilot",
     "interests": ["flying", "lightsaber training", "rebellion", "droids", "moisture farming"],
     "quotes": [
       "I am a Jedi, like my father before me.",
@@ -23,7 +23,7 @@
     "firstName": "Darth",
     "lastName": "Vader",
     "usernames": ["i_find_your_lack", "no_i_am_your_father", "heavy_breathing"],
-    "profession": "commander",
+    "profession": "Commander",
     "interests": ["military tactics", "the Empire", "interrogation", "engineering"],
     "quotes": [
       "I am your father.",
@@ -42,7 +42,7 @@
     "firstName": "Han",
     "lastName": "Solo",
     "usernames": ["millennium_falcon", "nerf_herder", "never_tell_odds"],
-    "profession": "smuggler",
+    "profession": "Smuggler",
     "interests": ["smuggling", "flying", "gambling", "sabacc", "starship mechanics"],
     "quotes": [
       "Never tell me the odds.",
@@ -61,7 +61,7 @@
     "firstName": "Leia",
     "lastName": "Organa",
     "usernames": ["into_the_garbage", "buns_of_alderaan", "tighten_your_grip"],
-    "profession": "senator",
+    "profession": "Senator",
     "interests": ["rebellion", "diplomacy", "leadership", "freedom"],
     "quotes": [
       "Help me, Obi-Wan Kenobi. You're my only hope.",
@@ -142,7 +142,7 @@
     "id": "chewbacca",
     "firstName": "Chewbacca",
     "usernames": ["walking_carpet", "twelve_parsecs", "life_debt_paid"],
-    "profession": "co-pilot",
+    "profession": "Co-pilot",
     "interests": ["the Millennium Falcon", "dejarik", "Wookiee culture", "mechanics"],
     "quotes": ["Aaaargh!", "Rrraaawwwr!", "Wuaaaah!", "Hrraaah!", "Rrwwgg!"],
     "gender": "male",

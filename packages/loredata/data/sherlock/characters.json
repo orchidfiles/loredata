@@ -10,7 +10,7 @@
       "221b_resident",
       "science_of_deduction"
     ],
-    "profession": "consulting detective",
+    "profession": "Consulting detective",
     "interests": [
       "deduction",
       "forensic science",
@@ -49,7 +49,7 @@
       "brave_and_kind",
       "not_actually_gay"
     ],
-    "profession": "army doctor",
+    "profession": "Army doctor",
     "interests": ["medicine", "blogging", "cricket", "military history", "football"],
     "quotes": [
       "You told me once that you weren't a hero. There were times I didn't even think you were human, but let me tell you this. You were the best man, the most human... human being that I've ever known.",
@@ -80,7 +80,7 @@
       "napoleon_of_crime",
       "did_you_miss_me"
     ],
-    "profession": "consulting criminal",
+    "profession": "Consulting criminal",
     "interests": ["crime", "puzzles", "opera", "manipulation", "chaos"],
     "quotes": [
       "I will burn the heart out of you.",
@@ -108,7 +108,7 @@
       "dominatrix_london",
       "goodnight_mr_holmes"
     ],
-    "profession": "dominatrix",
+    "profession": "Dominatrix",
     "interests": ["power", "secrets", "intelligence", "photography", "fashion"],
     "quotes": [
       "Brainy is the new sexy.",
@@ -137,7 +137,7 @@
       "smarter_brother",
       "seven_percent_smarter"
     ],
-    "profession": "government official",
+    "profession": "Government official",
     "interests": ["intelligence", "chess", "Diet Coke", "opera", "power"],
     "quotes": [
       "Caring is not an advantage, Sherlock.",
@@ -167,7 +167,7 @@
       "hip_is_atrocious",
       "cup_of_tea_dear"
     ],
-    "profession": "landlady",
+    "profession": "Landlady",
     "interests": ["tea", "tenants", "gossip", "hip exercises", "baking"],
     "quotes": [
       "I'm your landlady, not your housekeeper.",
@@ -224,7 +224,7 @@
       "saw_him_first",
       "always_trusted"
     ],
-    "profession": "pathologist",
+    "profession": "Pathologist",
     "interests": ["pathology", "cats", "crime", "medicine", "Sherlock Holmes"],
     "quotes": [
       "What I'm trying to say is that, if there's anything I can do, anything you need, anything at all, you can have me.",
@@ -253,7 +253,7 @@
       "baker_street_girl",
       "john_watson_wife"
     ],
-    "profession": "nurse",
+    "profession": "Nurse",
     "interests": ["medicine", "family", "intelligence work", "knitting", "self-defence"],
     "quotes": [
       "I like him.",

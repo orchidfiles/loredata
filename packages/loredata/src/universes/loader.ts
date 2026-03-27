@@ -2,7 +2,7 @@ import { readFileSync, readdirSync } from 'fs';
 import { createRequire } from 'module';
 import { dirname, join } from 'path';
 
-import type { UniverseData, UniverseMeta, CharacterData, AddressData, CharacterEntry } from '@/types';
+import type { UniverseData, UniverseMeta, CharacterData, AddressData, CharacterEntry, LocationEntry } from '@/types';
 
 const require = createRequire(import.meta.url);
 const packageRoot = dirname(require.resolve('loredata/package.json'));
@@ -83,23 +83,29 @@ export class UniverseLoader {
 		return result;
 	}
 
-	static getAllLocations(): string[] {
+	static getAllLocations(): LocationEntry[] {
 		const ids = this.listAvailable();
-		const citySet = new Set<string>();
+		const seen = new Map<string, LocationEntry>();
 
 		for (const id of ids) {
 			const universe = this.load(id);
 
 			for (const address of universe.addresses) {
-				if (address.city) {
-					citySet.add(address.city);
+				if (address.city && !seen.has(`city:${address.city}`)) {
+					seen.set(`city:${address.city}`, { name: address.city, type: 'city' });
+				}
+
+				if (address.state && !seen.has(`state:${address.state}`)) {
+					seen.set(`state:${address.state}`, { name: address.state, type: 'state' });
+				}
+
+				if (address.country && !seen.has(`country:${address.country}`)) {
+					seen.set(`country:${address.country}`, { name: address.country, type: 'country' });
 				}
 			}
 		}
 
-		const result = Array.from(citySet).sort();
-
-		return result;
+		return Array.from(seen.values()).sort((a, b) => a.name.localeCompare(b.name));
 	}
 
 	static buildCharacterIndex(): CharacterEntry[] {

@@ -1,5 +1,6 @@
 <script lang="ts">
 import { PersonFormatter } from '$shared/formatters';
+import { slugify } from '$shared/utils';
 
 import JsonModal from './JsonModal.svelte';
 
@@ -12,6 +13,22 @@ interface Props {
 }
 
 let { persona, onreroll, onshowjson }: Props = $props();
+
+interface AddressPart {
+	text: string;
+	href?: string;
+}
+
+const addressParts = $derived.by((): AddressPart[] => {
+	const a = persona.address;
+	const parts: AddressPart[] = [];
+
+	if (a.street) parts.push({ text: a.street });
+	if (a.city) parts.push({ text: a.city, href: `/locations/${slugify(a.city)}` });
+	if (a.country) parts.push({ text: a.country, href: `/locations/${slugify(a.country)}` });
+
+	return parts;
+});
 
 let showJson = $state(false);
 
@@ -80,7 +97,16 @@ function closeJson(): void {
 		</div>
 		<div class="space-y-1">
 			<p class="text-surface-400 text-xs uppercase tracking-wide">Address</p>
-			<p class="text-surface-950-50">{PersonFormatter.formatAddress(persona.address)}</p>
+			<p class="text-surface-950-50">
+				{#each addressParts as part, i (part.text)}
+					{#if i > 0},
+					{/if}
+					{#if part.href}<a
+							href={part.href}
+							class="hover:text-primary-400 transition-colors">{part.text}</a
+						>{:else}{part.text}{/if}
+				{/each}
+			</p>
 		</div>
 		<div class="space-y-2 mt-auto">
 			<p class="text-surface-400 text-xs uppercase tracking-wide">Interests</p>

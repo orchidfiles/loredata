@@ -4,7 +4,7 @@
     "firstName": "Tony",
     "lastName": "Soprano",
     "usernames": ["waste_management_nj", "ducks_guy", "the_boss_dimeo"],
-    "profession": "mob boss",
+    "profession": "Mob boss",
     "interests": ["ducks", "therapy", "gambling", "family", "cooking"],
     "quotes": [
       "I'm in the waste management business. Everybody immediately assumes you're mobbed up. It's a stereotype, and it's offensive.",
@@ -25,7 +25,7 @@
     "firstName": "Christopher",
     "lastName": "Moltisanti",
     "usernames": ["made_guy_nj", "caposcrew", "future_underboss"],
-    "profession": "capo",
+    "profession": "Capo",
     "interests": ["screenwriting", "heroin", "movies", "loyalty"],
     "quotes": [
       "Louis Brazzi sleeps with the fishes.",
@@ -45,7 +45,7 @@
     "firstName": "Carmela",
     "lastName": "Soprano",
     "usernames": ["carmelas_kitchen", "north_caldwell_wife", "soprano_housewife"],
-    "profession": "homemaker",
+    "profession": "Homemaker",
     "interests": ["catholicism", "cooking", "interior design", "family"],
     "quotes": [
       "You know, Tony, it's a multiple choice thing with you. 'Cause I can't tell if you're old-fashioned, you're paranoid, or just a fucking asshole.",
@@ -65,7 +65,7 @@
     "firstName": "Paulie",
     "lastName": "Gualtieri",
     "usernames": ["walnuts_nj", "paulie_two_tone", "bada_bing_paulie"],
-    "profession": "capo",
+    "profession": "Capo",
     "interests": ["catholicism", "superstition", "espresso", "fighting"],
     "quotes": [
       "Fuckin' Italian people. How did we miss out on this? Fuckin' expresso, cappuccino. We invented this shit, and all these other cocksuckers are gettin' rich off it.",
@@ -85,7 +85,7 @@
     "firstName": "Corrado",
     "lastName": "Soprano",
     "usernames": ["uncle_jun", "acting_boss_nj", "junior_dimeo"],
-    "profession": "acting boss",
+    "profession": "Acting boss",
     "interests": ["opera", "golf", "card games", "holding grudges"],
     "quotes": [
       "You may run North Jersey but you don't run your Uncle Junior. How many fucking hours did I spend playing catch with you?",
@@ -106,7 +106,7 @@
     "firstName": "Silvio",
     "lastName": "Dante",
     "usernames": ["sil_bada_bing", "consigliere_dante", "silvio_nj"],
-    "profession": "consigliere",
+    "profession": "Consigliere",
     "interests": ["music", "the Godfather", "loyalty", "strip club management"],
     "quotes": [
       "Always with the scenarios.",
@@ -126,7 +126,7 @@
     "firstName": "Bobby",
     "lastName": "Baccalieri",
     "usernames": ["bobby_bacala", "model_trains_guy", "baccalieri_nj"],
-    "profession": "capo",
+    "profession": "Capo",
     "interests": ["model trains", "food", "family", "loyalty"],
     "quotes": [
       "To the victor, belongs the spoils.",
@@ -146,7 +146,7 @@
     "firstName": "Janice",
     "lastName": "Soprano",
     "usernames": ["janice_parvati", "soprano_sister", "north_caldwell_janice"],
-    "profession": "grifter",
+    "profession": "Grifter",
     "interests": ["new age spirituality", "manipulation", "yoga", "self-pity"],
     "quotes": [
       "I mean...I do know what mom's wishes were, but not to have a wake or a funeral, I mean makes us look like we're unloving children, not to mention cheapskates.",
@@ -166,7 +166,7 @@
     "firstName": "Jennifer",
     "lastName": "Melfi",
     "usernames": ["dr_melfi_md", "therapy_nj", "melfi_psychiatry"],
-    "profession": "psychiatrist",
+    "profession": "Psychiatrist",
     "interests": ["psychoanalysis", "literature", "ethics", "wine"],
     "quotes": [
       "With today's pharmacology, no one needs to suffer with feelings of exhaustion and depression.",

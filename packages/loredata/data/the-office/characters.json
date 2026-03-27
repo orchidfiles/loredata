@@ -4,7 +4,7 @@
     "firstName": "Michael",
     "lastName": "Scott",
     "usernames": ["world_best_boss", "thats_what_she_said", "michael_g_scott"],
-    "profession": "regional manager",
+    "profession": "Regional manager",
     "interests": ["improv comedy", "his employees", "Ryan Howard", "movie making"],
     "quotes": [
       "That's what she said.",
@@ -29,7 +29,7 @@
     "firstName": "Dwight",
     "lastName": "Schrute",
     "usernames": ["assistant_regional_manager", "beet_farmer_mose", "schrute_farms"],
-    "profession": "assistant to the regional manager",
+    "profession": "Assistant to the regional manager",
     "interests": ["beet farming", "karate", "Battlestar Galactica", "volunteer sheriff"],
     "quotes": [
       "Identity theft is not a joke, Jim! Millions of families suffer every year!",
@@ -54,7 +54,7 @@
     "firstName": "Jim",
     "lastName": "Halpert",
     "usernames": ["big_tuna", "jello_stapler", "jim_from_sales"],
-    "profession": "sales representative",
+    "profession": "Sales representative",
     "interests": ["pranking Dwight", "Pam Beesly", "sports", "beer"],
     "quotes": [
       "I am about to do something very bold in this job that I've never done before: try.",
@@ -73,7 +73,7 @@
     "firstName": "Pam",
     "lastName": "Beesly",
     "usernames": ["reception_pam", "pamcasso", "pam_the_receptionist"],
-    "profession": "receptionist",
+    "profession": "Receptionist",
     "interests": ["painting", "art", "Jim Halpert", "design"],
     "quotes": [
       "You know what they say about a car wreck, where it's so awful you can't look away? The Dundies are like a car wreck that you want to look away from but you have to stare at it because your boss is making you.",
@@ -92,7 +92,7 @@
     "firstName": "Ryan",
     "lastName": "Howard",
     "usernames": ["wunderkind_ryan", "ryan_started_fire", "temp_to_vp"],
-    "profession": "temp / VP of sales",
+    "profession": "Temp / VP of sales",
     "interests": ["entrepreneurship", "his startup", "Kelly Kapoor", "being important"],
     "quotes": [
       "If I had to, I could clean out my desk in five seconds, and nobody would ever know that I'd ever been here. And I'd forget, too.",
@@ -111,7 +111,7 @@
     "firstName": "Andy",
     "lastName": "Bernard",
     "usernames": ["nard_dog", "cornell_andy", "here_comes_treble"],
-    "profession": "sales representative",
+    "profession": "Sales representative",
     "interests": ["a cappella", "Cornell University", "banjo", "anger management"],
     "quotes": [
       "I am the Nard Dog, and I am on the prowl.",
@@ -130,7 +130,7 @@
     "firstName": "Angela",
     "lastName": "Martin",
     "usernames": ["cat_lady_angela", "head_of_accounting", "angela_the_strict"],
-    "profession": "head of accounting",
+    "profession": "Head of accounting",
     "interests": ["cats", "church", "judging coworkers", "Dwight Schrute"],
     "quotes": [
       "I actually look forward to performance reviews. I did the youth beauty pageant circuit, and I enjoyed that quite a bit. I really enjoy being judged.",
@@ -149,7 +149,7 @@
     "firstName": "Kelly",
     "lastName": "Kapoor",
     "usernames": ["kelly_talks_alot", "ryan_and_kelly", "customer_service_queen"],
-    "profession": "customer service representative",
+    "profession": "Customer service representative",
     "interests": ["Ryan Howard", "celebrity gossip", "fashion", "talking"],
     "quotes": [
       "I swallowed a tapeworm last night. It's going to grow up to three feet inside of me and it eats all my food so that I don't get fat.",
@@ -168,7 +168,7 @@
     "firstName": "Kevin",
     "lastName": "Malone",
     "usernames": ["kevin_the_turtle", "big_kev_m", "chili_kevin"],
-    "profession": "accountant",
+    "profession": "Accountant",
     "interests": ["chili", "poker", "his band Scrantonicity", "food"],
     "quotes": [
       "Why waste time say lot word when few word do trick.",
@@ -187,7 +187,7 @@
     "firstName": "Oscar",
     "lastName": "Martinez",
     "usernames": ["actually_oscar", "oscar_the_accountant", "sensible_oscar"],
-    "profession": "accountant",
+    "profession": "Accountant",
     "interests": ["politics", "art", "correcting people", "wine"],
     "quotes": [
       "That isn't ethics. Ethics is a real discussion of the competing conceptions of the good. This is just the corporate anti-shoplifting rules.",
@@ -206,7 +206,7 @@
     "firstName": "Darryl",
     "lastName": "Philbin",
     "usernames": ["warehouse_darryl", "darryl_philbin", "darryl_from_the_warehouse"],
-    "profession": "warehouse foreman",
+    "profession": "Warehouse foreman",
     "interests": ["music", "his daughter Jada", "basketball", "getting out of Scranton"],
     "quotes": [
       "I taught Mike some phrases to help with his business. Fluffy fingers, that's when a fellow is being extra sweet to someone. Pippity poppity, give me the zoppity. That means, please, sir, I'd like the report.",
@@ -225,7 +225,7 @@
     "firstName": "Stanley",
     "lastName": "Hudson",
     "usernames": ["stanley_pretzel", "florida_stan", "did_i_stutter"],
-    "profession": "sales representative",
+    "profession": "Sales representative",
     "interests": ["pretzel day", "Florida", "crossword puzzles", "retirement"],
     "quotes": [
       "Did I stutter?",
@@ -244,7 +244,7 @@
     "firstName": "Creed",
     "lastName": "Bratton",
     "usernames": ["nobody_steals_from_creed", "creed_thoughts", "quality_assurance"],
-    "profession": "quality assurance director",
+    "profession": "Quality assurance director",
     "interests": ["his past", "schemes", "counterfeiting", "mung beans"],
     "quotes": [
       "Nobody steals from Creed Bratton and gets away with it. The last person to do this disappeared. His name: Creed Bratton.",
@@ -282,7 +282,7 @@
     "firstName": "Phyllis",
     "lastName": "Vance",
     "usernames": ["phyllis_from_sales", "vance_refrigeration", "bob_vances_wife"],
-    "profession": "sales representative",
+    "profession": "Sales representative",
     "interests": ["knitting", "Bob Vance", "gossip", "Vance Refrigeration"],
     "quotes": [
       "I'm a pretty private person. I don't like to talk about my personal life.",

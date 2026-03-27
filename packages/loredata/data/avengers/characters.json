@@ -4,7 +4,7 @@
     "firstName": "Tony",
     "lastName": "Stark",
     "usernames": ["iron_man", "genius_billionaire", "arc_reactor"],
-    "profession": "inventor",
+    "profession": "Inventor",
     "interests": ["engineering", "robotics", "racing", "family"],
     "quotes": [
       "I am Iron Man.",
@@ -30,7 +30,7 @@
     "firstName": "Steve",
     "lastName": "Rogers",
     "usernames": ["i_can_do_this_all_day", "first_avenger", "man_out_of_time"],
-    "profession": "soldier",
+    "profession": "Soldier",
     "interests": ["art", "history", "fitness", "leadership"],
     "quotes": [
       "I can do this all day.",
@@ -51,7 +51,7 @@
     "firstName": "Thor",
     "lastName": "Odinson",
     "usernames": ["god_of_thunder", "son_of_odin", "point_break"],
-    "profession": "king of Asgard",
+    "profession": "King of Asgard",
     "interests": ["combat", "lightning", "beer", "adventure"],
     "quotes": [
       "Bring me Thanos!",
@@ -70,7 +70,7 @@
     "firstName": "Bruce",
     "lastName": "Banner",
     "usernames": ["always_angry", "other_guy", "big_green_guy"],
-    "profession": "physicist",
+    "profession": "Physicist",
     "interests": ["physics", "meditation", "gamma radiation", "biology"],
     "quotes": [
       "That's my secret, Captain. I'm always angry.",
@@ -87,7 +87,7 @@
     "firstName": "Natasha",
     "lastName": "Romanoff",
     "usernames": ["budapest", "red_ledger", "natalia_romanova"],
-    "profession": "spy",
+    "profession": "Spy",
     "interests": ["espionage", "martial arts", "languages", "strategy"],
     "quotes": [
       "I've got red in my ledger. I'd like to wipe it out.",
@@ -104,7 +104,7 @@
     "firstName": "Clint",
     "lastName": "Barton",
     "usernames": ["bow_and_arrow", "ronin_blade", "end_of_the_line"],
-    "profession": "archer",
+    "profession": "Archer",
     "interests": ["archery", "farming", "family", "woodworking"],
     "quotes": [
       "The city is flying, we're fighting an army of robots, and I have a bow and arrow. None of this makes sense.",
@@ -123,7 +123,7 @@
     "firstName": "Loki",
     "lastName": "Laufeyson",
     "usernames": ["god_of_mischief", "burdened_with_purpose", "puny_god"],
-    "profession": "trickster",
+    "profession": "Trickster",
     "interests": ["magic", "theater", "deception", "conquest"],
     "quotes": [
       "I am Loki, of Asgard, and I am burdened with glorious purpose.",
@@ -142,7 +142,7 @@
     "firstName": "Nick",
     "lastName": "Fury",
     "usernames": ["trust_no_one", "helicarrier", "avengers_initiative"],
-    "profession": "spy director",
+    "profession": "Spy director",
     "interests": ["intelligence", "strategy", "surveillance", "cats"],
     "quotes": [
       "I still believe in heroes.",
@@ -160,7 +160,7 @@
     "firstName": "Thanos",
     "lastName": "",
     "usernames": ["mad_titan", "inevitable_one", "balanced_universe"],
-    "profession": "warlord",
+    "profession": "Warlord",
     "interests": ["philosophy", "conquest", "balance", "farming"],
     "quotes": [
       "I am inevitable.",

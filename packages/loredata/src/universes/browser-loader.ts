@@ -1,4 +1,4 @@
-import type { UniverseData, UniverseMeta, CharacterData, AddressData } from '@/types';
+import type { UniverseData, UniverseMeta, CharacterData, AddressData, LocationEntry } from '@/types';
 
 interface MetaJson {
 	id: string;
@@ -113,19 +113,25 @@ export async function getAllInterests(): Promise<string[]> {
 	return result;
 }
 
-export async function getAllLocations(): Promise<string[]> {
+export async function getAllLocations(): Promise<LocationEntry[]> {
 	const universes = await loadAllUniverses();
-	const citySet = new Set<string>();
+	const seen = new Map<string, LocationEntry>();
 
 	for (const universe of universes) {
 		for (const address of universe.addresses) {
-			if (address.city) {
-				citySet.add(address.city);
+			if (address.city && !seen.has(`city:${address.city}`)) {
+				seen.set(`city:${address.city}`, { name: address.city, type: 'city' });
+			}
+
+			if (address.state && !seen.has(`state:${address.state}`)) {
+				seen.set(`state:${address.state}`, { name: address.state, type: 'state' });
+			}
+
+			if (address.country && !seen.has(`country:${address.country}`)) {
+				seen.set(`country:${address.country}`, { name: address.country, type: 'country' });
 			}
 		}
 	}
 
-	const result = Array.from(citySet).sort();
-
-	return result;
+	return Array.from(seen.values()).sort((a, b) => a.name.localeCompare(b.name));
 }

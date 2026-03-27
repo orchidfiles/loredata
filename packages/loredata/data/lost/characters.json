@@ -10,7 +10,7 @@
       "oceanic815_doc",
       "spinal_surgeon"
     ],
-    "profession": "spinal surgeon",
+    "profession": "Spinal surgeon",
     "interests": ["medicine", "leadership", "rock climbing", "reading", "fixing things"],
     "quotes": [
       "We can't do this. Everyman for himself is not going to work. It's time to start organizing. If we can't live together, we're going to die alone.",
@@ -36,7 +36,7 @@
       "oceanic815_kate",
       "not_running_now"
     ],
-    "profession": "fugitive, former farmer",
+    "profession": "Fugitive, former farmer",
     "interests": ["survival", "firearms", "climbing", "running", "fixing engines"],
     "quotes": [
       "Live together, die alone.",
@@ -61,7 +61,7 @@
       "box_company_hunter",
       "the_island_chose_me"
     ],
-    "profession": "box company employee, survivalist",
+    "profession": "Box company employee, survivalist",
     "interests": ["hunting", "backgammon", "nature", "philosophy", "destiny"],
     "quotes": [
       "Don't tell me what I can't do.",
@@ -87,7 +87,7 @@
       "dharma_chef",
       "156_million_problems"
     ],
-    "profession": "fast food restaurant owner, lottery winner",
+    "profession": "Fast food restaurant owner, lottery winner",
     "interests": ["golf", "comic books", "Star Wars", "chicken", "people"],
     "quotes": [
       "Dude, look, I'd never lie.",
@@ -113,7 +113,7 @@
       "redneck_man",
       "dharma_cowboy"
     ],
-    "profession": "con man, DHARMA Initiative security chief",
+    "profession": "Con man, DHARMA Initiative security chief",
     "interests": ["reading", "poker", "nicknames", "cons", "whiskey"],
     "quotes": [
       "I'm a complex guy, sweetheart.",
@@ -139,7 +139,7 @@
       "iraqi_soldier",
       "communications_officer"
     ],
-    "profession": "former Iraqi Republican Guard communications officer",
+    "profession": "Former Iraqi Republican Guard communications officer",
     "interests": ["electronics", "cooking", "engineering", "chess", "Nadia"],
     "quotes": [
       "My name is Sayid Jarrah, and I am a torturer.",
@@ -165,7 +165,7 @@
       "gods_pianist",
       "heroin_hobbit"
     ],
-    "profession": "rock musician, bass player of Drive Shaft",
+    "profession": "Rock musician, bass player of Drive Shaft",
     "interests": ["music", "guitar", "Drive Shaft", "Claire", "Aaron"],
     "quotes": [
       "I'm a bloody rock god!",
@@ -191,7 +191,7 @@
       "brother_desmond",
       "failsafe_key_man"
     ],
-    "profession": "former Royal Scots soldier, button pusher",
+    "profession": "Former Royal Scots soldier, button pusher",
     "interests": ["sailing", "Penny", "running", "philosophy", "Dickens"],
     "quotes": [
       "Good luck, brother. See you in another life, yeah?",
@@ -217,7 +217,7 @@
       "oceanic6_sun",
       "controlling_interest_sun"
     ],
-    "profession": "businesswoman, daughter of a Korean industrialist",
+    "profession": "Businesswoman, daughter of a Korean industrialist",
     "interests": ["gardening", "languages", "painting", "Ji Yeon", "Jin"],
     "quotes": [
       "My husband is many things. But he is not a liar.",
@@ -243,7 +243,7 @@
       "korean_survivor",
       "sun_husband"
     ],
-    "profession": "hotel doorman, Paik Industries enforcer",
+    "profession": "Hotel doorman, Paik Industries enforcer",
     "interests": ["fishing", "family", "cooking", "Sun", "honor"],
     "quotes": [
       "I do this for you, Sun! I do this because your father expects it. I do this because that's what it takes to be married to you!",
@@ -268,7 +268,7 @@
       "otherville_ben",
       "jacob_was_wrong_ben"
     ],
-    "profession": "leader of the Others, former DHARMA Initiative member",
+    "profession": "Leader of the Others, former DHARMA Initiative member",
     "interests": ["reading", "power", "manipulation", "the Island", "Dostoevsky"],
     "quotes": [
       "I always have a plan.",
@@ -294,7 +294,7 @@
       "advisor_to_the_island",
       "ab_aeterno_richard"
     ],
-    "profession": "adviser to the Others, immortal",
+    "profession": "Adviser to the Others, immortal",
     "interests": ["the Island", "Jacob", "history", "faith", "serving"],
     "quotes": [
       "It points north, John.",

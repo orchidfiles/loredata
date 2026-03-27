@@ -14,8 +14,6 @@ let { data }: { data: PageData } = $props();
 const universe = $derived(data.universe);
 const store = $derived(new UniverseStore([universe]));
 
-const allLocations = $derived([...new Set(universe.addresses.filter((a) => a.city).map((a) => a.city!))].sort());
-
 const universeMeta = $derived([universe.year].filter(Boolean).join(''));
 
 const MAX_COUNT = 16;
@@ -114,17 +112,6 @@ function rerollOne(index: number): void {
 	{:else}
 		<div class="card preset-tonal-surface p-12 text-center border border-surface-700/20">
 			<p class="text-surface-400 text-sm">No characters match the selected filters.</p>
-		</div>
-	{/if}
-
-	{#if allLocations.length > 0}
-		<div class="space-y-2">
-			<p class="text-surface-400 text-xs uppercase tracking-wide">Locations in this universe</p>
-			<div class="flex flex-wrap gap-2">
-				{#each allLocations as city (city)}
-					<span class="badge preset-tonal-surface text-xs">{city}</span>
-				{/each}
-			</div>
 		</div>
 	{/if}
 </div>

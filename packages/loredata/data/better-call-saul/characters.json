@@ -4,7 +4,7 @@
     "firstName": "Jimmy",
     "lastName": "McGill",
     "usernames": ["slippin_jimmy", "saul_goodman_esq", "better_call_saul", "viktor_with_a_k"],
-    "profession": "lawyer",
+    "profession": "Lawyer",
     "interests": ["law", "scams", "advertising", "elder law", "money"],
     "quotes": [
       "I'm the last line of defense for the little guy.",
@@ -25,7 +25,7 @@
     "firstName": "Mike",
     "lastName": "Ehrmantraut",
     "usernames": ["the_fixer", "no_half_measures", "philly_on_the_job", "pimento_guy"],
-    "profession": "fixer",
+    "profession": "Fixer",
     "interests": ["security", "family", "chess", "surveillance"],
     "quotes": [
       "I've known good criminals and bad cops. Bad priests. Honorable thieves. You can be on one side of the law or the other. But if you make a deal with somebody, you keep your word.",
@@ -44,7 +44,7 @@
     "firstName": "Kim",
     "lastName": "Wexler",
     "usernames": ["giselle_saint_claire", "mesa_verde_kim", "wexler_law"],
-    "profession": "lawyer",
+    "profession": "Lawyer",
     "interests": ["law", "pro bono work", "banking law", "Mesa Verde"],
     "quotes": [
       "You don't save me. I save me.",
@@ -63,7 +63,7 @@
     "firstName": "Gustavo",
     "lastName": "Fring",
     "usernames": ["los_pollos_boss", "chicken_man_abq", "plain_sight_gus"],
-    "profession": "fast food entrepreneur",
+    "profession": "Fast food entrepreneur",
     "interests": ["business", "philanthropy", "revenge", "chemistry"],
     "quotes": [
       "A bullet to the head would have been far too humane.",
@@ -82,7 +82,7 @@
     "firstName": "Ignacio",
     "lastName": "Varga",
     "usernames": ["nacho_varga", "sugar_pill_switch", "not_on_the_cartel_books"],
-    "profession": "cartel enforcer",
+    "profession": "Cartel enforcer",
     "interests": ["family", "cars", "upholstery", "getting out"],
     "quotes": [
       "I put you in that chair. Your heart meds? I switched them for sugar pills.",
@@ -101,7 +101,7 @@
     "firstName": "Eduardo",
     "lastName": "Salamanca",
     "usernames": ["lalo_salamanca", "jorge_de_guzman", "cousin_lalo"],
-    "profession": "cartel boss",
+    "profession": "Cartel boss",
     "interests": ["cars", "cooking", "family honor", "revenge"],
     "quotes": [
       "You're the guy with a mouth.",
@@ -120,7 +120,7 @@
     "firstName": "Howard",
     "lastName": "Hamlin",
     "usernames": ["hamlin_hhm", "hamlindigo_blue", "howard_at_hhm"],
-    "profession": "lawyer",
+    "profession": "Lawyer",
     "interests": ["law", "tennis", "golf", "firm reputation"],
     "quotes": [
       "You've mistaken my kindness for weakness.",
@@ -139,7 +139,7 @@
     "firstName": "Charles",
     "lastName": "McGill",
     "usernames": ["chuck_mcgill_esq", "the_founding_mcgill", "electromagnetic_chuck"],
-    "profession": "lawyer",
+    "profession": "Lawyer",
     "interests": ["law", "classical music", "reading", "the rule of law"],
     "quotes": [
       "Slippin' Jimmy with a law degree is like a chimp with a machine gun!",

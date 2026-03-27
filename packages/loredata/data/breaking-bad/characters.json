@@ -4,7 +4,7 @@
     "firstName": "Walter",
     "lastName": "White",
     "usernames": ["heisenberg", "blue_sky_cook", "danger_knocks"],
-    "profession": "chemistry teacher",
+    "profession": "Chemistry teacher",
     "interests": ["chemistry", "cooking", "family"],
     "quotes": [
       "I am the one who knocks.",
@@ -30,7 +30,7 @@
     "firstName": "Jesse",
     "lastName": "Pinkman",
     "usernames": ["capncook", "yo_bitch_84", "junkyard_artist"],
-    "profession": "drug dealer",
+    "profession": "Drug dealer",
     "interests": ["art", "cars", "chemistry", "video games"],
     "quotes": [
       "Yeah, science!",
@@ -50,7 +50,7 @@
     "firstName": "Saul",
     "lastName": "Goodman",
     "usernames": ["bettercallsaul", "slippin_jimmy", "lawman505"],
-    "profession": "criminal lawyer",
+    "profession": "Criminal lawyer",
     "interests": ["law", "money", "loopholes", "self-promotion"],
     "quotes": [
       "Better call Saul!",
@@ -75,7 +75,7 @@
     "firstName": "Skyler",
     "lastName": "White",
     "usernames": ["carwash_queen", "sky.steele", "not_afraid_now"],
-    "profession": "accountant",
+    "profession": "Accountant",
     "interests": ["bookkeeping", "family", "swimming"],
     "quotes": [
       "Walt, I'm out.",
@@ -113,7 +113,7 @@
     "firstName": "Gustavo",
     "lastName": "Fring",
     "usernames": ["los_pollos", "plain_sight", "chicken_man_abq"],
-    "profession": "fast food entrepreneur",
+    "profession": "Fast food entrepreneur",
     "interests": ["business", "cooking", "philanthropy"],
     "quotes": [
       "I hide in plain sight.",
@@ -139,7 +139,7 @@
     "firstName": "Mike",
     "lastName": "Ehrmantraut",
     "usernames": ["the_cleaner", "no_half_measures", "fixer_philly"],
-    "profession": "private investigator",
+    "profession": "Private investigator",
     "interests": ["security", "chess", "family"],
     "quotes": [
       "No more half measures.",

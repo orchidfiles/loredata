@@ -10,7 +10,7 @@
       "mr_anderson_no_more",
       "beyond_the_matrix"
     ],
-    "profession": "software engineer",
+    "profession": "Software engineer",
     "interests": ["hacking", "martial arts", "truth", "philosophy", "freedom"],
     "quotes": [
       "I know you're out there. I can feel you now. I know that you're afraid. You're afraid of us. You're afraid of change.",
@@ -37,7 +37,7 @@
       "free_your_mind",
       "red_pill_dealer"
     ],
-    "profession": "ship captain",
+    "profession": "Ship captain",
     "interests": ["prophecy", "resistance", "philosophy", "leadership", "Zion"],
     "quotes": [
       "Unfortunately, no one can be told what the Matrix is. You have to see it for yourself.",
@@ -64,7 +64,7 @@
       "ranking_officer",
       "zion_fighter"
     ],
-    "profession": "hacker",
+    "profession": "Hacker",
     "interests": ["hacking", "combat", "freedom", "loyalty", "flying"],
     "quotes": [
       "Dodge this.",
@@ -91,7 +91,7 @@
       "purpose_defines",
       "inevitable"
     ],
-    "profession": "machine agent",
+    "profession": "Machine agent",
     "interests": ["order", "control", "elimination", "purpose", "freedom from purpose"],
     "quotes": [
       "As you can see, we've had our eye on you for some time now, Mr. Anderson. It seems that you've been living two lives.",
@@ -145,7 +145,7 @@
       "reinserted",
       "judas_of_zion"
     ],
-    "profession": "hacker",
+    "profession": "Hacker",
     "interests": ["comfort", "steak", "wine", "forgetting", "the Matrix"],
     "quotes": [
       "Buckle your seat belt, Dorothy, 'cause Kansas is going bye-bye.",
@@ -172,7 +172,7 @@
       "no_holes",
       "last_human_city"
     ],
-    "profession": "operator",
+    "profession": "Operator",
     "interests": ["Zion", "hovercraft systems", "human freedom", "family", "combat programs"],
     "quotes": [
       "Me and my brother Dozer, we're both one hundred percent pure, old fashioned, home-grown human, born free right here in the real world.",
@@ -199,7 +199,7 @@
       "fastest_on_the_ship",
       "not_real_chicken"
     ],
-    "profession": "hacker",
+    "profession": "Hacker",
     "interests": ["simulation design", "women", "combat", "chicken programs", "virtual reality"],
     "quotes": [
       "Morpheus is fighting Neo.",
@@ -224,7 +224,7 @@
       "mathematical_precision",
       "father_of_matrix"
     ],
-    "profession": "architect program",
+    "profession": "Architect program",
     "interests": ["order", "mathematics", "system stability", "equations", "control"],
     "quotes": [
       "I am the Architect. I created the Matrix.",
@@ -251,7 +251,7 @@
       "golden_path",
       "protector_program"
     ],
-    "profession": "guardian program",
+    "profession": "Guardian program",
     "interests": ["protection", "martial arts", "loyalty", "the Oracle", "purpose"],
     "quotes": [
       "You do not truly know someone until you fight them.",
@@ -276,7 +276,7 @@
       "zion_commander",
       "freeway_driver"
     ],
-    "profession": "ship captain",
+    "profession": "Ship captain",
     "interests": ["piloting", "resistance", "Zion", "survival", "combat"],
     "quotes": [
       "I can't help it, Morpheus, I can't help thinking – what if you're wrong.",

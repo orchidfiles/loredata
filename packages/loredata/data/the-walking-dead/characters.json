@@ -4,7 +4,7 @@
     "firstName": "Rick",
     "lastName": "Grimes",
     "usernames": ["officer_friendly", "coral_dad", "not_a_democracy"],
-    "profession": "sheriff",
+    "profession": "Sheriff",
     "interests": ["farming", "family", "justice", "law enforcement"],
     "quotes": [
       "We are the walking dead.",
@@ -23,7 +23,7 @@
     "firstName": "Daryl",
     "lastName": "Dixon",
     "usernames": ["crossbow_rider", "angel_wings", "cherokee_rose"],
-    "profession": "hunter",
+    "profession": "Hunter",
     "interests": ["hunting", "motorcycles", "survival", "tracking"],
     "quotes": [
       "We ain't them. We're not them.",
@@ -41,7 +41,7 @@
     "id": "negan",
     "firstName": "Negan",
     "usernames": ["pee_pants_city", "lucille_swings", "eeny_meeny"],
-    "profession": "warlord",
+    "profession": "Warlord",
     "interests": ["power", "whistling", "Lucille", "rules", "survival"],
     "quotes": [
       "You are so gonna regret crossing me in a few minutes.",
@@ -59,7 +59,7 @@
     "id": "michonne",
     "firstName": "Michonne",
     "usernames": ["pet_walkers", "just_another_monster", "andre_mom"],
-    "profession": "warrior",
+    "profession": "Warrior",
     "interests": ["survival", "art", "justice", "community"],
     "quotes": [
       "They deserve what they got. They weren't human to begin with.",
@@ -78,7 +78,7 @@
     "firstName": "Carol",
     "lastName": "Peletier",
     "usernames": ["cookie_lady", "look_at_flowers", "oh_sunshine"],
-    "profession": "survivor",
+    "profession": "Survivor",
     "interests": ["baking", "strategy", "marksmanship", "protecting the group"],
     "quotes": [
       "You can never tell anyone, especially your mom.",
@@ -97,7 +97,7 @@
     "firstName": "Glenn",
     "lastName": "Rhee",
     "usernames": ["dumpster_survivor", "pizza_delivery", "cozy_in_there"],
-    "profession": "delivery driver",
+    "profession": "Delivery driver",
     "interests": ["scavenging", "supply runs", "cars", "community"],
     "quotes": [
       "Hey, you. Dumbass. Hey, you in the tank. Cozy in there?",

@@ -4,7 +4,7 @@
     "firstName": "Peter",
     "lastName": "Quill",
     "usernames": ["starlord_man", "legendary_outlaw", "awesome_mix"],
-    "profession": "ravager",
+    "profession": "Ravager",
     "interests": ["music", "dancing", "space travel", "treasure hunting"],
     "quotes": [
       "There's one other name you might know me by. Star-Lord.",
@@ -22,7 +22,7 @@
     "id": "gamora",
     "firstName": "Gamora",
     "usernames": ["deadliest_woman", "zen_whoberi", "daughter_of_thanos"],
-    "profession": "assassin",
+    "profession": "Assassin",
     "interests": ["combat", "swordsmanship", "strategy", "redemption"],
     "quotes": [
       "I'm going to die surrounded by the biggest idiots in the galaxy.",
@@ -41,7 +41,7 @@
     "firstName": "Drax",
     "lastName": "the Destroyer",
     "usernames": ["nothing_goes_over_my_head", "the_destroyer", "invisible_drax"],
-    "profession": "warrior",
+    "profession": "Warrior",
     "interests": ["combat", "revenge", "knives", "family"],
     "quotes": [
       "Nothing goes over my head. My reflexes are too fast. I would catch it.",
@@ -59,7 +59,7 @@
     "id": "rocket",
     "firstName": "Rocket",
     "usernames": ["aint_no_thing", "trash_panda", "weapons_expert"],
-    "profession": "bounty hunter",
+    "profession": "Bounty hunter",
     "interests": ["weapons", "explosives", "engineering", "prosthetics"],
     "quotes": [
       "Ain't no thing like me, except me.",
@@ -77,7 +77,7 @@
     "id": "groot",
     "firstName": "Groot",
     "usernames": ["i_am_groot", "we_are_groot", "twig"],
-    "profession": "guardian",
+    "profession": "Guardian",
     "interests": ["nature", "friendship", "dancing", "growth"],
     "quotes": ["I am Groot.", "I am Groot!", "I am Groot?", "We are Groot.", "I am Groot..."],
     "gender": "male",
@@ -89,7 +89,7 @@
     "id": "nebula",
     "firstName": "Nebula",
     "usernames": ["not_a_puppy", "upgrade_required", "second_daughter"],
-    "profession": "mercenary",
+    "profession": "Mercenary",
     "interests": ["combat", "cybernetics", "vengeance", "freedom"],
     "quotes": [
       "You should have killed me.",
@@ -107,7 +107,7 @@
     "firstName": "Yondu",
     "lastName": "Udonta",
     "usernames": ["mary_poppins", "whistlin_arrow", "ravager_captain"],
-    "profession": "ravager captain",
+    "profession": "Ravager captain",
     "interests": ["thievery", "collecting", "whistling", "leadership"],
     "quotes": [
       "I'm Mary Poppins, y'all!",

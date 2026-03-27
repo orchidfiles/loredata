@@ -4,7 +4,7 @@
     "firstName": "Peter",
     "lastName": "Parker",
     "usernames": ["friendly_neighborhood", "webhead", "parker_luck"],
-    "profession": "student",
+    "profession": "Student",
     "interests": ["science", "decathlon", "photography", "engineering"],
     "quotes": [
       "I just wanted to be like you.",
@@ -24,7 +24,7 @@
     "firstName": "MJ",
     "lastName": "Jones-Watson",
     "usernames": ["just_observant", "if_you_expect_disappointment", "building_sketcher"],
-    "profession": "student",
+    "profession": "Student",
     "interests": ["reading", "sketching", "activism", "true crime"],
     "quotes": [
       "I'm not obsessed with him. I'm just very observant.",
@@ -41,8 +41,8 @@
     "firstName": "Ned",
     "lastName": "Leeds",
     "usernames": ["guy_in_the_chair", "lego_master_ned", "hat_man"],
-    "profession": "student",
-    "interests": ["computers", "lego", "star wars", "hacking"],
+    "profession": "Student",
+    "interests": ["computers", "Lego", "Star Wars", "hacking"],
     "quotes": [
       "I'm the guy in the chair!",
       "We should probably stop staring before it gets creepy, though.",
@@ -60,8 +60,8 @@
     "firstName": "Happy",
     "lastName": "Hogan",
     "usernames": ["forehead_of_security", "downton_fan", "not_a_chauffeur"],
-    "profession": "head of security",
-    "interests": ["security", "boxing", "management", "downton abbey"],
+    "profession": "Head of security",
+    "interests": ["security", "boxing", "management", "Downton Abbey"],
     "quotes": [
       "Forehead of Security.",
       "You're all alone. Your friends are in trouble. What are you gonna do about it?",
@@ -79,7 +79,7 @@
     "firstName": "Adrian",
     "lastName": "Toomes",
     "usernames": ["vulture_salvage", "one_chance_walk_away", "salvage_king"],
-    "profession": "salvage contractor",
+    "profession": "Salvage contractor",
     "interests": ["engineering", "family", "alien technology", "business"],
     "quotes": [
       "The rich and the powerful, they don't care about us.",
@@ -98,7 +98,7 @@
     "firstName": "Quentin",
     "lastName": "Beck",
     "usernames": ["mysterio_fx", "fishbowl_king", "believe_anything"],
-    "profession": "special effects designer",
+    "profession": "Special effects designer",
     "interests": ["illusions", "holography", "acting", "revenge"],
     "quotes": [
       "People need to believe. And nowadays, they'll believe anything.",
@@ -117,7 +117,7 @@
     "firstName": "Stephen",
     "lastName": "Strange",
     "usernames": ["sorcerer_supreme", "wong_was_right", "no_way_home"],
-    "profession": "sorcerer",
+    "profession": "Sorcerer",
     "interests": ["magic", "medicine", "multiversal theory", "neurosurgery"],
     "quotes": [
       "The problem is you trying to live two different lives.",

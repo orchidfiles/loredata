@@ -4,7 +4,7 @@
     "firstName": "Michael",
     "lastName": "Scofield",
     "usernames": ["tattoo_blueprint", "fox_river_plan", "origami_crane"],
-    "profession": "structural engineer",
+    "profession": "Structural engineer",
     "interests": ["architecture", "origami", "chess", "tattoo art", "family"],
     "quotes": [
       "Preparation will only take you so far. After that you got to take a few leaps of faith.",
@@ -23,7 +23,7 @@
     "firstName": "Lincoln",
     "lastName": "Burrows",
     "usernames": ["the_brute", "not_guilty", "big_linc"],
-    "profession": "mechanic",
+    "profession": "Mechanic",
     "interests": ["family", "motorcycles", "freedom"],
     "quotes": [
       "I've never given a damn about what people thought of me. Never.",
@@ -42,7 +42,7 @@
     "firstName": "Sara",
     "lastName": "Tancredi",
     "usernames": ["pill_key", "never_fall_for_inmate", "governor_daughter"],
-    "profession": "doctor",
+    "profession": "Doctor",
     "interests": ["addiction recovery", "justice", "family"],
     "quotes": [
       "Letting the State know that you're healthy enough to execute is not why I went to medical school.",
@@ -61,7 +61,7 @@
     "firstName": "Theodore",
     "lastName": "Bagwell",
     "usernames": ["pretty_fish", "devil_himself", "bagwell_reads"],
-    "profession": "criminal",
+    "profession": "Criminal",
     "interests": ["Bible study", "survival", "literature", "con artistry"],
     "quotes": [
       "Either I'm through that hole with you, or I'm gonna sing like Johnny Cash!",
@@ -80,7 +80,7 @@
     "firstName": "Fernando",
     "lastName": "Sucre",
     "usernames": ["maricruz_forever", "papi_sucre", "prisneyland_fish"],
-    "profession": "construction worker",
+    "profession": "Construction worker",
     "interests": ["family", "construction", "salsa dancing"],
     "quotes": [
       "Welcome to Prisneyland, Fish.",
