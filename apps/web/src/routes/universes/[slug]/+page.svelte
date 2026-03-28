@@ -106,7 +106,8 @@ function rerollOne(index: number): void {
 			{#each personas as persona, i (i)}
 				<PersonaCard
 					persona={persona}
-					onreroll={() => rerollOne(i)} />
+					onreroll={() => rerollOne(i)}
+					showUniverse={false} />
 			{/each}
 		</div>
 	{:else}

@@ -10,9 +10,10 @@ interface Props {
 	persona: Person;
 	onreroll?: () => void;
 	onshowjson?: () => void;
+	showUniverse?: boolean;
 }
 
-let { persona, onreroll, onshowjson }: Props = $props();
+let { persona, onreroll, onshowjson, showUniverse = true }: Props = $props();
 
 interface AddressPart {
 	text: string;
@@ -42,9 +43,9 @@ function closeJson(): void {
 </script>
 
 <div class="group card preset-tonal-surface border border-surface-700/30 p-6 flex flex-col gap-6 h-full">
-	<div class="flex items-start justify-between gap-4">
-		<div class="flex flex-col gap-2 min-w-0">
-			<div class="flex items-center gap-3">
+	<div class="flex flex-col gap-2">
+		<div class="flex items-start justify-between gap-4">
+			<div class="flex items-center gap-3 min-w-0">
 				{#if persona.symbol}
 					<div
 						class="shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-4xl leading-none"
@@ -58,28 +59,32 @@ function closeJson(): void {
 					href="/universes/{persona.universe}/{persona.characterId}"
 					class="h3 text-surface-950-50 hover:text-primary-400 transition-colors min-w-0 leading-tight">
 					<span class="block">{persona.firstName}</span>
-					{#if persona.lastName}<span class="block whitespace-nowrap">{persona.lastName}</span>{/if}
+					{#if persona.lastName}<span class="block">{persona.lastName}</span>{/if}
 				</a>
 			</div>
-			{#if persona.quote}
-				<p class="text-surface-400 text-sm italic">{persona.quote}</p>
-			{/if}
-		</div>
-		<div class="shrink-0 flex flex-col items-end gap-1.5">
-			<span class="badge preset-tonal-primary">{persona.universeName}</span>
-			{#if !onshowjson}
-				<div class="flex flex-col gap-1 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-150">
-					{#if onreroll}
+			<div class="shrink-0 flex flex-col items-end gap-1.5">
+				{#if showUniverse}
+					<a
+						href="/universes/{persona.universe}"
+						class="badge preset-tonal-primary hover:preset-filled-primary-500 transition-colors">{persona.universeName}</a>
+				{/if}
+				{#if !onshowjson}
+					<div class="flex flex-col gap-1 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-150">
+						{#if onreroll}
+							<button
+								class="btn btn-sm preset-filled-primary-500"
+								onclick={onreroll}>Regenerate</button>
+						{/if}
 						<button
 							class="btn btn-sm preset-filled-primary-500"
-							onclick={onreroll}>Regenerate</button>
-					{/if}
-					<button
-						class="btn btn-sm preset-filled-primary-500"
-						onclick={openJson}>Show JSON</button>
-				</div>
-			{/if}
+							onclick={openJson}>Show JSON</button>
+					</div>
+				{/if}
+			</div>
 		</div>
+		{#if persona.quote}
+			<p class="text-surface-400 text-sm italic">{persona.quote}</p>
+		{/if}
 	</div>
 
 	<div class="flex flex-col gap-3 text-sm flex-1">
