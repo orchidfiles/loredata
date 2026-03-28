@@ -2,6 +2,19 @@
 @import "@skeletonlabs/skeleton";
 @import "@skeletonlabs/skeleton/themes/cerberus";
 
+/* vaul-svelte drawer */
+[data-vaul-overlay] {
+	position: fixed;
+	inset: 0;
+	z-index: 50;
+	background: rgb(0 0 0 / 0.6);
+	backdrop-filter: blur(4px);
+}
+
+[data-vaul-drawer] {
+	background: var(--color-surface-800, #252540);
+}
+
 @layer components {
 	.landing-section {
 		@apply card preset-tonal-surface border border-surface-700/20 p-5 space-y-3;

@@ -68,7 +68,7 @@ function closeJson(): void {
 		<div class="shrink-0 flex flex-col items-end gap-1.5">
 			<span class="badge preset-tonal-primary">{persona.universeName}</span>
 			{#if !onshowjson}
-				<div class="flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+				<div class="flex flex-col gap-1 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-150">
 					{#if onreroll}
 						<button
 							class="btn btn-sm preset-filled-primary-500"

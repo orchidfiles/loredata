@@ -2,15 +2,11 @@
   <img src="https://raw.githubusercontent.com/orchidfiles/loredata/main/apps/web/static/logo.png" alt="LoreData" width="80" />
 </p>
 
-<p align="center">
-  <h3>LoreData</h3>
-  Generate fake personas using real characters from pop culture universes.<br/>
-  Every field — name, email, address, profession, quote — comes from the same fictional world.
-</p>
+<h3 align="center">LoreData</h3>
 
 <p align="center">
-  <a href="https://loredata.orchidfiles.com">loredata.orchidfiles.com</a> ·
-  <a href="https://www.npmjs.com/package/loredata">npm</a>
+  Generate fake personas using real characters from pop culture universes.<br/>
+  Every field — name, email, address, profession, quote — comes from the same fictional world.
 </p>
 
 <p align="center">
@@ -23,6 +19,8 @@
 
 <img src="https://raw.githubusercontent.com/orchidfiles/loredata/main/apps/web/static/screen.png" alt="LoreData screenshot" />
 
+**Demo:** [loredata.orchidfiles.com](https://loredata.orchidfiles.com)
+
 ```ts
 import { person, group } from 'loredata';
 
@@ -33,7 +31,7 @@ const p = person({ universe: 'breaking-bad' });
 //   username: 'heisenberg',
 //   email: 'blue_sky_cook@lospollos.com',
 //   quote: "I am the one who knocks.",
-//   profession: 'chemistry teacher',
+//   profession: 'Chemistry teacher',
 //   interests: ['chemistry', 'cooking', 'family'],
 //   address: { street: '308 Negra Arroyo Lane', city: 'Albuquerque', state: 'NM' },
 //   symbol: '☢️',
@@ -55,12 +53,18 @@ Works in Node.js, browser, and as a CLI tool.
 ## Install
 
 ```sh
+# library
+npm install loredata
+
+# CLI
 npm install -g loredata
 ```
 
 ## Universes
 
-Available out of the box: `breaking-bad`, `friends`, `game-of-thrones`, `harry-potter`, `house-md`, `lost`, `fast-and-furious`, `matrix`, `peaky-blinders`, `sherlock`, `the-office`
+25 universes available out of the box:
+
+`breaking-bad`, `sopranos`, `better-call-saul`, `the-office`, `house-md`, `sherlock`, `peaky-blinders`, `game-of-thrones`, `friends`, `south-park`, `star-wars`, `matrix`, `the-walking-dead`, `prison-break`, `westworld`, `supernatural`, `simpsons`, `avengers`, `spider-man`, `lost`, `harry-potter`, `guardians-of-the-galaxy`, `big-bang-theory`, `x-men`, `fast-and-furious`
 
 ```ts
 import { universes } from 'loredata';
@@ -108,6 +112,7 @@ No `fs` or `path` — safe for Vite, webpack, and any browser bundler.
 loredata person --universe breaking-bad
 loredata person --universe breaking-bad --format json
 loredata person --interests chemistry,cooking
+loredata person --interests chemistry,cooking --interests-mode and
 loredata person --name walter
 loredata group --universe friends --size 5
 loredata universes
@@ -115,7 +120,7 @@ loredata universes
 
 ## Features
 
-- [x] 11 universes with characters, addresses, domains
+- [x] 25 universes
 - [x] Single persona and group generation
 - [x] Filter characters by interest, name, universe
 - [x] Deterministic output via seed
@@ -143,10 +148,10 @@ Build the library:
 pnpm --filter loredata build
 ```
 
-Run the demo app:
+Run the web app:
 
 ```sh
-pnpm run demo:dev
+pnpm --filter @loredata/web dev
 ```
 
 ## Why

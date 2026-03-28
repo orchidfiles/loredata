@@ -7,9 +7,10 @@ import type { UniverseMeta } from 'loredata/browser';
 interface Props {
 	universes: UniverseMeta[];
 	characterIndex: CharacterIndexEntry[];
+	onnavigate?: () => void;
 }
 
-let { universes, characterIndex }: Props = $props();
+let { universes, characterIndex, onnavigate }: Props = $props();
 
 const selectedId = $derived(page.params.slug as string | undefined);
 
@@ -96,3 +97,52 @@ const characterResults = $derived.by(() => {
 		</nav>
 	</div>
 </aside>
+
+{#if onnavigate !== undefined}
+	<!-- Mobile sidebar content (rendered inside drawer) -->
+	<div class="flex flex-col h-full">
+		<div class="p-3 border-b border-surface-700/30">
+			<input
+				class="input input-sm w-full placeholder:text-surface-400"
+				type="text"
+				placeholder="Search…"
+				bind:value={searchQuery} />
+		</div>
+
+		<nav class="overflow-y-auto flex-1">
+			{#if isSearching && universeResults.length === 0 && characterResults.length === 0}
+				<p class="px-3 py-4 text-surface-500 text-sm">Nothing found</p>
+			{/if}
+
+			{#if universeResults.length > 0}
+				{#if isSearching}
+					<p class="px-3 pt-3 pb-1 text-surface-900 text-xs uppercase tracking-wide">Universes</p>
+				{/if}
+
+				{#each universeResults as universe (universe.id)}
+					<a
+						href="/universes/{universe.id}"
+						onclick={onnavigate}
+						class="block px-3 py-2 text-sm transition-colors truncate
+							{universe.id === selectedId ? 'preset-filled-primary-500 font-medium' : 'text-surface-400 hover:preset-tonal-primary'}">
+						{universe.name}
+					</a>
+				{/each}
+			{/if}
+
+			{#if characterResults.length > 0}
+				<p class="px-3 pt-3 pb-1 text-surface-900 text-xs uppercase tracking-wide">Characters</p>
+
+				{#each characterResults as entry (entry.characterId)}
+					<a
+						href="/universes/{entry.universeId}/{entry.characterId}"
+						onclick={onnavigate}
+						class="flex items-center gap-2 px-3 py-2 text-sm transition-colors hover:preset-tonal-primary">
+						<span class="truncate flex-1 text-surface-400">{entry.firstName} {entry.lastName}</span>
+						<span class="text-surface-400 text-xs shrink-0">{entry.universeName}</span>
+					</a>
+				{/each}
+			{/if}
+		</nav>
+	</div>
+{/if}

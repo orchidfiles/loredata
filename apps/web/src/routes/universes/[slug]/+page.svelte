@@ -84,7 +84,7 @@ function rerollOne(index: number): void {
 				{#if universeMeta}
 					<p class="text-white/60 text-sm">{universeMeta}</p>
 				{/if}
-				<p class="text-white/90 max-w-[65%]">{universe.description}</p>
+				<p class="text-white/90 max-w-full sm:max-w-[65%]">{universe.description}</p>
 				<div class="flex flex-wrap gap-1.5">
 					{#each universe.genre as g (g)}
 						<span class="badge text-xs capitalize border border-white/40 text-white/80">{g}</span>

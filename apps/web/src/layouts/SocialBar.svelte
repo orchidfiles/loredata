@@ -47,7 +47,7 @@ const links: SocialLink[] = [
 ];
 </script>
 
-<div class="fixed bottom-6 left-6 z-50 flex flex-col gap-1">
+<div class="hidden lg:flex fixed bottom-6 left-6 z-50 flex-col gap-1">
 	{#each links as link (link.href)}
 		<a
 			href={link.href}

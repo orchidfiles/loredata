@@ -50,72 +50,7 @@ function reroll(): void {
 			]} />
 		<h1 class="h1 text-surface-950-50">{character.firstName} {character.lastName}</h1>
 		<p class="text-surface-400 text-sm">{character.profession}</p>
-		<div class="flex gap-2 flex-wrap">
-			{#each character.interests as interest (interest)}
-				<a
-					href="/interests/{slugify(interest)}"
-					class="badge preset-tonal-surface text-xs hover:preset-filled-primary-500 transition-colors">
-					{interest}
-				</a>
-			{/each}
-		</div>
 	</div>
-
-	<div class="card preset-tonal-surface border border-surface-700/30 p-5 space-y-4 max-w-lg">
-		<div class="grid grid-cols-[auto_1fr] gap-x-6 gap-y-3 text-sm">
-			<span class="text-surface-400 text-xs uppercase tracking-wide self-start pt-0.5">Usernames</span>
-			<div class="flex flex-wrap gap-2">
-				{#each character.usernames as username (username)}
-					<span class="font-mono text-surface-950-50">@{username}</span>
-				{/each}
-			</div>
-
-			<span class="text-surface-400 text-xs uppercase tracking-wide self-start pt-0.5">Email domains</span>
-			<div class="flex flex-wrap gap-2">
-				{#each character.emailDomains as domain (domain)}
-					<span class="font-mono text-surface-950-50">{domain}</span>
-				{/each}
-			</div>
-
-			{#if character.birthYear}
-				<span class="text-surface-400 text-xs uppercase tracking-wide self-start pt-0.5">Birth year</span>
-				<span class="text-surface-950-50">{character.birthYear}</span>
-			{/if}
-
-			{#if character.gender}
-				<span class="text-surface-400 text-xs uppercase tracking-wide self-start pt-0.5">Gender</span>
-				<span class="text-surface-950-50">{character.gender}</span>
-			{/if}
-
-			{#if character.address}
-				<span class="text-surface-400 text-xs uppercase tracking-wide self-start pt-0.5">Address</span>
-				<span class="text-surface-950-50">
-					{[
-						character.address.street,
-						character.address.city,
-						character.address.state,
-						character.address.zip,
-						character.address.country
-					]
-						.filter(Boolean)
-						.join(', ')}
-				</span>
-			{/if}
-		</div>
-	</div>
-
-	{#if character.quotes.length > 0}
-		<div class="space-y-2">
-			<p class="text-surface-400 text-xs uppercase tracking-wide">Quotes</p>
-			<div class="space-y-2">
-				{#each character.quotes as quote (quote)}
-					<blockquote class="card preset-tonal-surface border border-surface-700/20 px-4 py-3">
-						<p class="text-surface-950-50 text-sm italic">{quote}</p>
-					</blockquote>
-				{/each}
-			</div>
-		</div>
-	{/if}
 
 	<div class="space-y-3">
 		<div class="max-w-lg flex items-center justify-between">
@@ -144,6 +79,94 @@ function reroll(): void {
 			</div>
 		{/if}
 	</div>
+
+	<div class="space-y-4 max-w-lg">
+		<div class="space-y-1">
+			<h2 class="h3 text-surface-950-50">Source data</h2>
+			<p class="text-surface-400 text-sm">
+				The persona above is generated from these values. Usernames and email domains are specific to
+				{[character.firstName, character.lastName].filter(Boolean).join(' ')}. Addresses come from the {universe.name} universe, or
+				from the character's own location if defined. Each run picks a different combination.
+			</p>
+		</div>
+
+		<div class="space-y-1">
+			<p class="text-surface-400 text-xs uppercase tracking-wide">Usernames</p>
+			<div class="flex flex-col gap-0.5">
+				{#each character.usernames as username (username)}
+					<span class="font-mono text-surface-950-50 text-sm">@{username}</span>
+				{/each}
+			</div>
+		</div>
+
+		<div class="space-y-1">
+			<p class="text-surface-400 text-xs uppercase tracking-wide">Email domains</p>
+			<div class="flex flex-col gap-0.5">
+				{#each character.emailDomains as domain (domain)}
+					<span class="font-mono text-surface-950-50 text-sm">{domain}</span>
+				{/each}
+			</div>
+		</div>
+
+		{#if character.birthYear}
+			<div class="space-y-1">
+				<p class="text-surface-400 text-xs uppercase tracking-wide">Birth year</p>
+				<p class="text-surface-950-50 text-sm">{character.birthYear}</p>
+			</div>
+		{/if}
+
+		{#if character.gender}
+			<div class="space-y-1">
+				<p class="text-surface-400 text-xs uppercase tracking-wide">Gender</p>
+				<p class="text-surface-950-50 text-sm">{character.gender}</p>
+			</div>
+		{/if}
+
+		{#if character.address}
+			<div class="space-y-1">
+				<p class="text-surface-400 text-xs uppercase tracking-wide">Address</p>
+				<p class="text-surface-950-50 text-sm">
+					{[
+						character.address.street,
+						character.address.city,
+						character.address.state,
+						character.address.zip,
+						character.address.country
+					]
+						.filter(Boolean)
+						.join(', ')}
+				</p>
+			</div>
+		{/if}
+	</div>
+
+	{#if character.interests.length > 0}
+		<div class="space-y-2">
+			<p class="text-surface-400 text-xs uppercase tracking-wide">Interests</p>
+			<div class="flex gap-2 flex-wrap">
+				{#each character.interests as interest (interest)}
+					<a
+						href="/interests/{slugify(interest)}"
+						class="badge preset-tonal-surface text-xs hover:preset-filled-primary-500 transition-colors">
+						{interest}
+					</a>
+				{/each}
+			</div>
+		</div>
+	{/if}
+
+	{#if character.quotes.length > 0}
+		<div class="space-y-2 max-w-2lg">
+			<p class="text-surface-400 text-xs uppercase tracking-wide">Quotes</p>
+			<div class="space-y-2">
+				{#each character.quotes as quote (quote)}
+					<blockquote class="card preset-tonal-surface border border-surface-700/20 px-4 py-3">
+						<p class="text-surface-950-50 text-sm italic">{quote}</p>
+					</blockquote>
+				{/each}
+			</div>
+		</div>
+	{/if}
 </div>
 
 {#if showJson && personas[0]}
