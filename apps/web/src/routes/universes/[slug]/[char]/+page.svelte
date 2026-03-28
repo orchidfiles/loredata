@@ -61,6 +61,49 @@ function reroll(): void {
 		</div>
 	</div>
 
+	<div class="card preset-tonal-surface border border-surface-700/30 p-5 space-y-4 max-w-lg">
+		<div class="grid grid-cols-[auto_1fr] gap-x-6 gap-y-3 text-sm">
+			<span class="text-surface-400 text-xs uppercase tracking-wide self-start pt-0.5">Usernames</span>
+			<div class="flex flex-wrap gap-2">
+				{#each character.usernames as username (username)}
+					<span class="font-mono text-surface-950-50">@{username}</span>
+				{/each}
+			</div>
+
+			<span class="text-surface-400 text-xs uppercase tracking-wide self-start pt-0.5">Email domains</span>
+			<div class="flex flex-wrap gap-2">
+				{#each character.emailDomains as domain (domain)}
+					<span class="font-mono text-surface-950-50">{domain}</span>
+				{/each}
+			</div>
+
+			{#if character.birthYear}
+				<span class="text-surface-400 text-xs uppercase tracking-wide self-start pt-0.5">Birth year</span>
+				<span class="text-surface-950-50">{character.birthYear}</span>
+			{/if}
+
+			{#if character.gender}
+				<span class="text-surface-400 text-xs uppercase tracking-wide self-start pt-0.5">Gender</span>
+				<span class="text-surface-950-50">{character.gender}</span>
+			{/if}
+
+			{#if character.address}
+				<span class="text-surface-400 text-xs uppercase tracking-wide self-start pt-0.5">Address</span>
+				<span class="text-surface-950-50">
+					{[
+						character.address.street,
+						character.address.city,
+						character.address.state,
+						character.address.zip,
+						character.address.country
+					]
+						.filter(Boolean)
+						.join(', ')}
+				</span>
+			{/if}
+		</div>
+	</div>
+
 	{#if character.quotes.length > 0}
 		<div class="space-y-2">
 			<p class="text-surface-400 text-xs uppercase tracking-wide">Quotes</p>

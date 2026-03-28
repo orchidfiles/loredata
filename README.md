@@ -1,14 +1,27 @@
-# LoreData
+<p align="center">
+  <img src="https://raw.githubusercontent.com/orchidfiles/loredata/main/apps/web/static/logo.png" alt="LoreData" width="80" />
+</p>
 
-[![npm version](https://img.shields.io/npm/v/loredata)](https://www.npmjs.com/package/loredata)
-[![npm downloads per month](https://img.shields.io/npm/dm/loredata)](https://www.npmjs.com/package/loredata)
-[![node version](https://img.shields.io/node/v/loredata)](https://nodejs.org)
-[![license](https://img.shields.io/npm/l/loredata)](./LICENSE)
-[![last commit](https://img.shields.io/github/last-commit/orchidfiles/loredata)](https://github.com/orchidfiles/loredata)
+<p align="center">
+  <h3>LoreData</h3>
+  Generate fake personas using real characters from pop culture universes.<br/>
+  Every field — name, email, address, profession, quote — comes from the same fictional world.
+</p>
 
-Generate fake personas using real characters from pop culture universes. Every field — name, email, address, profession, quote — comes from the same fictional world.
+<p align="center">
+  <a href="https://loredata.orchidfiles.com">loredata.orchidfiles.com</a> ·
+  <a href="https://www.npmjs.com/package/loredata">npm</a>
+</p>
 
-**Demo:** [loredata.orchidfiles.com](https://loredata.orchidfiles.com)
+<p align="center">
+  <a href="https://www.npmjs.com/package/loredata"><img src="https://img.shields.io/npm/v/loredata" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/loredata"><img src="https://img.shields.io/npm/dm/loredata" alt="npm downloads per month" /></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/loredata" alt="node version" /></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/npm/l/loredata" alt="license" /></a>
+  <a href="https://github.com/orchidfiles/loredata"><img src="https://img.shields.io/github/last-commit/orchidfiles/loredata" alt="last commit" /></a>
+</p>
+
+<img src="https://raw.githubusercontent.com/orchidfiles/loredata/main/apps/web/static/screen.png" alt="LoreData screenshot" />
 
 ```ts
 import { person, group } from 'loredata';
