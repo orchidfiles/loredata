@@ -3,11 +3,11 @@
   "name": "Supernatural",
   "genre": ["horror", "fantasy", "drama"],
   "description": "Brothers Sam and Dean Winchester travel the American countryside hunting demons, ghosts, and other supernatural creatures while uncovering the secrets of their family's past.",
-  "tmdbId": 1621,
+  "tmdbId": 1622,
   "mediaType": "tv",
-  "year": 2010,
-  "rating": 8,
-  "networks": ["HBO"],
-  "posterPath": "/kL6SqlVPpfAof2nQbh1VxkUuXBQ.jpg",
-  "backdropPath": "/7Yj4QbECkH3JavlZxw4NWReoN7B.jpg"
+  "year": 2005,
+  "rating": 8.3,
+  "networks": ["The CW"],
+  "posterPath": "/u40gJarLPlIkwouKlzGdobQOV9k.jpg",
+  "backdropPath": "/ro0tlgnsco4SwbdAgmscLkSlMSL.jpg"
 }

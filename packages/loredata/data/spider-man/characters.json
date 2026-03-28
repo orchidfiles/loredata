@@ -63,11 +63,9 @@
     "profession": "Head of security",
     "interests": ["security", "boxing", "management", "Downton Abbey"],
     "quotes": [
-      "Forehead of Security.",
-      "You're all alone. Your friends are in trouble. What are you gonna do about it?",
-      "I'm in charge of this operation!",
-      "I don't think Tony would've done what he did if he didn't know you were gonna be here after he was gone.",
-      "Everyone needs a hobby."
+      "I don't think Tony would've done what he did, if he didn't know that you were gonna be here after he was gone.",
+      "I work with Spider-Man, not for Spider-Man!",
+      "I'm in love with Spider-Man's aunt!"
     ],
     "gender": "male",
     "symbol": "🥊",
@@ -83,10 +81,10 @@
     "interests": ["engineering", "family", "alien technology", "business"],
     "quotes": [
       "The rich and the powerful, they don't care about us.",
-      "How do you think your daughter would feel about that?",
-      "I want you to understand that I will kill you and everybody you love.",
-      "Things are never gonna be the same now. I'm gonna hold on to what I've got.",
-      "I'll give you one chance. Walk away."
+      "I will kill you, and everyone that you love. I'll kill you dead.",
+      "I'll give you one chance. Walk away.",
+      "Nothing is more important to me than family.",
+      "Does she know?"
     ],
     "gender": "male",
     "symbol": "🦅",
@@ -101,11 +99,10 @@
     "profession": "Special effects designer",
     "interests": ["illusions", "holography", "acting", "revenge"],
     "quotes": [
-      "People need to believe. And nowadays, they'll believe anything.",
-      "You don't want any part of this.",
-      "It's easy to fool people when they're already fooling themselves.",
-      "I control the truth. Mysterio is the truth!",
-      "See, that wasn't so hard."
+      "People need to believe. And nowadays... they'll believe anything.",
+      "It's easy to fool people when they're already fooling themselves. But for what it's worth, Peter– I really am sorry.",
+      "I control the truth! Mysterio is the truth!",
+      "I created Mysterio to give the world someone to believe in!"
     ],
     "gender": "male",
     "symbol": "🔮",
