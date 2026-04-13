@@ -9,10 +9,6 @@ build/
 .tmp/
 *.tsbuildinfo
 
-# Package build artifacts
-/packages/loredata/LICENSE
-/packages/loredata/README.md
-
 # SvelteKit
 .svelte-kit/
 
@@ -52,12 +48,6 @@ coverage/
 ehthumbs.db
 Thumbs.db
 
-# Script inputs
-packages/loredata/scripts/patch.json
-
-# Environment variables
-.env*
-
 # Temporary files
 *.tmp
 *.temp
@@ -72,3 +62,16 @@ tmp/
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Script inputs
+packages/loredata/scripts/patch.json
+
+# Package build artifacts
+/packages/loredata/LICENSE
+/packages/loredata/README.md
+
+# OG images (generated at build)
+apps/web/static/og/
+
+# Environment variables
+.env*

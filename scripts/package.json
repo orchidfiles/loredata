@@ -1,0 +1,23 @@
+{
+	"name": "@loredata/scripts",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"generate-og": "tsx og/cli.ts",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+	},
+	"dependencies": {
+		"@resvg/resvg-js": "~2.6.2",
+		"commander": "~14.0.3",
+		"loredata": "workspace:*",
+		"satori": "~0.26.0"
+	},
+	"devDependencies": {
+		"@loredata/dev-kit": "workspace:*",
+		"@types/node": "~22.13.17",
+		"eslint": "~9.39.4",
+		"tsx": "~4.21.0",
+		"typescript": "~5.8.2"
+	}
+}

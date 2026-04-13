@@ -1,7 +1,12 @@
 <script lang="ts">
+import { config } from '$shared/config';
+
 import type { LayoutData } from './$types';
 
 let { data }: { data: LayoutData } = $props();
+
+const ogPageUrl = `${config.siteOrigin}/`;
+const ogImageUrl = `${config.siteOrigin}/og/home.png`;
 </script>
 
 <svelte:head>
@@ -18,6 +23,18 @@ let { data }: { data: LayoutData } = $props();
 	<meta
 		property="og:type"
 		content="website" />
+	<meta
+		property="og:url"
+		content={ogPageUrl} />
+	<meta
+		property="og:image"
+		content={ogImageUrl} />
+	<meta
+		property="og:image:width"
+		content={String(config.og.width)} />
+	<meta
+		property="og:image:height"
+		content={String(config.og.height)} />
 </svelte:head>
 
 <div class="space-y-6">

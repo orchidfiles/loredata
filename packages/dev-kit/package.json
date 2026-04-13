@@ -1,5 +1,6 @@
 {
 	"name": "@loredata/dev-kit",
+	"private": true,
 	"type": "module",
 	"exports": {
 		"./eslint": "./src/config-eslint.mjs",

@@ -4,6 +4,7 @@ import { UniverseStore } from 'loredata/browser';
 import Breadcrumb from '$components/ui/Breadcrumb.svelte';
 import JsonModal from '$features/persona/JsonModal.svelte';
 import PersonaCard from '$features/persona/PersonaCard.svelte';
+import { config } from '$shared/config';
 import { PersonFormatter } from '$shared/formatters';
 import { slugify } from '$shared/utils';
 
@@ -12,9 +13,14 @@ import type { Person } from 'loredata/browser';
 
 let { data }: { data: PageData } = $props();
 
-const { universe, character } = data;
-const store = new UniverseStore([universe]);
+const universe = $derived(data.universe);
+const character = $derived(data.character);
+const store = $derived(new UniverseStore([universe]));
 
+const ogPageUrl = $derived(`${config.siteOrigin}/universes/${universe.id}/${character.id}`);
+const ogImageUrl = $derived(`${config.siteOrigin}/og/char-${universe.id}-${character.id}.png`);
+
+// svelte-ignore state_referenced_locally
 let personas = $state<Person[]>([data.initialPersona]);
 let showJson = $state(false);
 
@@ -39,6 +45,18 @@ function reroll(): void {
 	<meta
 		property="og:type"
 		content="website" />
+	<meta
+		property="og:url"
+		content={ogPageUrl} />
+	<meta
+		property="og:image"
+		content={ogImageUrl} />
+	<meta
+		property="og:image:width"
+		content={String(config.og.width)} />
+	<meta
+		property="og:image:height"
+		content={String(config.og.height)} />
 </svelte:head>
 
 <div class="space-y-8">

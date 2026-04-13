@@ -4,6 +4,7 @@ import { untrack } from 'svelte';
 
 import { GenerateBar } from '$features/generator';
 import PersonaCard from '$features/persona/PersonaCard.svelte';
+import { config } from '$shared/config';
 import { preferences } from '$shared/preferences.svelte';
 
 import type { PageData } from './$types';
@@ -18,10 +19,15 @@ const universeMeta = $derived([universe.year].filter(Boolean).join(''));
 
 const MAX_COUNT = 16;
 
+// svelte-ignore state_referenced_locally
 let allPersonas = $state<Person[]>([...data.initialPersonas]);
+// svelte-ignore state_referenced_locally
 let currentUniverseId = $state(data.universe.id);
 
 const personas = $derived(allPersonas.slice(0, preferences.personaCount ?? 4));
+
+const ogPageUrl = $derived(`${config.siteOrigin}/universes/${universe.id}`);
+const ogImageUrl = $derived(`${config.siteOrigin}/og/universe-${universe.id}.png`);
 
 $effect(() => {
 	const id = universe.id;
@@ -65,13 +71,25 @@ function rerollOne(index: number): void {
 	<meta
 		property="og:type"
 		content="website" />
+	<meta
+		property="og:url"
+		content={ogPageUrl} />
+	<meta
+		property="og:image"
+		content={ogImageUrl} />
+	<meta
+		property="og:image:width"
+		content={String(config.og.width)} />
+	<meta
+		property="og:image:height"
+		content={String(config.og.height)} />
 </svelte:head>
 
 <div class="space-y-8">
 	<div class="relative rounded-xl overflow-hidden h-64 sm:h-74 bg-surface-800">
 		{#if universe.backdropPath}
 			<img
-				src="https://image.tmdb.org/t/p/w1280{universe.backdropPath}"
+				src={`https://image.tmdb.org/t/p/w1280${universe.backdropPath}`}
 				alt=""
 				aria-hidden="true"
 				class="absolute inset-0 w-full h-full object-cover object-top" />
