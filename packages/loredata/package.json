@@ -1,86 +1,86 @@
 {
-  "name": "loredata",
-  "version": "0.3.0",
-  "description": "Generate personas from pop culture universes. Every field belongs to the same fictional world.",
-  "keywords": [
-    "fake-data",
-    "test-data",
-    "faker",
-    "mock-data",
-    "seed",
-    "persona",
-    "generator",
-    "fixtures",
-    "pop-culture",
-    "fictional",
-    "characters",
-    "cli"
-  ],
-  "homepage": "https://loredata.orchidfiles.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/orchidfiles/loredata"
-  },
-  "bugs": {
-    "url": "https://github.com/orchidfiles/loredata/issues"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "orchidfiles",
-    "email": "orchid@orchidfiles.com",
-    "url": "https://orchidfiles.com"
-  },
-  "type": "module",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
-    },
-    "./browser": {
-      "types": "./dist/browser.d.ts",
-      "import": "./dist/browser.js",
-      "require": "./dist/browser.cjs"
-    },
-    "./data/*": "./data/*",
-    "./package.json": "./package.json"
-  },
-  "bin": {
-    "loredata": "./dist/cli/cli.js"
-  },
-  "files": [
-    "dist",
-    "data"
-  ],
-  "engines": {
-    "node": ">=20.0.0"
-  },
-  "scripts": {
-    "build": "tsup",
-    "build:watch": "tsup --watch",
-    "validate": "node --import tsx/esm scripts/validate-universe.ts",
-    "check:quotes": "node --import tsx/esm scripts/check-quotes/run.ts",
-    "fetch:tmdb": "node --env-file=.env --import tsx/esm scripts/fetch-tmdb.ts",
-    "patch:chars": "node --import tsx/esm scripts/patch.ts chars",
-    "patch:meta": "node --import tsx/esm scripts/patch.ts meta",
-    "patch:delete": "node --import tsx/esm scripts/patch.ts delete-key",
-    "gen:colors": "node --import tsx/esm scripts/generate-colors.ts",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "release": "npm publish --access public"
-  },
-  "dependencies": {
-    "commander": "~14.0.3"
-  },
-  "devDependencies": {
-    "@loredata/dev-kit": "workspace:*",
-    "@twemoji/svg": "^15.0.0",
-    "@types/node": "~22.13.14",
-    "eslint": "~9.39.4",
-    "get-svg-colors": "^2.0.1",
-    "tsup": "~8.4.0",
-    "tsx": "~4.21.0",
-    "typescript": "~5.8.2",
-    "vite": "~6.2.7"
-  }
+	"name": "loredata",
+	"version": "0.4.1",
+	"description": "Generate personas from pop culture universes. Every field belongs to the same fictional world.",
+	"keywords": [
+		"fake-data",
+		"test-data",
+		"faker",
+		"mock-data",
+		"seed",
+		"persona",
+		"generator",
+		"fixtures",
+		"pop-culture",
+		"fictional",
+		"characters",
+		"cli"
+	],
+	"homepage": "https://loredata.orchidfiles.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/orchidfiles/loredata"
+	},
+	"bugs": {
+		"url": "https://github.com/orchidfiles/loredata/issues"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "orchidfiles",
+		"email": "orchid@orchidfiles.com",
+		"url": "https://orchidfiles.com"
+	},
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js",
+			"require": "./dist/index.cjs"
+		},
+		"./browser": {
+			"types": "./dist/browser.d.ts",
+			"import": "./dist/browser.js",
+			"require": "./dist/browser.cjs"
+		},
+		"./data/*": "./data/*",
+		"./package.json": "./package.json"
+	},
+	"bin": {
+		"loredata": "./dist/cli/cli.js"
+	},
+	"files": [
+		"dist",
+		"data"
+	],
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"scripts": {
+		"build": "tsup",
+		"build:watch": "tsup --watch",
+		"validate": "node --import tsx/esm scripts/validate-universe.ts",
+		"check:quotes": "node --import tsx/esm scripts/check-quotes/run.ts",
+		"fetch:tmdb": "node --env-file=.env --import tsx/esm scripts/fetch-tmdb.ts",
+		"patch:chars": "node --import tsx/esm scripts/patch.ts chars",
+		"patch:meta": "node --import tsx/esm scripts/patch.ts meta",
+		"patch:delete": "node --import tsx/esm scripts/patch.ts delete-key",
+		"gen:colors": "node --import tsx/esm scripts/generate-colors.ts",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"release": "npm publish --access public"
+	},
+	"dependencies": {
+		"commander": "~14.0.3"
+	},
+	"devDependencies": {
+		"@loredata/dev-kit": "workspace:*",
+		"@twemoji/svg": "^15.0.0",
+		"@types/node": "~22.13.14",
+		"eslint": "~9.39.4",
+		"get-svg-colors": "^2.0.1",
+		"tsup": "~8.4.0",
+		"tsx": "~4.21.0",
+		"typescript": "~5.8.2",
+		"vite": "~6.2.7"
+	}
 }

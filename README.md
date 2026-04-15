@@ -5,8 +5,9 @@
 <h3 align="center">LoreData</h3>
 
 <p align="center">
-  Generate fake personas using real characters from pop culture universes.<br/>
-  Every field — name, email, address, profession, quote — comes from the same fictional world.
+  Generate coherent personas from pop culture universes.<br/>
+  Each persona comes from one fictional world with no cross-universe mixing.<br/>
+  Built for demos, mockups, screenshots, and seed fixtures where recognizable context matters.<br/>
 </p>
 
 <p align="center">
@@ -20,6 +21,42 @@
 <img src="https://raw.githubusercontent.com/orchidfiles/loredata/main/apps/web/static/screen.png" alt="LoreData screenshot" />
 
 **Demo:** [loredata.orchidfiles.com](https://loredata.orchidfiles.com)
+
+## Why LoreData
+
+- Generic demo users like John Doe, Jane Smith, and `test@example.com` work for smoke tests but feel flat in real product demos
+- LoreData generates recognizable personas from a single fictional universe, so fields stay coherent by design
+- Deterministic output via seed keeps fixtures stable across runs
+- Works in Node.js, browser, and as a CLI tool with no network requests
+
+## Who this is for
+
+- developers filling a local database or Storybook stories with recognizable personas
+- designers building mockups who do not want to use John Doe again
+- QA engineers creating more expressive test accounts with different profiles
+- tutorial and conference talk authors who want screenshots that feel less generic
+
+## Features
+
+- [x] 29 universes
+- [x] Single persona and group generation
+- [x] Filter characters by interest, name, universe
+- [x] Deterministic output via seed
+- [x] Browser-safe entry point
+- [x] CLI tool
+- [x] Character symbol and color fields
+
+## Install
+
+```sh
+# library
+npm install loredata
+
+# CLI
+npm install -g loredata
+```
+
+## Usage example
 
 ```ts
 import { person, group } from 'loredata';
@@ -48,35 +85,6 @@ const team = group({ universe: 'game-of-thrones', size: 3 });
 // ]
 ```
 
-Works in Node.js, browser, and as a CLI tool.
-
-## Install
-
-```sh
-# library
-npm install loredata
-
-# CLI
-npm install -g loredata
-```
-
-## Universes
-
-25 universes available out of the box:
-
-`breaking-bad`, `sopranos`, `better-call-saul`, `the-office`, `house-md`, `sherlock`, `peaky-blinders`, `game-of-thrones`, `friends`, `south-park`, `star-wars`, `matrix`, `the-walking-dead`, `prison-break`, `westworld`, `supernatural`, `simpsons`, `avengers`, `spider-man`, `lost`, `harry-potter`, `guardians-of-the-galaxy`, `big-bang-theory`, `x-men`, `fast-and-furious`
-
-```ts
-import { universes } from 'loredata';
-
-universes();
-// [
-//   { id: 'sherlock', name: 'Sherlock', genre: ['crime', 'drama', 'mystery'], description: '...' },
-//   { id: 'game-of-thrones', name: 'Game of Thrones', genre: ['fantasy', 'drama', 'action'], description: '...' },
-//   ...
-// ]
-```
-
 ## Persona fields
 
 Each `Person` includes:
@@ -89,13 +97,18 @@ Each `Person` includes:
 
 ## Deterministic output
 
-Pass a `seed` for reproducible results:
+If you need reproducible results, for example for test fixtures, just pass a `seed`:
 
 ```ts
 const p = person({ universe: 'matrix', seed: 42 });
+const team = group({ universe: 'matrix', size: 3, seed: 42 });
 ```
 
+Given the same `seed`, you always get the same persona or the same group.
+
 ## Browser
+
+The library also supports browser environments through a separate entry point with no dependency on `fs` or `path`:
 
 ```ts
 import { loadUniverse, personFromData } from 'loredata/browser';
@@ -104,7 +117,7 @@ const universe = await loadUniverse('breaking-bad');
 const p = personFromData(universe);
 ```
 
-No `fs` or `path` — safe for Vite, webpack, and any browser bundler.
+It works with Vite, webpack, and any browser bundler.
 
 ## CLI
 
@@ -118,47 +131,72 @@ loredata group --universe friends --size 5
 loredata universes
 ```
 
-## Features
+## Universes
 
-- [x] 25 universes
-- [x] Single persona and group generation
-- [x] Filter characters by interest, name, universe
-- [x] Deterministic output via seed
-- [x] Browser-safe entry point
-- [x] CLI tool
-- [x] Character symbol and color fields
+```ts
+import { universes } from 'loredata';
+
+universes();
+// [
+//   { id: 'sherlock', name: 'Sherlock', genre: ['crime', 'drama', 'mystery'], description: '...' },
+//   { id: 'game-of-thrones', name: 'Game of Thrones', genre: ['fantasy', 'drama', 'action'], description: '...' },
+//   ...
+// ]
+```
+
+For API/CLI usage, use universe IDs such as `the-office` and `game-of-thrones`.
+
+29 universes available out of the box:
+
+- Avengers
+- Better Call Saul
+- Big Bang Theory
+- Breaking Bad
+- Crown
+- Fast and Furious
+- Friends
+- Game of Thrones
+- Guardians of the Galaxy
+- Harry Potter
+- House MD
+- Lost
+- Matrix
+- Office
+- Peaky Blinders
+- Prison Break
+- Sherlock
+- Simpsons
+- Sopranos
+- South Park
+- Spider-Man
+- Star Wars
+- Stranger Things
+- Supernatural
+- Walking Dead
+- Witcher
+- Vikings
+- Westworld
+- X-Men
 
 ## Development
 
 ```sh
+# clone repo and install dependencies
 git clone https://github.com/orchidfiles/loredata.git
 cd loredata
 pnpm install
-```
 
-Build dev-kit (needed once, before other builds):
-
-```sh
+# build in watch mode
 pnpm --filter @loredata/dev-kit build
-```
+pnpm --filter loredata build:watch
 
-Build the library:
-
-```sh
-pnpm --filter loredata build
-```
-
-Run the web app:
-
-```sh
+# start web app
 pnpm --filter @loredata/web dev
 ```
 
-## Why
+## Disclaimer
 
-Faker.js generates random names and emails. They are internally consistent but meaningless. No shared context, no character identity.
-
-`LoreData` generates personas from real fictional characters. Each persona is recognizable and internally consistent, which makes it useful for demos, screenshots, and seed files where the content matters.
+LoreData is an unofficial fan tool and is not affiliated with the rights holders of these universes, studios, or streaming platforms.
 
 ## License
 

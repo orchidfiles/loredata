@@ -1,0 +1,68 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "dev-kit build",
+			"type": "shell",
+			"command": "pnpm run build",
+			"options": {
+				"cwd": "${workspaceFolder}/packages/dev-kit"
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "dedicated"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "loredata build",
+			"type": "shell",
+			"command": "pnpm run build",
+			"options": {
+				"cwd": "${workspaceFolder}/packages/loredata"
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "dedicated"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "loredata build-watch",
+			"type": "shell",
+			"command": "pnpm run build:watch",
+			"options": {
+				"cwd": "${workspaceFolder}/packages/loredata"
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "dedicated"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "build:watch all",
+			"dependsOn": [
+				"dev-kit build",
+				"loredata build-watch"
+			],
+			"runOptions": {
+				"runOn": "default"
+			},
+			"problemMatcher": []
+		},
+		{
+			"label": "web dev",
+			"type": "shell",
+			"command": "pnpm run dev",
+			"options": {
+				"cwd": "${workspaceFolder}/apps/web"
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "dedicated"
+			},
+			"problemMatcher": []
+		}
+	]
+}

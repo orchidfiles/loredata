@@ -3,7 +3,6 @@
 	"private": true,
 	"scripts": {
 		"package:build": "bash scripts/build-package/build-package.sh",
-		"package:build:watch": "pnpm --filter loredata build:watch",
 		"demo:dev": "pnpm --filter @loredata/demo dev",
 		"lint": "pnpm -r lint",
 		"lint:fix": "pnpm -r lint:fix",
