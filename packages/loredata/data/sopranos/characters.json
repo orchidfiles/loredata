@@ -1,184 +1,292 @@
 [
-  {
-    "id": "tony-soprano",
-    "firstName": "Tony",
-    "lastName": "Soprano",
-    "usernames": ["waste_management_nj", "ducks_guy", "the_boss_dimeo"],
-    "profession": "Mob boss",
-    "interests": ["ducks", "therapy", "gambling", "family", "cooking"],
-    "quotes": [
-      "I'm in the waste management business. Everybody immediately assumes you're mobbed up. It's a stereotype, and it's offensive.",
-      "My father was in it. My uncle was in it. Maybe I was too lazy ta think for myself.",
-      "Those who want respect, give respect.",
-      "All due respect to New York, I don't think you should be tellin' my uncle how ta run things.",
-      "We're a family, and even in this fucked up day and age that means somethin'.",
-      "I want those kids ta have a father. They got one. This one. Me. Tony Soprano. And all that comes with it."
-    ],
-    "gender": "male",
-    "birthYear": 1959,
-    "symbol": "🦆",
-    "color": "#1e3a5f",
-    "emailDomains": ["bada-bing.com", "satriale-pork.com"]
-  },
-  {
-    "id": "christopher-moltisanti",
-    "firstName": "Christopher",
-    "lastName": "Moltisanti",
-    "usernames": ["made_guy_nj", "caposcrew", "future_underboss"],
-    "profession": "Capo",
-    "interests": ["screenwriting", "heroin", "movies", "loyalty"],
-    "quotes": [
-      "Louis Brazzi sleeps with the fishes.",
-      "This ain't negotiation time. This is Scarface, final scene, fuckin' bazookas under each arm, 'say hello to my little friend!'",
-      "I got no identity. Even Brendan Filone's got an identity, he's dead.",
-      "I'm going to hell, T.",
-      "That's the guy Adriana. My uncle Tony. The guy I'm goin' to hell for.",
-      "I gave that fuck pieces of my soul, Adriana."
-    ],
-    "gender": "male",
-    "symbol": "🎬",
-    "color": "#7f1d1d",
-    "emailDomains": ["satriale-pork.com", "jersey-mob.net"]
-  },
-  {
-    "id": "carmela-soprano",
-    "firstName": "Carmela",
-    "lastName": "Soprano",
-    "usernames": ["carmelas_kitchen", "north_caldwell_wife", "soprano_housewife"],
-    "profession": "Homemaker",
-    "interests": ["catholicism", "cooking", "interior design", "family"],
-    "quotes": [
-      "You know, Tony, it's a multiple choice thing with you. 'Cause I can't tell if you're old-fashioned, you're paranoid, or just a fucking asshole.",
-      "Maybe the fact that you stick your dick into anything with a pulse...you ever thought of exploring that as a root cause?",
-      "You call my house again. You ever speak to one of my children again, I will track you down and I will kill you.",
-      "I don't love you anymore. I don't want you. You are not sleeping in my bed Tony.",
-      "Everything comes to an end.",
-      "I was dreaming and fantasizing and in love with Furio. Every morning when he'd come to pick you up, I would look forward to it all night long in bed, next to you."
-    ],
-    "gender": "female",
-    "symbol": "⛪",
-    "color": "#166534",
-    "emailDomains": ["jersey-mail.net"]
-  },
-  {
-    "id": "paulie-walnuts",
-    "firstName": "Paulie",
-    "lastName": "Gualtieri",
-    "usernames": ["walnuts_nj", "paulie_two_tone", "bada_bing_paulie"],
-    "profession": "Capo",
-    "interests": ["catholicism", "superstition", "espresso", "fighting"],
-    "quotes": [
-      "Fuckin' Italian people. How did we miss out on this? Fuckin' expresso, cappuccino. We invented this shit, and all these other cocksuckers are gettin' rich off it.",
-      "Purgatory, a little detour on the way to paradise.",
-      "You said yourself I hit 'im in the head. Fuckin' Rasputin this guy.",
-      "He killed sixteen Czechoslovakians. Guy was an interior decorator!",
-      "I don't understand. When I was a kid, you two were old ladies. Now I'm old, and you two are still old.",
-      "I live but to serve you, my leige."
-    ],
-    "gender": "male",
-    "symbol": "☕",
-    "color": "#4a6fa5",
-    "emailDomains": ["satriale-pork.com", "jersey-mob.net"]
-  },
-  {
-    "id": "junior-soprano",
-    "firstName": "Corrado",
-    "lastName": "Soprano",
-    "usernames": ["uncle_jun", "acting_boss_nj", "junior_dimeo"],
-    "profession": "Acting boss",
-    "interests": ["opera", "golf", "card games", "holding grudges"],
-    "quotes": [
-      "You may run North Jersey but you don't run your Uncle Junior. How many fucking hours did I spend playing catch with you?",
-      "I want to fuck Angie Dickinson, let's see who gets lucky first.",
-      "Hear about the Chinese godfather? He made them an offer they couldn't understand.",
-      "I prefer Mr. Soprano.",
-      "Anthony is a cunt hair away from owning all of Northern Jersey. And I am that cunt hair.",
-      "At our age, it's enough surprise we're still alive every morning."
-    ],
-    "gender": "male",
-    "birthYear": 1930,
-    "symbol": "🎭",
-    "color": "#312e81",
-    "emailDomains": ["jersey-mob.net", "satriale-pork.com"]
-  },
-  {
-    "id": "silvio-dante",
-    "firstName": "Silvio",
-    "lastName": "Dante",
-    "usernames": ["sil_bada_bing", "consigliere_dante", "silvio_nj"],
-    "profession": "Consigliere",
-    "interests": ["music", "the Godfather", "loyalty", "strip club management"],
-    "quotes": [
-      "Always with the scenarios.",
-      "She's so fat, her blood type is Ragu.",
-      "Walt fuckin' Whitman over here.",
-      "I've been your consigliere for a lot of years—",
-      "It breaks half and half. You both kick Tony's to me to deal with.",
-      "Just say it then."
-    ],
-    "gender": "male",
-    "symbol": "🎸",
-    "color": "#7c2d12",
-    "emailDomains": ["bada-bing.com", "jersey-mob.net"]
-  },
-  {
-    "id": "bobby-baccalieri",
-    "firstName": "Bobby",
-    "lastName": "Baccalieri",
-    "usernames": ["bobby_bacala", "model_trains_guy", "baccalieri_nj"],
-    "profession": "Capo",
-    "interests": ["model trains", "food", "family", "loyalty"],
-    "quotes": [
-      "To the victor, belongs the spoils.",
-      "One time we went huntin'. Saw a sign said 'Bear Left.' So we went home.",
-      "World really went downhill after the World Trade Center. You know, Quasimodo predicted all of this.",
-      "You Parker Brothers took time ta think this all out. I think we should respect that.",
-      "Everybody wants to get rich, but you don't scrimp on safety.",
-      "It's a surprise party, June. What are we, children?"
-    ],
-    "gender": "male",
-    "symbol": "🚂",
-    "color": "#1e3a5f",
-    "emailDomains": ["satriale-pork.com", "jersey-mob.net"]
-  },
-  {
-    "id": "janice-soprano",
-    "firstName": "Janice",
-    "lastName": "Soprano",
-    "usernames": ["janice_parvati", "soprano_sister", "north_caldwell_janice"],
-    "profession": "Grifter",
-    "interests": ["new age spirituality", "manipulation", "yoga", "self-pity"],
-    "quotes": [
-      "I mean...I do know what mom's wishes were, but not to have a wake or a funeral, I mean makes us look like we're unloving children, not to mention cheapskates.",
-      "I'd like to punch you in the face.",
-      "You punish Bobby because he's my husband.",
-      "I've seen that sitting in the chair thing.",
-      "When your opponent gives you an opening, be swift as a hare.",
-      "My happiness really drives you crazy, doesn't it, Tony?"
-    ],
-    "gender": "female",
-    "symbol": "🪬",
-    "color": "#86198f",
-    "emailDomains": ["jersey-mail.net"]
-  },
-  {
-    "id": "jennifer-melfi",
-    "firstName": "Jennifer",
-    "lastName": "Melfi",
-    "usernames": ["dr_melfi_md", "therapy_nj", "melfi_psychiatry"],
-    "profession": "Psychiatrist",
-    "interests": ["psychoanalysis", "literature", "ethics", "wine"],
-    "quotes": [
-      "With today's pharmacology, no one needs to suffer with feelings of exhaustion and depression.",
-      "Sounds to me like Anthony Jr. may have stumbled onto existentialism.",
-      "You were shot Anthony, by a member of your family.",
-      "I don't wanna waste your time.",
-      "You don't have to eat every dish of rigatoni. You don't have to fuck every female you meet.",
-      "You're not my gynecologist."
-    ],
-    "gender": "female",
-    "symbol": "🛋️",
-    "color": "#1e3a5f",
-    "emailDomains": ["jersey-therapy.net", "new-jersey-md.com"]
-  }
+	{
+		"id": "tony-soprano",
+		"firstName": "Tony",
+		"lastName": "Soprano",
+		"usernames": [
+			"waste_management_nj",
+			"ducks_guy",
+			"gabagool_ovah_here"
+		],
+		"profession": "Mob boss",
+		"interests": [
+			"ducks",
+			"therapy",
+			"gambling",
+			"family",
+			"cooking"
+		],
+		"quotes": [
+			"I'm in the waste management business. Everybody immediately assumes you're mobbed up. It's a stereotype, and it's offensive.",
+			"My father was in it. My uncle was in it. Maybe I was too lazy ta think for myself.",
+			"Those who want respect, give respect.",
+			"All due respect to New York, I don't think you should be tellin' my uncle how ta run things.",
+			"We're a family, and even in this fucked up day and age that means somethin'.",
+			"I want those kids ta have a father. They got one. This one. Me. Tony Soprano. And all that comes with it."
+		],
+		"gender": "male",
+		"birthYear": 1959,
+		"symbol": "🦆",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"bada-bing.com",
+			"satriale-pork.com"
+		]
+	},
+	{
+		"id": "christopher-moltisanti",
+		"firstName": "Christopher",
+		"lastName": "Moltisanti",
+		"usernames": [
+			"made_guy_nj",
+			"caposcrew",
+			"future_underboss"
+		],
+		"profession": "Capo",
+		"interests": [
+			"screenwriting",
+			"heroin",
+			"movies",
+			"mob movies"
+		],
+		"quotes": [
+			"Louis Brazzi sleeps with the fishes.",
+			"This ain't negotiation time. This is Scarface, final scene, fuckin' bazookas under each arm, 'say hello to my little friend!'",
+			"I got no identity. Even Brendan Filone's got an identity, he's dead.",
+			"I'm going to hell, T.",
+			"That's the guy Adriana. My uncle Tony. The guy I'm goin' to hell for.",
+			"I gave that fuck pieces of my soul, Adriana."
+		],
+		"gender": "male",
+		"symbol": "🎬",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"satriale-pork.com",
+			"jersey-mob.net"
+		]
+	},
+	{
+		"id": "carmela-soprano",
+		"firstName": "Carmela",
+		"lastName": "Soprano",
+		"usernames": [
+			"carmelas_kitchen",
+			"spec_house_dreams",
+			"north_caldwell_lady"
+		],
+		"profession": "Homemaker",
+		"interests": [
+			"catholicism",
+			"cooking",
+			"interior design",
+			"real estate"
+		],
+		"quotes": [
+			"You know, Tony, it's a multiple choice thing with you. 'Cause I can't tell if you're old-fashioned, you're paranoid, or just a fucking asshole.",
+			"Maybe the fact that you stick your dick into anything with a pulse...you ever thought of exploring that as a root cause?",
+			"You call my house again. You ever speak to one of my children again, I will track you down and I will kill you.",
+			"I don't love you anymore. I don't want you. You are not sleeping in my bed Tony.",
+			"Everything comes to an end.",
+			"I was dreaming and fantasizing and in love with Furio. Every morning when he'd come to pick you up, I would look forward to it all night long in bed, next to you."
+		],
+		"gender": "female",
+		"symbol": "⛪",
+		"color": "#166534",
+		"emailDomains": [
+			"jersey-mail.net"
+		]
+	},
+	{
+		"id": "paulie-walnuts",
+		"firstName": "Paulie",
+		"lastName": "Gualtieri",
+		"usernames": [
+			"walnuts_nj",
+			"paulie_two_tone",
+			"heh_heh"
+		],
+		"profession": "Capo",
+		"interests": [
+			"catholicism",
+			"superstition",
+			"espresso",
+			"bodybuilding"
+		],
+		"quotes": [
+			"Fuckin' Italian people. How did we miss out on this? Fuckin' expresso, cappuccino. We invented this shit, and all these other cocksuckers are gettin' rich off it.",
+			"Purgatory, a little detour on the way to paradise.",
+			"You said yourself I hit 'im in the head. Fuckin' Rasputin this guy.",
+			"He killed sixteen Czechoslovakians. Guy was an interior decorator!",
+			"I don't understand. When I was a kid, you two were old ladies. Now I'm old, and you two are still old.",
+			"I live but to serve you, my leige."
+		],
+		"gender": "male",
+		"symbol": "☕",
+		"color": "#4a6fa5",
+		"emailDomains": [
+			"satriale-pork.com",
+			"jersey-mob.net"
+		]
+	},
+	{
+		"id": "junior-soprano",
+		"firstName": "Corrado",
+		"lastName": "Soprano",
+		"usernames": [
+			"uncle_jun",
+			"south_of_the_border",
+			"your_sisters_cunt"
+		],
+		"profession": "Acting boss",
+		"interests": [
+			"opera",
+			"golf",
+			"card games",
+			"telling jokes"
+		],
+		"quotes": [
+			"You may run North Jersey but you don't run your Uncle Junior. How many fucking hours did I spend playing catch with you?",
+			"I want to fuck Angie Dickinson, let's see who gets lucky first.",
+			"Hear about the Chinese godfather? He made them an offer they couldn't understand.",
+			"I prefer Mr. Soprano.",
+			"Anthony is a cunt hair away from owning all of Northern Jersey. And I am that cunt hair.",
+			"At our age, it's enough surprise we're still alive every morning."
+		],
+		"gender": "male",
+		"birthYear": 1930,
+		"symbol": "🎭",
+		"color": "#312e81",
+		"emailDomains": [
+			"jersey-mob.net",
+			"satriale-pork.com"
+		]
+	},
+	{
+		"id": "silvio-dante",
+		"firstName": "Silvio",
+		"lastName": "Dante",
+		"usernames": [
+			"sil_bada_bing",
+			"just_when_i_thought_i_was_out",
+			"cheese_fuck"
+		],
+		"profession": "Consigliere",
+		"interests": [
+			"music",
+			"the Godfather",
+			"club management",
+			"Pacino impressions"
+		],
+		"quotes": [
+			"Always with the scenarios.",
+			"She's so fat, her blood type is Ragu.",
+			"Walt fuckin' Whitman over here.",
+			"I've been your consigliere for a lot of years—",
+			"It breaks half and half. You both kick Tony's to me to deal with.",
+			"Just say it then."
+		],
+		"gender": "male",
+		"symbol": "🎸",
+		"color": "#7c2d12",
+		"emailDomains": [
+			"bada-bing.com",
+			"jersey-mob.net"
+		]
+	},
+	{
+		"id": "bobby-baccalieri",
+		"firstName": "Bobby",
+		"lastName": "Baccalieri",
+		"usernames": [
+			"bobby_bacala",
+			"model_trains_guy",
+			"quasimodo_predicted_this"
+		],
+		"profession": "Capo",
+		"interests": [
+			"model trains",
+			"food",
+			"family",
+			"hunting"
+		],
+		"quotes": [
+			"To the victor, belongs the spoils.",
+			"One time we went huntin'. Saw a sign said 'Bear Left.' So we went home.",
+			"World really went downhill after the World Trade Center. You know, Quasimodo predicted all of this.",
+			"You Parker Brothers took time ta think this all out. I think we should respect that.",
+			"Everybody wants to get rich, but you don't scrimp on safety.",
+			"It's a surprise party, June. What are we, children?"
+		],
+		"gender": "male",
+		"symbol": "🚂",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"satriale-pork.com",
+			"jersey-mob.net"
+		]
+	},
+	{
+		"id": "janice-soprano",
+		"firstName": "Janice",
+		"lastName": "Soprano",
+		"usernames": [
+			"janice_parvati",
+			"vishnu_come_lately",
+			"soprano_sister"
+		],
+		"profession": "Grifter",
+		"interests": [
+			"new age spirituality",
+			"yoga",
+			"self-help",
+			"passive aggression"
+		],
+		"quotes": [
+			"I mean...I do know what mom's wishes were, but not to have a wake or a funeral, I mean makes us look like we're unloving children, not to mention cheapskates.",
+			"I'd like to punch you in the face.",
+			"You punish Bobby because he's my husband.",
+			"I've seen that sitting in the chair thing.",
+			"When your opponent gives you an opening, be swift as a hare.",
+			"My happiness really drives you crazy, doesn't it, Tony?"
+		],
+		"gender": "female",
+		"symbol": "🪬",
+		"color": "#86198f",
+		"emailDomains": [
+			"jersey-mail.net"
+		]
+	},
+	{
+		"id": "jennifer-melfi",
+		"firstName": "Jennifer",
+		"lastName": "Melfi",
+		"usernames": [
+			"toodle_fucking_oo",
+			"therapy_nj",
+			"employee_of_the_month"
+		],
+		"profession": "Psychiatrist",
+		"interests": [
+			"psychoanalysis",
+			"literature",
+			"ethics",
+			"wine",
+			"criminal psychology"
+		],
+		"quotes": [
+			"With today's pharmacology, no one needs to suffer with feelings of exhaustion and depression.",
+			"Sounds to me like Anthony Jr. may have stumbled onto existentialism.",
+			"You were shot Anthony, by a member of your family.",
+			"I don't wanna waste your time.",
+			"You don't have to eat every dish of rigatoni. You don't have to fuck every female you meet.",
+			"You're not my gynecologist."
+		],
+		"gender": "female",
+		"symbol": "🛋️",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"jersey-therapy.net",
+			"new-jersey-md.com"
+		]
+	}
 ]

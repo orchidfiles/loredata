@@ -3,9 +3,21 @@
     "id": "homer-simpson",
     "firstName": "Homer",
     "lastName": "Simpson",
-    "usernames": ["donut_man", "d_oh_head", "safety_inspector", "beer_me_up", "number_1_dad"],
+    "usernames": [
+      "donut_man",
+      "d_oh_head",
+      "beer_me_up",
+      "number_1_dad",
+      "mr_plow"
+    ],
     "profession": "Safety inspector",
-    "interests": ["donuts", "beer", "television", "bowling", "napping"],
+    "interests": [
+      "donuts",
+      "beer",
+      "television",
+      "bowling",
+      "napping"
+    ],
     "quotes": [
       "D'oh!",
       "Mmm... donuts.",
@@ -15,18 +27,34 @@
       "Lord help me, I'm just not that bright."
     ],
     "gender": "male",
-    "address": { "street": "742 Evergreen Terrace", "city": "Springfield" },
+    "address": {
+      "street": "742 Evergreen Terrace",
+      "city": "Springfield"
+    },
     "symbol": "🍩",
     "color": "#1e3a5f",
-    "emailDomains": ["springfield-nuclear.com", "springfield-mail.net"]
+    "emailDomains": [
+      "springfield-nuclear.com",
+      "springfield-mail.net"
+    ]
   },
   {
     "id": "marge-simpson",
     "firstName": "Marge",
     "lastName": "Simpson",
-    "usernames": ["blue_beehive", "evergreen_terrace_mom", "marge_the_artist"],
+    "usernames": [
+      "blue_beehive",
+      "evergreen_terrace_mom",
+      "listen_to_your_mother"
+    ],
     "profession": "Homemaker",
-    "interests": ["painting", "cooking", "family", "gambling", "crafts"],
+    "interests": [
+      "painting",
+      "cooking",
+      "family",
+      "gambling",
+      "crafts"
+    ],
     "quotes": [
       "Homer, there's something I have to tell you. I'm a gambling addict.",
       "I'm not going to live in a house of evil just to save a few dollars.",
@@ -35,18 +63,34 @@
       "I want to help you, Homie, but I don't know how."
     ],
     "gender": "female",
-    "address": { "street": "742 Evergreen Terrace", "city": "Springfield" },
+    "address": {
+      "street": "742 Evergreen Terrace",
+      "city": "Springfield"
+    },
     "symbol": "🌀",
     "color": "#166534",
-    "emailDomains": ["springfield-mail.net"]
+    "emailDomains": [
+      "springfield-mail.net"
+    ]
   },
   {
     "id": "bart-simpson",
     "firstName": "Bart",
     "lastName": "Simpson",
-    "usernames": ["el_barto", "underachiever", "cowabunga_dude", "eat_my_shorts"],
+    "usernames": [
+      "el_barto",
+      "underachiever",
+      "cowabunga_dude",
+      "eat_my_shorts"
+    ],
     "profession": "Student",
-    "interests": ["skateboarding", "pranks", "comic books", "video games", "graffiti"],
+    "interests": [
+      "skateboarding",
+      "pranks",
+      "comic books",
+      "video games",
+      "graffiti"
+    ],
     "quotes": [
       "Eat my shorts!",
       "Cowabunga!",
@@ -56,18 +100,36 @@
       "Ay, caramba!"
     ],
     "gender": "male",
-    "address": { "street": "742 Evergreen Terrace", "city": "Springfield" },
+    "address": {
+      "street": "742 Evergreen Terrace",
+      "city": "Springfield"
+    },
     "symbol": "🛹",
     "color": "#7f1d1d",
-    "emailDomains": ["springfield-school.edu", "springfield-mail.net"]
+    "emailDomains": [
+      "springfield-school.edu",
+      "springfield-mail.net"
+    ]
   },
   {
     "id": "lisa-simpson",
     "firstName": "Lisa",
     "lastName": "Simpson",
-    "usernames": ["lisa_the_vegetarian", "jazz_prodigy", "future_president", "little_achiever"],
+    "usernames": [
+      "lisa_the_vegetarian",
+      "jazz_prodigy",
+      "future_president",
+      "little_achiever"
+    ],
     "profession": "Student",
-    "interests": ["jazz", "environmentalism", "feminism", "reading", "saxophone"],
+    "interests": [
+      "jazz",
+      "environmentalism",
+      "feminism",
+      "reading",
+      "saxophone",
+      "activism"
+    ],
     "quotes": [
       "I AM THE LIZARD QUEEN!",
       "Dad, just because you're a man doesn't mean you can't have feelings.",
@@ -76,18 +138,35 @@
       "The truth is sometimes hard to accept."
     ],
     "gender": "female",
-    "address": { "street": "742 Evergreen Terrace", "city": "Springfield" },
+    "address": {
+      "street": "742 Evergreen Terrace",
+      "city": "Springfield"
+    },
     "symbol": "🎷",
     "color": "#1d4ed8",
-    "emailDomains": ["springfield-school.edu", "saxophone-society.org"]
+    "emailDomains": [
+      "springfield-school.edu",
+      "saxophone-society.org"
+    ]
   },
   {
     "id": "montgomery-burns",
     "firstName": "Montgomery",
     "lastName": "Burns",
-    "usernames": ["excellent_one", "sector_7g_boss", "nuclear_overlord", "release_the_hounds"],
+    "usernames": [
+      "excellent_one",
+      "sector_7g_boss",
+      "nuclear_overlord",
+      "release_the_hounds"
+    ],
     "profession": "Nuclear power plant owner",
-    "interests": ["money", "power", "collecting", "hunting", "chess"],
+    "interests": [
+      "collecting",
+      "hunting",
+      "chess",
+      "power plays",
+      "money hoarding"
+    ],
     "quotes": [
       "Excellent.",
       "Release the hounds.",
@@ -96,18 +175,35 @@
       "A lifetime of wealth and achievement means nothing compared to a roll of toilet paper."
     ],
     "gender": "male",
-    "address": { "street": "1000 Mammon Lane", "city": "Springfield" },
+    "address": {
+      "street": "1000 Mammon Lane",
+      "city": "Springfield"
+    },
     "symbol": "☢️",
     "color": "#166534",
-    "emailDomains": ["springfield-nuclear.com", "burns-manor.net"]
+    "emailDomains": [
+      "springfield-nuclear.com",
+      "burns-manor.net"
+    ]
   },
   {
     "id": "ned-flanders",
     "firstName": "Ned",
     "lastName": "Flanders",
-    "usernames": ["okily_dokily", "neighborino", "leftorium_ned", "hidily_ho"],
+    "usernames": [
+      "okily_dokily",
+      "neighborino",
+      "leftorium_ned",
+      "hidily_ho"
+    ],
     "profession": "Shop owner",
-    "interests": ["religion", "family", "skiing", "the Bible", "left-handed products"],
+    "interests": [
+      "religion",
+      "family",
+      "skiing",
+      "Bible study",
+      "left-handed products"
+    ],
     "quotes": [
       "Okily-dokily!",
       "Hi-diddly-ho, neighborino!",
@@ -116,18 +212,34 @@
       "Well, that just blows my mind!"
     ],
     "gender": "male",
-    "address": { "street": "744 Evergreen Terrace", "city": "Springfield" },
+    "address": {
+      "street": "744 Evergreen Terrace",
+      "city": "Springfield"
+    },
     "symbol": "✝️",
     "color": "#1e3a5f",
-    "emailDomains": ["leftorium.com", "springfield-mail.net"]
+    "emailDomains": [
+      "leftorium.com",
+      "springfield-mail.net"
+    ]
   },
   {
     "id": "krusty-the-clown",
     "firstName": "Herschel",
     "lastName": "Krustofsky",
-    "usernames": ["krusty_klown", "corporate_clown", "hey_hey_kids"],
+    "usernames": [
+      "krusty_klown",
+      "corporate_clown",
+      "hey_hey_kids"
+    ],
     "profession": "Entertainer",
-    "interests": ["gambling", "smoking", "show business", "fast food"],
+    "interests": [
+      "gambling",
+      "smoking",
+      "show business",
+      "fast food",
+      "merchandising"
+    ],
     "quotes": [
       "Hey hey, kids!",
       "I heartily endorse this event or product.",
@@ -138,15 +250,28 @@
     "gender": "male",
     "symbol": "🤡",
     "color": "#4a1942",
-    "emailDomains": ["krusty-brand.com", "krustylu-studios.net"]
+    "emailDomains": [
+      "krusty-brand.com",
+      "krustylu-studios.net"
+    ]
   },
   {
     "id": "apu-nahasapeemapetilon",
     "firstName": "Apu",
     "lastName": "Nahasapeemapetilon",
-    "usernames": ["kwik_e_mart_man", "thank_you_come_again", "octuplet_father"],
+    "usernames": [
+      "kwik_e_mart_man",
+      "thank_you_come_again",
+      "octuplet_father"
+    ],
     "profession": "Store clerk",
-    "interests": ["religion", "cricket", "cooking", "family", "business"],
+    "interests": [
+      "religion",
+      "cricket",
+      "cooking",
+      "family",
+      "small business"
+    ],
     "quotes": [
       "Thank you, come again.",
       "I have come to make amends, sir. At first, I blamed you for squealing, but then I realized, it was I who wronged you.",
@@ -157,15 +282,27 @@
     "gender": "male",
     "symbol": "🏪",
     "color": "#1e3a5f",
-    "emailDomains": ["kwik-e-mart.com", "springfield-mail.net"]
+    "emailDomains": [
+      "kwik-e-mart.com",
+      "springfield-mail.net"
+    ]
   },
   {
     "id": "moe-szyslak",
     "firstName": "Moe",
     "lastName": "Szyslak",
-    "usernames": ["al_coholic", "face_for_radio", "speak_a_meen"],
+    "usernames": [
+      "al_coholic",
+      "face_for_radio",
+      "speak_a_meen"
+    ],
     "profession": "Bartender",
-    "interests": ["drinking", "fighting", "boxing", "failed cooking"],
+    "interests": [
+      "drinking",
+      "fighting",
+      "boxing",
+      "failed cooking"
+    ],
     "quotes": [
       "I'm better than dirt. Well, most kinds of dirt, not that fancy store-bought dirt. That stuff is loaded with nutrients. I can't compete with that stuff.",
       "Call this an unfair generalization if you must, but old people are no good at everything.",
@@ -176,15 +313,27 @@
     "gender": "male",
     "symbol": "🍺",
     "color": "#7f1d1d",
-    "emailDomains": ["moes-tavern.com", "springfield-mail.net"]
+    "emailDomains": [
+      "moes-tavern.com",
+      "springfield-mail.net"
+    ]
   },
   {
     "id": "chief-wiggum",
     "firstName": "Clancy",
     "lastName": "Wiggum",
-    "usernames": ["pretzels_repeat_pretzels", "springfield_pd", "bake_em_away_toys"],
+    "usernames": [
+      "pretzels_repeat_pretzels",
+      "springfield_pd",
+      "bake_em_away_toys"
+    ],
     "profession": "Police chief",
-    "interests": ["donuts", "corruption", "television", "eating"],
+    "interests": [
+      "donuts",
+      "television",
+      "eating",
+      "lazy police work"
+    ],
     "quotes": [
       "Bake 'em away, toys.",
       "You have the right to remain silent. Do you understand? Good, because I'm tired of your whining.",
@@ -195,15 +344,27 @@
     "gender": "male",
     "symbol": "🚔",
     "color": "#166534",
-    "emailDomains": ["springfield-mail.net", "springfield-law.gov"]
+    "emailDomains": [
+      "springfield-mail.net",
+      "springfield-law.gov"
+    ]
   },
   {
     "id": "groundskeeper-willie",
     "firstName": "Willie",
     "lastName": "MacDougal",
-    "usernames": ["cheese_eatin_surrender_monkeys", "wee_turtles_willie", "bun_jurr"],
+    "usernames": [
+      "cheese_eatin_surrender_monkeys",
+      "wee_turtles_willie",
+      "bun_jurr"
+    ],
     "profession": "Groundskeeper",
-    "interests": ["Scotland", "bagpipes", "working outdoors", "fighting"],
+    "interests": [
+      "Scotland",
+      "bagpipes",
+      "working outdoors",
+      "fighting"
+    ],
     "quotes": [
       "Bon-jour, you cheese-eatin' surrender monkeys!",
       "If I don't save the wee turtles, who will?!",
@@ -212,8 +373,11 @@
       "Damn Scots! They ruined Scotland!"
     ],
     "gender": "male",
-    "symbol": "🏴",
+    "symbol": "🪗",
     "color": "#4a6fa5",
-    "emailDomains": ["springfield-school.edu", "scotland-mail.net"]
+    "emailDomains": [
+      "springfield-school.edu",
+      "scotland-mail.net"
+    ]
   }
 ]

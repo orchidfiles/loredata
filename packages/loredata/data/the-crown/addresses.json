@@ -1,0 +1,27 @@
+[
+  {
+    "street": "Buckingham Palace",
+    "city": "London",
+    "country": "GB"
+  },
+  {
+    "street": "Westminster Abbey",
+    "city": "London",
+    "country": "GB"
+  },
+  {
+    "street": "Clarence House",
+    "city": "London",
+    "country": "GB"
+  },
+  {
+    "street": "Windsor Castle",
+    "city": "Windsor",
+    "country": "GB"
+  },
+  {
+    "street": "Kensington Palace",
+    "city": "London",
+    "country": "GB"
+  }
+]

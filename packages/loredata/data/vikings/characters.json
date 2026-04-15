@@ -1,0 +1,240 @@
+[
+	{
+		"id": "ragnar-lothbrok",
+		"firstName": "Ragnar",
+		"lastName": "Lothbrok",
+		"usernames": [
+			"westward_dreamer",
+			"floki_navigator",
+			"valhalla_bound",
+			"raven_banner",
+			"sons_of_ragnar"
+		],
+		"profession": "Farmer and raider",
+		"interests": [
+			"raiding",
+			"sea navigation",
+			"new lands",
+			"poetry",
+			"Norse mythology"
+		],
+		"quotes": [
+			"Power is always dangerous. It attracts the worst. And corrupts the best.",
+			"Power is only given to those who are prepared to lower themselves to pick it up.",
+			"Our fates are already decided.",
+			"I did not become king out of ambition.",
+			"If I was him, I would worry less about the gods and more about the fury of a patient man."
+		],
+		"gender": "male",
+		"symbol": "⚒️",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"kattegat-mail.net",
+			"northman-mail.org"
+		]
+	},
+	{
+		"id": "lagertha",
+		"firstName": "Lagertha",
+		"lastName": "",
+		"usernames": [
+			"storm_of_hedeby",
+			"the_storm_maiden",
+			"kattegat_shieldmaiden",
+			"kattegat_widow",
+			"iron_lagertha"
+		],
+		"profession": "Shield maiden",
+		"interests": [
+			"sword training",
+			"shield-wall tactics",
+			"horse riding",
+			"farm management",
+			"land disputes"
+		],
+		"quotes": [
+			"All lives are stories.",
+			"If any harm befalls my children, I will tear the lungs out of your body, priest.",
+			"Will I ever bear another child, o wise one?",
+			"Our whole lives are just stories.",
+			"And there... there we shall meet again. And fight and to drink and... love one another."
+		],
+		"gender": "female",
+		"symbol": "🛡️",
+		"color": "#4a1942",
+		"emailDomains": [
+			"kattegat-mail.net",
+			"shieldmaiden-mail.net"
+		]
+	},
+	{
+		"id": "bjorn-ironside",
+		"firstName": "Bjorn",
+		"lastName": "Ironside",
+		"usernames": [
+			"king_ironside",
+			"white_bear_touched",
+			"med_bear_sails",
+			"mediterranean_sailor",
+			"bear_prophecy"
+		],
+		"profession": "Explorer",
+		"interests": [
+			"long-range voyages",
+			"sea navigation",
+			"hunting",
+			"battle planning",
+			"Mediterranean trade routes"
+		],
+		"quotes": [
+			"It's only death.",
+			"Who can guess the ways and the plans of the gods?",
+			"Power. The power of a king.",
+			"A man fights and protects his family.",
+			"People talked about Ragnar like he was a god, but he wasn't a god. He was a man."
+		],
+		"gender": "male",
+		"symbol": "🪓",
+		"color": "#1d3a2f",
+		"emailDomains": [
+			"viking-mail.org",
+			"ironside-mail.net"
+		]
+	},
+	{
+		"id": "rollo",
+		"firstName": "Rollo",
+		"lastName": "",
+		"usernames": [
+			"normandy_bear",
+			"walker_of_roads",
+			"seine_oath",
+			"frankish_oath",
+			"paris_berserker"
+		],
+		"profession": "Norman count",
+		"interests": [
+			"siege warfare",
+			"political alliances",
+			"Frankish court customs",
+			"territory defense",
+			"dynastic succession"
+		],
+		"quotes": [
+			"Up onto the overturned keel. Clamber, with a heart of steel. Cold is the ocean's spray... and your death is on its way. With maidens you have had your way...",
+			"Hey! How many Christians did I kill, Floki?! How many?! Do you think Odin's still angry with me now?!",
+			"I wanted to step out of your shadow... but when I stepped out of the doors, there was no sunlight.",
+			"It would have been better for me, for you, for everyone if I had been executed.",
+			"How will we ever be equal now?"
+		],
+		"gender": "male",
+		"symbol": "🏰",
+		"color": "#5c3a1e",
+		"emailDomains": [
+			"viking-mail.org",
+			"normandy-mail.net"
+		]
+	},
+	{
+		"id": "floki",
+		"firstName": "Floki",
+		"lastName": "",
+		"usernames": [
+			"raven_floki",
+			"tree_whisperer",
+			"flokibeard",
+			"the_curious_creator",
+			"gods_trickster"
+		],
+		"profession": "Shipbuilder",
+		"interests": [
+			"wood carving",
+			"ritual chanting",
+			"Norse mythology",
+			"open-sea voyages",
+			"forest foraging"
+		],
+		"quotes": [
+			"Who needs a reason for betrayal? One must always think the worst, Ragnar, even of your own kin.",
+			"I build boats, Ragnar. You're the navigator.",
+			"Warriors don’t show their heart until the axe reveals it.",
+			"I've been told your god is a carpenter. And guess what? So am I.",
+			"No, King Horik. I only betrayed you."
+		],
+		"gender": "male",
+		"symbol": "⚓",
+		"color": "#5c4033",
+		"emailDomains": [
+			"kattegat-mail.net",
+			"shipwright-mail.net"
+		]
+	},
+	{
+		"id": "athelstan",
+		"firstName": "Athelstan",
+		"lastName": "",
+		"usernames": [
+			"cross_and_raven",
+			"lindisfarne_son",
+			"between_two_faiths",
+			"roman_relic_reader",
+			"godsmouth_scholar"
+		],
+		"profession": "Monk",
+		"interests": [
+			"Latin manuscripts",
+			"scripture study",
+			"comparative theology",
+			"poetry recitation",
+			"Roman history"
+		],
+		"quotes": [
+			"It was foretold that divine punishment would fall upon God's chosen people for all our grievous sins, and so it has happened.",
+			"I came back because you and Ragnar, all of you are my family.",
+			"I find them indescribably beautiful.",
+			"Lord receive my soul.",
+			"My God is not greedy. His kingdom is not of this world."
+		],
+		"gender": "male",
+		"symbol": "✝️",
+		"color": "#3d5c3d",
+		"emailDomains": [
+			"lindisfarne-mail.org",
+			"monk-mail.net"
+		]
+	},
+	{
+		"id": "queen-aslaug",
+		"firstName": "Aslaug",
+		"lastName": "",
+		"usernames": [
+			"sigurdsdaughter",
+			"kattegat_regent",
+			"seer_of_kattegat",
+			"ivars_mother",
+			"harbard_prophecy"
+		],
+		"profession": "Queen",
+		"interests": [
+			"prophetic rituals",
+			"court governance",
+			"child-rearing",
+			"saga storytelling",
+			"Norse mythology"
+		],
+		"quotes": [
+			"I spoke them, but the gods chose them.",
+			"We women bear heavy burdens.",
+			"It is the Gods that have woven our destinies, not ourselves.",
+			"What does it matter what you call someone? Whether she’s Viking or not Viking is not important. What is important is that you love and nurture her.",
+			"But remember, your grandfather, my father, was the greatest warrior of all time."
+		],
+		"gender": "female",
+		"symbol": "👑",
+		"color": "#4a1f6e",
+		"emailDomains": [
+			"kattegat-mail.net",
+			"royal-mail.net"
+		]
+	}
+]

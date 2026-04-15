@@ -1,0 +1,272 @@
+[
+	{
+		"id": "geralt-of-rivia",
+		"firstName": "Geralt",
+		"lastName": "of Rivia",
+		"usernames": [
+			"white_wolf",
+			"butcher_blaviken",
+			"gwent_denier",
+			"trial_of_grasses",
+			"roach_rider"
+		],
+		"profession": "Witcher",
+		"interests": [
+			"bestiary lore",
+			"sword drills",
+			"alchemy",
+			"horseback riding",
+			"card games"
+		],
+		"quotes": [
+			"Evil is evil, Stregobor. Lesser, greater, middling... it's all the same. But now, if I have to choose between one evil and another, then I prefer not to choose at all.",
+			"Don't touch Roach.",
+			"Blessed silence.",
+			"Sometimes there's monsters, sometimes there's money. Rarely both. That's the life.",
+			"If you must kill me... I am ready. But the Sylvan's right. Don't call me human."
+		],
+		"gender": "male",
+		"symbol": "🐺",
+		"color": "#374151",
+		"emailDomains": [
+			"kaer-morhen.net",
+			"witcher-guild.org",
+			"rivia-mail.com"
+		]
+	},
+	{
+		"id": "yennefer",
+		"firstName": "Yennefer",
+		"lastName": "of Vengerberg",
+		"usernames": [
+			"vengerberg_violet",
+			"lilac_gooseberries",
+			"dear_friend_yen",
+			"chaos_is_order",
+			"portal_politics"
+		],
+		"profession": "Sorceress",
+		"interests": [
+			"court politics",
+			"enchantment",
+			"alchemy",
+			"relic studies",
+			"court diplomacy"
+		],
+		"quotes": [
+			"I've never been shy a day in my life.",
+			"Nobody smart plays fair.",
+			"They took my choice, I want it back.",
+			"When you have power like this, never apologize.",
+			"Think for yourselves. It'll save you a lifetime of heartbreak."
+		],
+		"gender": "female",
+		"symbol": "🦅",
+		"color": "#581c87",
+		"emailDomains": [
+			"aedirn-magic.net",
+			"sorceress-collective.org",
+			"vengerberg-sorcery.com"
+		]
+	},
+	{
+		"id": "ciri",
+		"firstName": "Ciri",
+		"lastName": "of Cintra",
+		"usernames": [
+			"lion_cub",
+			"zireael",
+			"swallow_child",
+			"cintra_heir",
+			"falka_shadow"
+		],
+		"profession": "Princess of Cintra",
+		"interests": [
+			"sword drills",
+			"horseback riding",
+			"survival training",
+			"ancient prophecies",
+			"map reading"
+		],
+		"quotes": [
+			"I watched my entire home burn to the ground at the hands of another.",
+			"Less than perfect means death.",
+			"I'm done apologizing. I'm done with all of this. I have to move on.",
+			"Everything I was told my whole life was a lie.",
+			"I want to be like you, Geralt."
+		],
+		"gender": "female",
+		"symbol": "🦁",
+		"color": "#1e3a8a",
+		"emailDomains": [
+			"cintra-royal.gov",
+			"elder-blood.net",
+			"lion-cub.com"
+		]
+	},
+	{
+		"id": "dandelion",
+		"firstName": "Dandelion",
+		"lastName": "",
+		"usernames": [
+			"golden_lute",
+			"rare_species_bard",
+			"toss_a_coin",
+			"sandpiper_song",
+			"valley_of_plenty"
+		],
+		"profession": "Bard",
+		"interests": [
+			"poetry",
+			"court gossip",
+			"travel writing",
+			"tavern music",
+			"romantic ballads"
+		],
+		"quotes": [
+			"I love the way you just... sit in the corner and brood.",
+			"Respect doesn't make history.",
+			"Toss a coin to your Witcher, O Valley of Plenty",
+			"You don't get to play the damsel in distress. That's my job.",
+			"They're alive! They're really alive."
+		],
+		"gender": "male",
+		"symbol": "🎸",
+		"color": "#b45309",
+		"emailDomains": [
+			"oxenfurt-academy.edu",
+			"bards-corner.net",
+			"golden-verse.com"
+		]
+	},
+	{
+		"id": "triss-merigold",
+		"firstName": "Triss",
+		"lastName": "Merigold",
+		"usernames": [
+			"maribor_healer",
+			"lodge_delegate",
+			"fourteenth_of_the_hill",
+			"sodden_survivor",
+			"temeria_safehouse"
+		],
+		"profession": "Sorceress",
+		"interests": [
+			"herbalism",
+			"medical care",
+			"court diplomacy",
+			"refugee aid",
+			"alchemy"
+		],
+		"quotes": [
+			"Not answering questions is a pillar of your brooding charm.",
+			"There is a vortex of fate around all of us, Geralt, growing with each and every one of our choices, drawing our destinies in closer.",
+			"Does Nilfgaard really believe they can take the whole continent?"
+		],
+		"gender": "female",
+		"symbol": "🌿",
+		"color": "#166534",
+		"emailDomains": [
+			"merigold-magic.net",
+			"karthage-sorcery.org",
+			"lodge-of-sorceresses.net"
+		]
+	},
+	{
+		"id": "vesemir",
+		"firstName": "Vesemir",
+		"lastName": "",
+		"usernames": [
+			"old_wolf",
+			"kaer_morhen_keeper",
+			"winter_drillmaster",
+			"wolf_school_elder",
+			"medallion_tree"
+		],
+		"profession": "Witcher trainer",
+		"interests": [
+			"fencing drills",
+			"witcher history",
+			"monster lore",
+			"armory maintenance",
+			"winter survival"
+		],
+		"quotes": [
+			"Leaders never really know, but they keep their doubts from their people.",
+			"Sometimes our deepest hate is for the things we cannot change about ourselves.",
+			"I'm not desperate. I'm hopeful. For the first time in a long time."
+		],
+		"gender": "male",
+		"symbol": "⚔️",
+		"color": "#374151",
+		"emailDomains": [
+			"kaer-morhen.net",
+			"witcher-guild.org",
+			"school-of-wolf.net"
+		]
+	},
+	{
+		"id": "cahir",
+		"firstName": "Cahir",
+		"lastName": "Mawr",
+		"usernames": [
+			"nilfgaardian_eagle",
+			"winged_knight",
+			"captain_of_lancers",
+			"the_failed_savior",
+			"cintra_black_knight"
+		],
+		"profession": "Nilfgaardian officer",
+		"interests": [
+			"military tactics",
+			"campaign logistics",
+			"imperial history",
+			"knighthood",
+			"cavalry drills"
+		],
+		"quotes": [
+			"I am Commander Mawr Dyffryn aep Ceallach. Who the fuck are you?",
+			"Desperate measures."
+		],
+		"gender": "male",
+		"symbol": "🦅",
+		"color": "#1f2937",
+		"emailDomains": [
+			"nilfgaard-empire.gov",
+			"emperors-lancers.net",
+			"imperial-honor.com"
+		]
+	},
+	{
+		"id": "vilgefortz",
+		"firstName": "Vilgefortz",
+		"lastName": "of Roggeveen",
+		"usernames": [
+			"the_left_hand",
+			"sodden_staff",
+			"chapter_coup",
+			"roggeveen_heir",
+			"chaos_captain"
+		],
+		"profession": "Sorcerer",
+		"interests": [
+			"combat magic",
+			"military strategy",
+			"court intrigue",
+			"Brotherhood politics",
+			"arcane research"
+		],
+		"quotes": [
+			"This was supposed to be a lesson. But you were mistaken, witcher.",
+			"You have made a mistake. You mistook the stars reflected in the surface of the lake at night for the heavens."
+		],
+		"gender": "male",
+		"symbol": "🔥",
+		"color": "#991b1b",
+		"emailDomains": [
+			"roggeveen-magic.net",
+			"chaos-sorcery.org",
+			"sorcerers-strategy.net"
+		]
+	}
+]

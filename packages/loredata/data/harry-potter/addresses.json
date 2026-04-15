@@ -3,35 +3,30 @@
     "street": "4 Privet Drive",
     "city": "Little Whinging",
     "state": "Surrey",
-    "zip": "GU25 4PD",
-    "country": "UK"
+    "country": "GB"
   },
   {
     "street": "12 Grimmauld Place",
     "city": "London",
     "state": "England",
-    "zip": "N1 9GU",
-    "country": "UK"
+    "country": "GB"
   },
   {
     "street": "The Burrow, Ottery St Catchpole",
     "city": "Ottery St Catchpole",
     "state": "Devon",
-    "zip": "EX14 1HP",
-    "country": "UK"
+    "country": "GB"
   },
   {
     "street": "Hogwarts Castle",
     "city": "Hogsmeade",
     "state": "Scotland",
-    "zip": "PH49 4HG",
-    "country": "UK"
+    "country": "GB"
   },
   {
     "street": "Shell Cottage, Tinworth",
     "city": "Tinworth",
     "state": "Cornwall",
-    "zip": "TR26 1RT",
-    "country": "UK"
+    "country": "GB"
   }
 ]

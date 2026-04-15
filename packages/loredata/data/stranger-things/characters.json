@@ -1,0 +1,226 @@
+[
+	{
+		"id": "eleven",
+		"firstName": "Eleven",
+		"lastName": "Holloway",
+		"usernames": [
+			"friends_dont_lie",
+			"eggo_escapee",
+			"bitchin_hero",
+			"mouthbreather_no"
+		],
+		"emailDomains": [
+			"hawkins-lab.gov",
+			"byers-family.net"
+		],
+		"profession": "Student",
+		"interests": [
+			"Eggo waffles",
+			"Dungeons & Dragons",
+			"Blindfold training",
+			"Listening to mixtapes"
+		],
+		"quotes": [
+			"Friends don't lie.",
+			"I'm the monster.",
+			"Goodbye, Mike.",
+			"I dump your ass!",
+			"I kept the door open three inches."
+		],
+		"gender": "female",
+		"birthYear": 1971,
+		"symbol": "🧇",
+		"color": "#7f1d1d"
+	},
+	{
+		"id": "mike-wheeler",
+		"firstName": "Mike",
+		"lastName": "Wheeler",
+		"usernames": [
+			"paladin_14",
+			"party_paladin",
+			"radio_353",
+			"snowball_invite"
+		],
+		"emailDomains": [
+			"wheeler-family.net"
+		],
+		"profession": "Student",
+		"interests": [
+			"Dungeons & Dragons",
+			"Radio sessions",
+			"Campaign planning",
+			"Arcade games"
+		],
+		"quotes": [
+			"Do you want to dance?",
+			"I never gave up on you. I called you every night. Every night, for...",
+			"If we're both going crazy, we'll go crazy together, right?",
+			"Has it ever occurred to you that we don't want to be popular?",
+			"It was the best thing I've ever done."
+		],
+		"gender": "male",
+		"birthYear": 1971,
+		"symbol": "🛡️",
+		"color": "#1e3a5f"
+	},
+	{
+		"id": "dustin-henderson",
+		"firstName": "Dustin",
+		"lastName": "Henderson",
+		"usernames": [
+			"demogorgon_hunter",
+			"the_bald_prophet",
+			"dart_and_steve",
+			"neverending_duet"
+		],
+		"emailDomains": [
+			"hawkins-mail.com"
+		],
+		"profession": "Student",
+		"interests": [
+			"Dungeons & Dragons",
+			"Arcade games",
+			"Species classification",
+			"Ham radio"
+		],
+		"quotes": [
+			"I'm just being realistic, Lucas!",
+			"Did you ever think maybe Will went missing because he ran into something bad?",
+			"An inter-dimensional slug?! Because it's awesome.",
+			"Not everyone can have your perfect hair, alright?!",
+			"She's our friend and she's crazy!"
+		],
+		"gender": "male",
+		"birthYear": 1972,
+		"symbol": "🦎",
+		"color": "#166534"
+	},
+	{
+		"id": "lucas-sinclair",
+		"firstName": "Lucas",
+		"lastName": "Sinclair",
+		"usernames": [
+			"x-wing_pilot",
+			"wristrocket_ranger",
+			"ghostbuster_four",
+			"madmax_spotter"
+		],
+		"emailDomains": [
+			"sinclair-family.net"
+		],
+		"profession": "Student",
+		"interests": [
+			"Dungeons & Dragons",
+			"Wrist-rocket practice",
+			"Arcade games",
+			"Scouting"
+		],
+		"quotes": [
+			"Jack shit.",
+			"Madmax!",
+			"Why would I make this up?",
+			"You're going to get us killed. Do you understand?",
+			"We have a lot of rules in our party, but the most important is, \"Friends don't lie.\" Never ever, no matter what."
+		],
+		"gender": "male",
+		"birthYear": 1971,
+		"symbol": "🏹",
+		"color": "#1d4ed8"
+	},
+	{
+		"id": "will-byers",
+		"firstName": "Will",
+		"lastName": "Byers",
+		"usernames": [
+			"the_canary",
+			"zombie_boy",
+			"starcourt_survivor",
+			"wise_wizard"
+		],
+		"emailDomains": [
+			"byers-family.net"
+		],
+		"profession": "Student",
+		"interests": [
+			"Dungeons & Dragons",
+			"Drawing maps",
+			"Painting",
+			"Tabletop campaigns"
+		],
+		"quotes": [
+			"I just want this to be over!",
+			"You're ruining our party!",
+			"It's like... like, I'm stuck.",
+			"Like one slide's our world, and... and the other... the other slide is the Upside Down.",
+			"It was a seven. The roll, it was a seven. The demogorgon... it got me. See you tomorrow!"
+		],
+		"gender": "male",
+		"birthYear": 1971,
+		"symbol": "💡",
+		"color": "#4a6fa5"
+	},
+	{
+		"id": "joyce-byers",
+		"firstName": "Joyce",
+		"lastName": "Byers",
+		"usernames": [
+			"alphabet_wall",
+			"magnet_mom",
+			"lights_on_byers",
+			"will_in_shadow"
+		],
+		"emailDomains": [
+			"byers-family.net"
+		],
+		"profession": "Secretary",
+		"interests": [
+			"Christmas light messaging",
+			"Retail shifts at Melvald's",
+			"Painting",
+			"Investigating clues"
+		],
+		"quotes": [
+			"You took my boy away from me!",
+			"I will never, ever let anything bad happen to you ever again.",
+			"I was so proud. I was so, so proud.",
+			"No more secrets, okay?",
+			"I will fix it. I promise. I'm here."
+		],
+		"gender": "female",
+		"symbol": "🕯️",
+		"color": "#92400e"
+	},
+	{
+		"id": "jim-hopper",
+		"firstName": "Jim",
+		"lastName": "Hopper",
+		"usernames": [
+			"chief_upsidedown",
+			"coffee_contemplation",
+			"enzo_letter",
+			"cabin_rules"
+		],
+		"emailDomains": [
+			"hawkins-pd.gov"
+		],
+		"profession": "Police chief",
+		"interests": [
+			"Case investigations",
+			"Late-night patrols",
+			"Eggos",
+			"Woodworking"
+		],
+		"quotes": [
+			"Mornings are for coffee and contemplation.",
+			"You know the rules.",
+			"I don't lie, I protect! And I feed, and I teach!",
+			"Sometimes, I feel like I'm... like I'm just some kinda black hole or something.",
+			"I'm so sorry. For everything."
+		],
+		"gender": "male",
+		"birthYear": 1954,
+		"symbol": "🔦",
+		"color": "#1e3a5f"
+	}
+]

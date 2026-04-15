@@ -1,292 +1,403 @@
 [
-  {
-    "id": "ross-geller",
-    "firstName": "Ross",
-    "lastName": "Geller",
-    "usernames": [
-      "we_were_on_a_break",
-      "divorcemaster_phd",
-      "cookie_duuude",
-      "pivot_guy",
-      "homo_sapiens_are_people"
-    ],
-    "profession": "Paleontologist",
-    "interests": ["dinosaurs", "paleontology", "archaeology", "coffee", "academia", "sci-fi"],
-    "quotes": [
-      "WE WERE ON A BREAK!",
-      "I'm fine!",
-      "Someone at work ate my sandwich! MY SANDWICH!",
-      "I'm a paleontologist, and I have to say, evolution is not something for you to buy. Evolution is scientific fact.",
-      "I hate to lecture you guys but it's kind of disgraceful that a group of well-educated adults, and Joey, can't name all the states.",
-      "I'm going to be happy this year. I'm going to make myself happy."
-    ],
-    "gender": "male",
-    "address": { "city": "New York", "state": "NY", "country": "US" },
-    "symbol": "🦕",
-    "color": "#3b1f0a",
-    "emailDomains": ["nyu.edu", "natural-history-nyc.org"]
-  },
-  {
-    "id": "rachel-green",
-    "firstName": "Rachel",
-    "lastName": "Green",
-    "usernames": [
-      "got_off_the_plane",
-      "who_is_fica",
-      "steamed_milk_life",
-      "not_a_library_card",
-      "green_with_style"
-    ],
-    "profession": "Fashion Executive",
-    "interests": ["fashion", "shopping", "coffee", "relationships", "style", "fitness"],
-    "quotes": [
-      "I got off the plane.",
-      "Who's FICA? Why is he getting all my money?",
-      "I can't believe I have to walk down the aisle in front of 200 people looking like something you drink when you're nauseous!",
-      "I wasn't supposed to put beef in the trifle!",
-      "It's not that common, it doesn't happen to every guy, and it is a big deal!"
-    ],
-    "gender": "female",
-    "address": {
-      "street": "90 Bedford Street",
-      "city": "New York",
-      "state": "NY",
-      "country": "US"
-    },
-    "symbol": "👗",
-    "color": "#7f1d1d",
-    "emailDomains": ["ralph-lauren.com", "nyc-fashion.net"]
-  },
-  {
-    "id": "chandler-bing",
-    "firstName": "Chandler",
-    "lastName": "Bing",
-    "usernames": [
-      "jokes_when_uncomfortable",
-      "the_nubbin",
-      "could_i_be_more_sarcastic",
-      "transponster",
-      "bing_no_first_name"
-    ],
-    "profession": "Statistical Analysis and Data Reconfiguration",
-    "interests": ["TV", "sarcasm", "foosball", "comedy", "movies", "video games"],
-    "quotes": [
-      "I make jokes when I'm uncomfortable.",
-      "Could I BE wearing any more clothes?",
-      "The meaning of the box is threefold. One, it gives me the time to think about what I did. Two, it proves how much I care about my friendship with Joey. And three... it hurts!",
-      "Oh, I know, this must be so hard. 'Oh, no! Two women love me. They're both gorgeous and sexy. My wallet's too small for my fifties, and my diamond shoes are too tight!'",
-      "When I walk outside naked, people throw garbage at me.",
-      "I thought this was going to be the most difficult thing I ever had to do. But when I saw you walking down that aisle, I realized how simple it was. I love you."
-    ],
-    "gender": "male",
-    "address": { "city": "New York", "state": "NY", "country": "US" },
-    "symbol": "😬",
-    "color": "#4a1942",
-    "emailDomains": ["nyc-mail.net", "msyb-corp.com"]
-  },
-  {
-    "id": "monica-geller",
-    "firstName": "Monica",
-    "lastName": "Geller",
-    "usernames": [
-      "big_fat_goalie",
-      "chef_mode_on",
-      "eleven_towel_categories",
-      "competitive_cook",
-      "seven_erogenous_zones"
-    ],
-    "profession": "Chef",
-    "interests": ["cooking", "cleaning", "competition", "catering", "organizing", "sports"],
-    "quotes": [
-      "Welcome to the real world. It sucks. You're gonna love it.",
-      "Fine! Judge all you want to, but: married a lesbian, left a man at the altar, fell in love with a gay ice dancer, threw a girl's wooden leg in a fire, LIVING IN A BOX!",
-      "I know of two surefire ways to shut a man up. And one of them is sex.",
-      "Chandler, you have to tell Joey that you're not in Tulsa.",
-      "I want a marriage."
-    ],
-    "gender": "female",
-    "address": {
-      "street": "90 Bedford Street",
-      "city": "New York",
-      "state": "NY",
-      "country": "US"
-    },
-    "symbol": "👨‍🍳",
-    "color": "#312e81",
-    "emailDomains": ["central-perk.com", "nyc-chefs.net"]
-  },
-  {
-    "id": "joey-tribbiani",
-    "firstName": "Joey",
-    "lastName": "Tribbiani",
-    "usernames": [
-      "how_you_doin",
-      "joey_no_share_food",
-      "drake_ramoray_md",
-      "baby_kangaroo",
-      "sandwich_first"
-    ],
-    "profession": "Actor",
-    "interests": [
-      "food",
-      "acting",
-      "women",
-      "sandwiches",
-      "Days of Our Lives",
-      "foosball",
-      "sports"
-    ],
-    "quotes": [
-      "JOEY DOESN'T SHARE FOOD.",
-      "No, I had sex in high school.",
-      "Oh, is this not the good part? Well, if little Joey's dead, then I've got no reason to live.",
-      "You know, like a cow's opinion. It doesn't matter. It's moo.",
-      "The Netherlands is this make-believe place where Peter Pan and Tinkerbell come from.",
-      "I want girls on bread!"
-    ],
-    "gender": "male",
-    "address": { "city": "New York", "state": "NY", "country": "US" },
-    "symbol": "🍕",
-    "color": "#059669",
-    "emailDomains": ["casting-nyc.com", "days-of-our-lives.net"]
-  },
-  {
-    "id": "phoebe-buffay",
-    "firstName": "Phoebe",
-    "lastName": "Buffay",
-    "usernames": [
-      "smelly_cat_official",
-      "princess_consuela",
-      "buried_alive_tombstone",
-      "not_so_much_evolution",
-      "stabbed_a_cop"
-    ],
-    "profession": "Masseuse / Singer-Songwriter",
-    "interests": [
-      "music",
-      "massage",
-      "spirituality",
-      "the paranormal",
-      "vegetarianism",
-      "cats",
-      "knitting"
-    ],
-    "quotes": [
-      "Hello, teeny embryos. I'm Phoebe Buffay. I'm hoping to be your uterus for the next nine months.",
-      "I don't believe in evolution.",
-      "I just found a selfless good deed; I went to the park and let a bee sting me.",
-      "Someday I'll tell you about the time I stabbed a cop. He stabbed me first!",
-      "My tombstone is going to say 'Phoebe Buffay: Buried Alive.'",
-      "For 99 cents, I'd eat you."
-    ],
-    "gender": "female",
-    "address": { "city": "New York", "state": "NY", "country": "US" },
-    "symbol": "🎸",
-    "color": "#083344",
-    "emailDomains": ["smelly-cat.net", "nyc-mail.net"]
-  },
-  {
-    "id": "gunther",
-    "firstName": "Gunther",
-    "lastName": "",
-    "usernames": [
-      "always_staring_at_rachel",
-      "central_perk_forever",
-      "ill_take_it_all",
-      "blonde_barista",
-      "unrequited_gunther"
-    ],
-    "profession": "Barista / Coffee Shop Manager",
-    "interests": ["Rachel Green", "coffee", "Central Perk", "Swedish culture"],
-    "quotes": [
-      "I'll take it all.",
-      "What is my last name?",
-      "Flexible hours.",
-      "Well, I wouldn't call her a star, but she's really good.",
-      "You don't have to fill these silences."
-    ],
-    "gender": "male",
-    "address": { "city": "New York", "state": "NY", "country": "US" },
-    "symbol": "☕",
-    "color": "#0c4a6e",
-    "emailDomains": ["central-perk.com", "nyc-barista.net"]
-  },
-  {
-    "id": "janice-litman-goralnik",
-    "firstName": "Janice",
-    "lastName": "Litman-Goralnik",
-    "usernames": [
-      "oh_my_god_janice",
-      "the_chandler_magnet",
-      "janice_is_back",
-      "never_fully_gone",
-      "nasal_queen_nyc"
-    ],
-    "profession": "Unknown",
-    "interests": ["Chandler Bing", "shopping", "New York", "surprises"],
-    "quotes": [
-      "Oh. My. God.",
-      "I brought you something. Is it loaded?",
-      "So, I hear you hate me.",
-      "A little birdie said something about ripping your arm off and throwing it at me.",
-      "You got 'hate' from that?"
-    ],
-    "gender": "female",
-    "address": { "city": "New York", "state": "NY", "country": "US" },
-    "symbol": "😱",
-    "color": "#1e3a5f",
-    "emailDomains": ["nyc-mail.net"]
-  },
-  {
-    "id": "richard-burke",
-    "firstName": "Richard",
-    "lastName": "Burke",
-    "usernames": [
-      "the_mustache_guy",
-      "dr_burke_ophthalmologist",
-      "too_old_for_monica",
-      "eye_doctor_nyc",
-      "richard_with_mustache"
-    ],
-    "profession": "Ophthalmologist",
-    "interests": ["Monica Geller", "baseball", "ophthalmology", "cigars", "cooking"],
-    "quotes": [
-      "My nose was getting lonely.",
-      "I see you grew your hair long.",
-      "I love children, I have children. I just don't want to be 70 when our kids go off to college.",
-      "You go get her, Chandler. And can I give you a piece of advice? If you do get her, don't let her go. Trust me.",
-      "You're with Chandler, a guy I really like. And if you say he's straight, I'll believe you."
-    ],
-    "gender": "male",
-    "address": { "city": "New York", "state": "NY", "country": "US" },
-    "symbol": "👨‍⚕️",
-    "color": "#2563eb",
-    "emailDomains": ["nyc-ophthalmology.com", "manhattan-md.net"]
-  },
-  {
-    "id": "mike-hannigan",
-    "firstName": "Mike",
-    "lastName": "Hannigan",
-    "usernames": [
-      "crap_bag_hannigan",
-      "buffay_hannigan",
-      "piano_mike",
-      "phoebe_plus_one",
-      "mike_not_vtox"
-    ],
-    "profession": "Lawyer / Pianist",
-    "interests": ["piano", "Phoebe Buffay", "ping pong", "law", "crosswords"],
-    "quotes": [
-      "My name is Crap Bag.",
-      "You know, you're right. The capital of Peru is Vtox.",
-      "Only if you'll be Phoebe Buffay.",
-      "Do you know what a banana hammock is?",
-      "It's a speedo!"
-    ],
-    "gender": "male",
-    "address": { "city": "New York", "state": "NY", "country": "US" },
-    "symbol": "🎹",
-    "color": "#16a34a",
-    "emailDomains": ["nyc-bar.org", "nyc-mail.net"]
-  }
+	{
+		"id": "ross-geller",
+		"firstName": "Ross",
+		"lastName": "Geller",
+		"usernames": [
+			"we_were_on_a_break",
+			"divorcemaster_phd",
+			"cookie_duuude",
+			"pivot_guy",
+			"homo_sapiens_are_people"
+		],
+		"profession": "Paleontologist",
+		"interests": [
+			"dinosaurs",
+			"fossils",
+			"museum exhibits",
+			"coffee",
+			"science lectures",
+			"sci-fi"
+		],
+		"quotes": [
+			"WE WERE ON A BREAK!",
+			"I'm fine!",
+			"Someone at work ate my sandwich! MY SANDWICH!",
+			"I'm a paleontologist, and I have to say, evolution is not something for you to buy. Evolution is scientific fact.",
+			"I hate to lecture you guys but it's kind of disgraceful that a group of well-educated adults, and Joey, can't name all the states.",
+			"I'm going to be happy this year. I'm going to make myself happy."
+		],
+		"gender": "male",
+		"address": {
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "🦕",
+		"color": "#3b1f0a",
+		"emailDomains": [
+			"nyu.edu",
+			"natural-history-nyc.org"
+		]
+	},
+	{
+		"id": "rachel-green",
+		"firstName": "Rachel",
+		"lastName": "Green",
+		"usernames": [
+			"got_off_the_plane",
+			"who_is_fica",
+			"steamed_milk_life",
+			"not_a_library_card",
+			"ralph_lauren_nyc"
+		],
+		"profession": "Fashion Executive",
+		"interests": [
+			"fashion",
+			"shopping",
+			"coffee",
+			"style",
+			"sailing",
+			"skiing"
+		],
+		"quotes": [
+			"I got off the plane.",
+			"Who's FICA? Why is he getting all my money?",
+			"I can't believe I have to walk down the aisle in front of 200 people looking like something you drink when you're nauseous!",
+			"I wasn't supposed to put beef in the trifle!",
+			"It's not that common, it doesn't happen to every guy, and it is a big deal!"
+		],
+		"gender": "female",
+		"address": {
+			"street": "90 Bedford Street",
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "👗",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"ralph-lauren.com",
+			"nyc-fashion.net"
+		]
+	},
+	{
+		"id": "chandler-bing",
+		"firstName": "Chandler",
+		"lastName": "Bing",
+		"usernames": [
+			"chanandler_bong",
+			"the_nubbin",
+			"could_i_be_more_sarcastic",
+			"transponster",
+			"bing_no_first_name"
+		],
+		"profession": "Statistical Analysis and Data Reconfiguration",
+		"interests": [
+			"TV",
+			"foosball",
+			"comedy",
+			"movies",
+			"video games",
+			"novelty songs"
+		],
+		"quotes": [
+			"I make jokes when I'm uncomfortable.",
+			"Could I BE wearing any more clothes?",
+			"The meaning of the box is threefold. One, it gives me the time to think about what I did. Two, it proves how much I care about my friendship with Joey. And three... it hurts!",
+			"Oh, I know, this must be so hard. 'Oh, no! Two women love me. They're both gorgeous and sexy. My wallet's too small for my fifties, and my diamond shoes are too tight!'",
+			"When I walk outside naked, people throw garbage at me.",
+			"I thought this was going to be the most difficult thing I ever had to do. But when I saw you walking down that aisle, I realized how simple it was. I love you."
+		],
+		"gender": "male",
+		"address": {
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "😬",
+		"color": "#4a1942",
+		"emailDomains": [
+			"nyc-mail.net",
+			"msyb-corp.com"
+		]
+	},
+	{
+		"id": "monica-geller",
+		"firstName": "Monica",
+		"lastName": "Geller",
+		"usernames": [
+			"big_fat_goalie",
+			"monica_clean",
+			"eleven_towel_categories",
+			"welcome_to_the_real_world",
+			"seven_erogenous_zones"
+		],
+		"profession": "Chef",
+		"interests": [
+			"French cuisine",
+			"cleaning",
+			"hosting dinners",
+			"organizing",
+			"competitive games",
+			"football"
+		],
+		"quotes": [
+			"Welcome to the real world. It sucks. You're gonna love it.",
+			"Fine! Judge all you want to, but: married a lesbian, left a man at the altar, fell in love with a gay ice dancer, threw a girl's wooden leg in a fire, LIVING IN A BOX!",
+			"I know of two surefire ways to shut a man up. And one of them is sex.",
+			"Chandler, you have to tell Joey that you're not in Tulsa.",
+			"I want a marriage."
+		],
+		"gender": "female",
+		"address": {
+			"street": "90 Bedford Street",
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "🍳",
+		"color": "#312e81",
+		"emailDomains": [
+			"central-perk.com",
+			"nyc-chefs.net"
+		]
+	},
+	{
+		"id": "joey-tribbiani",
+		"firstName": "Joey",
+		"lastName": "Tribbiani",
+		"usernames": [
+			"how_you_doin",
+			"joey_no_share_food",
+			"drake_ramoray_md",
+			"baby_kangaroo",
+			"sandwich_first"
+		],
+		"profession": "Actor",
+		"interests": [
+			"food",
+			"acting",
+			"dating",
+			"sandwiches",
+			"Days of Our Lives",
+			"foosball",
+			"sports"
+		],
+		"quotes": [
+			"JOEY DOESN'T SHARE FOOD.",
+			"No, I had sex in high school.",
+			"Oh, is this not the good part? Well, if little Joey's dead, then I've got no reason to live.",
+			"You know, like a cow's opinion. It doesn't matter. It's moo.",
+			"The Netherlands is this make-believe place where Peter Pan and Tinkerbell come from.",
+			"I want girls on bread!"
+		],
+		"gender": "male",
+		"address": {
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "🍕",
+		"color": "#059669",
+		"emailDomains": [
+			"casting-nyc.com",
+			"days-of-our-lives.net"
+		]
+	},
+	{
+		"id": "phoebe-buffay",
+		"firstName": "Phoebe",
+		"lastName": "Buffay",
+		"usernames": [
+			"smelly_cat_official",
+			"princess_consuela",
+			"buried_alive_tombstone",
+			"not_so_much_evolution",
+			"stabbed_a_cop"
+		],
+		"profession": "Masseuse and singer-songwriter",
+		"interests": [
+			"music",
+			"massage",
+			"spirituality",
+			"the paranormal",
+			"vegetarianism",
+			"cats",
+			"knitting"
+		],
+		"quotes": [
+			"Hello, teeny embryos. I'm Phoebe Buffay. I'm hoping to be your uterus for the next nine months.",
+			"I don't believe in evolution.",
+			"I just found a selfless good deed; I went to the park and let a bee sting me.",
+			"Someday I'll tell you about the time I stabbed a cop. He stabbed me first!",
+			"My tombstone is going to say 'Phoebe Buffay: Buried Alive.'",
+			"For 99 cents, I'd eat you."
+		],
+		"gender": "female",
+		"address": {
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "🎸",
+		"color": "#083344",
+		"emailDomains": [
+			"smelly-cat.net",
+			"nyc-mail.net"
+		]
+	},
+	{
+		"id": "gunther",
+		"firstName": "Gunther",
+		"lastName": "",
+		"usernames": [
+			"always_staring_at_rachel",
+			"central_perk_forever",
+			"ill_take_it_all",
+			"mr_central_perk",
+			"unrequited_gunther"
+		],
+		"profession": "Coffee shop manager",
+		"interests": [
+			"coffee",
+			"Dutch",
+			"Rachel Green",
+			"opera"
+		],
+		"quotes": [
+			"I'll take it all.",
+			"What is my last name?",
+			"Flexible hours.",
+			"Well, I wouldn't call her a star, but she's really good.",
+			"You don't have to fill these silences."
+		],
+		"gender": "male",
+		"address": {
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "☕",
+		"color": "#0c4a6e",
+		"emailDomains": [
+			"central-perk.com",
+			"nyc-barista.net"
+		]
+	},
+	{
+		"id": "janice-litman-goralnik",
+		"firstName": "Janice",
+		"lastName": "Litman-Goralnik",
+		"usernames": [
+			"oh_my_god_janice",
+			"the_chandler_magnet",
+			"janice_is_back",
+			"machine_like_laughter",
+			"day_of_fun"
+		],
+		"profession": "Sales representative",
+		"interests": [
+			"shopping",
+			"day trips",
+			"Broadway",
+			"Chandler Bing"
+		],
+		"quotes": [
+			"Oh. My. God.",
+			"I brought you something. Is it loaded?",
+			"So, I hear you hate me.",
+			"A little birdie said something about ripping your arm off and throwing it at me.",
+			"You got 'hate' from that?"
+		],
+		"gender": "female",
+		"address": {
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "😱",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"nyc-mail.net"
+		]
+	},
+	{
+		"id": "richard-burke",
+		"firstName": "Richard",
+		"lastName": "Burke",
+		"usernames": [
+			"tom_selleck_stache",
+			"dr_burke",
+			"video_message_guy",
+			"mustache_and_cigars",
+			"monica_old_boyfriend"
+		],
+		"profession": "Ophthalmologist",
+		"interests": [
+			"baseball",
+			"cigars",
+			"cooking",
+			"sailing",
+			"Monica Geller"
+		],
+		"quotes": [
+			"My nose was getting lonely.",
+			"I see you grew your hair long.",
+			"I love children, I have children. I just don't want to be 70 when our kids go off to college.",
+			"You go get her, Chandler. And can I give you a piece of advice? If you do get her, don't let her go. Trust me.",
+			"You're with Chandler, a guy I really like. And if you say he's straight, I'll believe you."
+		],
+		"gender": "male",
+		"address": {
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "👨‍⚕️",
+		"color": "#2563eb",
+		"emailDomains": [
+			"nyc-ophthalmology.com",
+			"manhattan-md.net"
+		]
+	},
+	{
+		"id": "mike-hannigan",
+		"firstName": "Mike",
+		"lastName": "Hannigan",
+		"usernames": [
+			"crap_bag_hannigan",
+			"buffay_hannigan",
+			"piano_mike",
+			"phoebe_plus_one",
+			"mike_not_vtox"
+		],
+		"profession": "Pianist",
+		"interests": [
+			"piano",
+			"ping pong",
+			"crosswords",
+			"Phoebe Buffay",
+			"rats"
+		],
+		"quotes": [
+			"My name is Crap Bag.",
+			"You know, you're right. The capital of Peru is Vtox.",
+			"Only if you'll be Phoebe Buffay.",
+			"Do you know what a banana hammock is?",
+			"It's a speedo!"
+		],
+		"gender": "male",
+		"address": {
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "🎹",
+		"color": "#16a34a",
+		"emailDomains": [
+			"nyc-bar.org",
+			"nyc-mail.net"
+		]
+	}
 ]

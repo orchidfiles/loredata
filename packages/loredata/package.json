@@ -59,6 +59,7 @@
     "build": "tsup",
     "build:watch": "tsup --watch",
     "validate": "node --import tsx/esm scripts/validate-universe.ts",
+    "check:quotes": "node --import tsx/esm scripts/check-quotes/run.ts",
     "fetch:tmdb": "node --env-file=.env --import tsx/esm scripts/fetch-tmdb.ts",
     "patch:chars": "node --import tsx/esm scripts/patch.ts chars",
     "patch:meta": "node --import tsx/esm scripts/patch.ts meta",

@@ -1,155 +1,240 @@
 [
-  {
-    "id": "harry-potter",
-    "firstName": "Harry",
-    "lastName": "Potter",
-    "usernames": ["the_boy_who_lived", "chosen_one", "trouble_finds_me"],
-    "profession": "Auror",
-    "interests": ["quidditch", "defense against dark arts", "friendship"],
-    "quotes": [
-      "I don't go looking for trouble. Trouble usually finds me.",
-      "You're the weak one. You'll never know love or friendship. And I feel sorry for you.",
-      "We're all human, aren't we? Every human life is worth the same.",
-      "I'm not going home. Not really.",
-      "Dumbledore's man through and through."
-    ],
-    "gender": "male",
-    "birthYear": 1980,
-    "address": {
-      "street": "4 Privet Drive",
-      "city": "Little Whinging",
-      "state": "Surrey",
-      "country": "GB"
-    },
-    "symbol": "⚡",
-    "color": "#1d4ed8",
-    "emailDomains": ["hogwarts.ac.uk", "auror-office.gov.uk"]
-  },
-  {
-    "id": "hermione-granger",
-    "firstName": "Hermione",
-    "lastName": "Granger",
-    "usernames": ["brightest_witch", "miss_granger", "when_in_doubt_library"],
-    "profession": "Ministry official",
-    "interests": ["reading", "spells", "house elf liberation"],
-    "quotes": [
-      "It's LeviOsa, not LevioSA.",
-      "When in doubt, go to the library.",
-      "I'm going to bed before either of you come up with another clever idea to get us killed.",
-      "Actually, I'm highly logical which allows me to look past extraneous detail and perceive clearly that which others overlook.",
-      "Fear of a name only increases fear of the thing itself."
-    ],
-    "gender": "female",
-    "birthYear": 1979,
-    "symbol": "📚",
-    "color": "#134e4a",
-    "emailDomains": ["hogwarts.ac.uk", "ministry-magic.gov.uk"]
-  },
-  {
-    "id": "ron-weasley",
-    "firstName": "Ron",
-    "lastName": "Weasley",
-    "usernames": ["won_won", "why_not_butterflies", "chess_king_gryffindor"],
-    "profession": "Auror",
-    "interests": ["chess", "quidditch", "food"],
-    "quotes": [
-      "Bloody hell.",
-      "Why spiders? Why couldn't it be follow the butterflies?",
-      "She needs to sort out her priorities.",
-      "I'm not as good as I thought I was.",
-      "One person can't feel all that at once, they'd explode."
-    ],
-    "gender": "male",
-    "birthYear": 1980,
-    "symbol": "♟️",
-    "color": "#dc2626",
-    "emailDomains": ["hogwarts.ac.uk", "auror-office.gov.uk"]
-  },
-  {
-    "id": "albus-dumbledore",
-    "firstName": "Albus",
-    "lastName": "Dumbledore",
-    "usernames": ["headmaster", "greatest_sorcerer", "do_not_dwell_on_dreams"],
-    "profession": "Headmaster of Hogwarts",
-    "interests": ["magic", "sweets", "knitting patterns"],
-    "quotes": [
-      "It does not do to dwell on dreams and forget to live.",
-      "Happiness can be found in the darkest of places, if one only remembers to turn on the light.",
-      "It is our choices that show what we truly are, far more than our abilities.",
-      "Do not pity the dead, Harry. Pity the living, and above all, those who live without love.",
-      "Words are, in my not so humble opinion, our most inexhaustible source of magic."
-    ],
-    "gender": "male",
-    "birthYear": 1881,
-    "address": {
-      "street": "Hogwarts School of Witchcraft and Wizardry",
-      "city": "Scottish Highlands",
-      "country": "GB"
-    },
-    "symbol": "🌟",
-    "color": "#7f1d1d",
-    "emailDomains": ["hogwarts.ac.uk", "wizengamot.org"]
-  },
-  {
-    "id": "severus-snape",
-    "firstName": "Severus",
-    "lastName": "Snape",
-    "usernames": ["potions_master", "half_blood_prince", "turn_to_page_394"],
-    "profession": "Potions professor",
-    "interests": ["potions", "dark arts", "occlumency"],
-    "quotes": [
-      "Always.",
-      "I can teach you how to bottle fame, brew glory, even stopper death.",
-      "You have your mother's eyes.",
-      "Clearly, fame isn't everything, is it, Mr. Potter?",
-      "Turn to page 394."
-    ],
-    "gender": "male",
-    "birthYear": 1960,
-    "address": { "street": "Spinner's End", "city": "Cokeworth", "country": "GB" },
-    "symbol": "🖤",
-    "color": "#ca8a04",
-    "emailDomains": ["hogwarts.ac.uk", "spinner-end.net"]
-  },
-  {
-    "id": "draco-malfoy",
-    "firstName": "Draco",
-    "lastName": "Malfoy",
-    "usernames": ["slytherin_prince", "father_will_hear", "scared_potter"],
-    "profession": "Ministry official",
-    "interests": ["quidditch", "pureblood traditions", "dark arts"],
-    "quotes": [
-      "My father will hear about this.",
-      "I don't need your help, Potter.",
-      "Scared, Potter?",
-      "You're dead, Potter.",
-      "No one asked your opinion, you filthy little Mudblood."
-    ],
-    "gender": "male",
-    "birthYear": 1980,
-    "address": { "street": "Malfoy Manor", "city": "Wiltshire", "country": "GB" },
-    "symbol": "🐍",
-    "color": "#16a34a",
-    "emailDomains": ["malfoy-manor.com", "ministry-magic.gov.uk"]
-  },
-  {
-    "id": "luna-lovegood",
-    "firstName": "Luna",
-    "lastName": "Lovegood",
-    "usernames": ["loony_lovegood", "nargles_watcher", "just_as_sane_as_you"],
-    "profession": "Magizoologist",
-    "interests": ["nargles", "thestrals", "the quibbler"],
-    "quotes": [
-      "Things we lose have a way of coming back to us in the end.",
-      "You're just as sane as I am.",
-      "I suspect the Nargles are behind it.",
-      "Being different isn't a bad thing. It means you're brave enough to be yourself.",
-      "The most important thing about Nargles is that they're quite hard to see."
-    ],
-    "gender": "female",
-    "birthYear": 1981,
-    "symbol": "🌙",
-    "color": "#083344",
-    "emailDomains": ["quibbler.net", "magical-creatures.org"]
-  }
+	{
+		"id": "harry-potter",
+		"firstName": "Harry",
+		"lastName": "Potter",
+		"usernames": [
+			"the_boy_who_lived",
+			"chosen_one",
+			"trouble_finds_me"
+		],
+		"profession": "Auror",
+		"interests": [
+			"quidditch",
+			"defense against dark arts",
+			"friendship"
+		],
+		"quotes": [
+			"I don't go looking for trouble. Trouble usually finds me.",
+			"You're the weak one. You'll never know love or friendship. And I feel sorry for you.",
+			"We're all human, aren't we? Every human life is worth the same.",
+			"I'm not going home. Not really.",
+			"Dumbledore's man through and through."
+		],
+		"gender": "male",
+		"birthYear": 1980,
+		"address": {
+			"street": "4 Privet Drive",
+			"city": "Little Whinging",
+			"state": "Surrey",
+			"country": "GB"
+		},
+		"symbol": "⚡",
+		"color": "#1d4ed8",
+		"emailDomains": [
+			"hogwarts.ac.uk",
+			"auror-office.gov.uk"
+		]
+	},
+	{
+		"id": "hermione-granger",
+		"firstName": "Hermione",
+		"lastName": "Granger",
+		"usernames": [
+			"brightest_witch",
+			"leviosa_not_leviosar",
+			"when_in_doubt_library"
+		],
+		"profession": "Ministry official",
+		"interests": [
+			"reading",
+			"spells",
+			"house elf liberation"
+		],
+		"quotes": [
+			"It's LeviOsa, not LevioSA.",
+			"When in doubt, go to the library.",
+			"I'm going to bed before either of you come up with another clever idea to get us killed.",
+			"Actually, I'm highly logical which allows me to look past extraneous detail and perceive clearly that which others overlook.",
+			"Fear of a name only increases fear of the thing itself."
+		],
+		"gender": "female",
+		"birthYear": 1979,
+		"symbol": "📚",
+		"color": "#134e4a",
+		"emailDomains": [
+			"hogwarts.ac.uk",
+			"ministry-magic.gov.uk"
+		]
+	},
+	{
+		"id": "ron-weasley",
+		"firstName": "Ron",
+		"lastName": "Weasley",
+		"usernames": [
+			"won_won",
+			"why_not_butterflies",
+			"chess_king_gryffindor"
+		],
+		"profession": "Auror",
+		"interests": [
+			"chess",
+			"quidditch",
+			"food"
+		],
+		"quotes": [
+			"Bloody hell.",
+			"Why spiders? Why couldn't it be follow the butterflies?",
+			"She needs to sort out her priorities.",
+			"I'm not as good as I thought I was.",
+			"One person can't feel all that at once, they'd explode."
+		],
+		"gender": "male",
+		"birthYear": 1980,
+		"symbol": "♟️",
+		"color": "#dc2626",
+		"emailDomains": [
+			"hogwarts.ac.uk",
+			"auror-office.gov.uk"
+		]
+	},
+	{
+		"id": "albus-dumbledore",
+		"firstName": "Albus",
+		"lastName": "Dumbledore",
+		"usernames": [
+			"headmaster",
+			"do_not_dwell_on_dreams",
+			"sherbet_lemon"
+		],
+		"profession": "Headmaster of Hogwarts",
+		"interests": [
+			"magic",
+			"sweets",
+			"knitting patterns"
+		],
+		"quotes": [
+			"It does not do to dwell on dreams and forget to live.",
+			"Happiness can be found in the darkest of places, if one only remembers to turn on the light.",
+			"It is our choices that show what we truly are, far more than our abilities.",
+			"Do not pity the dead, Harry. Pity the living, and above all, those who live without love.",
+			"Words are, in my not so humble opinion, our most inexhaustible source of magic."
+		],
+		"gender": "male",
+		"birthYear": 1881,
+		"address": {
+			"street": "Hogwarts School of Witchcraft and Wizardry",
+			"city": "Scottish Highlands",
+			"country": "GB"
+		},
+		"symbol": "🍬",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"hogwarts.ac.uk",
+			"wizengamot.org"
+		]
+	},
+	{
+		"id": "severus-snape",
+		"firstName": "Severus",
+		"lastName": "Snape",
+		"usernames": [
+			"potions_master",
+			"half_blood_prince",
+			"turn_to_page_394"
+		],
+		"profession": "Potions professor",
+		"interests": [
+			"potions",
+			"dark arts",
+			"occlumency"
+		],
+		"quotes": [
+			"Always.",
+			"I can teach you how to bottle fame, brew glory, even stopper death.",
+			"You have your mother's eyes.",
+			"Clearly, fame isn't everything, is it, Mr. Potter?",
+			"Turn to page 394."
+		],
+		"gender": "male",
+		"birthYear": 1960,
+		"address": {
+			"street": "Spinner's End",
+			"city": "Cokeworth",
+			"country": "GB"
+		},
+		"symbol": "🧪",
+		"color": "#ca8a04",
+		"emailDomains": [
+			"hogwarts.ac.uk",
+			"spinner-end.net"
+		]
+	},
+	{
+		"id": "draco-malfoy",
+		"firstName": "Draco",
+		"lastName": "Malfoy",
+		"usernames": [
+			"slytherin_prince",
+			"father_will_hear",
+			"scared_potter"
+		],
+		"profession": "Ministry official",
+		"interests": [
+			"quidditch",
+			"pureblood traditions",
+			"dark arts"
+		],
+		"quotes": [
+			"My father will hear about this.",
+			"I don't need your help, Potter.",
+			"Scared, Potter?",
+			"You're dead, Potter.",
+			"No one asked your opinion, you filthy little Mudblood."
+		],
+		"gender": "male",
+		"birthYear": 1980,
+		"address": {
+			"street": "Malfoy Manor",
+			"city": "Wiltshire",
+			"country": "GB"
+		},
+		"symbol": "🐍",
+		"color": "#16a34a",
+		"emailDomains": [
+			"malfoy-manor.com",
+			"ministry-magic.gov.uk"
+		]
+	},
+	{
+		"id": "luna-lovegood",
+		"firstName": "Luna",
+		"lastName": "Lovegood",
+		"usernames": [
+			"loony_lovegood",
+			"nargles_watcher",
+			"just_as_sane_as_you"
+		],
+		"profession": "Magizoologist",
+		"interests": [
+			"nargles",
+			"thestrals",
+			"the quibbler"
+		],
+		"quotes": [
+			"Things we lose have a way of coming back to us in the end.",
+			"You're just as sane as I am.",
+			"I suspect the Nargles are behind it.",
+			"Being different isn't a bad thing. It means you're brave enough to be yourself.",
+			"The most important thing about Nargles is that they're quite hard to see."
+		],
+		"gender": "female",
+		"birthYear": 1981,
+		"symbol": "🌙",
+		"color": "#083344",
+		"emailDomains": [
+			"quibbler.net",
+			"magical-creatures.org"
+		]
+	}
 ]

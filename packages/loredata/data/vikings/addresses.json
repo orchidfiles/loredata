@@ -1,0 +1,26 @@
+[
+  {
+    "city": "Kattegat",
+    "state": "Kattegat"
+  },
+  {
+    "city": "Paris",
+    "state": "Île-de-France",
+    "country": "FR"
+  },
+  {
+    "city": "Wessex",
+    "state": "Wessex",
+    "country": "GB"
+  },
+  {
+    "city": "York",
+    "state": "Northumbria",
+    "country": "GB"
+  },
+  {
+    "city": "Hedeby",
+    "state": "Schleswig",
+    "country": "DE"
+  }
+]

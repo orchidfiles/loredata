@@ -11,7 +11,13 @@
       "not_lupus"
     ],
     "profession": "Diagnostician",
-    "interests": ["medicine", "piano", "motorcycle", "puzzles", "vicodin"],
+    "interests": [
+      "piano",
+      "motorcycles",
+      "puzzles",
+      "Vicodin",
+      "monster trucks"
+    ],
     "quotes": [
       "Everybody lies.",
       "There's no such thing! Our bodies break down, sometimes when we're 90, sometimes before we're even born, but it always happens and there's never any dignity in it. I don't care if you can walk, see, wipe your own ass. It's always ugly - always! We can live with dignity - we can't die with it.",
@@ -27,20 +33,28 @@
     "gender": "male",
     "symbol": "🦯",
     "color": "#134e4a",
-    "emailDomains": ["ppth.edu", "diagnostics-ppth.net"]
+    "emailDomains": [
+      "ppth.edu",
+      "diagnostics-ppth.net"
+    ]
   },
   {
     "id": "james-wilson",
     "firstName": "James",
     "lastName": "Wilson",
     "usernames": [
-      "best_friend_of_house",
-      "oncology_wilson",
+      "sarcastic_oncologist",
+      "wilsons_heart",
       "enabler_in_chief",
       "three_divorces_wilson"
     ],
     "profession": "Oncologist",
-    "interests": ["oncology", "friendship", "cooking", "relationships"],
+    "interests": [
+      "cooking",
+      "dating",
+      "friendship",
+      "classical music"
+    ],
     "quotes": [
       "You don't like yourself. But you do admire yourself. It's all you've got so you cling to it. You're so afraid if you change, you'll lose what makes you special. Being miserable doesn't make you better than anybody else, House. It just makes you miserable.",
       "I have no kids, my marriage sucks... I only got two things that work for me: this job and this stupid screwed up friendship, and neither mattered enough for you to give one lousy speech.",
@@ -55,15 +69,28 @@
     "gender": "male",
     "symbol": "🎗️",
     "color": "#166534",
-    "emailDomains": ["ppth.edu", "oncology-ppth.net"]
+    "emailDomains": [
+      "ppth.edu",
+      "oncology-ppth.net"
+    ]
   },
   {
     "id": "lisa-cuddy",
     "firstName": "Lisa",
     "lastName": "Cuddy",
-    "usernames": ["dean_of_medicine", "ppth_dean", "house_wrangler", "cuddy_md"],
+    "usernames": [
+      "dean_of_medicine",
+      "ppth_dean",
+      "house_wrangler",
+      "cuddy_md"
+    ],
     "profession": "Dean of Medicine",
-    "interests": ["hospital administration", "medicine", "family", "fundraising"],
+    "interests": [
+      "hospital administration",
+      "fundraising",
+      "parenting",
+      "home renovation"
+    ],
     "quotes": [
       "Your reputation won't last if you don't do your job; the clinic is part of your job. I want you to do your job.",
       "I assume those are two separate points.",
@@ -77,15 +104,28 @@
     "gender": "female",
     "symbol": "🏥",
     "color": "#3b1f0a",
-    "emailDomains": ["ppth.edu", "medical-admin.net"]
+    "emailDomains": [
+      "ppth.edu",
+      "medical-admin.net"
+    ]
   },
   {
     "id": "eric-foreman",
     "firstName": "Eric",
     "lastName": "Foreman",
-    "usernames": ["foreman_neurologist", "not_a_car_thief", "dean_foreman", "team_foreman"],
+    "usernames": [
+      "not_a_car_thief",
+      "dean_foreman",
+      "house_clone",
+      "jailbait_foreman"
+    ],
     "profession": "Neurologist",
-    "interests": ["neurology", "medicine", "ethics", "career advancement"],
+    "interests": [
+      "ethics",
+      "boxing",
+      "career advancement",
+      "clinical trials"
+    ],
     "quotes": [
       "Isn't treating patients why we became doctors?",
       "From what I've read false paternity is more like ten percent.",
@@ -97,17 +137,30 @@
       "I think you got her in because of your usual messiah complex. I think you messed with the appointment schedule because of your I-like-to-have-sex complex."
     ],
     "gender": "male",
-    "symbol": "🧠",
+    "symbol": "🩺",
     "color": "#083344",
-    "emailDomains": ["ppth.edu", "neuro-ppth.net"]
+    "emailDomains": [
+      "ppth.edu",
+      "neuro-ppth.net"
+    ]
   },
   {
     "id": "robert-chase",
     "firstName": "Robert",
     "lastName": "Chase",
-    "usernames": ["pretty_boy_chase", "aussie_doctor", "not_british", "dr_chase_ppth"],
+    "usernames": [
+      "pretty_boy_chase",
+      "not_british",
+      "fat_spiderman",
+      "dibala_case"
+    ],
     "profession": "Intensivist",
-    "interests": ["surgery", "intensive care", "surfing", "religion"],
+    "interests": [
+      "surfing",
+      "religion",
+      "surgery",
+      "speed dating"
+    ],
     "quotes": [
       "They tend to keep quiet on account of them not having any mouths.",
       "I don't hate him. I loved him until I figured out it hurts a lot less to just not care. You don't expect him to turn up to your football match? No disappointments. You don't expect a call on your birthday, don't expect to see him for months? No disappointments.",
@@ -121,20 +174,28 @@
     "gender": "male",
     "symbol": "🏄",
     "color": "#4c1d95",
-    "emailDomains": ["ppth.edu", "ppth-icu.net"]
+    "emailDomains": [
+      "ppth.edu",
+      "ppth-icu.net"
+    ]
   },
   {
     "id": "allison-cameron",
     "firstName": "Allison",
     "lastName": "Cameron",
     "usernames": [
-      "dr_cameron_er",
-      "always_caring_cameron",
-      "cameron_immunology",
+      "cameron_er",
+      "dead_husband_story",
+      "i_love_dr_house",
       "mercy_and_reason"
     ],
     "profession": "Emergency medicine physician",
-    "interests": ["medicine", "ethics", "immunology", "human rights"],
+    "interests": [
+      "ethics",
+      "human rights",
+      "grief counseling",
+      "medical missions"
+    ],
     "quotes": [
       "He cured you. You didn't cure him.",
       "Dr. House doesn't like dealing with patients.",
@@ -146,17 +207,30 @@
       "In ER we like to actually resuscitate dying people, not just let them flop around."
     ],
     "gender": "female",
-    "symbol": "❤️",
+    "symbol": "💉",
     "color": "#4a1942",
-    "emailDomains": ["ppth.edu", "er-chicago.net"]
+    "emailDomains": [
+      "ppth.edu",
+      "er-chicago.net"
+    ]
   },
   {
     "id": "chris-taub",
     "firstName": "Chris",
     "lastName": "Taub",
-    "usernames": ["taub_plastics", "nose_job_taub", "dr_taub_ppth", "taub_survivor"],
-    "profession": "Physician",
-    "interests": ["medicine", "plastic surgery", "family", "poker"],
+    "usernames": [
+      "nose_job_taub",
+      "taub_survivor",
+      "two_babies_taub",
+      "plastic_fantastic"
+    ],
+    "profession": "Plastic surgeon",
+    "interests": [
+      "poker",
+      "plastic surgery",
+      "infidelity",
+      "family"
+    ],
     "quotes": [
       "We treat her like a sixty-year-old Asian man, too?",
       "Sane people don't attempt suicide.",
@@ -168,17 +242,29 @@
       "Why me?"
     ],
     "gender": "male",
-    "symbol": "👃",
+    "symbol": "🃏",
     "color": "#dc2626",
-    "emailDomains": ["ppth.edu"]
+    "emailDomains": [
+      "ppth.edu"
+    ]
   },
   {
     "id": "remy-hadley",
     "firstName": "Remy",
     "lastName": "Hadley",
-    "usernames": ["thirteen_hadley", "huntingtons_thirteen", "dr_thirteen", "remy_hadley_md"],
+    "usernames": [
+      "thirteen_hadley",
+      "huntingtons_thirteen",
+      "bisexual_thirteen",
+      "prison_roadtrip"
+    ],
     "profession": "Internist",
-    "interests": ["medicine", "clinical trials", "Huntington's disease", "neurology"],
+    "interests": [
+      "clinical trials",
+      "Huntington's disease",
+      "neurology",
+      "one-night stands"
+    ],
     "quotes": [
       "No one can describe themselves in ten words. Why would we wanna hear anyone else do it?",
       "You spend your whole life looking for answers, because you think the next answer will change something, maybe make you a little less miserable. And you know that when you run out of questions, you don't just run out of answers, you run out of hope.",
@@ -192,15 +278,28 @@
     "gender": "female",
     "symbol": "🎲",
     "color": "#4c1d95",
-    "emailDomains": ["ppth.edu", "thirteen-mail.net"]
+    "emailDomains": [
+      "ppth.edu",
+      "thirteen-mail.net"
+    ]
   },
   {
     "id": "lawrence-kutner",
     "firstName": "Lawrence",
     "lastName": "Kutner",
-    "usernames": ["kutner_md", "foster_kid_kutner", "kutner_diagnostics", "excitable_kutner"],
+    "usernames": [
+      "foster_kid_kutner",
+      "excitable_kutner",
+      "magic_trick_kutner",
+      "number_nine"
+    ],
     "profession": "Sports medicine physician",
-    "interests": ["medicine", "sports medicine", "pranks", "pop culture"],
+    "interests": [
+      "pranks",
+      "pop culture",
+      "comic books",
+      "magic tricks"
+    ],
     "quotes": [
       "Belonging's overrated. I was adopted by a white family when I was nine. I like being different the view's better from the outside looking in.",
       "Not every teenager is having sex.",
@@ -214,20 +313,27 @@
     "gender": "male",
     "symbol": "🏃",
     "color": "#4a1942",
-    "emailDomains": ["ppth.edu"]
+    "emailDomains": [
+      "ppth.edu"
+    ]
   },
   {
     "id": "jessica-adams",
     "firstName": "Jessica",
     "lastName": "Adams",
     "usernames": [
-      "dr_adams_ppth",
       "formerly_incarcerated_md",
-      "adams_diagnostics",
-      "jail_doc_adams"
+      "jail_doc_adams",
+      "prison_clinic_adams",
+      "five_grand_clinic"
     ],
     "profession": "Diagnostician",
-    "interests": ["medicine", "ethics", "charity work", "volunteering"],
+    "interests": [
+      "ethics",
+      "charity work",
+      "volunteering",
+      "physics"
+    ],
     "quotes": [
       "I checked your file. You didn't have a bad lawyer. You had no lawyer. You took the first deal they offered because you wanted to punish yourself.",
       "So you want to research it? Why? It's the greatest mystery there is. Theory of everything. And completely divorced from humanity.",
@@ -239,17 +345,29 @@
       "I could do $5,000. If you double your clinic hours."
     ],
     "gender": "female",
-    "symbol": "⚕️",
+    "symbol": "🧪",
     "color": "#4a1942",
-    "emailDomains": ["ppth.edu"]
+    "emailDomains": [
+      "ppth.edu"
+    ]
   },
   {
     "id": "chi-park",
     "firstName": "Chi",
     "lastName": "Park",
-    "usernames": ["dr_park_ppth", "punched_the_boss", "park_diagnostics", "dr_chi_park"],
+    "usernames": [
+      "punched_the_boss",
+      "kimchi_and_brains",
+      "park_diagnostics",
+      "frat_house_neighbor"
+    ],
     "profession": "Neurologist",
-    "interests": ["medicine", "neurology", "family", "self-defense"],
+    "interests": [
+      "family",
+      "self-defense",
+      "anime",
+      "neurology"
+    ],
     "quotes": [
       "You do know I punched the last person that pissed me off?",
       "My mom's Filipino, dad's Korean, and my boss grabbed my behind.",
@@ -262,6 +380,9 @@
     "gender": "female",
     "symbol": "👊",
     "color": "#083344",
-    "emailDomains": ["ppth.edu", "neuro-ppth.net"]
+    "emailDomains": [
+      "ppth.edu",
+      "neuro-ppth.net"
+    ]
   }
 ]

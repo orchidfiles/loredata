@@ -1,0 +1,13 @@
+{
+  "id": "stranger-things",
+  "name": "Stranger Things",
+  "genre": ["supernatural", "thriller", "drama", "horror", "science fiction"],
+  "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+  "tmdbId": 66732,
+  "mediaType": "tv",
+  "year": 2016,
+  "rating": 8.6,
+  "networks": ["Netflix"],
+  "posterPath": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+  "backdropPath": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg"
+}

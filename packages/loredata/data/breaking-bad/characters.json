@@ -1,156 +1,250 @@
 [
-  {
-    "id": "walter-white",
-    "firstName": "Walter",
-    "lastName": "White",
-    "usernames": ["heisenberg", "blue_sky_cook", "danger_knocks"],
-    "profession": "Chemistry teacher",
-    "interests": ["chemistry", "cooking", "family"],
-    "quotes": [
-      "I am the one who knocks.",
-      "Say my name.",
-      "I'm the danger.",
-      "I did it for me. I liked it. I was good at it. And I was really... I was alive.",
-      "Chemistry is, well technically, chemistry is the study of matter."
-    ],
-    "gender": "male",
-    "birthYear": 1959,
-    "address": {
-      "street": "308 Negra Arroyo Lane",
-      "city": "Albuquerque",
-      "state": "NM",
-      "country": "US"
-    },
-    "symbol": "☢️",
-    "color": "#4c1d95",
-    "emailDomains": ["los-pollos.com", "abq-chem.edu", "new-mexico-mail.net"]
-  },
-  {
-    "id": "jesse-pinkman",
-    "firstName": "Jesse",
-    "lastName": "Pinkman",
-    "usernames": ["capncook", "yo_bitch_84", "junkyard_artist"],
-    "profession": "Drug dealer",
-    "interests": ["art", "cars", "chemistry", "video games"],
-    "quotes": [
-      "Yeah, science!",
-      "Yeah, bitch! Magnets!",
-      "Yo, Mr. White! We're gonna be okay!",
-      "I'm the bad guy.",
-      "Maybe. But some people are just... broken."
-    ],
-    "gender": "male",
-    "birthYear": 1984,
-    "symbol": "🎨",
-    "color": "#0c4a6e",
-    "emailDomains": ["abq-mail.net"]
-  },
-  {
-    "id": "saul-goodman",
-    "firstName": "Saul",
-    "lastName": "Goodman",
-    "usernames": ["bettercallsaul", "slippin_jimmy", "lawman505"],
-    "profession": "Criminal lawyer",
-    "interests": ["law", "money", "loopholes", "self-promotion"],
-    "quotes": [
-      "Better call Saul!",
-      "It's all good, man.",
-      "You don't want a criminal lawyer. You want a criminal lawyer.",
-      "Let's just say I know a guy who knows a guy. Sometimes I am the guy.",
-      "I fight for you, Albuquerque!"
-    ],
-    "gender": "male",
-    "address": {
-      "street": "160 Juan Tabo Blvd NE",
-      "city": "Albuquerque",
-      "state": "NM",
-      "country": "US"
-    },
-    "symbol": "⚖️",
-    "color": "#4a1942",
-    "emailDomains": ["saul-goodman.net", "abq-bar.org"]
-  },
-  {
-    "id": "skyler-white",
-    "firstName": "Skyler",
-    "lastName": "White",
-    "usernames": ["carwash_queen", "sky.steele", "not_afraid_now"],
-    "profession": "Accountant",
-    "interests": ["bookkeeping", "family", "swimming"],
-    "quotes": [
-      "Walt, I'm out.",
-      "I'm so sick of being afraid.",
-      "Someone has to protect this family from the man who protects this family.",
-      "I don't know what to do.",
-      "You've lied to me, manipulated me."
-    ],
-    "gender": "female",
-    "symbol": "💼",
-    "color": "#134e4a",
-    "emailDomains": ["abq-mail.net", "car-wash-nm.com"]
-  },
-  {
-    "id": "hank-schrader",
-    "firstName": "Hank",
-    "lastName": "Schrader",
-    "usernames": ["asac_schrader", "minerals_not_rocks", "big_one_hank"],
-    "profession": "DEA agent",
-    "interests": ["beer brewing", "mineralogy", "law enforcement"],
-    "quotes": [
-      "My name is ASAC Schrader, and you can go fuck yourself.",
-      "You're the Devil. You're pure evil.",
-      "We're done. I don't know who you are. I don't even know who I'm talking to.",
-      "This is my chance to catch the big one.",
-      "Minerals, not rocks."
-    ],
-    "gender": "male",
-    "symbol": "🔍",
-    "color": "#3b1f0a",
-    "emailDomains": ["dea.gov", "abq-pd.gov"]
-  },
-  {
-    "id": "gustavo-fring",
-    "firstName": "Gustavo",
-    "lastName": "Fring",
-    "usernames": ["los_pollos", "plain_sight", "chicken_man_abq"],
-    "profession": "Fast food entrepreneur",
-    "interests": ["business", "cooking", "philanthropy"],
-    "quotes": [
-      "I hide in plain sight.",
-      "What does a man do, Walter? A man provides for his family.",
-      "Be careful. The next words that come out of your mouth will either save your life or end it.",
-      "I will not negotiate my product.",
-      "I was ten years building what I have."
-    ],
-    "gender": "male",
-    "birthYear": 1958,
-    "address": {
-      "street": "4257 Isleta Blvd SW",
-      "city": "Albuquerque",
-      "state": "NM",
-      "country": "US"
-    },
-    "symbol": "🍗",
-    "color": "#1e3a5f",
-    "emailDomains": ["pollos-hermanos.net", "abq-business.net"]
-  },
-  {
-    "id": "mike-ehrmantraut",
-    "firstName": "Mike",
-    "lastName": "Ehrmantraut",
-    "usernames": ["the_cleaner", "no_half_measures", "fixer_philly"],
-    "profession": "Private investigator",
-    "interests": ["security", "chess", "family"],
-    "quotes": [
-      "No more half measures.",
-      "Just because you shot Jesse James, don't make you Jesse James.",
-      "I have spent my whole life trying to work my way back from a mistake I made. And I made it worse.",
-      "Everyone sounds like Meryl Streep with a gun to their head.",
-      "You talk too much."
-    ],
-    "gender": "male",
-    "symbol": "🧹",
-    "color": "#9333ea",
-    "emailDomains": ["abq-mail.net", "ehrmantraut-security.com"]
-  }
+	{
+		"id": "walter-white",
+		"firstName": "Walter",
+		"lastName": "White",
+		"usernames": [
+			"heisenberg",
+			"blue_sky_cook",
+			"danger_knocks",
+			"say_my_name",
+			"tread_lightly"
+		],
+		"profession": "Chemistry teacher",
+		"interests": [
+			"science",
+			"cooking",
+			"family",
+			"business strategy",
+			"car washes"
+		],
+		"quotes": [
+			"I am the one who knocks.",
+			"Say my name.",
+			"I'm the danger.",
+			"I did it for me. I liked it. I was good at it. And I was really... I was alive.",
+			"Chemistry is, well technically, chemistry is the study of matter."
+		],
+		"gender": "male",
+		"birthYear": 1959,
+		"address": {
+			"street": "308 Negra Arroyo Lane",
+			"city": "Albuquerque",
+			"state": "NM",
+			"country": "US"
+		},
+		"symbol": "☢️",
+		"color": "#4c1d95",
+		"emailDomains": [
+			"heisenberg-industries.net",
+			"abq-chem.edu",
+			"new-mexico-mail.net"
+		]
+	},
+	{
+		"id": "jesse-pinkman",
+		"firstName": "Jesse",
+		"lastName": "Pinkman",
+		"usernames": [
+			"capncook",
+			"yo_bitch_84",
+			"junkyard_artist",
+			"yeah_science",
+			"magnets_bitch"
+		],
+		"profession": "Drug dealer",
+		"interests": [
+			"art",
+			"cars",
+			"chemistry",
+			"video games",
+			"go-karts"
+		],
+		"quotes": [
+			"Yeah, science!",
+			"Yeah, bitch! Magnets!",
+			"Yo, Mr. White! We're gonna be okay!",
+			"I'm the bad guy.",
+			"Maybe. But some people are just... broken."
+		],
+		"gender": "male",
+		"birthYear": 1984,
+		"symbol": "🎨",
+		"color": "#0c4a6e",
+		"emailDomains": [
+			"abq-mail.net"
+		]
+	},
+	{
+		"id": "saul-goodman",
+		"firstName": "Saul",
+		"lastName": "Goodman",
+		"usernames": [
+			"bettercallsaul",
+			"slippin_jimmy",
+			"lawman505"
+		],
+		"profession": "Criminal lawyer",
+		"interests": [
+			"money",
+			"loopholes",
+			"self-promotion",
+			"TV commercials",
+			"billboards"
+		],
+		"quotes": [
+			"Better call Saul!",
+			"It's all good, man.",
+			"You don't want a criminal lawyer. You want a criminal lawyer.",
+			"Let's just say I know a guy who knows a guy. Sometimes I am the guy.",
+			"I fight for you, Albuquerque!"
+		],
+		"gender": "male",
+		"address": {
+			"street": "160 Juan Tabo Blvd NE",
+			"city": "Albuquerque",
+			"state": "NM",
+			"country": "US"
+		},
+		"symbol": "⚖️",
+		"color": "#4a1942",
+		"emailDomains": [
+			"saul-goodman.net",
+			"abq-bar.org"
+		]
+	},
+	{
+		"id": "skyler-white",
+		"firstName": "Skyler",
+		"lastName": "White",
+		"usernames": [
+			"carwash_queen",
+			"sky.steele",
+			"not_afraid_now",
+			"i_fucked_ted"
+		],
+		"profession": "Accountant",
+		"interests": [
+			"writing",
+			"family",
+			"swimming",
+			"tax planning"
+		],
+		"quotes": [
+			"Walt, I'm out.",
+			"I'm so sick of being afraid.",
+			"Someone has to protect this family from the man who protects this family.",
+			"I don't know what to do.",
+			"You've lied to me, manipulated me."
+		],
+		"gender": "female",
+		"symbol": "💼",
+		"color": "#134e4a",
+		"emailDomains": [
+			"abq-mail.net",
+			"car-wash-nm.com"
+		]
+	},
+	{
+		"id": "hank-schrader",
+		"firstName": "Hank",
+		"lastName": "Schrader",
+		"usernames": [
+			"asac_schrader",
+			"minerals_not_rocks",
+			"big_one_hank"
+		],
+		"profession": "DEA agent",
+		"interests": [
+			"beer brewing",
+			"mineralogy",
+			"grilling",
+			"ride-alongs"
+		],
+		"quotes": [
+			"My name is ASAC Schrader, and you can go fuck yourself.",
+			"You're the Devil. You're pure evil.",
+			"We're done. I don't know who you are. I don't even know who I'm talking to.",
+			"This is my chance to catch the big one.",
+			"Minerals, not rocks."
+		],
+		"gender": "male",
+		"symbol": "🔍",
+		"color": "#3b1f0a",
+		"emailDomains": [
+			"dea.gov",
+			"abq-pd.gov"
+		]
+	},
+	{
+		"id": "gustavo-fring",
+		"firstName": "Gustavo",
+		"lastName": "Fring",
+		"usernames": [
+			"los_pollos",
+			"plain_sight",
+			"chicken_man_abq",
+			"hide_in_plain_sight"
+		],
+		"profession": "Fast food entrepreneur",
+		"interests": [
+			"business",
+			"cooking",
+			"philanthropy",
+			"wine"
+		],
+		"quotes": [
+			"I hide in plain sight.",
+			"What does a man do, Walter? A man provides for his family.",
+			"Be careful. The next words that come out of your mouth will either save your life or end it.",
+			"I will not negotiate my product.",
+			"I was ten years building what I have."
+		],
+		"gender": "male",
+		"birthYear": 1958,
+		"address": {
+			"street": "4257 Isleta Blvd SW",
+			"city": "Albuquerque",
+			"state": "NM",
+			"country": "US"
+		},
+		"symbol": "🍗",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"pollos-hermanos.net",
+			"abq-business.net"
+		]
+	},
+	{
+		"id": "mike-ehrmantraut",
+		"firstName": "Mike",
+		"lastName": "Ehrmantraut",
+		"usernames": [
+			"the_cleaner",
+			"no_half_measures",
+			"fixer_philly",
+			"kaylees_pop_pop"
+		],
+		"profession": "Private investigator",
+		"interests": [
+			"security",
+			"chess",
+			"family",
+			"stakeouts"
+		],
+		"quotes": [
+			"No more half measures.",
+			"Just because you shot Jesse James, don't make you Jesse James.",
+			"I have spent my whole life trying to work my way back from a mistake I made. And I made it worse.",
+			"Everyone sounds like Meryl Streep with a gun to their head.",
+			"You talk too much."
+		],
+		"gender": "male",
+		"symbol": "🧹",
+		"color": "#9333ea",
+		"emailDomains": [
+			"abq-mail.net",
+			"ehrmantraut-security.com"
+		]
+	}
 ]

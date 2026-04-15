@@ -1,230 +1,372 @@
 [
-  {
-    "id": "eric-cartman",
-    "firstName": "Eric",
-    "lastName": "Cartman",
-    "usernames": ["respect_my_authoritah", "screw_you_guys", "cartmanland", "big_boned_not_fat"],
-    "profession": "Student",
-    "interests": ["KFC", "television", "theme parks", "politics", "religion"],
-    "quotes": [
-      "Respect my authoritah!",
-      "Screw you guys, I'm going home.",
-      "I'm not fat, I'm big-boned.",
-      "Whatever! I do what I want!",
-      "There's nothing faggy about ten million dollars, asshole!"
-    ],
-    "gender": "male",
-    "address": {
-      "street": "Bonanza Street",
-      "city": "South Park",
-      "state": "CO",
-      "country": "US"
-    },
-    "symbol": "🍗",
-    "color": "#1e3a5f",
-    "emailDomains": ["south-park-school.edu", "cartman-enterprises.com"]
-  },
-  {
-    "id": "stan-marsh",
-    "firstName": "Stan",
-    "lastName": "Marsh",
-    "usernames": ["dude_seriously", "vomits_on_wendy", "learned_something_today"],
-    "profession": "Student",
-    "interests": ["football", "music", "environmentalism", "animal rights"],
-    "quotes": [
-      "You know, I think I've learned something today.",
-      "Oh my God, they killed Kenny!",
-      "Dude, don't you have enough? I mean, at some point, can't you just kind of fuck off?",
-      "Jesus, dude!"
-    ],
-    "gender": "male",
-    "address": {
-      "street": "Bonanza Street",
-      "city": "South Park",
-      "state": "CO",
-      "country": "US"
-    },
-    "symbol": "⭐",
-    "color": "#166534",
-    "emailDomains": ["south-park-school.edu", "colorado-mail.net"]
-  },
-  {
-    "id": "kyle-broflovski",
-    "firstName": "Kyle",
-    "lastName": "Broflovski",
-    "usernames": ["kyle_the_jew", "super_kyle", "green_ushanka"],
-    "profession": "Student",
-    "interests": ["basketball", "Judaism", "video games", "debate", "charity"],
-    "quotes": [
-      "You bastards!",
-      "Oh my God, they killed Kenny! You bastards!",
-      "You know, I've learned something today.",
-      "Dude, you have sex with children!",
-      "I think it might be best for us to never piss Cartman off again."
-    ],
-    "gender": "male",
-    "address": {
-      "street": "1002 Avenue de los Mexicanos",
-      "city": "South Park",
-      "state": "CO",
-      "country": "US"
-    },
-    "symbol": "🏀",
-    "color": "#7f1d1d",
-    "emailDomains": ["south-park-school.edu", "colorado-mail.net"]
-  },
-  {
-    "id": "kenny-mccormick",
-    "firstName": "Kenny",
-    "lastName": "McCormick",
-    "usernames": ["poor_kenny", "immortal_kenny", "muffled_voice"],
-    "profession": "Student",
-    "interests": ["pornography", "weapons", "motorcycles", "girls"],
-    "quotes": [
-      "Mmph mmph mmph mmph mmph.",
-      "Mmmph!",
-      "Mm mm mmph mmph.",
-      "Mm mmm mmph.",
-      "Mmmm mm mm mmph mmph mmph."
-    ],
-    "gender": "male",
-    "address": { "city": "South Park", "state": "CO", "country": "US" },
-    "symbol": "🧡",
-    "color": "#4a1942",
-    "emailDomains": ["south-park-school.edu", "colorado-mail.net"]
-  },
-  {
-    "id": "butters-stotch",
-    "firstName": "Leopold",
-    "lastName": "Stotch",
-    "usernames": ["professor_chaos", "lil_butters", "oh_hamburgers"],
-    "profession": "Student",
-    "interests": ["dancing", "singing", "cooking", "theater"],
-    "quotes": [
-      "Well, yeah, and I'm sad, but at the same time I'm really happy that something could make me feel that sad.",
-      "Oh hamburgers.",
-      "I'm Professor Chaos!",
-      "Aww, that's a bummer.",
-      "Gee, I dunno.",
-      "I got a whole life ahead of me."
-    ],
-    "gender": "male",
-    "address": { "city": "South Park", "state": "CO", "country": "US" },
-    "symbol": "🦋",
-    "color": "#1d4ed8",
-    "emailDomains": ["south-park-school.edu", "colorado-mail.net"]
-  },
-  {
-    "id": "randy-marsh",
-    "firstName": "Randy",
-    "lastName": "Marsh",
-    "usernames": ["tegridy_farms", "this_is_america", "lorde_randy"],
-    "profession": "Geologist",
-    "interests": ["wine", "marijuana", "sports", "cooking", "farming"],
-    "quotes": [
-      "I thought this was America!",
-      "We need Tegridy.",
-      "You think I'm just gonna stand around while they destroy my family?! We've worked this farm and this land for over four days!",
-      "I've had it — school shootings, pieces of shit taking Ambien and tweeting, priests raping kids, and somehow... I'm not laughing anymore.",
-      "Go back to simple living when things mattered, like work hard and tegridy."
-    ],
-    "gender": "male",
-    "symbol": "🌿",
-    "color": "#166534",
-    "emailDomains": ["colorado-geology.edu", "south-park-school.edu"]
-  },
-  {
-    "id": "chef",
-    "firstName": "Jerome",
-    "lastName": "McElroy",
-    "usernames": ["salty_chocolate_balls", "hello_there_children", "time_and_place"],
-    "profession": "Chef",
-    "interests": ["cooking", "music", "women", "soul food"],
-    "quotes": [
-      "Hello there, children!",
-      "There's a time and a place for everything, and it's called college.",
-      "Sometimes God takes those closest to us, because it makes him feel better about himself.",
-      "Dagnabbit children! How come every time you come in here, you gotta be asking me questions that I shouldn't be answering?!",
-      "You're damn right."
-    ],
-    "gender": "male",
-    "symbol": "🎵",
-    "color": "#7f1d1d",
-    "emailDomains": ["south-park-school.edu", "cafeteria-chef.net"]
-  },
-  {
-    "id": "mr-garrison",
-    "firstName": "Herbert",
-    "lastName": "Garrison",
-    "usernames": ["ms_garrison", "go_to_hell_and_die", "mr_hat_says"],
-    "profession": "Teacher",
-    "interests": ["politics", "ventriloquism", "writing", "gender studies"],
-    "quotes": [
-      "You go to hell! You go to hell and you die!",
-      "Gay people are evil, right down to their cold black hearts which pump not blood like yours or mine, but rather a thick, vomitous oil.",
-      "Sat through that entire movie to see the alien, and it was her God damn father!",
-      "I did not want love from a young boy! I like men my own age. Ah! I mean, I like women! Ah! What did I just say?!"
-    ],
-    "gender": "male",
-    "symbol": "🎭",
-    "color": "#4a6fa5",
-    "emailDomains": ["south-park-school.edu", "colorado-mail.net"]
-  },
-  {
-    "id": "mr-mackey",
-    "firstName": "Mr.",
-    "lastName": "Mackey",
-    "usernames": ["drugs_are_bad", "mkay_counselor", "dook_in_urinal"],
-    "profession": "School counselor",
-    "interests": ["drug prevention", "collecting junk", "motivational speaking"],
-    "quotes": [
-      "Drugs are bad, m'kay.",
-      "M'kay?",
-      "Now, we need to discuss some things, m'kay.",
-      "That's bad, m'kay.",
-      "When you dook in the urinal, it's bad, m'kay?"
-    ],
-    "gender": "male",
-    "symbol": "📋",
-    "color": "#1e3a5f",
-    "emailDomains": ["south-park-school.edu", "colorado-counseling.net"]
-  },
-  {
-    "id": "tweek-tweak",
-    "firstName": "Tweek",
-    "lastName": "Tweak",
-    "usernames": ["too_much_pressure", "tweek_coffee", "gnomes_got_me"],
-    "profession": "Student",
-    "interests": ["coffee", "underpants gnomes", "electricity"],
-    "quotes": [
-      "Too much pressure!",
-      "Aaaagh!",
-      "I can't take this pressure much longer!",
-      "Coffee. I need more coffee.",
-      "The underpants gnomes are real, dude!"
-    ],
-    "gender": "male",
-    "symbol": "☕",
-    "color": "#4a1942",
-    "emailDomains": ["tweak-coffee.com", "south-park-school.edu"]
-  },
-  {
-    "id": "craig-tucker",
-    "firstName": "Craig",
-    "lastName": "Tucker",
-    "usernames": ["craig_the_flicker", "guinea_pig_owner", "i_dont_care"],
-    "profession": "Student",
-    "interests": ["guinea pigs", "cable television", "Peru", "flipping people off"],
-    "quotes": [
-      "I hate you guys.",
-      "Whatever.",
-      "I don't care.",
-      "This is stupid.",
-      "I'm going home."
-    ],
-    "gender": "male",
-    "symbol": "🐹",
-    "color": "#166534",
-    "emailDomains": ["south-park-school.edu", "colorado-mail.net"]
-  }
+	{
+		"id": "eric-cartman",
+		"firstName": "Eric",
+		"lastName": "Cartman",
+		"usernames": [
+			"respect_my_authoritah",
+			"screw_you_guys",
+			"cartmanland",
+			"big_boned_not_fat"
+		],
+		"profession": "Student",
+		"interests": [
+			"KFC",
+			"television",
+			"theme parks",
+			"political rants",
+			"religion"
+		],
+		"quotes": [
+			"Respect my authoritah!",
+			"Screw you guys, I'm going home.",
+			"I'm not fat, I'm big-boned.",
+			"Whatever! I do what I want!",
+			"There's nothing faggy about ten million dollars, asshole!"
+		],
+		"gender": "male",
+		"address": {
+			"street": "Bonanza Street",
+			"city": "South Park",
+			"state": "CO",
+			"country": "US"
+		},
+		"symbol": "🍗",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"south-park-school.edu",
+			"cartman-enterprises.com"
+		]
+	},
+	{
+		"id": "stan-marsh",
+		"firstName": "Stan",
+		"lastName": "Marsh",
+		"usernames": [
+			"dude_seriously",
+			"vomits_on_wendy",
+			"learned_something_today"
+		],
+		"profession": "Student",
+		"interests": [
+			"football",
+			"music",
+			"environmentalism",
+			"animal rights"
+		],
+		"quotes": [
+			"You know, I think I've learned something today.",
+			"Oh my God, they killed Kenny!",
+			"Dude, don't you have enough? I mean, at some point, can't you just kind of fuck off?",
+			"Jesus, dude!"
+		],
+		"gender": "male",
+		"address": {
+			"street": "Bonanza Street",
+			"city": "South Park",
+			"state": "CO",
+			"country": "US"
+		},
+		"symbol": "🧢",
+		"color": "#166534",
+		"emailDomains": [
+			"south-park-school.edu",
+			"colorado-mail.net"
+		]
+	},
+	{
+		"id": "kyle-broflovski",
+		"firstName": "Kyle",
+		"lastName": "Broflovski",
+		"usernames": [
+			"kyle_the_jew",
+			"super_kyle",
+			"green_ushanka"
+		],
+		"profession": "Student",
+		"interests": [
+			"basketball",
+			"Judaism",
+			"video games",
+			"debate",
+			"activism"
+		],
+		"quotes": [
+			"You bastards!",
+			"Oh my God, they killed Kenny! You bastards!",
+			"You know, I've learned something today.",
+			"Dude, you have sex with children!",
+			"I think it might be best for us to never piss Cartman off again."
+		],
+		"gender": "male",
+		"address": {
+			"street": "1002 Avenue de los Mexicanos",
+			"city": "South Park",
+			"state": "CO",
+			"country": "US"
+		},
+		"symbol": "🏀",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"south-park-school.edu",
+			"colorado-mail.net"
+		]
+	},
+	{
+		"id": "kenny-mccormick",
+		"firstName": "Kenny",
+		"lastName": "McCormick",
+		"usernames": [
+			"poor_kenny",
+			"immortal_kenny",
+			"muffled_voice"
+		],
+		"profession": "Student",
+		"interests": [
+			"pornography",
+			"weapons",
+			"motorcycles",
+			"girls"
+		],
+		"quotes": [
+			"Mmph mmph mmph mmph mmph.",
+			"Mmmph!",
+			"Mm mm mmph mmph.",
+			"Mm mmm mmph.",
+			"Mmmm mm mm mmph mmph mmph."
+		],
+		"gender": "male",
+		"address": {
+			"city": "South Park",
+			"state": "CO",
+			"country": "US"
+		},
+		"symbol": "🧥",
+		"color": "#4a1942",
+		"emailDomains": [
+			"south-park-school.edu",
+			"colorado-mail.net"
+		]
+	},
+	{
+		"id": "butters-stotch",
+		"firstName": "Leopold",
+		"lastName": "Stotch",
+		"usernames": [
+			"professor_chaos",
+			"lil_butters",
+			"oh_hamburgers"
+		],
+		"profession": "Student",
+		"interests": [
+			"dancing",
+			"singing",
+			"cooking",
+			"theater"
+		],
+		"quotes": [
+			"Well, yeah, and I'm sad, but at the same time I'm really happy that something could make me feel that sad.",
+			"Oh hamburgers.",
+			"I'm Professor Chaos!",
+			"Aww, that's a bummer.",
+			"Gee, I dunno.",
+			"I got a whole life ahead of me."
+		],
+		"gender": "male",
+		"address": {
+			"city": "South Park",
+			"state": "CO",
+			"country": "US"
+		},
+		"symbol": "🦋",
+		"color": "#1d4ed8",
+		"emailDomains": [
+			"south-park-school.edu",
+			"colorado-mail.net"
+		]
+	},
+	{
+		"id": "randy-marsh",
+		"firstName": "Randy",
+		"lastName": "Marsh",
+		"usernames": [
+			"tegridy_farms",
+			"this_is_america",
+			"lorde_randy"
+		],
+		"profession": "Geologist",
+		"interests": [
+			"wine",
+			"marijuana",
+			"sports",
+			"cooking",
+			"farming"
+		],
+		"quotes": [
+			"I thought this was America!",
+			"We need Tegridy.",
+			"You think I'm just gonna stand around while they destroy my family?! We've worked this farm and this land for over four days!",
+			"I've had it — school shootings, pieces of shit taking Ambien and tweeting, priests raping kids, and somehow... I'm not laughing anymore.",
+			"Go back to simple living when things mattered, like work hard and tegridy."
+		],
+		"gender": "male",
+		"symbol": "🌿",
+		"color": "#166534",
+		"emailDomains": [
+			"colorado-geology.edu",
+			"south-park-school.edu"
+		]
+	},
+	{
+		"id": "chef",
+		"firstName": "Jerome",
+		"lastName": "McElroy",
+		"usernames": [
+			"salty_chocolate_balls",
+			"hello_there_children",
+			"time_and_place"
+		],
+		"profession": "Chef",
+		"interests": [
+			"cooking",
+			"music",
+			"women",
+			"soul food"
+		],
+		"quotes": [
+			"Hello there, children!",
+			"There's a time and a place for everything, and it's called college.",
+			"Sometimes God takes those closest to us, because it makes him feel better about himself.",
+			"Dagnabbit children! How come every time you come in here, you gotta be asking me questions that I shouldn't be answering?!",
+			"You're damn right."
+		],
+		"gender": "male",
+		"symbol": "🎵",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"south-park-school.edu",
+			"cafeteria-chef.net"
+		]
+	},
+	{
+		"id": "mr-garrison",
+		"firstName": "Herbert",
+		"lastName": "Garrison",
+		"usernames": [
+			"ms_garrison",
+			"go_to_hell_and_die",
+			"mr_hat_says"
+		],
+		"profession": "Teacher",
+		"interests": [
+			"ventriloquism",
+			"writing",
+			"gender studies",
+			"running for office"
+		],
+		"quotes": [
+			"You go to hell! You go to hell and you die!",
+			"Gay people are evil, right down to their cold black hearts which pump not blood like yours or mine, but rather a thick, vomitous oil.",
+			"Sat through that entire movie to see the alien, and it was her God damn father!",
+			"I did not want love from a young boy! I like men my own age. Ah! I mean, I like women! Ah! What did I just say?!"
+		],
+		"gender": "male",
+		"symbol": "🎭",
+		"color": "#4a6fa5",
+		"emailDomains": [
+			"south-park-school.edu",
+			"colorado-mail.net"
+		]
+	},
+	{
+		"id": "mr-mackey",
+		"firstName": "Mr.",
+		"lastName": "Mackey",
+		"usernames": [
+			"drugs_are_bad",
+			"mkay_counselor",
+			"dook_in_urinal"
+		],
+		"profession": "School counselor",
+		"interests": [
+			"drug prevention",
+			"collecting junk",
+			"school assemblies"
+		],
+		"quotes": [
+			"Drugs are bad, m'kay.",
+			"M'kay?",
+			"Now, we need to discuss some things, m'kay.",
+			"That's bad, m'kay.",
+			"When you dook in the urinal, it's bad, m'kay?"
+		],
+		"gender": "male",
+		"symbol": "📋",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"south-park-school.edu",
+			"colorado-counseling.net"
+		]
+	},
+	{
+		"id": "tweek-tweak",
+		"firstName": "Tweek",
+		"lastName": "Tweak",
+		"usernames": [
+			"too_much_pressure",
+			"tweek_coffee",
+			"gnomes_got_me"
+		],
+		"profession": "Student",
+		"interests": [
+			"coffee",
+			"underpants gnomes",
+			"electricity"
+		],
+		"quotes": [
+			"Too much pressure!",
+			"Aaaagh!",
+			"I can't take this pressure much longer!",
+			"Coffee. I need more coffee.",
+			"The underpants gnomes are real, dude!"
+		],
+		"gender": "male",
+		"symbol": "☕",
+		"color": "#4a1942",
+		"emailDomains": [
+			"tweak-coffee.com",
+			"south-park-school.edu"
+		]
+	},
+	{
+		"id": "craig-tucker",
+		"firstName": "Craig",
+		"lastName": "Tucker",
+		"usernames": [
+			"craig_the_flicker",
+			"guinea_pig_owner",
+			"i_dont_care"
+		],
+		"profession": "Student",
+		"interests": [
+			"guinea pigs",
+			"cable television",
+			"Peru",
+			"flipping people off"
+		],
+		"quotes": [
+			"I hate you guys.",
+			"Whatever.",
+			"I don't care.",
+			"This is stupid.",
+			"I'm going home."
+		],
+		"gender": "male",
+		"symbol": "🐹",
+		"color": "#166534",
+		"emailDomains": [
+			"south-park-school.edu",
+			"colorado-mail.net"
+		]
+	}
 ]

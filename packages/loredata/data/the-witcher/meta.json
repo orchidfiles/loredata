@@ -1,0 +1,13 @@
+{
+  "id": "the-witcher",
+  "name": "The Witcher",
+  "genre": ["fantasy", "drama", "action"],
+  "description": "On the Continent, Geralt of Rivia, a mutated monster hunter, is drawn into a political conflict involving mages, empires, and Ciri, a princess with Elder Blood.",
+  "tmdbId": 71912,
+  "mediaType": "tv",
+  "year": 2019,
+  "rating": 7.9,
+  "networks": ["Netflix"],
+  "posterPath": "/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg",
+  "backdropPath": "/foGkPxpw9h8zln81j63mix5B7m8.jpg"
+}

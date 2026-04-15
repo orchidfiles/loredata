@@ -1,37 +1,21 @@
 [
   {
-    "street": "1 Castle Black Road",
     "city": "Castle Black",
-    "state": "The Wall",
-    "zip": "NW1",
-    "country": "Westeros"
+    "state": "The Wall"
   },
   {
-    "street": "1 Winterfell Keep",
     "city": "Winterfell",
-    "state": "The North",
-    "zip": "WF1",
-    "country": "Westeros"
+    "state": "The North"
   },
   {
-    "street": "1 Red Keep Hill",
     "city": "King's Landing",
-    "state": "Crownlands",
-    "zip": "KL1",
-    "country": "Westeros"
+    "state": "Crownlands"
   },
   {
-    "street": "1 Dragon Stone Cliffs",
-    "city": "Dragonstone",
-    "state": "Blackwater Bay",
-    "zip": "DS1",
-    "country": "Westeros"
+    "city": "Dragonstone"
   },
   {
-    "street": "1 Eyrie Tower",
     "city": "The Eyrie",
-    "state": "Vale of Arryn",
-    "zip": "VA1",
-    "country": "Westeros"
+    "state": "Vale of Arryn"
   }
 ]

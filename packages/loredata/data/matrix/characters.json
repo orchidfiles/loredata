@@ -11,7 +11,13 @@
       "beyond_the_matrix"
     ],
     "profession": "Software engineer",
-    "interests": ["hacking", "martial arts", "truth", "philosophy", "freedom"],
+    "interests": [
+      "hacking",
+      "martial arts",
+      "philosophy",
+      "simulated reality",
+      "freeing minds"
+    ],
     "quotes": [
       "I know you're out there. I can feel you now. I know that you're afraid. You're afraid of us. You're afraid of change.",
       "My name... is Neo.",
@@ -24,7 +30,10 @@
     "gender": "male",
     "symbol": "💊",
     "color": "#134e4a",
-    "emailDomains": ["metacortex.com", "zion-free.net"]
+    "emailDomains": [
+      "metacortex.com",
+      "zion-free.net"
+    ]
   },
   {
     "id": "morpheus",
@@ -38,7 +47,13 @@
       "red_pill_dealer"
     ],
     "profession": "Ship captain",
-    "interests": ["prophecy", "resistance", "philosophy", "leadership", "Zion"],
+    "interests": [
+      "prophecy",
+      "resistance",
+      "philosophy",
+      "leadership",
+      "Zion history"
+    ],
     "quotes": [
       "Unfortunately, no one can be told what the Matrix is. You have to see it for yourself.",
       "You take the blue pill, the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes.",
@@ -49,9 +64,12 @@
       "Then tomorrow we may all be dead, but how would that be different from any other day? This is a war, and we are soldiers. Death can come for us at any time, in any place."
     ],
     "gender": "male",
-    "symbol": "🔴",
+    "symbol": "💊",
     "color": "#3b1f0a",
-    "emailDomains": ["zion-free.net", "nebuchadnezzar.net"]
+    "emailDomains": [
+      "zion-free.net",
+      "nebuchadnezzar.net"
+    ]
   },
   {
     "id": "trinity",
@@ -65,7 +83,13 @@
       "zion_fighter"
     ],
     "profession": "Hacker",
-    "interests": ["hacking", "combat", "freedom", "loyalty", "flying"],
+    "interests": [
+      "hacking",
+      "combat",
+      "helicopter piloting",
+      "loyalty",
+      "freeing minds"
+    ],
     "quotes": [
       "Dodge this.",
       "Neo, I'm not afraid anymore. The Oracle told me that I would fall in love, and that that man, the man who I loved would be The One.",
@@ -78,7 +102,10 @@
     "gender": "female",
     "symbol": "💻",
     "color": "#312e81",
-    "emailDomains": ["zion-free.net", "nebuchadnezzar.net"]
+    "emailDomains": [
+      "zion-free.net",
+      "nebuchadnezzar.net"
+    ]
   },
   {
     "id": "agent-smith",
@@ -92,7 +119,13 @@
       "inevitable"
     ],
     "profession": "Machine agent",
-    "interests": ["order", "control", "elimination", "purpose", "freedom from purpose"],
+    "interests": [
+      "surveillance",
+      "interrogation",
+      "elimination",
+      "purpose",
+      "escaping purpose"
+    ],
     "quotes": [
       "As you can see, we've had our eye on you for some time now, Mr. Anderson. It seems that you've been living two lives.",
       "Human beings are a disease, a cancer of this planet. You're a plague and we are the cure.",
@@ -105,7 +138,10 @@
     "gender": "male",
     "symbol": "🕶️",
     "color": "#059669",
-    "emailDomains": ["matrix-agents.com", "machine-city.net"]
+    "emailDomains": [
+      "matrix-agents.com",
+      "machine-city.net"
+    ]
   },
   {
     "id": "the-oracle",
@@ -119,7 +155,13 @@
       "temet_nosce"
     ],
     "profession": "Oracle program",
-    "interests": ["humanity", "baking", "choice", "prophecy", "the future"],
+    "interests": [
+      "humanity",
+      "baking",
+      "choice",
+      "prophecy",
+      "the future"
+    ],
     "quotes": [
       "Being The One is just like being in love. No one can tell you you're in love, you just know it.",
       "You've already made the choice. Now you have to understand it.",
@@ -132,7 +174,10 @@
     "gender": "female",
     "symbol": "🍪",
     "color": "#16a34a",
-    "emailDomains": ["zion-free.net", "oracle-program.net"]
+    "emailDomains": [
+      "zion-free.net",
+      "oracle-program.net"
+    ]
   },
   {
     "id": "cypher",
@@ -146,7 +191,13 @@
       "judas_of_zion"
     ],
     "profession": "Hacker",
-    "interests": ["comfort", "steak", "wine", "forgetting", "the Matrix"],
+    "interests": [
+      "comfort",
+      "steak",
+      "wine",
+      "forgetting",
+      "the Matrix"
+    ],
     "quotes": [
       "Buckle your seat belt, Dorothy, 'cause Kansas is going bye-bye.",
       "I'm tired, Trinity. I'm tired of this war. Tired of fighting, tired of this ship, being cold, eating the same goddamn goop everyday.",
@@ -159,7 +210,10 @@
     "gender": "male",
     "symbol": "🥩",
     "color": "#d97706",
-    "emailDomains": ["matrix-agents.com", "zion-free.net"]
+    "emailDomains": [
+      "matrix-agents.com",
+      "zion-free.net"
+    ]
   },
   {
     "id": "tank",
@@ -173,7 +227,13 @@
       "last_human_city"
     ],
     "profession": "Operator",
-    "interests": ["Zion", "hovercraft systems", "human freedom", "family", "combat programs"],
+    "interests": [
+      "Zion",
+      "hovercraft systems",
+      "human freedom",
+      "family",
+      "combat programs"
+    ],
     "quotes": [
       "Me and my brother Dozer, we're both one hundred percent pure, old fashioned, home-grown human, born free right here in the real world.",
       "Zion's where the party would be.",
@@ -186,7 +246,10 @@
     "gender": "male",
     "symbol": "⚙️",
     "color": "#3b1f0a",
-    "emailDomains": ["nebuchadnezzar.net", "hardline-operator.net"]
+    "emailDomains": [
+      "nebuchadnezzar.net",
+      "hardline-operator.net"
+    ]
   },
   {
     "id": "mouse",
@@ -200,7 +263,13 @@
       "not_real_chicken"
     ],
     "profession": "Hacker",
-    "interests": ["simulation design", "women", "combat", "chicken programs", "virtual reality"],
+    "interests": [
+      "simulation design",
+      "women",
+      "combat",
+      "chicken programs",
+      "virtual reality"
+    ],
     "quotes": [
       "Morpheus is fighting Neo.",
       "Jesus Christ, he's fast. Take a look at his neural kinetics, they're way above normal.",
@@ -211,7 +280,10 @@
     "gender": "male",
     "symbol": "👻",
     "color": "#475569",
-    "emailDomains": ["nebuchadnezzar.net", "construct-sim.net"]
+    "emailDomains": [
+      "nebuchadnezzar.net",
+      "construct-sim.net"
+    ]
   },
   {
     "id": "the-architect",
@@ -225,7 +297,13 @@
       "father_of_matrix"
     ],
     "profession": "Architect program",
-    "interests": ["order", "mathematics", "system stability", "equations", "control"],
+    "interests": [
+      "mathematics",
+      "system stability",
+      "equations",
+      "anomaly management",
+      "Matrix design"
+    ],
     "quotes": [
       "I am the Architect. I created the Matrix.",
       "Your life is the sum of a remainder of an unbalanced equation inherent to the programming of the Matrix.",
@@ -238,7 +316,10 @@
     "gender": "male",
     "symbol": "📐",
     "color": "#dc2626",
-    "emailDomains": ["machine-city.net", "matrix-agents.com"]
+    "emailDomains": [
+      "machine-city.net",
+      "matrix-agents.com"
+    ]
   },
   {
     "id": "seraph",
@@ -252,7 +333,13 @@
       "protector_program"
     ],
     "profession": "Guardian program",
-    "interests": ["protection", "martial arts", "loyalty", "the Oracle", "purpose"],
+    "interests": [
+      "protection",
+      "martial arts",
+      "loyalty",
+      "the Oracle",
+      "guardian duty"
+    ],
     "quotes": [
       "You do not truly know someone until you fight them.",
       "I protect that which matters most.",
@@ -263,7 +350,10 @@
     "gender": "male",
     "symbol": "🛡️",
     "color": "#312e81",
-    "emailDomains": ["oracle-program.net", "tea-house.net"]
+    "emailDomains": [
+      "oracle-program.net",
+      "tea-house.net"
+    ]
   },
   {
     "id": "niobe",
@@ -277,7 +367,13 @@
       "freeway_driver"
     ],
     "profession": "Ship captain",
-    "interests": ["piloting", "resistance", "Zion", "survival", "combat"],
+    "interests": [
+      "piloting",
+      "resistance",
+      "Zion",
+      "survival",
+      "combat"
+    ],
     "quotes": [
       "I can't help it, Morpheus, I can't help thinking – what if you're wrong.",
       "What if all this – the prophecy, everything – is bullshit.",
@@ -288,6 +384,9 @@
     "gender": "female",
     "symbol": "🚀",
     "color": "#083344",
-    "emailDomains": ["zion-free.net", "logos-ship.net"]
+    "emailDomains": [
+      "zion-free.net",
+      "logos-ship.net"
+    ]
   }
 ]

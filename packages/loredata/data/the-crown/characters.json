@@ -1,0 +1,275 @@
+[
+	{
+		"id": "queen-elizabeth-ii",
+		"firstName": "Elizabeth",
+		"lastName": "Windsor",
+		"usernames": [
+			"lilibet_letters",
+			"commonwealth_queen",
+			"never_explain",
+			"palace_red_box",
+			"corgi_walks"
+		],
+		"emailDomains": [
+			"royal.gov.uk",
+			"commonwealth-mail.org"
+		],
+		"profession": "Queen of the United Kingdom",
+		"interests": [
+			"horse riding",
+			"corgis",
+			"royal protocol",
+			"stamp collecting"
+		],
+		"quotes": [
+			"I am aware that I am surrounded by people who feel they could do the job better. But the Crown has landed on my head.",
+			"Power is nothing without authority.",
+			"It is not my job to govern. But it is my job to ensure proper governance.",
+			"To do nothing is often the best course of action.",
+			"People are so rarely what they seem."
+		],
+		"gender": "female",
+		"birthYear": 1926,
+		"symbol": "👑",
+		"color": "#1e3a5f",
+		"address": {
+			"street": "Buckingham Palace",
+			"city": "London",
+			"country": "GB"
+		}
+	},
+	{
+		"id": "prince-philip",
+		"firstName": "Philip",
+		"lastName": "Mountbatten",
+		"usernames": [
+			"moon_dust_duke",
+			"carriage_reins",
+			"outsider_prince",
+			"windsor_polo",
+			"phil_the_greek"
+		],
+		"emailDomains": [
+			"royal.gov.uk",
+			"edinburgh-house.net"
+		],
+		"profession": "Duke of Edinburgh",
+		"interests": [
+			"carriage driving",
+			"polo",
+			"sailing",
+			"aviation"
+		],
+		"quotes": [
+			"It makes me an amoeba, a bloody amoeba!",
+			"What kind of marriage is this? What kind of family?",
+			"You've taken my career from me, you've taken my home. You've taken my name.",
+			"Who we are is not what we wear or what glitters. It's the spirit that defines us.",
+			"The system makes no sense anymore to those outside it, nor to those of us inside it."
+		],
+		"gender": "male",
+		"birthYear": 1921,
+		"symbol": "🔱",
+		"color": "#1a3a3a",
+		"address": {
+			"street": "Windsor Castle",
+			"city": "Windsor",
+			"country": "GB"
+		}
+	},
+	{
+		"id": "prince-charles",
+		"firstName": "Charles",
+		"lastName": "Mountbatten-Windsor",
+		"usernames": [
+			"heir_in_waiting",
+			"highgrove_gardener",
+			"black_spider_memos",
+			"organic_duchy",
+			"whatever_love_means"
+		],
+		"emailDomains": [
+			"prince-charles.org",
+			"wales-mail.net",
+			"royal.gov.uk"
+		],
+		"profession": "Prince of Wales",
+		"interests": [
+			"architecture",
+			"organic farming",
+			"environmental activism",
+			"classical music"
+		],
+		"quotes": [
+			"Whatever 'in love' means.",
+			"I have a beating heart. A character. A mind and a will of my own. I am not just a symbol.",
+			"I let her down in life. But I will not let her down in death.",
+			"No man whose marriage has failed will ever have everything he wants.",
+			"None of us is exclusively one thing. Human beings are too interesting for that."
+		],
+		"gender": "male",
+		"birthYear": 1948,
+		"symbol": "🤴",
+		"color": "#4a1942",
+		"address": {
+			"street": "Clarence House",
+			"city": "London",
+			"country": "GB"
+		}
+	},
+	{
+		"id": "princess-diana",
+		"firstName": "Diana",
+		"lastName": "Spencer",
+		"usernames": [
+			"peoples_princess",
+			"landmine_walks",
+			"queen_of_hearts",
+			"kensington_tapes",
+			"humanitarian_visits"
+		],
+		"emailDomains": [
+			"diana-memorial.org",
+			"royal.gov.uk"
+		],
+		"profession": "Princess of Wales",
+		"interests": [
+			"humanitarian work",
+			"dance",
+			"reading",
+			"children's welfare"
+		],
+		"quotes": [
+			"There were three of us in this marriage, so it was a bit crowded.",
+			"I'd like to be a queen in people's hearts.",
+			"No one prepares you for what it's like to be separated.",
+			"It does feel good sometimes to be cheered.",
+			"Neither married nor single. Neither royal nor normal."
+		],
+		"gender": "female",
+		"birthYear": 1961,
+		"symbol": "💍",
+		"color": "#7f1d1d",
+		"address": {
+			"city": "London",
+			"country": "GB"
+		}
+	},
+	{
+		"id": "princess-margaret",
+		"firstName": "Margaret",
+		"lastName": "Windsor",
+		"usernames": [
+			"snowdon_rebel",
+			"mustique_nights",
+			"palace_maverick",
+			"cigarette_holder",
+			"town_and_country"
+		],
+		"emailDomains": [
+			"royal.gov.uk",
+			"snowdon-estate.net"
+		],
+		"profession": "Princess",
+		"interests": [
+			"nightlife",
+			"smoking",
+			"ballet",
+			"romance"
+		],
+		"quotes": [
+			"Disobedience is my joy!",
+			"That's the thing about the monarchy. We paper over the cracks.",
+			"My priapic little snapper.",
+			"Time... it scares me. It fills me with dread.",
+			"Self-pity won't get you very far. You've just got to get on with it."
+		],
+		"gender": "female",
+		"birthYear": 1930,
+		"symbol": "🌹",
+		"color": "#5c1a4a",
+		"address": {
+			"street": "Kensington Palace",
+			"city": "London",
+			"country": "GB"
+		}
+	},
+	{
+		"id": "winston-churchill",
+		"firstName": "Winston",
+		"lastName": "Churchill",
+		"usernames": [
+			"bulldog_pm",
+			"smoke_and_strategy",
+			"british_bull_dog",
+			"black_dog_pm",
+			"voice_of_britain"
+		],
+		"emailDomains": [
+			"parliament.gov.uk",
+			"churchill-archives.net"
+		],
+		"profession": "Prime Minister",
+		"interests": [
+			"painting",
+			"bricklaying",
+			"writing",
+			"horse racing"
+		],
+		"quotes": [
+			"I have nothing to offer but blood, toil, tears and sweat.",
+			"We shall fight on the beaches. We shall never surrender.",
+			"This is not the end. This is not even the beginning of the end. But it is, perhaps, the end of the beginning.",
+			"History will be kind to me, for I intend to write it myself.",
+			"A fanatic is one who cannot change his mind and will not change the subject."
+		],
+		"gender": "male",
+		"birthYear": 1874,
+		"symbol": "🏰",
+		"color": "#3d4a5a",
+		"address": {
+			"street": "10 Downing Street",
+			"city": "London",
+			"country": "GB"
+		}
+	},
+	{
+		"id": "camilla-parker-bowles",
+		"firstName": "Camilla",
+		"lastName": "Parker Bowles",
+		"usernames": [
+			"cornwall_reader",
+			"raymill_gardens",
+			"horse_trials_uk",
+			"reading_room_camilla",
+			"raymill_retreat"
+		],
+		"emailDomains": [
+			"cornwall-mail.net",
+			"royal.gov.uk"
+		],
+		"profession": "Queen consort",
+		"interests": [
+			"gardening",
+			"reading",
+			"horse trials",
+			"family"
+		],
+		"quotes": [
+			"I suppose it's just sort of friendship, really.",
+			"Laughing at the same things, getting on with life.",
+			"You also have to laugh at yourself because if you can't, you may as well give up.",
+			"You have to laugh.",
+			"Reading is exciting. Reading is fun. Reading is cool."
+		],
+		"gender": "female",
+		"birthYear": 1947,
+		"symbol": "🐎",
+		"color": "#1d4a3a",
+		"address": {
+			"street": "Raymill House",
+			"city": "Wiltshire",
+			"country": "GB"
+		}
+	}
+]

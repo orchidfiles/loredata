@@ -2,9 +2,18 @@
   {
     "id": "logan",
     "firstName": "Logan",
-    "usernames": ["wolverine", "weapon_x", "yellow_spandex"],
+    "usernames": [
+      "wolverine",
+      "weaponx_program",
+      "yellow_spandex"
+    ],
     "profession": "Soldier",
-    "interests": ["motorcycles", "cigars", "cage fighting", "wilderness"],
+    "interests": [
+      "motorcycles",
+      "cigars",
+      "cage fighting",
+      "wilderness"
+    ],
     "quotes": [
       "I'm the best there is at what I do. But what I do best isn't very nice.",
       "You gonna tell me to stay away from your girl?",
@@ -21,15 +30,27 @@
     },
     "symbol": "🐺",
     "color": "#4a1942",
-    "emailDomains": ["xavier-institute.edu", "canada-mail.net"]
+    "emailDomains": [
+      "xavier-institute.edu",
+      "canada-mail.net"
+    ]
   },
   {
     "id": "charles-xavier",
     "firstName": "Charles",
     "lastName": "Xavier",
-    "usernames": ["professor_x", "cerebro_mind", "hope_remains"],
+    "usernames": [
+      "cerebro_founder",
+      "cerebro_mind",
+      "hope_remains"
+    ],
     "profession": "Professor",
-    "interests": ["genetics", "telepathy", "chess", "education"],
+    "interests": [
+      "genetics",
+      "chess",
+      "education",
+      "mutant advocacy"
+    ],
     "quotes": [
       "Mutation: it is the key to our evolution.",
       "Just because someone stumbles and loses their way, it doesn't mean they're lost forever.",
@@ -46,15 +67,27 @@
     },
     "symbol": "♟️",
     "color": "#1e3a5f",
-    "emailDomains": ["xavier-institute.edu", "xaviers-school.org"]
+    "emailDomains": [
+      "xavier-institute.edu",
+      "xaviers-school.org"
+    ]
   },
   {
     "id": "erik-lehnsherr",
     "firstName": "Erik",
     "lastName": "Lehnsherr",
-    "usernames": ["magneto", "plastic_prison", "homo_superior"],
-    "profession": "Activist",
-    "interests": ["magnetism", "chess", "mutant rights", "history"],
+    "usernames": [
+      "magneto",
+      "plastic_prison",
+      "homo_superior"
+    ],
+    "profession": "Mutant leader",
+    "interests": [
+      "chess",
+      "mutant rights",
+      "history",
+      "political strategy"
+    ],
     "quotes": [
       "Peace was never an option.",
       "We are the future, Charles, not them. They no longer matter.",
@@ -65,15 +98,27 @@
     "gender": "male",
     "symbol": "🧲",
     "color": "#7f1d1d",
-    "emailDomains": ["brotherhood-mutants.net", "genosha-post.org"]
+    "emailDomains": [
+      "brotherhood-mutants.net",
+      "genosha-post.org"
+    ]
   },
   {
     "id": "jean-grey",
     "firstName": "Jean",
     "lastName": "Grey",
-    "usernames": ["phoenix_force", "dark_phoenix", "grey_matter"],
+    "usernames": [
+      "phoenix_force",
+      "dark_phoenix",
+      "grey_matter"
+    ],
     "profession": "Doctor",
-    "interests": ["genetics", "research", "medicine", "psychology"],
+    "interests": [
+      "genetics",
+      "research",
+      "psychology",
+      "patient care"
+    ],
     "quotes": [
       "I am not the woman I was. I am something more.",
       "When I lose control, bad things happen. But it feels good.",
@@ -90,15 +135,27 @@
     },
     "symbol": "🔥",
     "color": "#1e3a5f",
-    "emailDomains": ["xavier-institute.edu", "xaviers-school.org"]
+    "emailDomains": [
+      "xavier-institute.edu",
+      "xaviers-school.org"
+    ]
   },
   {
     "id": "storm",
     "firstName": "Ororo",
     "lastName": "Munroe",
-    "usernames": ["storm_goddess", "weather_witch", "wind_rider"],
+    "usernames": [
+      "storm_goddess",
+      "wind_rider",
+      "toad_lightning"
+    ],
     "profession": "Teacher",
-    "interests": ["Africa", "gardening", "flying", "leadership"],
+    "interests": [
+      "Africa",
+      "gardening",
+      "leadership",
+      "aviation"
+    ],
     "quotes": [
       "Do you know what happens to a toad when it's struck by lightning? The same thing that happens to everything else.",
       "Sometimes anger can help you survive.",
@@ -109,15 +166,27 @@
     "gender": "female",
     "symbol": "⚡",
     "color": "#1d4ed8",
-    "emailDomains": ["xavier-institute.edu", "xaviers-school.org"]
+    "emailDomains": [
+      "xavier-institute.edu",
+      "xaviers-school.org"
+    ]
   },
   {
     "id": "mystique",
     "firstName": "Raven",
     "lastName": "Darkhölme",
-    "usernames": ["shapeshifter", "natural_blue", "mutant_and_proud"],
+    "usernames": [
+      "shapeshifter",
+      "natural_blue",
+      "mutant_and_proud"
+    ],
     "profession": "Spy",
-    "interests": ["espionage", "disguise", "combat", "mutant liberation"],
+    "interests": [
+      "espionage",
+      "disguise",
+      "martial arts",
+      "mutant liberation"
+    ],
     "quotes": [
       "Mutant and proud.",
       "I shouldn't have to. I'm a natural blue.",
@@ -128,15 +197,27 @@
     "gender": "female",
     "symbol": "🦎",
     "color": "#4a1942",
-    "emailDomains": ["brotherhood-mutants.net", "shape-shift.net"]
+    "emailDomains": [
+      "brotherhood-mutants.net",
+      "shape-shift.net"
+    ]
   },
   {
     "id": "cyclops",
     "firstName": "Scott",
     "lastName": "Summers",
-    "usernames": ["optic_blast", "visor_on", "prove_it"],
+    "usernames": [
+      "optic_blast",
+      "visor_on",
+      "prove_it"
+    ],
     "profession": "Team leader",
-    "interests": ["tactics", "aviation", "leadership", "motorcycles"],
+    "interests": [
+      "tactics",
+      "aviation",
+      "leadership",
+      "motorcycles"
+    ],
     "quotes": [
       "We're a team, Professor. We take care of each other.",
       "She did make a choice. It was you.",
@@ -151,8 +232,11 @@
       "state": "NY",
       "country": "US"
     },
-    "symbol": "🔴",
+    "symbol": "🕶️",
     "color": "#166534",
-    "emailDomains": ["xavier-institute.edu", "x-men-ops.net"]
+    "emailDomains": [
+      "xavier-institute.edu",
+      "x-men-ops.net"
+    ]
   }
 ]

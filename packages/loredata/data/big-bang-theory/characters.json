@@ -1,121 +1,198 @@
 [
-  {
-    "id": "sheldon-cooper",
-    "firstName": "Sheldon",
-    "lastName": "Cooper",
-    "usernames": ["spot_taken", "bazinga_master", "moon_pie_shelly"],
-    "profession": "Theoretical physicist",
-    "interests": ["comic books", "trains", "video games", "board games", "science fiction"],
-    "quotes": [
-      "Bazinga!",
-      "I'm not crazy, my mother had me tested.",
-      "That is my spot. In an ever-changing world it is a simple point of consistency.",
-      "Knock knock knock, Penny. Knock knock knock, Penny. Knock knock knock, Penny.",
-      "One cries because one is sad. For example, I cry because others are stupid, and that makes me sad."
-    ],
-    "gender": "male",
-    "symbol": "🪑",
-    "color": "#1e3a5f",
-    "emailDomains": ["caltech.edu", "physicist-net.org", "bazinga-mail.com"]
-  },
-  {
-    "id": "leonard-hofstadter",
-    "firstName": "Leonard",
-    "lastName": "Hofstadter",
-    "usernames": ["cello_nerd", "nobel_never_cooper", "glasses_across_the_hall"],
-    "profession": "Experimental physicist",
-    "interests": ["Star Wars", "comic books", "laser optics", "role-playing games", "cello"],
-    "quotes": [
-      "I'm Leonard. I live across the hall.",
-      "Yeah, my parents felt that naming me Leonard and putting me in advanced placement classes wasn't getting me beaten up enough.",
-      "My parents focused on celebrating achievements, and my being expelled from a birth canal was not considered one of them.",
-      "Come on, we have a combined IQ of 360, we should be able to figure out how to get into a stupid building.",
-      "It must be humbling to suck on so many levels."
-    ],
-    "gender": "male",
-    "symbol": "🔭",
-    "color": "#166534",
-    "emailDomains": ["caltech.edu", "pasadena-labs.net"]
-  },
-  {
-    "id": "penny",
-    "firstName": "Penny",
-    "usernames": ["across_the_hall", "cheesecake_waitress", "nebraska_to_hollywood"],
-    "profession": "Actress",
-    "interests": ["acting", "socializing", "wine", "serial killers", "shopping"],
-    "quotes": [
-      "I'm Penny. I live across the hall.",
-      "Oh, sweetie.",
-      "Look, you are a great guy, and it is the things you love that make you who you are.",
-      "Hey, you do your little experiments, I do mine.",
-      "It means I wish you weren't going."
-    ],
-    "gender": "female",
-    "symbol": "🍷",
-    "color": "#7f1d1d",
-    "emailDomains": ["pennyblossom.com", "pasadena-mail.net"]
-  },
-  {
-    "id": "howard-wolowitz",
-    "firstName": "Howard",
-    "lastName": "Wolowitz",
-    "usernames": ["been_to_space", "mit_engineer_mom_basement", "magic_trick_howie"],
-    "profession": "Aerospace engineer",
-    "interests": ["space", "magic tricks", "cosplay", "Star Trek", "sci-fi films"],
-    "quotes": [
-      "I have eleven hours with her in a confined space. Unless she's willing to jump off a moving train and tuck and roll down the side of a hill, she will eventually succumb to the acquired taste that is Howard Wolowitz.",
-      "Fine, two weeks ago I was an astronaut.",
-      "If it's creepy to use the Internet, military satellites, and robot aircraft to find a house full of gorgeous young models so that I can drop in on them unexpectedly, then fine, I'm creepy.",
-      "Thy will be done.",
-      "Sex criminals don't have keys, Ma!"
-    ],
-    "gender": "male",
-    "symbol": "🚀",
-    "color": "#4a1942",
-    "emailDomains": ["caltech.edu", "nasa.gov", "mit-alumni.org"]
-  },
-  {
-    "id": "raj-koothrappali",
-    "firstName": "Raj",
-    "lastName": "Koothrappali",
-    "usernames": ["slumdog_astrophysicist", "koothrappali_out", "whiskey_whisperer"],
-    "profession": "Astrophysicist",
-    "interests": ["romance", "astronomy", "pop culture", "Bollywood", "wine"],
-    "quotes": [
-      "Three months at the North Pole with Sheldon and I'm reborn as a well-hung billionaire with wings!",
-      "I'm a slumdog astrophysicist.",
-      "Please don't take this the wrong way, but I would rather swim butt-naked across the Ganges with a paper cut on my nipple, and then die a slow agonizing death from viral infection, than work with you.",
-      "That isn't Klingon, it's Yiddish for a meat-filled dumpling!",
-      "I'm just saying, maybe if people cut back on the beer, you could get out of the bathroom and satisfy your women without pharmaceutical help."
-    ],
-    "gender": "male",
-    "symbol": "🌌",
-    "color": "#1d4ed8",
-    "emailDomains": ["caltech.edu", "cosmos-mail.net"]
-  },
-  {
-    "id": "amy-farrah-fowler",
-    "firstName": "Amy",
-    "lastName": "Farrah Fowler",
-    "usernames": ["coitus_off_the_table", "tepid_water_please", "bff_not_by_choice"],
-    "profession": "Neurobiologist",
-    "interests": [
-      "neuroscience",
-      "Little House on the Prairie",
-      "monkeys",
-      "brain experiments",
-      "romance novels"
-    ],
-    "quotes": [
-      "I don't object to the concept of a deity, but I'm baffled by the notion of one that takes attendance.",
-      "All forms of physical contact up to and including coitus are off the table.",
-      "I find the notion of romantic love to be an unnecessary cultural construct that has no value to human relationships.",
-      "I have a feeling that after tonight, one of you will become my best friend forever, or BFF if you prefer — which I don't.",
-      "Like everybody else's: subject to entropy, decay, and eventual death. Thank you for asking."
-    ],
-    "gender": "female",
-    "symbol": "🔬",
-    "color": "#4a3728",
-    "emailDomains": ["caltech.edu", "neuro-research.org"]
-  }
+	{
+		"id": "sheldon-cooper",
+		"firstName": "Sheldon",
+		"lastName": "Cooper",
+		"usernames": [
+			"spot_taken",
+			"bazinga_master",
+			"moon_pie_shelly"
+		],
+		"profession": "Theoretical physicist",
+		"interests": [
+			"comic books",
+			"trains",
+			"video games",
+			"board games",
+			"science fiction"
+		],
+		"quotes": [
+			"Bazinga!",
+			"I'm not crazy, my mother had me tested.",
+			"That is my spot. In an ever-changing world it is a simple point of consistency.",
+			"Knock knock knock, Penny. Knock knock knock, Penny. Knock knock knock, Penny.",
+			"One cries because one is sad. For example, I cry because others are stupid, and that makes me sad."
+		],
+		"gender": "male",
+		"symbol": "🪑",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"caltech.edu",
+			"physicist-net.org",
+			"bazinga-mail.com"
+		]
+	},
+	{
+		"id": "leonard-hofstadter",
+		"firstName": "Leonard",
+		"lastName": "Hofstadter",
+		"usernames": [
+			"cello_nerd",
+			"nobel_never_cooper",
+			"our_babies_will_be_smart",
+			"physics_bowl_hero"
+		],
+		"profession": "Experimental physicist",
+		"interests": [
+			"Star Wars",
+			"comic books",
+			"laser optics",
+			"role-playing games",
+			"cello"
+		],
+		"quotes": [
+			"I'm Leonard. I live across the hall.",
+			"Yeah, my parents felt that naming me Leonard and putting me in advanced placement classes wasn't getting me beaten up enough.",
+			"My parents focused on celebrating achievements, and my being expelled from a birth canal was not considered one of them.",
+			"Come on, we have a combined IQ of 360, we should be able to figure out how to get into a stupid building.",
+			"It must be humbling to suck on so many levels."
+		],
+		"gender": "male",
+		"symbol": "🔭",
+		"color": "#166534",
+		"emailDomains": [
+			"caltech.edu",
+			"pasadena-labs.net"
+		]
+	},
+	{
+		"id": "penny",
+		"firstName": "Penny",
+		"usernames": [
+			"penny_blossom",
+			"cheesecake_waitress",
+			"nebraska_to_hollywood",
+			"cornhusker_state_of_mind"
+		],
+		"profession": "Actress",
+		"interests": [
+			"acting",
+			"socializing",
+			"wine",
+			"serial killers",
+			"shopping"
+		],
+		"quotes": [
+			"I'm Penny. I live across the hall.",
+			"Oh, sweetie.",
+			"Look, you are a great guy, and it is the things you love that make you who you are.",
+			"Hey, you do your little experiments, I do mine.",
+			"It means I wish you weren't going."
+		],
+		"gender": "female",
+		"symbol": "🍷",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"pennyblossom.com",
+			"pasadena-mail.net"
+		]
+	},
+	{
+		"id": "howard-wolowitz",
+		"firstName": "Howard",
+		"lastName": "Wolowitz",
+		"usernames": [
+			"been_to_space",
+			"mit_engineer_mom_basement",
+			"magic_trick_howie",
+			"fruit_loops_belt_buckle"
+		],
+		"profession": "Aerospace engineer",
+		"interests": [
+			"space",
+			"magic tricks",
+			"cosplay",
+			"Star Trek",
+			"sci-fi films"
+		],
+		"quotes": [
+			"I have eleven hours with her in a confined space. Unless she's willing to jump off a moving train and tuck and roll down the side of a hill, she will eventually succumb to the acquired taste that is Howard Wolowitz.",
+			"Fine, two weeks ago I was an astronaut.",
+			"If it's creepy to use the Internet, military satellites, and robot aircraft to find a house full of gorgeous young models so that I can drop in on them unexpectedly, then fine, I'm creepy.",
+			"Thy will be done.",
+			"Sex criminals don't have keys, Ma!"
+		],
+		"gender": "male",
+		"symbol": "🚀",
+		"color": "#4a1942",
+		"emailDomains": [
+			"caltech.edu",
+			"nasa.gov",
+			"mit-alumni.org"
+		]
+	},
+	{
+		"id": "raj-koothrappali",
+		"firstName": "Raj",
+		"lastName": "Koothrappali",
+		"usernames": [
+			"slumdog_astrophysicist",
+			"koothrapali_not_koothrappali",
+			"whiskey_whisperer"
+		],
+		"profession": "Astrophysicist",
+		"interests": [
+			"romance",
+			"planetariums",
+			"pop culture",
+			"Bollywood",
+			"wine"
+		],
+		"quotes": [
+			"Three months at the North Pole with Sheldon and I'm reborn as a well-hung billionaire with wings!",
+			"I'm a slumdog astrophysicist.",
+			"Please don't take this the wrong way, but I would rather swim butt-naked across the Ganges with a paper cut on my nipple, and then die a slow agonizing death from viral infection, than work with you.",
+			"That isn't Klingon, it's Yiddish for a meat-filled dumpling!",
+			"I'm just saying, maybe if people cut back on the beer, you could get out of the bathroom and satisfy your women without pharmaceutical help."
+		],
+		"gender": "male",
+		"symbol": "🪐",
+		"color": "#1d4ed8",
+		"emailDomains": [
+			"caltech.edu",
+			"cosmos-mail.net"
+		]
+	},
+	{
+		"id": "amy-farrah-fowler",
+		"firstName": "Amy",
+		"lastName": "Farrah Fowler",
+		"usernames": [
+			"coitus_off_the_table",
+			"tepid_water_please",
+			"bff_not_by_choice"
+		],
+		"profession": "Neurobiologist",
+		"interests": [
+			"Victorian literature",
+			"Little House on the Prairie",
+			"monkeys",
+			"harp",
+			"romance novels"
+		],
+		"quotes": [
+			"I don't object to the concept of a deity, but I'm baffled by the notion of one that takes attendance.",
+			"All forms of physical contact up to and including coitus are off the table.",
+			"I find the notion of romantic love to be an unnecessary cultural construct that has no value to human relationships.",
+			"I have a feeling that after tonight, one of you will become my best friend forever, or BFF if you prefer — which I don't.",
+			"Like everybody else's: subject to entropy, decay, and eventual death. Thank you for asking."
+		],
+		"gender": "female",
+		"symbol": "🔬",
+		"color": "#4a3728",
+		"emailDomains": [
+			"caltech.edu",
+			"neuro-research.org"
+		]
+	}
 ]

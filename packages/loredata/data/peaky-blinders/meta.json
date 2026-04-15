@@ -7,7 +7,7 @@
   "mediaType": "tv",
   "year": 2013,
   "rating": 8.5,
-  "networks": ["BBC One", "Netflix", "BBC Two", "BBC Television"],
+  "networks": ["BBC One", "BBC Two"],
   "posterPath": "/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
   "backdropPath": "/wiE9doxiLwq3WCGamDIOb2PqBqc.jpg"
 }

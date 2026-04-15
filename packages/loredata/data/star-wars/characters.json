@@ -3,9 +3,19 @@
     "id": "luke-skywalker",
     "firstName": "Luke",
     "lastName": "Skywalker",
-    "usernames": ["last_jedi", "tatooine_farm_boy", "bulls_eye_womprat"],
+    "usernames": [
+      "last_jedi",
+      "tatooine_farm_boy",
+      "bulls_eye_womprat"
+    ],
     "profession": "Pilot",
-    "interests": ["flying", "lightsaber training", "rebellion", "droids", "moisture farming"],
+    "interests": [
+      "flying",
+      "lightsaber training",
+      "droids",
+      "moisture farming",
+      "Jedi teachings"
+    ],
     "quotes": [
       "I am a Jedi, like my father before me.",
       "I'll never join you!",
@@ -14,17 +24,29 @@
       "May the Force be with you."
     ],
     "gender": "male",
-    "symbol": "💚",
+    "symbol": "💡",
     "color": "#1e3a5f",
-    "emailDomains": ["rebel-alliance.net", "jedi-order.org"]
+    "emailDomains": [
+      "rebel-alliance.net",
+      "jedi-order.org"
+    ]
   },
   {
     "id": "darth-vader",
     "firstName": "Darth",
     "lastName": "Vader",
-    "usernames": ["i_find_your_lack", "no_i_am_your_father", "heavy_breathing"],
+    "usernames": [
+      "i_find_your_lack",
+      "no_i_am_your_father",
+      "heavy_breathing"
+    ],
     "profession": "Commander",
-    "interests": ["military tactics", "the Empire", "interrogation", "engineering"],
+    "interests": [
+      "military tactics",
+      "interrogation",
+      "engineering",
+      "piloting"
+    ],
     "quotes": [
       "I am your father.",
       "The Force is strong with this one.",
@@ -35,15 +57,28 @@
     "gender": "male",
     "symbol": "🌑",
     "color": "#7f1d1d",
-    "emailDomains": ["galactic-empire.com", "sith-order.net"]
+    "emailDomains": [
+      "galactic-empire.com",
+      "sith-order.net"
+    ]
   },
   {
     "id": "han-solo",
     "firstName": "Han",
     "lastName": "Solo",
-    "usernames": ["millennium_falcon", "nerf_herder", "never_tell_odds"],
+    "usernames": [
+      "millennium_falcon",
+      "nerf_herder",
+      "never_tell_odds"
+    ],
     "profession": "Smuggler",
-    "interests": ["smuggling", "flying", "gambling", "sabacc", "starship mechanics"],
+    "interests": [
+      "smuggling",
+      "flying",
+      "gambling",
+      "sabacc",
+      "starship mechanics"
+    ],
     "quotes": [
       "Never tell me the odds.",
       "I know.",
@@ -54,15 +89,27 @@
     "gender": "male",
     "symbol": "🚀",
     "color": "#166534",
-    "emailDomains": ["rebel-alliance.net", "corellian-post.net"]
+    "emailDomains": [
+      "rebel-alliance.net",
+      "corellian-post.net"
+    ]
   },
   {
     "id": "leia-organa",
     "firstName": "Leia",
     "lastName": "Organa",
-    "usernames": ["into_the_garbage", "buns_of_alderaan", "tighten_your_grip"],
+    "usernames": [
+      "into_the_garbage",
+      "buns_of_alderaan",
+      "tighten_your_grip"
+    ],
     "profession": "Senator",
-    "interests": ["rebellion", "diplomacy", "leadership", "freedom"],
+    "interests": [
+      "diplomacy",
+      "leadership",
+      "freedom",
+      "resistance strategy"
+    ],
     "quotes": [
       "Help me, Obi-Wan Kenobi. You're my only hope.",
       "Will somebody get this walking carpet out of my way?!",
@@ -73,14 +120,27 @@
     "gender": "female",
     "symbol": "🕊️",
     "color": "#4a1942",
-    "emailDomains": ["rebel-alliance.net", "alderaan-senate.gov"]
+    "emailDomains": [
+      "rebel-alliance.net",
+      "alderaan-senate.gov"
+    ]
   },
   {
     "id": "yoda",
     "firstName": "Yoda",
-    "usernames": ["do_or_do_not", "nine_hundred_years", "luminous_being"],
+    "usernames": [
+      "do_or_do_not",
+      "nine_hundred_years",
+      "luminous_being"
+    ],
     "profession": "Jedi Master",
-    "interests": ["Force philosophy", "cooking", "training", "the Jedi Order", "meditation"],
+    "interests": [
+      "Force philosophy",
+      "cooking",
+      "training",
+      "meditation",
+      "teaching"
+    ],
     "quotes": [
       "Do or do not. There is no try.",
       "Fear is the path to the dark side.",
@@ -91,15 +151,28 @@
     "gender": "male",
     "symbol": "🌿",
     "color": "#166534",
-    "emailDomains": ["jedi-order.org", "dagobah-exile.net"]
+    "emailDomains": [
+      "jedi-order.org",
+      "dagobah-exile.net"
+    ]
   },
   {
     "id": "obi-wan-kenobi",
     "firstName": "Obi-Wan",
     "lastName": "Kenobi",
-    "usernames": ["hello_there", "old_ben", "the_high_ground"],
+    "usernames": [
+      "hello_there",
+      "old_ben",
+      "the_high_ground"
+    ],
     "profession": "Jedi Knight",
-    "interests": ["lightsaber combat", "training", "negotiation", "the Republic", "philosophy"],
+    "interests": [
+      "lightsaber combat",
+      "training",
+      "negotiation",
+      "philosophy",
+      "soresu"
+    ],
     "quotes": [
       "These aren't the droids you're looking for.",
       "Hello there.",
@@ -110,19 +183,26 @@
     "gender": "male",
     "symbol": "⚔️",
     "color": "#1e3a5f",
-    "emailDomains": ["jedi-order.org", "tatooine-exile.net"]
+    "emailDomains": [
+      "jedi-order.org",
+      "tatooine-exile.net"
+    ]
   },
   {
     "id": "emperor-palpatine",
     "firstName": "Sheev",
     "lastName": "Palpatine",
-    "usernames": ["unlimited_power", "senate_is_me", "order_66"],
+    "usernames": [
+      "unlimited_power",
+      "senate_is_me",
+      "order_66"
+    ],
     "profession": "Emperor",
     "interests": [
       "senate procedure",
-      "the dark side",
+      "dark side studies",
       "Sith alchemy",
-      "the Sith",
+      "Sith lore",
       "political scheming"
     ],
     "quotes": [
@@ -136,18 +216,39 @@
     "gender": "male",
     "symbol": "🌩️",
     "color": "#2d1b69",
-    "emailDomains": ["galactic-empire.com", "sith-order.net"]
+    "emailDomains": [
+      "galactic-empire.com",
+      "sith-order.net"
+    ]
   },
   {
     "id": "chewbacca",
     "firstName": "Chewbacca",
-    "usernames": ["walking_carpet", "twelve_parsecs", "life_debt_paid"],
+    "usernames": [
+      "walking_carpet",
+      "twelve_parsecs",
+      "life_debt_paid"
+    ],
     "profession": "Co-pilot",
-    "interests": ["the Millennium Falcon", "dejarik", "Wookiee culture", "mechanics"],
-    "quotes": ["Aaaargh!", "Rrraaawwwr!", "Wuaaaah!", "Hrraaah!", "Rrwwgg!"],
+    "interests": [
+      "dejarik",
+      "Wookiee culture",
+      "mechanics",
+      "co-piloting"
+    ],
+    "quotes": [
+      "Aaaargh!",
+      "Rrraaawwwr!",
+      "Wuaaaah!",
+      "Hrraaah!",
+      "Rrwwgg!"
+    ],
     "gender": "male",
     "symbol": "🐻",
     "color": "#4a3728",
-    "emailDomains": ["millennium-falcon.net", "kashyyyk-mail.net"]
+    "emailDomains": [
+      "millennium-falcon.net",
+      "kashyyyk-mail.net"
+    ]
   }
 ]

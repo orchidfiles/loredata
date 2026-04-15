@@ -3,9 +3,19 @@
     "id": "dean-winchester",
     "firstName": "Dean",
     "lastName": "Winchester",
-    "usernames": ["baby_driver", "righteous_man", "driver_picks_music"],
+    "usernames": [
+      "baby_driver",
+      "righteous_man",
+      "driver_picks_music"
+    ],
     "profession": "Hunter",
-    "interests": ["hunting", "classic rock", "pie", "car mechanics", "burgers"],
+    "interests": [
+      "classic rock",
+      "pie",
+      "car mechanics",
+      "burgers",
+      "pool hustling"
+    ],
     "quotes": [
       "Saving people, hunting things — the family business.",
       "Driver picks the music, shotgun shuts his cakehole.",
@@ -16,15 +26,28 @@
     "gender": "male",
     "symbol": "🚗",
     "color": "#1e3a5f",
-    "emailDomains": ["hunter-network.net", "kansas-mail.com"]
+    "emailDomains": [
+      "hunter-network.net",
+      "kansas-mail.com"
+    ]
   },
   {
     "id": "sam-winchester",
     "firstName": "Sam",
     "lastName": "Winchester",
-    "usernames": ["moose_winchester", "lost_my_shoe", "say_yes_never"],
+    "usernames": [
+      "moose",
+      "lost_my_shoe",
+      "say_yes_never"
+    ],
     "profession": "Hunter",
-    "interests": ["research", "law", "hunting", "mythology", "books"],
+    "interests": [
+      "research",
+      "law",
+      "mythology",
+      "books",
+      "true crime lore"
+    ],
     "quotes": [
       "I lost my shoe.",
       "Probably because I started the apocalypse.",
@@ -35,14 +58,27 @@
     "gender": "male",
     "symbol": "📚",
     "color": "#166534",
-    "emailDomains": ["hunter-network.net", "stanford-alumni.edu"]
+    "emailDomains": [
+      "hunter-network.net",
+      "stanford-alumni.edu"
+    ]
   },
   {
     "id": "castiel",
     "firstName": "Castiel",
-    "usernames": ["gripped_tight", "holy_tax_accountant", "profound_bond"],
+    "usernames": [
+      "gripped_tight",
+      "holy_tax_accountant",
+      "profound_bond"
+    ],
     "profession": "Angel",
-    "interests": ["bees", "human customs", "prayer", "justice", "pop culture"],
+    "interests": [
+      "bees",
+      "human customs",
+      "prayer",
+      "pop culture",
+      "television"
+    ],
     "quotes": [
       "I'm the one who gripped you tight and raised you from perdition.",
       "I killed two angels this week. That's my brothers. I'm hunted, I have rebelled, and I did it — all of it — for you.",
@@ -53,14 +89,27 @@
     "gender": "male",
     "symbol": "🪶",
     "color": "#1d4ed8",
-    "emailDomains": ["heavenly-host.net", "hunter-network.net"]
+    "emailDomains": [
+      "heavenly-host.net",
+      "hunter-network.net"
+    ]
   },
   {
     "id": "crowley",
     "firstName": "Crowley",
-    "usernames": ["king_of_hell", "moose_squirrel", "crossroads_king"],
+    "usernames": [
+      "king_of_hell",
+      "moose_squirrel",
+      "crossroads_king"
+    ],
     "profession": "King of Hell",
-    "interests": ["deals", "power", "scotch", "contract law", "soul collecting"],
+    "interests": [
+      "deals",
+      "scotch",
+      "contract law",
+      "soul collecting",
+      "sarcasm"
+    ],
     "quotes": [
       "I'm not a monster. I'm a business man.",
       "Moose. Squirrel.",
@@ -71,15 +120,28 @@
     "gender": "male",
     "symbol": "🥃",
     "color": "#7f1d1d",
-    "emailDomains": ["crossroads-deals.net", "hell-mail.org"]
+    "emailDomains": [
+      "crossroads-deals.net",
+      "hell-mail.org"
+    ]
   },
   {
     "id": "bobby-singer",
     "firstName": "Bobby",
     "lastName": "Singer",
-    "usernames": ["salvage_yard_bobby", "idjit_hunter", "family_dont_end"],
+    "usernames": [
+      "salvage_yard_bobby",
+      "idjit_hunter",
+      "family_dont_end"
+    ],
     "profession": "Hunter",
-    "interests": ["hunting", "research", "whiskey", "salvage yard", "books"],
+    "interests": [
+      "research",
+      "whiskey",
+      "salvage yard",
+      "books",
+      "ball caps"
+    ],
     "quotes": [
       "Idjit.",
       "Family don't end with blood, boy.",
@@ -90,14 +152,26 @@
     "gender": "male",
     "symbol": "🎩",
     "color": "#4a3728",
-    "emailDomains": ["singer-salvage.com", "hunter-network.net"]
+    "emailDomains": [
+      "singer-salvage.com",
+      "hunter-network.net"
+    ]
   },
   {
     "id": "lucifer",
     "firstName": "Lucifer",
-    "usernames": ["morningstar_falls", "say_yes_sam", "the_cage"],
+    "usernames": [
+      "morningstar_falls",
+      "say_yes_sam",
+      "the_cage"
+    ],
     "profession": "Archangel",
-    "interests": ["theological debate", "free will", "Enochian scripture", "the Cage"],
+    "interests": [
+      "theological debate",
+      "free will",
+      "Enochian scripture",
+      "temptation"
+    ],
     "quotes": [
       "You know why God cast me down? Because I loved Him. More than anything.",
       "I was a son. A brother, like you, a younger brother, and I had an older brother who I loved.",
@@ -108,6 +182,9 @@
     "gender": "male",
     "symbol": "🐍",
     "color": "#3b0764",
-    "emailDomains": ["hell-mail.org", "morningstar-post.net"]
+    "emailDomains": [
+      "hell-mail.org",
+      "morningstar-post.net"
+    ]
   }
 ]

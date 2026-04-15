@@ -1,0 +1,13 @@
+{
+  "id": "the-crown",
+  "name": "The Crown",
+  "genre": ["drama", "history"],
+  "description": "A historical drama chronicling the reign of Queen Elizabeth II, from her wedding in 1947 through the modern era, exploring the personal and political pressures of the British monarchy.",
+  "tmdbId": 65494,
+  "mediaType": "tv",
+  "year": 2016,
+  "rating": 8.2,
+  "networks": ["Netflix"],
+  "posterPath": "/1M876KPjulVwppEpldhdc8V4o68.jpg",
+  "backdropPath": "/8VXhcrl5z2I1zEU9X3pkkNrZlD.jpg"
+}

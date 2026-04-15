@@ -1,156 +1,268 @@
 [
-  {
-    "id": "jimmy-mcgill",
-    "firstName": "Jimmy",
-    "lastName": "McGill",
-    "usernames": ["slippin_jimmy", "saul_goodman_esq", "better_call_saul", "viktor_with_a_k"],
-    "profession": "Lawyer",
-    "interests": ["law", "scams", "advertising", "elder law", "money"],
-    "quotes": [
-      "I'm the last line of defense for the little guy.",
-      "I just talked you down from a death sentence to six months' probation. I'm the best lawyer ever.",
-      "You don't need a criminal lawyer. You need a criminal lawyer.",
-      "It's all good, man.",
-      "I travel in worlds you can't even imagine.",
-      "The name's McGill. I'm James McGill."
-    ],
-    "gender": "male",
-    "birthYear": 1960,
-    "symbol": "⚖️",
-    "color": "#1e3a5f",
-    "emailDomains": ["saul-goodman.net", "hm-law.com", "abq-bar.org"]
-  },
-  {
-    "id": "mike-ehrmantraut",
-    "firstName": "Mike",
-    "lastName": "Ehrmantraut",
-    "usernames": ["the_fixer", "no_half_measures", "philly_on_the_job", "pimento_guy"],
-    "profession": "Fixer",
-    "interests": ["security", "family", "chess", "surveillance"],
-    "quotes": [
-      "I've known good criminals and bad cops. Bad priests. Honorable thieves. You can be on one side of the law or the other. But if you make a deal with somebody, you keep your word.",
-      "I have spent my whole life trying to work my way back from a mistake I made. And I made it worse.",
-      "We all make our choices. And those choices, they put us on a road.",
-      "Because I know why I'm out here. That's how. I know what it's for.",
-      "Your dad's gonna be okay. Because anyone who goes after him is gonna have to come through me."
-    ],
-    "gender": "male",
-    "symbol": "🧹",
-    "color": "#1d4ed8",
-    "emailDomains": ["abq-mail.net", "ehrmantraut-security.com"]
-  },
-  {
-    "id": "kim-wexler",
-    "firstName": "Kim",
-    "lastName": "Wexler",
-    "usernames": ["giselle_saint_claire", "mesa_verde_kim", "wexler_law"],
-    "profession": "Lawyer",
-    "interests": ["law", "pro bono work", "banking law", "Mesa Verde"],
-    "quotes": [
-      "You don't save me. I save me.",
-      "Either we end this now, or... maybe we get married?",
-      "I don't trust you.",
-      "We are bad for everyone around us. Apart we're okay, but together we're poison.",
-      "I'm glad you're alive."
-    ],
-    "gender": "female",
-    "symbol": "🌊",
-    "color": "#0f4c75",
-    "emailDomains": ["hm-law.com", "abq-bar.org"]
-  },
-  {
-    "id": "gus-fring",
-    "firstName": "Gustavo",
-    "lastName": "Fring",
-    "usernames": ["los_pollos_boss", "chicken_man_abq", "plain_sight_gus"],
-    "profession": "Fast food entrepreneur",
-    "interests": ["business", "philanthropy", "revenge", "chemistry"],
-    "quotes": [
-      "A bullet to the head would have been far too humane.",
-      "I am what I am.",
-      "I understand blood for blood. Hector? Yeah, I kept him alive. Kept him broken.",
-      "This is America. Here, the righteous have no reason to fear.",
-      "I never asked for this. I do not want it."
-    ],
-    "gender": "male",
-    "symbol": "🍗",
-    "color": "#7f1d1d",
-    "emailDomains": ["los-pollos.com", "pollos-hermanos.net"]
-  },
-  {
-    "id": "nacho-varga",
-    "firstName": "Ignacio",
-    "lastName": "Varga",
-    "usernames": ["nacho_varga", "sugar_pill_switch", "not_on_the_cartel_books"],
-    "profession": "Cartel enforcer",
-    "interests": ["family", "cars", "upholstery", "getting out"],
-    "quotes": [
-      "I put you in that chair. Your heart meds? I switched them for sugar pills.",
-      "I opened Lalo's gate, and I would do it again.",
-      "I would have done it for free. Because I hate every last one of you psycho sacks of shit.",
-      "You are screwed. You want the cartel to blame me for Lalo. But if they catch me, and make me talk? That is not good for you.",
-      "My father is a simple man. He is not in the business."
-    ],
-    "gender": "male",
-    "symbol": "🔑",
-    "color": "#166534",
-    "emailDomains": ["abq-mail.net"]
-  },
-  {
-    "id": "lalo-salamanca",
-    "firstName": "Eduardo",
-    "lastName": "Salamanca",
-    "usernames": ["lalo_salamanca", "jorge_de_guzman", "cousin_lalo"],
-    "profession": "Cartel boss",
-    "interests": ["cars", "cooking", "family honor", "revenge"],
-    "quotes": [
-      "You're the guy with a mouth.",
-      "You're nobody! I mean, no offense, but nobody's gonna look twice at you!",
-      "When it's like this... that's when I can think. I get my best ideas when everybody else is asleep.",
-      "Gustavo thought he was building an empire, but all he built himself was a tomb.",
-      "Let them keep believing I'm dead. So much the better."
-    ],
-    "gender": "male",
-    "symbol": "🦂",
-    "color": "#6b2737",
-    "emailDomains": ["cartel-mx.net", "salamanca-family.com"]
-  },
-  {
-    "id": "howard-hamlin",
-    "firstName": "Howard",
-    "lastName": "Hamlin",
-    "usernames": ["hamlin_hhm", "hamlindigo_blue", "howard_at_hhm"],
-    "profession": "Lawyer",
-    "interests": ["law", "tennis", "golf", "firm reputation"],
-    "quotes": [
-      "You've mistaken my kindness for weakness.",
-      "I think you're an asshole.",
-      "You want to know what's weird? It's weird to offer a job to a man, and in return have bowling balls thrown at your car.",
-      "There's proving, and then there's knowing.",
-      "You can't hide who you really are forever."
-    ],
-    "gender": "male",
-    "symbol": "🏛️",
-    "color": "#2d4a7a",
-    "emailDomains": ["hm-law.com"]
-  },
-  {
-    "id": "chuck-mcgill",
-    "firstName": "Charles",
-    "lastName": "McGill",
-    "usernames": ["chuck_mcgill_esq", "the_founding_mcgill", "electromagnetic_chuck"],
-    "profession": "Lawyer",
-    "interests": ["law", "classical music", "reading", "the rule of law"],
-    "quotes": [
-      "Slippin' Jimmy with a law degree is like a chimp with a machine gun!",
-      "The law is sacred! If you abuse that power, people get hurt!",
-      "I know you. I know what you were, what you are. People don't change.",
-      "Let justice be done, though the heavens fall.",
-      "My brother is not a bad person. He has a good heart. It's just he can't help himself."
-    ],
-    "gender": "male",
-    "symbol": "🕯️",
-    "color": "#3d2b1f",
-    "emailDomains": ["hm-law.com", "abq-bar.org"]
-  }
+	{
+		"id": "jimmy-mcgill",
+		"firstName": "Jimmy",
+		"lastName": "McGill",
+		"usernames": [
+			"slippin_jimmy",
+			"saul_goodman_esq",
+			"better_call_saul",
+			"viktor_with_a_k"
+		],
+		"profession": "Lawyer",
+		"interests": [
+			"scams",
+			"advertising",
+			"elder advocacy",
+			"money",
+			"TV commercials",
+			"cell phones"
+		],
+		"quotes": [
+			"I'm the last line of defense for the little guy.",
+			"I just talked you down from a death sentence to six months' probation. I'm the best lawyer ever.",
+			"You don't need a criminal lawyer. You need a criminal lawyer.",
+			"It's all good, man.",
+			"I travel in worlds you can't even imagine.",
+			"The name's McGill. I'm James McGill."
+		],
+		"gender": "male",
+		"birthYear": 1960,
+		"symbol": "⚖️",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"saul-goodman.net",
+			"mcgill-law.net",
+			"abq-bar.org"
+		]
+	},
+	{
+		"id": "mike-ehrmantraut",
+		"firstName": "Mike",
+		"lastName": "Ehrmantraut",
+		"usernames": [
+			"the_fixer",
+			"no_half_measures",
+			"philly_on_the_job",
+			"pimento_guy"
+		],
+		"profession": "Fixer",
+		"interests": [
+			"security",
+			"family",
+			"chess",
+			"surveillance",
+			"parking booths"
+		],
+		"quotes": [
+			"I've known good criminals and bad cops. Bad priests. Honorable thieves. You can be on one side of the law or the other. But if you make a deal with somebody, you keep your word.",
+			"I have spent my whole life trying to work my way back from a mistake I made. And I made it worse.",
+			"We all make our choices. And those choices, they put us on a road.",
+			"Because I know why I'm out here. That's how. I know what it's for.",
+			"Your dad's gonna be okay. Because anyone who goes after him is gonna have to come through me."
+		],
+		"gender": "male",
+		"symbol": "🧹",
+		"color": "#1d4ed8",
+		"emailDomains": [
+			"abq-mail.net",
+			"ehrmantraut-security.com"
+		]
+	},
+	{
+		"id": "kim-wexler",
+		"firstName": "Kim",
+		"lastName": "Wexler",
+		"usernames": [
+			"giselle_saint_claire",
+			"zafiro_anejo",
+			"switch_the_numbers",
+			"better_call_kim"
+		],
+		"profession": "Lawyer",
+		"interests": [
+			"pro bono work",
+			"document review",
+			"tequila scams",
+			"banking",
+			"public defense"
+		],
+		"quotes": [
+			"You don't save me. I save me.",
+			"Either we end this now, or... maybe we get married?",
+			"I don't trust you.",
+			"We are bad for everyone around us. Apart we're okay, but together we're poison.",
+			"I'm glad you're alive."
+		],
+		"gender": "female",
+		"symbol": "🌊",
+		"color": "#0f4c75",
+		"emailDomains": [
+			"hm-law.com",
+			"abq-bar.org"
+		]
+	},
+	{
+		"id": "gus-fring",
+		"firstName": "Gustavo",
+		"lastName": "Fring",
+		"usernames": [
+			"los_pollos_boss",
+			"chicken_man_abq",
+			"plain_sight_gus",
+			"hide_in_plain_sight"
+		],
+		"profession": "Fast food entrepreneur",
+		"interests": [
+			"business",
+			"philanthropy",
+			"revenge",
+			"chemistry",
+			"wine"
+		],
+		"quotes": [
+			"A bullet to the head would have been far too humane.",
+			"I am what I am.",
+			"I understand blood for blood. Hector? Yeah, I kept him alive. Kept him broken.",
+			"This is America. Here, the righteous have no reason to fear.",
+			"I never asked for this. I do not want it."
+		],
+		"gender": "male",
+		"symbol": "🍗",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"los-pollos.com",
+			"pollos-hermanos.net"
+		]
+	},
+	{
+		"id": "nacho-varga",
+		"firstName": "Ignacio",
+		"lastName": "Varga",
+		"usernames": [
+			"sugar_pill_switch",
+			"not_on_the_cartel_books",
+			"varga_upholstery",
+			"glass_in_the_oil"
+		],
+		"profession": "Cartel enforcer",
+		"interests": [
+			"family",
+			"cars",
+			"upholstery",
+			"escape plans",
+			"auto repair"
+		],
+		"quotes": [
+			"I put you in that chair. Your heart meds? I switched them for sugar pills.",
+			"I opened Lalo's gate, and I would do it again.",
+			"I would have done it for free. Because I hate every last one of you psycho sacks of shit.",
+			"You are screwed. You want the cartel to blame me for Lalo. But if they catch me, and make me talk? That is not good for you.",
+			"My father is a simple man. He is not in the business."
+		],
+		"gender": "male",
+		"symbol": "🔑",
+		"color": "#166534",
+		"emailDomains": [
+			"abq-mail.net"
+		]
+	},
+	{
+		"id": "lalo-salamanca",
+		"firstName": "Eduardo",
+		"lastName": "Salamanca",
+		"usernames": [
+			"jorge_de_guzman",
+			"cousin_lalo",
+			"tell_me_again",
+			"smile_for_the_camera"
+		],
+		"profession": "Cartel boss",
+		"interests": [
+			"cars",
+			"cooking",
+			"family honor",
+			"revenge",
+			"surveillance"
+		],
+		"quotes": [
+			"You're the guy with a mouth.",
+			"You're nobody! I mean, no offense, but nobody's gonna look twice at you!",
+			"When it's like this... that's when I can think. I get my best ideas when everybody else is asleep.",
+			"Gustavo thought he was building an empire, but all he built himself was a tomb.",
+			"Let them keep believing I'm dead. So much the better."
+		],
+		"gender": "male",
+		"symbol": "🦂",
+		"color": "#6b2737",
+		"emailDomains": [
+			"cartel-mx.net",
+			"salamanca-family.com"
+		]
+	},
+	{
+		"id": "howard-hamlin",
+		"firstName": "Howard",
+		"lastName": "Hamlin",
+		"usernames": [
+			"hamlindigo_blue",
+			"namaste_howard",
+			"lightning_bolts",
+			"hhm_partner"
+		],
+		"profession": "Lawyer",
+		"interests": [
+			"tennis",
+			"golf",
+			"meditation",
+			"networking",
+			"therapy"
+		],
+		"quotes": [
+			"You've mistaken my kindness for weakness.",
+			"I think you're an asshole.",
+			"You want to know what's weird? It's weird to offer a job to a man, and in return have bowling balls thrown at your car.",
+			"There's proving, and then there's knowing.",
+			"You can't hide who you really are forever."
+		],
+		"gender": "male",
+		"symbol": "🏛️",
+		"color": "#2d4a7a",
+		"emailDomains": [
+			"hm-law.com"
+		]
+	},
+	{
+		"id": "chuck-mcgill",
+		"firstName": "Charles",
+		"lastName": "McGill",
+		"usernames": [
+			"the_law_is_sacred",
+			"the_founding_mcgill",
+			"electromagnetic_sensitivity",
+			"chimp_with_a_machine_gun"
+		],
+		"profession": "Lawyer",
+		"interests": [
+			"classical music",
+			"reading",
+			"the rule of law",
+			"legal history",
+			"case files"
+		],
+		"quotes": [
+			"Slippin' Jimmy with a law degree is like a chimp with a machine gun!",
+			"The law is sacred! If you abuse that power, people get hurt!",
+			"I know you. I know what you were, what you are. People don't change.",
+			"Let justice be done, though the heavens fall.",
+			"My brother is not a bad person. He has a good heart. It's just he can't help himself."
+		],
+		"gender": "male",
+		"symbol": "🕯️",
+		"color": "#3d2b1f",
+		"emailDomains": [
+			"hm-law.com",
+			"abq-bar.org"
+		]
+	}
 ]

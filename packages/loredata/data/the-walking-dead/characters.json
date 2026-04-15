@@ -3,9 +3,18 @@
     "id": "rick-grimes",
     "firstName": "Rick",
     "lastName": "Grimes",
-    "usernames": ["officer_friendly", "coral_dad", "not_a_democracy"],
+    "usernames": [
+      "officer_friendly",
+      "coral_dad",
+      "not_a_democracy"
+    ],
     "profession": "Sheriff",
-    "interests": ["farming", "family", "justice", "law enforcement"],
+    "interests": [
+      "farming",
+      "family",
+      "leadership",
+      "survival planning"
+    ],
     "quotes": [
       "We are the walking dead.",
       "You're staying, this isn't a democracy anymore.",
@@ -16,15 +25,27 @@
     "gender": "male",
     "symbol": "⭐",
     "color": "#7f1d1d",
-    "emailDomains": ["alexandria-safe-zone.net", "georgia-survivors.net"]
+    "emailDomains": [
+      "alexandria-safe-zone.net",
+      "georgia-survivors.net"
+    ]
   },
   {
     "id": "daryl-dixon",
     "firstName": "Daryl",
     "lastName": "Dixon",
-    "usernames": ["crossbow_rider", "angel_wings", "cherokee_rose"],
+    "usernames": [
+      "crossbow_rider",
+      "angel_wings",
+      "cherokee_rose"
+    ],
     "profession": "Hunter",
-    "interests": ["hunting", "motorcycles", "survival", "tracking"],
+    "interests": [
+      "hunting",
+      "motorcycles",
+      "survival",
+      "tracking"
+    ],
     "quotes": [
       "We ain't them. We're not them.",
       "Yeah, you used to be somebody's, huh? Now you're just yours.",
@@ -35,14 +56,26 @@
     "gender": "male",
     "symbol": "🏹",
     "color": "#4a3728",
-    "emailDomains": ["georgia-survivors.net", "alexandria-safe-zone.net"]
+    "emailDomains": [
+      "georgia-survivors.net",
+      "alexandria-safe-zone.net"
+    ]
   },
   {
     "id": "negan",
     "firstName": "Negan",
-    "usernames": ["pee_pants_city", "lucille_swings", "eeny_meeny"],
+    "usernames": [
+      "pee_pants_city",
+      "lucille_swings",
+      "eeny_meeny"
+    ],
     "profession": "Warlord",
-    "interests": ["power", "whistling", "Lucille", "rules", "survival"],
+    "interests": [
+      "whistling",
+      "baseball",
+      "intimidation tactics",
+      "survival"
+    ],
     "quotes": [
       "You are so gonna regret crossing me in a few minutes.",
       "I simply cannot decide. I got an idea.",
@@ -53,14 +86,26 @@
     "gender": "male",
     "symbol": "⚾",
     "color": "#7f1d1d",
-    "emailDomains": ["the-saviors.net", "sanctuary-hq.com"]
+    "emailDomains": [
+      "the-saviors.net",
+      "sanctuary-hq.com"
+    ]
   },
   {
     "id": "michonne",
     "firstName": "Michonne",
-    "usernames": ["pet_walkers", "just_another_monster", "andre_mom"],
-    "profession": "Warrior",
-    "interests": ["survival", "art", "justice", "community"],
+    "usernames": [
+      "pet_walkers",
+      "just_another_monster",
+      "andre_mom"
+    ],
+    "profession": "Katana fighter",
+    "interests": [
+      "survival",
+      "art",
+      "community building",
+      "sword training"
+    ],
     "quotes": [
       "They deserve what they got. They weren't human to begin with.",
       "I made it so they couldn't bite, couldn't scratch. I tied chains around their necks. It was insane. It was sick. It felt like what I deserved.",
@@ -71,15 +116,27 @@
     "gender": "female",
     "symbol": "⚔️",
     "color": "#1e3a5f",
-    "emailDomains": ["alexandria-safe-zone.net", "georgia-survivors.net"]
+    "emailDomains": [
+      "alexandria-safe-zone.net",
+      "georgia-survivors.net"
+    ]
   },
   {
     "id": "carol-peletier",
     "firstName": "Carol",
     "lastName": "Peletier",
-    "usernames": ["cookie_lady", "look_at_flowers", "oh_sunshine"],
-    "profession": "Survivor",
-    "interests": ["baking", "strategy", "marksmanship", "protecting the group"],
+    "usernames": [
+      "cookie_lady",
+      "look_at_flowers",
+      "oh_sunshine"
+    ],
+    "profession": "Homemaker",
+    "interests": [
+      "baking",
+      "strategy",
+      "marksmanship",
+      "protecting the group"
+    ],
     "quotes": [
       "You can never tell anyone, especially your mom.",
       "I don't know if I believe in God anymore or heaven, but if I'm going to hell, I'm making damn sure I'm holding it off as long as I can.",
@@ -90,15 +147,27 @@
     "gender": "female",
     "symbol": "🍪",
     "color": "#166534",
-    "emailDomains": ["alexandria-safe-zone.net", "georgia-survivors.net"]
+    "emailDomains": [
+      "alexandria-safe-zone.net",
+      "cookies-and-casseroles.net"
+    ]
   },
   {
     "id": "glenn-rhee",
     "firstName": "Glenn",
     "lastName": "Rhee",
-    "usernames": ["dumpster_survivor", "pizza_delivery", "cozy_in_there"],
+    "usernames": [
+      "dumpster_survivor",
+      "pizza_delivery",
+      "cozy_in_there"
+    ],
     "profession": "Delivery driver",
-    "interests": ["scavenging", "supply runs", "cars", "community"],
+    "interests": [
+      "scavenging",
+      "supply runs",
+      "cars",
+      "community"
+    ],
     "quotes": [
       "Hey, you. Dumbass. Hey, you in the tank. Cozy in there?",
       "Nice moves there, Clint Eastwood. You the new sheriff come riding in to clean up the town?",
@@ -109,6 +178,9 @@
     "gender": "male",
     "symbol": "🍕",
     "color": "#1e3a5f",
-    "emailDomains": ["georgia-survivors.net", "alexandria-safe-zone.net"]
+    "emailDomains": [
+      "georgia-survivors.net",
+      "alexandria-safe-zone.net"
+    ]
   }
 ]

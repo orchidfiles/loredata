@@ -1,0 +1,31 @@
+[
+  {
+    "city": "Hawkins",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "street": "11848 Maple Street",
+    "city": "Hawkins",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "street": "1024 Lincoln Avenue",
+    "city": "Hawkins",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "street": "Hawkins Middle School",
+    "city": "Hawkins",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "street": "Hawkins National Laboratory",
+    "city": "Hawkins",
+    "state": "IN",
+    "country": "US"
+  }
+]

@@ -1,124 +1,226 @@
 [
-  {
-    "id": "peter-quill",
-    "firstName": "Peter",
-    "lastName": "Quill",
-    "usernames": ["starlord_man", "legendary_outlaw", "awesome_mix"],
-    "profession": "Ravager",
-    "interests": ["music", "dancing", "space travel", "treasure hunting"],
-    "quotes": [
-      "There's one other name you might know me by. Star-Lord.",
-      "I'm gonna make some weird shit.",
-      "I look around at us, and you know what I see? Losers. I mean, like, folks who have lost stuff.",
-      "You said it yourself, bitch. We're the Guardians of the Galaxy.",
-      "I'm distracting you, you big turd blossom!"
-    ],
-    "gender": "male",
-    "symbol": "🎧",
-    "color": "#7f1d1d",
-    "emailDomains": ["ravager-corps.net", "milano-mail.com"]
-  },
-  {
-    "id": "gamora",
-    "firstName": "Gamora",
-    "usernames": ["deadliest_woman", "zen_whoberi", "daughter_of_thanos"],
-    "profession": "Assassin",
-    "interests": ["combat", "swordsmanship", "strategy", "redemption"],
-    "quotes": [
-      "I'm going to die surrounded by the biggest idiots in the galaxy.",
-      "I have lived most of my life surrounded by my enemies. I would be grateful to die among my friends.",
-      "I am not some starry-eyed waif here to succumb to your pelvic sorcery!",
-      "Whatever nightmares the future holds are dreams compared to what's behind me.",
-      "I am going to die surrounded by the biggest idiots in the galaxy."
-    ],
-    "gender": "female",
-    "symbol": "⚔️",
-    "color": "#166534",
-    "emailDomains": ["nova-corps.net", "guardians-galaxy.com"]
-  },
-  {
-    "id": "drax",
-    "firstName": "Drax",
-    "lastName": "the Destroyer",
-    "usernames": ["nothing_goes_over_my_head", "the_destroyer", "invisible_drax"],
-    "profession": "Warrior",
-    "interests": ["combat", "revenge", "knives", "family"],
-    "quotes": [
-      "Nothing goes over my head. My reflexes are too fast. I would catch it.",
-      "I have famously huge turds.",
-      "I'm not done! I've got so many more sentences to finish.",
-      "There are two types of beings in the universe. Those who dance, and those who do not.",
-      "It is pleasing to once again have friends."
-    ],
-    "gender": "male",
-    "symbol": "🔪",
-    "color": "#1e3a5f",
-    "emailDomains": ["guardians-galaxy.com", "xandar-post.net"]
-  },
-  {
-    "id": "rocket",
-    "firstName": "Rocket",
-    "usernames": ["aint_no_thing", "trash_panda", "weapons_expert"],
-    "profession": "Bounty hunter",
-    "interests": ["weapons", "explosives", "engineering", "prosthetics"],
-    "quotes": [
-      "Ain't no thing like me, except me.",
-      "Oh, I'm gonna die surrounded by the biggest idiots in the galaxy.",
-      "That's for if things get really hardcore. Or if you wanna blow up moons.",
-      "I didn't ask to get made! I didn't ask to be torn apart and put back together over and over!",
-      "Now I'm standing. Happy? We're all standing now. Bunch of jackasses, standing in a circle."
-    ],
-    "gender": "male",
-    "symbol": "🦝",
-    "color": "#4c1d95",
-    "emailDomains": ["ravager-corps.net", "tech-scrap.io"]
-  },
-  {
-    "id": "groot",
-    "firstName": "Groot",
-    "usernames": ["i_am_groot", "we_are_groot", "twig"],
-    "profession": "Guardian",
-    "interests": ["nature", "friendship", "dancing", "growth"],
-    "quotes": ["I am Groot.", "I am Groot!", "I am Groot?", "We are Groot.", "I am Groot..."],
-    "gender": "male",
-    "symbol": "🌳",
-    "color": "#7f1d1d",
-    "emailDomains": ["guardians-galaxy.com"]
-  },
-  {
-    "id": "nebula",
-    "firstName": "Nebula",
-    "usernames": ["not_a_puppy", "upgrade_required", "second_daughter"],
-    "profession": "Mercenary",
-    "interests": ["combat", "cybernetics", "vengeance", "freedom"],
-    "quotes": [
-      "You should have killed me.",
-      "All you do is yell at each other. You are not friends.",
-      "He won't stop until he destroys half the universe. Everything we know. Everything we love.",
-      "Of all our siblings, I hated you least."
-    ],
-    "gender": "female",
-    "symbol": "🤖",
-    "color": "#1d4ed8",
-    "emailDomains": ["kree-order.net", "guardians-galaxy.com"]
-  },
-  {
-    "id": "yondu-udonta",
-    "firstName": "Yondu",
-    "lastName": "Udonta",
-    "usernames": ["mary_poppins", "whistlin_arrow", "ravager_captain"],
-    "profession": "Ravager captain",
-    "interests": ["thievery", "collecting", "whistling", "leadership"],
-    "quotes": [
-      "I'm Mary Poppins, y'all!",
-      "He may have been your father, boy, but he wasn't your daddy.",
-      "I didn't have the heart to eat you.",
-      "You like a professional asshole or what?",
-      "I never did have the heart to eat ya."
-    ],
-    "gender": "male",
-    "symbol": "🏹",
-    "color": "#991b1b",
-    "emailDomains": ["ravager-corps.net", "udonta-clan.com"]
-  }
+	{
+		"id": "peter-quill",
+		"firstName": "Peter",
+		"lastName": "Quill",
+		"usernames": [
+			"starlord_man",
+			"legendary_outlaw",
+			"awesome_mix",
+			"star_lord",
+			"dance_off_bro"
+		],
+		"profession": "Ravager",
+		"interests": [
+			"music",
+			"dancing",
+			"space travel",
+			"treasure hunting",
+			"cassette tapes"
+		],
+		"quotes": [
+			"There's one other name you might know me by. Star-Lord.",
+			"I'm gonna make some weird shit.",
+			"I look around at us, and you know what I see? Losers. I mean, like, folks who have lost stuff.",
+			"You said it yourself, bitch. We're the Guardians of the Galaxy.",
+			"I'm distracting you, you big turd blossom!"
+		],
+		"gender": "male",
+		"symbol": "🎧",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"ravager-corps.net",
+			"milano-mail.com"
+		]
+	},
+	{
+		"id": "gamora",
+		"firstName": "Gamora",
+		"usernames": [
+			"deadliest_woman",
+			"zen_whoberi",
+			"daughter_of_thanos",
+			"galaxys_deadliest"
+		],
+		"profession": "Assassin",
+		"interests": [
+			"combat",
+			"swordsmanship",
+			"strategy",
+			"redemption",
+			"assassination training"
+		],
+		"quotes": [
+			"I'm going to die surrounded by the biggest idiots in the galaxy.",
+			"I have lived most of my life surrounded by my enemies. I would be grateful to die among my friends.",
+			"I am not some starry-eyed waif here to succumb to your pelvic sorcery!",
+			"Whatever nightmares the future holds are dreams compared to what's behind me.",
+			"I am going to die surrounded by the biggest idiots in the galaxy."
+		],
+		"gender": "female",
+		"symbol": "⚔️",
+		"color": "#166534",
+		"emailDomains": [
+			"nova-corps.net",
+			"guardians-galaxy.com"
+		]
+	},
+	{
+		"id": "drax",
+		"firstName": "Drax",
+		"lastName": "the Destroyer",
+		"usernames": [
+			"nothing_goes_over_my_head",
+			"the_destroyer",
+			"invisible_drax",
+			"metaphors_go_over_me"
+		],
+		"profession": "Warrior",
+		"interests": [
+			"combat",
+			"revenge",
+			"knives",
+			"family",
+			"literal thinking"
+		],
+		"quotes": [
+			"Nothing goes over my head. My reflexes are too fast. I would catch it.",
+			"I have famously huge turds.",
+			"I'm not done! I've got so many more sentences to finish.",
+			"There are two types of beings in the universe. Those who dance, and those who do not.",
+			"It is pleasing to once again have friends."
+		],
+		"gender": "male",
+		"symbol": "🔪",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"guardians-galaxy.com",
+			"xandar-post.net"
+		]
+	},
+	{
+		"id": "rocket",
+		"firstName": "Rocket",
+		"usernames": [
+			"aint_no_thing",
+			"trash_panda",
+			"weapons_expert",
+			"bunch_of_jackasses"
+		],
+		"profession": "Bounty hunter",
+		"interests": [
+			"weapons",
+			"explosives",
+			"engineering",
+			"prosthetics",
+			"ship repairs"
+		],
+		"quotes": [
+			"Ain't no thing like me, except me.",
+			"Oh, I'm gonna die surrounded by the biggest idiots in the galaxy.",
+			"That's for if things get really hardcore. Or if you wanna blow up moons.",
+			"I didn't ask to get made! I didn't ask to be torn apart and put back together over and over!",
+			"Now I'm standing. Happy? We're all standing now. Bunch of jackasses, standing in a circle."
+		],
+		"gender": "male",
+		"symbol": "🦝",
+		"color": "#4c1d95",
+		"emailDomains": [
+			"ravager-corps.net",
+			"tech-scrap.io"
+		]
+	},
+	{
+		"id": "groot",
+		"firstName": "Groot",
+		"usernames": [
+			"i_am_groot",
+			"we_are_groot",
+			"twig"
+		],
+		"profession": "Flora colossus",
+		"interests": [
+			"nature",
+			"dancing",
+			"sprouting",
+			"protecting friends"
+		],
+		"quotes": [
+			"I am Groot.",
+			"I am Groot!",
+			"I am Groot?",
+			"We are Groot.",
+			"I am Groot..."
+		],
+		"gender": "male",
+		"symbol": "🌳",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"guardians-galaxy.com"
+		]
+	},
+	{
+		"id": "nebula",
+		"firstName": "Nebula",
+		"usernames": [
+			"not_a_puppy",
+			"upgrade_required",
+			"second_daughter",
+			"least_hated_sister"
+		],
+		"profession": "Mercenary",
+		"interests": [
+			"combat",
+			"cybernetics",
+			"vengeance",
+			"freedom",
+			"ship piloting"
+		],
+		"quotes": [
+			"You should have killed me.",
+			"All you do is yell at each other. You are not friends.",
+			"He won't stop until he destroys half the universe. Everything we know. Everything we love.",
+			"Of all our siblings, I hated you least."
+		],
+		"gender": "female",
+		"symbol": "🤖",
+		"color": "#1d4ed8",
+		"emailDomains": [
+			"kree-order.net",
+			"guardians-galaxy.com"
+		]
+	},
+	{
+		"id": "yondu-udonta",
+		"firstName": "Yondu",
+		"lastName": "Udonta",
+		"usernames": [
+			"mary_poppins",
+			"whistlin_arrow",
+			"ravager_captain",
+			"im_your_daddy"
+		],
+		"profession": "Ravager captain",
+		"interests": [
+			"thievery",
+			"collecting",
+			"whistling",
+			"leadership",
+			"salvaging"
+		],
+		"quotes": [
+			"I'm Mary Poppins, y'all!",
+			"He may have been your father, boy, but he wasn't your daddy.",
+			"I didn't have the heart to eat you.",
+			"You like a professional asshole or what?",
+			"I never did have the heart to eat ya."
+		],
+		"gender": "male",
+		"symbol": "🏹",
+		"color": "#991b1b",
+		"emailDomains": [
+			"ravager-corps.net",
+			"udonta-clan.com"
+		]
+	}
 ]

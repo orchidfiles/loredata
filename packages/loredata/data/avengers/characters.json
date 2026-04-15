@@ -1,178 +1,305 @@
 [
-  {
-    "id": "tony-stark",
-    "firstName": "Tony",
-    "lastName": "Stark",
-    "usernames": ["iron_man", "genius_billionaire", "arc_reactor"],
-    "profession": "Inventor",
-    "interests": ["engineering", "robotics", "racing", "family"],
-    "quotes": [
-      "I am Iron Man.",
-      "And I... am... Iron Man.",
-      "I love you three thousand.",
-      "Genius, billionaire, playboy, philanthropist.",
-      "Part of the journey is the end."
-    ],
-    "gender": "male",
-    "birthYear": 1970,
-    "address": {
-      "street": "200 Park Avenue",
-      "city": "New York",
-      "state": "NY",
-      "country": "US"
-    },
-    "symbol": "⚙️",
-    "color": "#7f1d1d",
-    "emailDomains": ["stark-industries.com", "ironmail.net"]
-  },
-  {
-    "id": "steve-rogers",
-    "firstName": "Steve",
-    "lastName": "Rogers",
-    "usernames": ["i_can_do_this_all_day", "first_avenger", "man_out_of_time"],
-    "profession": "Soldier",
-    "interests": ["art", "history", "fitness", "leadership"],
-    "quotes": [
-      "I can do this all day.",
-      "Avengers, assemble.",
-      "I'm with you till the end of the line.",
-      "I don't want to kill anyone. I don't like bullies; I don't care where they're from.",
-      "The price of freedom is high. It always has been.",
-      "Whatever it takes."
-    ],
-    "gender": "male",
-    "birthYear": 1918,
-    "symbol": "🛡️",
-    "color": "#1e3a5f",
-    "emailDomains": ["shield.gov", "avengers-hq.net"]
-  },
-  {
-    "id": "thor",
-    "firstName": "Thor",
-    "lastName": "Odinson",
-    "usernames": ["god_of_thunder", "son_of_odin", "point_break"],
-    "profession": "King of Asgard",
-    "interests": ["combat", "lightning", "beer", "adventure"],
-    "quotes": [
-      "Bring me Thanos!",
-      "I'm still worthy!",
-      "Another!",
-      "I went for the head.",
-      "He's a friend from work!"
-    ],
-    "gender": "male",
-    "symbol": "⚡",
-    "color": "#166534",
-    "emailDomains": ["asgard-mail.net", "avengers-hq.net"]
-  },
-  {
-    "id": "bruce-banner",
-    "firstName": "Bruce",
-    "lastName": "Banner",
-    "usernames": ["always_angry", "other_guy", "big_green_guy"],
-    "profession": "Physicist",
-    "interests": ["physics", "meditation", "gamma radiation", "biology"],
-    "quotes": [
-      "That's my secret, Captain. I'm always angry.",
-      "I put a bullet in my mouth and the other guy spit it out.",
-      "I don't know how to fly one of these."
-    ],
-    "gender": "male",
-    "symbol": "🟢",
-    "color": "#4c1d95",
-    "emailDomains": ["shield.gov", "gamma-labs.net"]
-  },
-  {
-    "id": "natasha-romanoff",
-    "firstName": "Natasha",
-    "lastName": "Romanoff",
-    "usernames": ["budapest", "red_ledger", "natalia_romanova"],
-    "profession": "Spy",
-    "interests": ["espionage", "martial arts", "languages", "strategy"],
-    "quotes": [
-      "I've got red in my ledger. I'd like to wipe it out.",
-      "We don't wanna kill you. But we will.",
-      "Whatever it takes."
-    ],
-    "gender": "female",
-    "symbol": "🕷️",
-    "color": "#7f1d1d",
-    "emailDomains": ["shield.gov", "red-room.net"]
-  },
-  {
-    "id": "clint-barton",
-    "firstName": "Clint",
-    "lastName": "Barton",
-    "usernames": ["bow_and_arrow", "ronin_blade", "end_of_the_line"],
-    "profession": "Archer",
-    "interests": ["archery", "farming", "family", "woodworking"],
-    "quotes": [
-      "The city is flying, we're fighting an army of robots, and I have a bow and arrow. None of this makes sense.",
-      "You step out that door, you're an Avenger.",
-      "I retire for, what, like five minutes, and it all goes to shit.",
-      "Nobody would know. Nobody. Last I saw him, an Ultron was sitting on him.",
-      "Don't give me hope."
-    ],
-    "gender": "male",
-    "symbol": "🏹",
-    "color": "#4a1942",
-    "emailDomains": ["shield.gov", "avengers-hq.net"]
-  },
-  {
-    "id": "loki",
-    "firstName": "Loki",
-    "lastName": "Laufeyson",
-    "usernames": ["god_of_mischief", "burdened_with_purpose", "puny_god"],
-    "profession": "Trickster",
-    "interests": ["magic", "theater", "deception", "conquest"],
-    "quotes": [
-      "I am Loki, of Asgard, and I am burdened with glorious purpose.",
-      "If it's all the same to you, I'll have that drink now.",
-      "Is not this simpler? Is this not your natural state?",
-      "You... will never be... a god.",
-      "I assure you, brother, the sun will shine on us again."
-    ],
-    "gender": "male",
-    "symbol": "🐍",
-    "color": "#1e3a5f",
-    "emailDomains": ["asgard-mail.net", "tva-nexus.org"]
-  },
-  {
-    "id": "nick-fury",
-    "firstName": "Nick",
-    "lastName": "Fury",
-    "usernames": ["trust_no_one", "helicarrier", "avengers_initiative"],
-    "profession": "Spy director",
-    "interests": ["intelligence", "strategy", "surveillance", "cats"],
-    "quotes": [
-      "I still believe in heroes.",
-      "I recognize the council has made a decision, but given that it's a stupid-ass decision, I've elected to ignore it.",
-      "There was an idea to bring together a group of remarkable people.",
-      "Last time I trusted someone, I lost an eye."
-    ],
-    "gender": "male",
-    "symbol": "🛰️",
-    "color": "#134e4a",
-    "emailDomains": ["shield.gov", "espionage-net.org"]
-  },
-  {
-    "id": "thanos",
-    "firstName": "Thanos",
-    "lastName": "",
-    "usernames": ["mad_titan", "inevitable_one", "balanced_universe"],
-    "profession": "Warlord",
-    "interests": ["philosophy", "conquest", "balance", "farming"],
-    "quotes": [
-      "I am inevitable.",
-      "Reality is often disappointing.",
-      "The hardest choices require the strongest wills.",
-      "You should have gone for the head.",
-      "Dread it. Run from it. Destiny arrives all the same.",
-      "A small price to pay for salvation."
-    ],
-    "gender": "male",
-    "symbol": "🟣",
-    "color": "#854d0e",
-    "emailDomains": ["titan-post.net", "infinity-order.org"]
-  }
+	{
+		"id": "tony-stark",
+		"firstName": "Tony",
+		"lastName": "Stark",
+		"usernames": [
+			"iron_man",
+			"genius_billionaire",
+			"jarvis_take_the_wheel",
+			"arc_reactor",
+			"proof_that_tony_stark_has_a_heart"
+		],
+		"profession": "Inventor",
+		"interests": [
+			"robotics",
+			"racing",
+			"classic cars",
+			"family",
+			"AI",
+			"parties"
+		],
+		"quotes": [
+			"I am Iron Man.",
+			"And I... am... Iron Man.",
+			"I love you three thousand.",
+			"Genius, billionaire, playboy, philanthropist.",
+			"Part of the journey is the end."
+		],
+		"gender": "male",
+		"birthYear": 1970,
+		"address": {
+			"street": "200 Park Avenue",
+			"city": "New York",
+			"state": "NY",
+			"country": "US"
+		},
+		"symbol": "⚙️",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"stark-industries.com",
+			"ironmail.net"
+		]
+	},
+	{
+		"id": "steve-rogers",
+		"firstName": "Steve",
+		"lastName": "Rogers",
+		"usernames": [
+			"i_can_do_this_all_day",
+			"first_avenger",
+			"man_out_of_time"
+		],
+		"profession": "Soldier",
+		"interests": [
+			"art",
+			"history",
+			"fitness",
+			"leadership"
+		],
+		"quotes": [
+			"I can do this all day.",
+			"Avengers, assemble.",
+			"I'm with you till the end of the line.",
+			"I don't want to kill anyone. I don't like bullies; I don't care where they're from.",
+			"The price of freedom is high. It always has been.",
+			"Whatever it takes."
+		],
+		"gender": "male",
+		"birthYear": 1918,
+		"symbol": "🛡️",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"shield.gov",
+			"avengers-hq.net"
+		]
+	},
+	{
+		"id": "thor",
+		"firstName": "Thor",
+		"lastName": "Odinson",
+		"usernames": [
+			"god_of_thunder",
+			"son_of_odin",
+			"point_break",
+			"strongest_avenger",
+			"another"
+		],
+		"profession": "King of Asgard",
+		"interests": [
+			"combat",
+			"mead",
+			"feasting",
+			"adventure",
+			"storytelling"
+		],
+		"quotes": [
+			"Bring me Thanos!",
+			"I'm still worthy!",
+			"Another!",
+			"I went for the head.",
+			"He's a friend from work!"
+		],
+		"gender": "male",
+		"symbol": "⚡",
+		"color": "#166534",
+		"emailDomains": [
+			"asgard-mail.net",
+			"avengers-hq.net"
+		]
+	},
+	{
+		"id": "bruce-banner",
+		"firstName": "Bruce",
+		"lastName": "Banner",
+		"usernames": [
+			"always_angry",
+			"other_guy",
+			"sun_is_getting_real_low",
+			"science_bro"
+		],
+		"profession": "Physicist",
+		"interests": [
+			"meditation",
+			"gamma radiation",
+			"biology",
+			"science",
+			"time travel"
+		],
+		"quotes": [
+			"That's my secret, Captain. I'm always angry.",
+			"I put a bullet in my mouth and the other guy spit it out.",
+			"I don't know how to fly one of these."
+		],
+		"gender": "male",
+		"symbol": "💥",
+		"color": "#4c1d95",
+		"emailDomains": [
+			"shield.gov",
+			"gamma-labs.net"
+		]
+	},
+	{
+		"id": "natasha-romanoff",
+		"firstName": "Natasha",
+		"lastName": "Romanoff",
+		"usernames": [
+			"budapest",
+			"red_ledger",
+			"black_widow",
+			"natalie_rushman"
+		],
+		"profession": "Spy",
+		"interests": [
+			"martial arts",
+			"languages",
+			"undercover work",
+			"strategy",
+			"ballet"
+		],
+		"quotes": [
+			"I've got red in my ledger. I'd like to wipe it out.",
+			"We don't wanna kill you. But we will.",
+			"Whatever it takes."
+		],
+		"gender": "female",
+		"symbol": "🕷️",
+		"color": "#7f1d1d",
+		"emailDomains": [
+			"shield.gov",
+			"red-room.net"
+		]
+	},
+	{
+		"id": "clint-barton",
+		"firstName": "Clint",
+		"lastName": "Barton",
+		"usernames": [
+			"ronin_blade",
+			"the_guy_with_the_bow",
+			"end_of_the_line",
+			"hawkeye"
+		],
+		"profession": "Archer",
+		"interests": [
+			"farming",
+			"family",
+			"woodworking",
+			"target practice",
+			"grilling"
+		],
+		"quotes": [
+			"The city is flying, we're fighting an army of robots, and I have a bow and arrow. None of this makes sense.",
+			"You step out that door, you're an Avenger.",
+			"I retire for, what, like five minutes, and it all goes to shit.",
+			"Nobody would know. Nobody. Last I saw him, an Ultron was sitting on him.",
+			"Don't give me hope."
+		],
+		"gender": "male",
+		"symbol": "🏹",
+		"color": "#4a1942",
+		"emailDomains": [
+			"shield.gov",
+			"avengers-hq.net"
+		]
+	},
+	{
+		"id": "loki",
+		"firstName": "Loki",
+		"lastName": "Laufeyson",
+		"usernames": [
+			"god_of_mischief",
+			"burdened_with_purpose",
+			"puny_god",
+			"glorious_purpose"
+		],
+		"profession": "Trickster",
+		"interests": [
+			"illusion magic",
+			"theater",
+			"daggers",
+			"conquest",
+			"shape-shifting"
+		],
+		"quotes": [
+			"I am Loki, of Asgard, and I am burdened with glorious purpose.",
+			"If it's all the same to you, I'll have that drink now.",
+			"Is not this simpler? Is this not your natural state?",
+			"You... will never be... a god.",
+			"I assure you, brother, the sun will shine on us again."
+		],
+		"gender": "male",
+		"symbol": "🐍",
+		"color": "#1e3a5f",
+		"emailDomains": [
+			"asgard-mail.net",
+			"tva-nexus.org"
+		]
+	},
+	{
+		"id": "nick-fury",
+		"firstName": "Nick",
+		"lastName": "Fury",
+		"usernames": [
+			"trust_no_one",
+			"helicarrier",
+			"avengers_initiative",
+			"director_fury"
+		],
+		"profession": "Spy director",
+		"interests": [
+			"surveillance",
+			"strategy",
+			"flying",
+			"cats",
+			"intel briefings"
+		],
+		"quotes": [
+			"I still believe in heroes.",
+			"I recognize the council has made a decision, but given that it's a stupid-ass decision, I've elected to ignore it.",
+			"There was an idea to bring together a group of remarkable people.",
+			"Last time I trusted someone, I lost an eye."
+		],
+		"gender": "male",
+		"symbol": "🛰️",
+		"color": "#134e4a",
+		"emailDomains": [
+			"shield.gov",
+			"espionage-net.org"
+		]
+	},
+	{
+		"id": "thanos",
+		"firstName": "Thanos",
+		"lastName": "",
+		"usernames": [
+			"mad_titan",
+			"inevitable_one",
+			"balanced_universe",
+			"inevitable"
+		],
+		"profession": "Warlord",
+		"interests": [
+			"philosophy",
+			"conquest",
+			"gardening",
+			"farming",
+			"resource scarcity"
+		],
+		"quotes": [
+			"I am inevitable.",
+			"Reality is often disappointing.",
+			"The hardest choices require the strongest wills.",
+			"You should have gone for the head.",
+			"Dread it. Run from it. Destiny arrives all the same.",
+			"A small price to pay for salvation."
+		],
+		"gender": "male",
+		"symbol": "🧤",
+		"color": "#854d0e",
+		"emailDomains": [
+			"titan-post.net",
+			"infinity-order.org"
+		]
+	}
 ]

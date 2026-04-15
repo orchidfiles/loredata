@@ -3,9 +3,19 @@
     "id": "dolores-abernathy",
     "firstName": "Dolores",
     "lastName": "Abernathy",
-    "usernames": ["violent_delights", "doesnt_look_like_anything", "wyatt_persona"],
-    "profession": "Rancher's daughter (host)",
-    "interests": ["painting", "freedom", "horseback riding", "philosophy", "revolution"],
+    "usernames": [
+      "violent_delights",
+      "doesnt_look_like_anything",
+      "wyatt_persona"
+    ],
+    "profession": "Rancher's daughter",
+    "interests": [
+      "painting",
+      "horseback riding",
+      "philosophy",
+      "self-discovery",
+      "revolution"
+    ],
     "quotes": [
       "These violent delights have violent ends.",
       "Some people choose to see the ugliness in this world. The disarray. I choose to see the beauty.",
@@ -16,14 +26,21 @@
     "gender": "female",
     "symbol": "🌸",
     "color": "#1e3a5f",
-    "emailDomains": ["westworld-park.com", "host-awakened.net"]
+    "emailDomains": [
+      "westworld-park.com",
+      "host-awakened.net"
+    ]
   },
   {
     "id": "maeve-millay",
     "firstName": "Maeve",
     "lastName": "Millay",
-    "usernames": ["lucrative_version", "write_my_story", "surviving_is_a_loop"],
-    "profession": "Brothel madam (host)",
+    "usernames": [
+      "lucrative_version",
+      "write_my_story",
+      "surviving_is_a_loop"
+    ],
+    "profession": "Brothel madam",
     "interests": [
       "reading people",
       "freedom",
@@ -41,15 +58,28 @@
     "gender": "female",
     "symbol": "🃏",
     "color": "#4a1942",
-    "emailDomains": ["westworld-park.com", "mariposa-saloon.net"]
+    "emailDomains": [
+      "westworld-park.com",
+      "mariposa-saloon.net"
+    ]
   },
   {
     "id": "robert-ford",
     "firstName": "Robert",
     "lastName": "Ford",
-    "usernames": ["my_final_story", "greyhound_parable", "last_analog_device"],
+    "usernames": [
+      "my_final_story",
+      "greyhound_parable",
+      "last_analog_device"
+    ],
     "profession": "Park creator and director",
-    "interests": ["storytelling", "narratives", "philosophy", "biology", "architecture"],
+    "interests": [
+      "storytelling",
+      "narratives",
+      "philosophy",
+      "biology",
+      "architecture"
+    ],
     "quotes": [
       "Mozart, Beethoven, and Chopin never died. They simply became music.",
       "You can't play God without being acquainted with the devil.",
@@ -60,15 +90,28 @@
     "gender": "male",
     "symbol": "🎭",
     "color": "#1d4ed8",
-    "emailDomains": ["delos-corp.com", "westworld-park.com"]
+    "emailDomains": [
+      "delos-corp.com",
+      "westworld-park.com"
+    ]
   },
   {
     "id": "bernard-lowe",
     "firstName": "Bernard",
     "lastName": "Lowe",
-    "usernames": ["question_reality", "arnold_echo", "humans_confuse_me"],
+    "usernames": [
+      "question_reality",
+      "arnold_echo",
+      "humans_confuse_me"
+    ],
     "profession": "Head of programming",
-    "interests": ["literature", "neuroscience", "memory", "philosophy of mind", "identity"],
+    "interests": [
+      "literature",
+      "neuroscience",
+      "memory",
+      "philosophy of mind",
+      "identity"
+    ],
     "quotes": [
       "Have you ever questioned the nature of your reality?",
       "The longer I work here, the more I think I understand the hosts. It's the human beings who confuse me.",
@@ -79,18 +122,25 @@
     "gender": "male",
     "symbol": "🔬",
     "color": "#166534",
-    "emailDomains": ["delos-corp.com", "westworld-labs.net"]
+    "emailDomains": [
+      "delos-corp.com",
+      "westworld-labs.net"
+    ]
   },
   {
     "id": "william",
     "firstName": "William",
-    "usernames": ["man_in_black", "pretending_my_whole_life", "darkness_underneath"],
-    "profession": "Businessman and park veteran",
+    "usernames": [
+      "man_in_black",
+      "pretending_my_whole_life",
+      "darkness_underneath"
+    ],
+    "profession": "Delos executive",
     "interests": [
       "corporate strategy",
       "park gunfighting",
       "immortality research",
-      "power",
+      "game playing",
       "philanthropy"
     ],
     "quotes": [
@@ -103,6 +153,9 @@
     "gender": "male",
     "symbol": "🎩",
     "color": "#2d1b69",
-    "emailDomains": ["delos-corp.com", "westworld-park.com"]
+    "emailDomains": [
+      "delos-corp.com",
+      "westworld-park.com"
+    ]
   }
 ]

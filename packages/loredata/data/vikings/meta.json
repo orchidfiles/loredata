@@ -1,0 +1,13 @@
+{
+  "id": "vikings",
+  "name": "Vikings",
+  "genre": ["drama", "history", "action"],
+  "description": "The series follows Ragnar Lothbrok's rise from farmer to ruler and tracks Norse raids, alliances, and succession conflicts across Scandinavia and medieval Europe.",
+  "tmdbId": 44217,
+  "mediaType": "tv",
+  "year": 2013,
+  "rating": 8.1,
+  "networks": ["Prime Video", "History"],
+  "posterPath": "/bQLrHIRNEkE3PdIWQrZHynQZazu.jpg",
+  "backdropPath": "/13kblIK8DnxMurcRDkeyy2sGR7v.jpg"
+}
