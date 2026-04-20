@@ -83,7 +83,10 @@ function closeJson(): void {
 			</div>
 		</div>
 		{#if persona.quote}
-			<p class="text-surface-400 text-sm italic">{persona.quote}</p>
+			<p
+				class="text-surface-400 text-sm italic leading-5"
+				data-persona-quote
+				title={persona.quote}>{persona.quote}</p>
 		{/if}
 	</div>
 

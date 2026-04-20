@@ -33,7 +33,8 @@ export class PersonFactory {
 		const address = character.address ?? universe.addresses[0];
 		const username = character.usernames[0];
 		const rng = createRng(0);
-		const email = EmailGenerator.generateFromUsername(username, character.emailDomains, rng);
+		const emailUsername = this.pickEmailUsername(character.usernames, username, rng);
+		const email = EmailGenerator.generateFromUsername(emailUsername, character.emailDomains, rng);
 		const quote = character.quotes[0];
 
 		const person: Person = {
@@ -65,7 +66,8 @@ export class PersonFactory {
 	private static buildFromCharacter(character: CharacterData, universe: UniverseData, rng: () => number): Person {
 		const address = character.address ?? pickRandom(universe.addresses, rng);
 		const username = pickRandom(character.usernames, rng);
-		const email = EmailGenerator.generateFromUsername(username, character.emailDomains, rng);
+		const emailUsername = this.pickEmailUsername(character.usernames, username, rng);
+		const email = EmailGenerator.generateFromUsername(emailUsername, character.emailDomains, rng);
 		const quote = pickRandom(character.quotes, rng);
 
 		const person: Person = {
@@ -92,5 +94,15 @@ export class PersonFactory {
 		};
 
 		return person;
+	}
+
+	private static pickEmailUsername(usernames: string[], selectedUsername: string, rng: () => number): string {
+		const alternativeUsernames = usernames.filter((username) => username !== selectedUsername);
+
+		if (alternativeUsernames.length === 0) {
+			return selectedUsername;
+		}
+
+		return pickRandom(alternativeUsernames, rng);
 	}
 }

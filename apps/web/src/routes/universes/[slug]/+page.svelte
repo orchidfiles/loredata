@@ -1,7 +1,8 @@
 <script lang="ts">
 import { UniverseStore } from 'loredata/browser';
-import { untrack } from 'svelte';
+import { tick, untrack } from 'svelte';
 
+import { browser } from '$app/environment';
 import { GenerateBar } from '$features/generator';
 import PersonaCard from '$features/persona/PersonaCard.svelte';
 import { config } from '$shared/config';
@@ -23,6 +24,7 @@ const MAX_COUNT = 16;
 let allPersonas = $state<Person[]>([...data.initialPersonas]);
 // svelte-ignore state_referenced_locally
 let currentUniverseId = $state(data.universe.id);
+let personaGridElement = $state<HTMLDivElement | null>(null);
 
 const personas = $derived(allPersonas.slice(0, preferences.personaCount ?? 4));
 
@@ -55,6 +57,79 @@ function rerollOne(index: number): void {
 
 	allPersonas = allPersonas.map((p, i) => (i === index ? fresh : p));
 }
+
+function syncQuoteHeights(): void {
+	if (!browser || !personaGridElement) {
+		return;
+	}
+
+	const quoteElements = Array.from(personaGridElement.querySelectorAll<HTMLElement>('[data-persona-quote]'));
+
+	for (const quoteElement of quoteElements) {
+		quoteElement.style.minHeight = '';
+	}
+
+	const quoteRows: { top: number; elements: HTMLElement[] }[] = [];
+
+	for (const quoteElement of quoteElements) {
+		const rowTop = Math.round(quoteElement.getBoundingClientRect().top);
+
+		let existingRow = quoteRows.find((row) => row.top === rowTop);
+
+		if (existingRow) {
+			existingRow.elements.push(quoteElement);
+			continue;
+		}
+
+		existingRow = {
+			top: rowTop,
+			elements: [quoteElement]
+		};
+
+		quoteRows.push(existingRow);
+	}
+
+	for (const row of quoteRows) {
+		const rowQuoteElements = row.elements;
+		const rowHeight = Math.max(...rowQuoteElements.map((element) => element.offsetHeight));
+
+		for (const quoteElement of rowQuoteElements) {
+			quoteElement.style.minHeight = `${rowHeight}px`;
+		}
+	}
+}
+
+$effect(() => {
+	if (!browser) {
+		return;
+	}
+
+	const visiblePersonas = personas;
+
+	void tick().then(() => {
+		if (visiblePersonas.length === 0) {
+			return;
+		}
+
+		syncQuoteHeights();
+	});
+});
+
+$effect(() => {
+	if (!browser) {
+		return;
+	}
+
+	const handleResize = (): void => {
+		syncQuoteHeights();
+	};
+
+	window.addEventListener('resize', handleResize);
+
+	return () => {
+		window.removeEventListener('resize', handleResize);
+	};
+});
 </script>
 
 <svelte:head>
@@ -118,6 +193,7 @@ function rerollOne(index: number): void {
 
 	{#if personas.length > 0}
 		<div
+			bind:this={personaGridElement}
 			class="grid gap-4 {(preferences.personaCount ?? 4) === 1 || personas.length === 1
 				? 'grid-cols-1 max-w-lg'
 				: 'grid-cols-1 sm:grid-cols-2'}">
