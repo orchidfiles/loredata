@@ -30,10 +30,10 @@
 
 ## Who this is for
 
-- developers filling a local database or Storybook stories with recognizable personas
-- designers building mockups who do not want to use John Doe again
+- Developers filling a local database or Storybook stories with recognizable personas
+- Designers building mockups who do not want to use John Doe again
 - QA engineers creating more expressive test accounts with different profiles
-- tutorial and conference talk authors who want screenshots that feel less generic
+- Tutorial and conference talk authors who want screenshots that feel less generic
 
 ## Features
 
