@@ -3,9 +3,9 @@ import '../app.css';
 
 import { onMount } from 'svelte';
 import IconMenu from 'virtual:icons/lucide/menu';
-import IconX from 'virtual:icons/lucide/x';
 
 import AppSidebar from '$layouts/AppSidebar.svelte';
+import MobileUtilityBar from '$layouts/MobileUtilityBar.svelte';
 import SocialBar from '$layouts/SocialBar.svelte';
 
 import type { LayoutData } from './$types';
@@ -38,13 +38,16 @@ onMount(() => {
 	<a
 		href="/"
 		class="font-semibold text-surface-950-50 text-sm">LoreData</a>
-	<button
-		class="btn preset-tonal-surface btn-sm flex items-center gap-2"
-		onclick={openDrawer}
-		aria-label="Open navigation">
-		<IconMenu class="size-4" />
-		Universes
-	</button>
+	<div class="flex items-center gap-1">
+		<MobileUtilityBar />
+		<button
+			class="btn preset-tonal-surface btn-sm flex items-center gap-2"
+			onclick={openDrawer}
+			aria-label="Open navigation">
+			<IconMenu class="size-4" />
+			Universes
+		</button>
+	</div>
 </header>
 
 <!-- Mobile drawer overlay -->
@@ -55,17 +58,8 @@ onMount(() => {
 		onclick={closeDrawer}>
 	</button>
 	<div
-		class="fixed inset-y-0 left-0 z-50 w-72 lg:hidden flex flex-col bg-surface-50-950 shadow-xl"
+		class="fixed inset-y-0 left-0 z-50 w-64 lg:hidden flex flex-col bg-surface-50-950 shadow-xl"
 		style="background: var(--color-surface-800, #252540);">
-		<div class="flex items-center justify-between px-3 py-2 border-b border-surface-700/30">
-			<span class="text-sm font-medium text-surface-950-50">Universes</span>
-			<button
-				class="btn-icon preset-tonal-surface"
-				onclick={closeDrawer}
-				aria-label="Close navigation">
-				<IconX class="size-4" />
-			</button>
-		</div>
 		<div class="flex-1 overflow-hidden">
 			<AppSidebar
 				universes={data.manifest}
@@ -77,6 +71,7 @@ onMount(() => {
 
 <div class="container mx-auto max-w-6xl px-4 py-8">
 	<div class="flex gap-8 items-start">
+		<SocialBar />
 		<AppSidebar
 			universes={data.manifest}
 			characterIndex={data.characterIndex} />
@@ -85,4 +80,3 @@ onMount(() => {
 		</main>
 	</div>
 </div>
-<SocialBar />

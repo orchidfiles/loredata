@@ -66,23 +66,15 @@ function handleDrawerOpenChange(value: boolean): void {
 					<div class="h-1.5 w-10 rounded-full bg-surface-400/50"></div>
 				</div>
 
-				<div class="flex items-center justify-between px-5 py-4 border-b border-surface-700/30 shrink-0">
-					<p class="text-sm font-medium text-surface-950-50">JSON</p>
-					<button
-						class="btn-icon preset-tonal-surface size-10"
-						onclick={() => {
-							drawerOpen = false;
-						}}
-						aria-label="Close">
-						✕
-					</button>
+				<div class="px-4 py-3 border-b border-surface-700/30 shrink-0">
+					<p class="text-base font-medium uppercase tracking-wide text-surface-400">JSON</p>
 				</div>
 
-				<div class="overflow-auto flex-1 p-5 max-h-[60vh]">
-					<pre class="text-xs text-surface-300 font-mono leading-relaxed whitespace-pre">{json}</pre>
+				<div class="overflow-auto flex-1 px-4 py-3 max-h-[60vh]">
+					<pre class="text-sm text-surface-300 font-mono leading-relaxed whitespace-pre-wrap break-words">{json}</pre>
 				</div>
 
-				<div class="px-5 py-4 border-t border-surface-700/30 flex justify-end shrink-0">
+				<div class="px-4 py-3 border-t border-surface-700/30 flex justify-end shrink-0">
 					<button
 						class="btn btn-sm preset-filled-primary-500"
 						onclick={copyJson}>

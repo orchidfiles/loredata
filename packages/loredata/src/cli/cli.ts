@@ -1,13 +1,17 @@
 #!/usr/bin/env node
+import { createRequire } from 'module';
+
 import { Command } from 'commander';
 
 import { universes, UniverseLoader, UniverseStore } from '@/index';
 
 import type { CharacterQuery } from '@/types';
 
+const require = createRequire(import.meta.url);
+const packageJson = require('../../package.json') as { version: string };
 const program = new Command();
 
-program.name('loredata').description('Pop culture fake data generator').version('0.1.0');
+program.name('loredata').description('Generate coherent personas from pop culture universes').version(packageJson.version);
 
 program
 	.command('person')

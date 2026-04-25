@@ -192,9 +192,8 @@ onMount(() => {
 	{/if}
 {/snippet}
 
-<aside class="hidden lg:flex w-72 shrink-0 flex-col">
-	<div
-		class="sticky top-0 h-[80vh] max-h-[80vh] card preset-tonal-surface border border-surface-700/30 overflow-hidden flex flex-col">
+<aside class="hidden lg:flex w-72 shrink-0 self-start sticky top-8 h-[80vh] flex-col">
+	<div class="h-full max-h-[80vh] card preset-tonal-surface border border-surface-700/30 overflow-hidden flex flex-col">
 		<div class="p-3 border-b border-surface-700/30">
 			<input
 				class="input input-sm w-full placeholder:text-surface-400"
@@ -219,20 +218,20 @@ onMount(() => {
 {#if onnavigate !== undefined}
 	<!-- Mobile sidebar content (rendered inside drawer) -->
 	<div class="flex flex-col h-full">
-		<div class="p-3 border-b border-surface-700/30">
-			<input
-				class="input input-sm w-full placeholder:text-surface-400"
-				type="text"
-				placeholder="Search…"
-				bind:value={searchQuery} />
-		</div>
-
 		<div class="relative flex flex-col flex-1 min-h-0">
 			<nav
 				bind:this={mobileNavEl}
 				onscroll={updateScrollIndicators}
 				class="sidebar-scroll overflow-y-scroll flex-1 min-h-0">
-				{@render sidebarContent(onnavigate)}
+				{#each sortUniversesForSidebar(universesWithSidebarLabel) as universe (universe.id)}
+					<a
+						href="/universes/{universe.id}"
+						onclick={onnavigate}
+						class="block px-3 py-2.5 text-base transition-colors truncate
+							{universe.id === selectedId ? 'preset-filled-primary-500 font-medium' : 'text-surface-300 hover:preset-tonal-primary'}">
+						{universe.sidebarLabel}
+					</a>
+				{/each}
 			</nav>
 
 			{@render scrollIndicator(mobileScrollIndicator)}
