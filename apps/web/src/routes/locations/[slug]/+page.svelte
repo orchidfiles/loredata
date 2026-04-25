@@ -1,24 +1,96 @@
 <script lang="ts">
 import Breadcrumb from '$components/ui/Breadcrumb.svelte';
+import { config } from '$shared/config';
+import { slugify } from '$shared/utils';
 
 import type { PageData } from './$types';
 
 let { data }: { data: PageData } = $props();
 
-const { location, universes } = data;
+const location = $derived(data.location);
+const universes = $derived(data.universes);
+const canonicalUrl = $derived(`${config.siteOrigin}/locations/${slugify(location)}`);
+const ogImageUrl = `${config.siteOrigin}/og/home.png`;
+const pageTitle = $derived(`${location} — LoreData`);
+const pageDescription = $derived(
+	`Browse fictional universes set in ${location} for screenshots, UI mockups, demos, and seed data.`
+);
+
+const collectionSchema = $derived({
+	'@context': 'https://schema.org',
+	'@type': 'CollectionPage',
+	name: location,
+	url: canonicalUrl,
+	description: pageDescription
+});
+const collectionSchemaJson = $derived(JSON.stringify(collectionSchema));
+const collectionSchemaScript = $derived(`<script type="application/ld+json">${collectionSchemaJson}<\/script>`);
+
+const breadcrumbSchema = $derived({
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{
+			'@type': 'ListItem',
+			position: 1,
+			name: 'Home',
+			item: `${config.siteOrigin}/`
+		},
+		{
+			'@type': 'ListItem',
+			position: 2,
+			name: location,
+			item: canonicalUrl
+		}
+	]
+});
+const breadcrumbSchemaJson = $derived(JSON.stringify(breadcrumbSchema));
+const breadcrumbSchemaScript = $derived(`<script type="application/ld+json">${breadcrumbSchemaJson}<\/script>`);
 </script>
 
 <svelte:head>
-	<title>{location} — fictional location — LoreData</title>
+	<title>{pageTitle}</title>
 	<meta
 		name="description"
-		content="Pop culture universes set in {location}: {universes.map((u) => u.universe.name).join(', ')}." />
+		content={pageDescription} />
 	<meta
 		property="og:title"
-		content="{location} — fictional location" />
+		content={pageTitle} />
+	<meta
+		property="og:description"
+		content={pageDescription} />
 	<meta
 		property="og:type"
 		content="website" />
+	<meta
+		property="og:url"
+		content={canonicalUrl} />
+	<meta
+		property="og:image"
+		content={ogImageUrl} />
+	<meta
+		property="og:image:width"
+		content={String(config.og.width)} />
+	<meta
+		property="og:image:height"
+		content={String(config.og.height)} />
+	<link
+		rel="canonical"
+		href={canonicalUrl} />
+	<meta
+		name="twitter:card"
+		content="summary" />
+	<meta
+		name="twitter:title"
+		content={pageTitle} />
+	<meta
+		name="twitter:description"
+		content={pageDescription} />
+	<meta
+		name="twitter:image"
+		content={ogImageUrl} />
+	{@html collectionSchemaScript}
+	{@html breadcrumbSchemaScript}
 </svelte:head>
 
 <div class="space-y-8">

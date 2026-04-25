@@ -30,6 +30,25 @@ const personas = $derived(allPersonas.slice(0, preferences.personaCount ?? 4));
 
 const ogPageUrl = $derived(`${config.siteOrigin}/universes/${universe.id}`);
 const ogImageUrl = $derived(`${config.siteOrigin}/og/universe-${universe.id}.png`);
+const canonicalUrl = $derived(ogPageUrl);
+const pageDescription = $derived(
+	`Use recognizable ${universe.name} character profiles for screenshots, UI mockups, demos, and seed data.`
+);
+
+const universeSchema = $derived({
+	'@context': 'https://schema.org',
+	'@type': 'CollectionPage',
+	name: `Generate ${universe.name} personas`,
+	url: canonicalUrl,
+	description: pageDescription,
+	isPartOf: {
+		'@type': 'WebSite',
+		name: 'LoreData',
+		url: `${config.siteOrigin}/`
+	}
+});
+const universeSchemaJson = $derived(JSON.stringify(universeSchema));
+const universeSchemaScript = $derived(`<script type="application/ld+json">${universeSchemaJson}<\/script>`);
 
 $effect(() => {
 	const id = universe.id;
@@ -133,16 +152,16 @@ $effect(() => {
 </script>
 
 <svelte:head>
-	<title>{universe.name} fake personas — LoreData</title>
+	<title>Generate {universe.name} personas — LoreData</title>
 	<meta
 		name="description"
-		content="Generate fake {universe.name} personas with realistic names, emails, addresses and more. {universe.description}" />
+		content={pageDescription} />
 	<meta
 		property="og:title"
-		content="{universe.name} fake personas — LoreData" />
+		content="Generate {universe.name} personas — LoreData" />
 	<meta
 		property="og:description"
-		content={universe.description} />
+		content={pageDescription} />
 	<meta
 		property="og:type"
 		content="website" />
@@ -158,6 +177,22 @@ $effect(() => {
 	<meta
 		property="og:image:height"
 		content={String(config.og.height)} />
+	<link
+		rel="canonical"
+		href={canonicalUrl} />
+	<meta
+		name="twitter:card"
+		content="summary_large_image" />
+	<meta
+		name="twitter:title"
+		content="Generate {universe.name} personas — LoreData" />
+	<meta
+		name="twitter:description"
+		content={pageDescription} />
+	<meta
+		name="twitter:image"
+		content={ogImageUrl} />
+	{@html universeSchemaScript}
 </svelte:head>
 
 <div class="space-y-8">

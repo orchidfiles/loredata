@@ -7,19 +7,30 @@ let { data }: { data: LayoutData } = $props();
 
 const ogPageUrl = `${config.siteOrigin}/`;
 const ogImageUrl = `${config.siteOrigin}/og/home.png`;
+const canonicalUrl = ogPageUrl;
+const pageDescription =
+	'Replace generic placeholder users with recognizable character-based profiles for screenshots, UI mockups, demos, and seed data.';
+const websiteSchema = JSON.stringify({
+	'@context': 'https://schema.org',
+	'@type': 'WebSite',
+	name: 'LoreData',
+	url: canonicalUrl,
+	description: pageDescription
+});
+const websiteSchemaScript = `<script type="application/ld+json">${websiteSchema}<\/script>`;
 </script>
 
 <svelte:head>
-	<title>LoreData — test data generator from TV shows and movies</title>
+	<title>LoreData — Generate lore-accurate personas from pop culture universes</title>
 	<meta
 		name="description"
-		content="Test data generator based on characters from TV shows and movies. Name, email, address, profession, quote: all from the same universe." />
+		content={pageDescription} />
 	<meta
 		property="og:title"
-		content="LoreData — test data generator from TV shows and movies" />
+		content="LoreData — Generate lore-accurate personas from pop culture universes" />
 	<meta
 		property="og:description"
-		content="Test data from TV shows and movies. Each persona is a real character with matching name, email, address, and quote." />
+		content={pageDescription} />
 	<meta
 		property="og:type"
 		content="website" />
@@ -35,11 +46,27 @@ const ogImageUrl = `${config.siteOrigin}/og/home.png`;
 	<meta
 		property="og:image:height"
 		content={String(config.og.height)} />
+	<link
+		rel="canonical"
+		href={canonicalUrl} />
+	<meta
+		name="twitter:card"
+		content="summary_large_image" />
+	<meta
+		name="twitter:title"
+		content="LoreData — Generate lore-accurate personas from pop culture universes" />
+	<meta
+		name="twitter:description"
+		content={pageDescription} />
+	<meta
+		name="twitter:image"
+		content={ogImageUrl} />
+	{@html websiteSchemaScript}
 </svelte:head>
 
 <div class="space-y-6">
 	<div class="space-y-4">
-		<h1 class="text-3xl font-semibold text-surface-950-50">Test data generator from TV shows and movies</h1>
+		<h1 class="text-3xl font-semibold text-surface-950-50">Generate lore-accurate personas from pop culture universes</h1>
 		<p class="text-surface-950-50 text-lg"
 			>Pick a universe. Each generated persona gets a matching name, email, address, job, and quote from that world.</p>
 	</div>
@@ -47,7 +74,7 @@ const ogImageUrl = `${config.siteOrigin}/og/home.png`;
 	<div class="landing-section">
 		<h2 class="landing-heading">Who it's for</h2>
 		<ul class="landing-list">
-			<li>Developers who seed databases or fill Storybook stories with test data</li>
+			<li>Developers who seed databases or fill UI mockups with test data</li>
 			<li>Designers who need realistic profiles in prototypes and screenshots</li>
 			<li>QA engineers testing forms with varied but coherent personas</li>
 			<li>Content creators who need recognizable data for tutorials, talks, and documentation screenshots</li>

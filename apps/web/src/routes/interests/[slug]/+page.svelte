@@ -1,27 +1,103 @@
 <script lang="ts">
 import Breadcrumb from '$components/ui/Breadcrumb.svelte';
+import { config } from '$shared/config';
+import { slugify } from '$shared/utils';
 
 import type { PageData } from './$types';
 
 let { data }: { data: PageData } = $props();
 
-const { interest, characters } = data;
+const interest = $derived(data.interest);
+const characters = $derived(data.characters);
+const canonicalUrl = $derived(`${config.siteOrigin}/interests/${slugify(interest)}`);
+const ogImageUrl = `${config.siteOrigin}/og/home.png`;
+const schemaName = $derived(`Characters interested in ${interest}`);
+const pageTitle = $derived(`${schemaName} — LoreData`);
+const pageDescription = $derived(
+	`Use recognizable character profiles interested in ${interest} for screenshots, UI mockups, demos, and seed data.`
+);
+
+const collectionSchema = $derived({
+	'@context': 'https://schema.org',
+	'@type': 'CollectionPage',
+	name: schemaName,
+	url: canonicalUrl,
+	description: pageDescription
+});
+const collectionSchemaJson = $derived(JSON.stringify(collectionSchema));
+const collectionSchemaScript = $derived(`<script type="application/ld+json">${collectionSchemaJson}<\/script>`);
+
+const breadcrumbSchema = $derived({
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{
+			'@type': 'ListItem',
+			position: 1,
+			name: 'Home',
+			item: `${config.siteOrigin}/`
+		},
+		{
+			'@type': 'ListItem',
+			position: 2,
+			name: 'Interests',
+			item: `${config.siteOrigin}/interests`
+		},
+		{
+			'@type': 'ListItem',
+			position: 3,
+			name: interest,
+			item: canonicalUrl
+		}
+	]
+});
+const breadcrumbSchemaJson = $derived(JSON.stringify(breadcrumbSchema));
+const breadcrumbSchemaScript = $derived(`<script type="application/ld+json">${breadcrumbSchemaJson}<\/script>`);
 </script>
 
 <svelte:head>
-	<title>Characters interested in {interest} — LoreData</title>
+	<title>{pageTitle}</title>
 	<meta
 		name="description"
-		content="Pop culture characters interested in {interest}: {characters
-			.map((c) => `${c.firstName} ${c.lastName}`)
-			.slice(0, 5)
-			.join(', ')} and more." />
+		content={pageDescription} />
 	<meta
 		property="og:title"
-		content="Characters interested in {interest}" />
+		content={pageTitle} />
+	<meta
+		property="og:description"
+		content={pageDescription} />
 	<meta
 		property="og:type"
 		content="website" />
+	<meta
+		property="og:url"
+		content={canonicalUrl} />
+	<meta
+		property="og:image"
+		content={ogImageUrl} />
+	<meta
+		property="og:image:width"
+		content={String(config.og.width)} />
+	<meta
+		property="og:image:height"
+		content={String(config.og.height)} />
+	<link
+		rel="canonical"
+		href={canonicalUrl} />
+	<meta
+		name="twitter:card"
+		content="summary" />
+	<meta
+		name="twitter:title"
+		content={pageTitle} />
+	<meta
+		name="twitter:description"
+		content={pageDescription} />
+	<meta
+		name="twitter:image"
+		content={ogImageUrl} />
+	{@html collectionSchemaScript}
+	{@html breadcrumbSchemaScript}
 </svelte:head>
 
 <div class="space-y-8">

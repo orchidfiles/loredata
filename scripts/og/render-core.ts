@@ -7,7 +7,8 @@ const config = {
 	width: 1200,
 	height: 630,
 	fontRegularUrl: 'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-normal.woff',
-	fontBoldUrl: 'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-700-normal.woff'
+	fontBoldUrl: 'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-700-normal.woff',
+	fontItalicUrl: 'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-italic.woff'
 } as const;
 
 type SatoriRoot = Parameters<typeof satori>[0];
@@ -20,6 +21,7 @@ interface BackgroundOptions {
 export interface FontData {
 	regular: ArrayBuffer;
 	bold: ArrayBuffer;
+	italic: ArrayBuffer;
 }
 
 export type RenderJob =
@@ -31,6 +33,7 @@ export class RenderCore {
 	static async loadFonts(): Promise<FontData> {
 		const resRegular = await fetch(config.fontRegularUrl);
 		const resBold = await fetch(config.fontBoldUrl);
+		const resItalic = await fetch(config.fontItalicUrl);
 
 		if (!resRegular.ok) {
 			throw new Error(`Failed to load regular font: ${config.fontRegularUrl} (${resRegular.status})`);
@@ -40,10 +43,15 @@ export class RenderCore {
 			throw new Error(`Failed to load bold font: ${config.fontBoldUrl} (${resBold.status})`);
 		}
 
+		if (!resItalic.ok) {
+			throw new Error(`Failed to load italic font: ${config.fontItalicUrl} (${resItalic.status})`);
+		}
+
 		const regular = await resRegular.arrayBuffer();
 		const bold = await resBold.arrayBuffer();
+		const italic = await resItalic.arrayBuffer();
 
-		const result: FontData = { regular, bold };
+		const result: FontData = { regular, bold, italic };
 
 		return result;
 	}
@@ -65,7 +73,8 @@ export class RenderCore {
 	private static satoriFonts(fonts: FontData) {
 		const result = [
 			{ name: 'Inter', data: fonts.regular, weight: 400 as const },
-			{ name: 'Inter', data: fonts.bold, weight: 700 as const }
+			{ name: 'Inter', data: fonts.bold, weight: 700 as const },
+			{ name: 'Inter', data: fonts.italic, weight: 400 as const, style: 'italic' as const }
 		];
 
 		return result;
@@ -222,7 +231,7 @@ export class RenderCore {
 					marginBottom: 14,
 					maxWidth: '92%'
 				},
-				children: 'Coherent mock data from fictional universes.'
+				children: 'Generate lore-accurate personas from pop culture universes.'
 			}
 		};
 
@@ -230,7 +239,8 @@ export class RenderCore {
 			type: 'div',
 			props: {
 				style: { fontSize: 24, color: 'rgba(255,255,255,0.78)', lineHeight: 1.45, maxWidth: '94%' },
-				children: 'Node.js, CLI, or browser — story data ships with the install; no requests when you generate.'
+				children:
+					'Replace generic placeholder users with recognizable character-based profiles for screenshots, UI mockups, demos, and seed data.'
 			}
 		};
 
@@ -273,7 +283,12 @@ export class RenderCore {
 		const nameBlock: SatoriRoot = {
 			type: 'div',
 			props: {
-				style: { fontSize: 56, fontWeight: 700 },
+				style: {
+					fontSize: 48,
+					fontWeight: 700,
+					color: 'rgba(255,255,255,0.9)',
+					lineHeight: 1.08
+				},
 				children: universe.name
 			}
 		};
@@ -284,7 +299,11 @@ export class RenderCore {
 			const metaBlock: SatoriRoot = {
 				type: 'div',
 				props: {
-					style: { fontSize: 24, color: 'rgba(255,255,255,0.7)' },
+					style: {
+						fontSize: 22,
+						color: 'rgba(255,255,255,0.68)',
+						lineHeight: 1.25
+					},
 					children: meta
 				}
 			};
@@ -296,33 +315,18 @@ export class RenderCore {
 			type: 'div',
 			props: {
 				style: {
-					fontSize: 22,
-					color: 'rgba(255,255,255,0.8)',
-					lineHeight: 1.4,
-					maxWidth: '80%'
+					fontSize: 34,
+					color: 'rgba(255,255,255,0.98)',
+					lineHeight: 1.28,
+					maxWidth: '88%',
+					fontWeight: 700,
+					letterSpacing: -0.2
 				},
-				children: this.truncate(universe.description, 160)
+				children: `Use recognizable ${universe.name} character profiles for screenshots, UI mockups, demos, and seed data.`
 			}
 		};
 
 		columnChildren.push(descBlock);
-
-		const projectLineUniverse: SatoriRoot = {
-			type: 'div',
-			props: {
-				style: {
-					fontSize: 20,
-					color: 'rgba(255,255,255,0.72)',
-					marginTop: 12,
-					lineHeight: 1.35,
-					maxWidth: '92%',
-					fontWeight: 500
-				},
-				children: 'Name, email, address, and quote stay in one world.'
-			}
-		};
-
-		columnChildren.push(projectLineUniverse);
 
 		const column: SatoriRoot = {
 			type: 'div',
@@ -330,7 +334,7 @@ export class RenderCore {
 				style: {
 					display: 'flex',
 					flexDirection: 'column',
-					gap: 12,
+					gap: 14,
 					position: 'relative'
 				},
 				children: columnChildren
@@ -397,10 +401,30 @@ export class RenderCore {
 			}
 		};
 
+		const projectLineCharacter: SatoriRoot = {
+			type: 'div',
+			props: {
+				style: {
+					fontSize: 34,
+					color: 'rgba(255,255,255,0.98)',
+					lineHeight: 1.28,
+					maxWidth: '94%',
+					fontWeight: 700,
+					letterSpacing: -0.2
+				},
+				children: `Use a recognizable ${name} profile from ${universe.name} for screenshots, UI mockups, demos, and seed data.`
+			}
+		};
+
 		const nameBlock: SatoriRoot = {
 			type: 'div',
 			props: {
-				style: { fontSize: 72, fontWeight: 700, lineHeight: 1.05 },
+				style: {
+					fontSize: 46,
+					color: 'rgba(255,255,255,0.9)',
+					fontWeight: 700,
+					lineHeight: 1.08
+				},
 				children: name
 			}
 		};
@@ -408,7 +432,12 @@ export class RenderCore {
 		const professionBlock: SatoriRoot = {
 			type: 'div',
 			props: {
-				style: { fontSize: 32, color: 'rgba(255,255,255,0.9)', fontWeight: 500, lineHeight: 1.25 },
+				style: {
+					fontSize: 26,
+					color: 'rgba(255,255,255,0.74)',
+					fontWeight: 500,
+					lineHeight: 1.25
+				},
 				children: character.profession
 			}
 		};
@@ -420,35 +449,20 @@ export class RenderCore {
 				type: 'div',
 				props: {
 					style: {
-						fontSize: 30,
-						color: 'rgba(255,255,255,0.88)',
+						fontSize: 34,
+						color: 'rgba(255,255,255,0.96)',
 						fontStyle: 'italic',
+						fontWeight: 400,
 						lineHeight: 1.35,
 						maxWidth: '92%',
-						marginTop: 8
+						marginTop: 4
 					},
-					children: `"${quote}"`
+					children: `“${quote}”`
 				}
 			};
 
 			columnChildren.push(quoteBlock);
 		}
-
-		const projectLineCharacter: SatoriRoot = {
-			type: 'div',
-			props: {
-				style: {
-					fontSize: 20,
-					color: 'rgba(255,255,255,0.72)',
-					marginTop: 12,
-					lineHeight: 1.35,
-					maxWidth: '94%',
-					fontWeight: 500
-				},
-				children: 'A coherent persona built from this character’s universe.'
-			}
-		};
-
 		columnChildren.push(projectLineCharacter);
 
 		const column: SatoriRoot = {
@@ -457,7 +471,7 @@ export class RenderCore {
 				style: {
 					display: 'flex',
 					flexDirection: 'column',
-					gap: 18,
+					gap: 14,
 					position: 'relative',
 					paddingBottom: 8
 				},

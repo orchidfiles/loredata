@@ -13,7 +13,6 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/loredata"><img src="https://img.shields.io/npm/v/loredata" alt="npm version" /></a>
   <a href="https://www.npmjs.com/package/loredata"><img src="https://img.shields.io/npm/dm/loredata" alt="npm downloads per month" /></a>
-  <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/loredata" alt="node version" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/npm/l/loredata" alt="license" /></a>
   <a href="https://github.com/orchidfiles/loredata"><img src="https://img.shields.io/github/last-commit/orchidfiles/loredata" alt="last commit" /></a>
 </p>

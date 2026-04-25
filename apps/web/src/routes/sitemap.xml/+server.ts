@@ -1,45 +1,102 @@
 import { UniverseLoader } from 'loredata';
 
-import type { RequestHandler } from './$types';
+import { config } from '$shared/config';
+import { slugify } from '$shared/utils';
 
-const SITE_URL = 'https://loredata.orchidfiles.com';
+import type { RequestHandler } from './$types';
+import type { UniverseData } from 'loredata';
 
 export const prerender = true;
 
-export const GET: RequestHandler = () => {
-	const ids = UniverseLoader.listAvailable();
+interface LocationStats {
+	universeIds: Set<string>;
+}
 
+interface InterestStats {
+	characterCount: number;
+}
+
+function appendLocationStats(map: Map<string, LocationStats>, locationName: string | undefined, universeId: string): void {
+	if (!locationName) {
+		return;
+	}
+
+	const slug = slugify(locationName);
+	const stats = map.get(slug) ?? { universeIds: new Set<string>() };
+
+	stats.universeIds.add(universeId);
+	map.set(slug, stats);
+}
+
+function collectLocationStats(universes: UniverseData[]): Map<string, LocationStats> {
+	const map = new Map<string, LocationStats>();
+
+	for (const universe of universes) {
+		for (const address of universe.addresses) {
+			appendLocationStats(map, address.city, universe.id);
+			appendLocationStats(map, address.state, universe.id);
+			appendLocationStats(map, address.country, universe.id);
+		}
+	}
+
+	return map;
+}
+
+function collectInterestStats(universes: UniverseData[]): Map<string, InterestStats> {
+	const map = new Map<string, InterestStats>();
+
+	for (const universe of universes) {
+		for (const character of universe.characters) {
+			for (const interest of character.interests) {
+				const slug = slugify(interest);
+				const stats = map.get(slug) ?? { characterCount: 0 };
+
+				stats.characterCount += 1;
+				map.set(slug, stats);
+			}
+		}
+	}
+
+	return map;
+}
+
+function collectRoutes(universes: UniverseData[]): string[] {
 	const staticRoutes = ['/'];
+	const universeRoutes = universes.map((u) => `/universes/${u.id}`);
+	const characterRoutes = universes.flatMap((u) => u.characters.map((c) => `/universes/${u.id}/${c.id}`));
 
-	const universeRoutes = ids.map((id) => `/universes/${id}`);
+	const locationRoutes = [...collectLocationStats(universes).entries()]
+		.filter(([, stats]) => stats.universeIds.size >= 5)
+		.map(([slug]) => `/locations/${slug}`);
 
-	const characterRoutes = ids.flatMap((id) => {
-		const universe = UniverseLoader.load(id);
+	const interestRoutes = [...collectInterestStats(universes).entries()]
+		.filter(([, stats]) => stats.characterCount >= 5)
+		.map(([slug]) => `/interests/${slug}`);
 
-		return universe.characters.map((c) => `/universes/${id}/${c.id}`);
-	});
+	return [...staticRoutes, ...universeRoutes, ...characterRoutes, ...interestRoutes, ...locationRoutes]
+		.filter((route) => route !== '/interests' && route !== '/locations')
+		.sort((a, b) => a.localeCompare(b));
+}
 
-	const allRoutes = [...staticRoutes, ...universeRoutes, ...characterRoutes];
-
-	const urlEntries = allRoutes
-		.map((path) => {
-			let priority = '0.6';
-
-			if (path === '/') priority = '1.0';
-			else if (universeRoutes.includes(path)) priority = '0.8';
-
-			return `
-  <url>
-    <loc>${SITE_URL}${path}</loc>
-    <changefreq>weekly</changefreq>
-    <priority>${priority}</priority>
-  </url>`;
-		})
+function buildXml(routes: string[]): string {
+	const urlEntries = routes
+		.map(
+			(path) => `<url>
+	<loc>${config.siteOrigin}${path}</loc>
+</url>`
+		)
 		.join('');
 
-	const xml = `<?xml version="1.0" encoding="UTF-8"?>
+	return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urlEntries}
 </urlset>`;
+}
+
+export const GET: RequestHandler = () => {
+	const ids = UniverseLoader.listAvailable();
+	const universes = ids.map((id) => UniverseLoader.load(id));
+	const routes = collectRoutes(universes);
+	const xml = buildXml(routes);
 
 	return new Response(xml, {
 		headers: {

@@ -19,6 +19,69 @@ const store = $derived(new UniverseStore([universe]));
 
 const ogPageUrl = $derived(`${config.siteOrigin}/universes/${universe.id}/${character.id}`);
 const ogImageUrl = $derived(`${config.siteOrigin}/og/char-${universe.id}-${character.id}.png`);
+const canonicalUrl = $derived(ogPageUrl);
+const characterName = $derived([character.firstName, character.lastName].filter(Boolean).join(' '));
+
+const pageTitle = $derived(`Generate ${characterName} profile from ${universe.name} — LoreData`);
+const pageDescription = $derived(
+	`Use a recognizable ${characterName} profile from ${universe.name} for screenshots, UI mockups, demos, and seed data.`
+);
+
+const personSchema = $derived.by(() => {
+	const item: Record<string, unknown> = {
+		'@context': 'https://schema.org',
+		'@type': 'ProfilePage',
+		name: characterName,
+		url: canonicalUrl,
+		description: pageDescription,
+		mainEntity: {
+			'@type': 'Person',
+			name: characterName,
+			jobTitle: character.profession
+		}
+	};
+	const mainEntity = item.mainEntity as Record<string, unknown>;
+
+	if (character.address) {
+		const address = PersonFormatter.formatAddress(character.address);
+		mainEntity.address = address;
+	}
+
+	if (character.quotes.length > 0) {
+		mainEntity.quote = character.quotes[0];
+	}
+
+	return item;
+});
+const personSchemaJson = $derived(JSON.stringify(personSchema));
+const personSchemaScript = $derived(`<script type="application/ld+json">${personSchemaJson}<\/script>`);
+
+const breadcrumbSchema = $derived({
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{
+			'@type': 'ListItem',
+			position: 1,
+			name: 'Home',
+			item: `${config.siteOrigin}/`
+		},
+		{
+			'@type': 'ListItem',
+			position: 2,
+			name: universe.name,
+			item: `${config.siteOrigin}/universes/${universe.id}`
+		},
+		{
+			'@type': 'ListItem',
+			position: 3,
+			name: characterName,
+			item: canonicalUrl
+		}
+	]
+});
+const breadcrumbSchemaJson = $derived(JSON.stringify(breadcrumbSchema));
+const breadcrumbSchemaScript = $derived(`<script type="application/ld+json">${breadcrumbSchemaJson}<\/script>`);
 
 // svelte-ignore state_referenced_locally
 let personas = $state<Person[]>([data.initialPersona]);
@@ -32,16 +95,16 @@ function reroll(): void {
 </script>
 
 <svelte:head>
-	<title>{character.firstName} {character.lastName} — {universe.name} — LoreData</title>
+	<title>{pageTitle}</title>
 	<meta
 		name="description"
-		content="Generate fake data for {character.firstName} {character.lastName} from {universe.name}. Realistic email, address and more." />
+		content={pageDescription} />
 	<meta
 		property="og:title"
-		content="{character.firstName} {character.lastName} — {universe.name}" />
+		content={pageTitle} />
 	<meta
 		property="og:description"
-		content="Generate fake data for {character.firstName} {character.lastName} from {universe.name}." />
+		content={pageDescription} />
 	<meta
 		property="og:type"
 		content="website" />
@@ -57,6 +120,23 @@ function reroll(): void {
 	<meta
 		property="og:image:height"
 		content={String(config.og.height)} />
+	<link
+		rel="canonical"
+		href={canonicalUrl} />
+	<meta
+		name="twitter:card"
+		content="summary_large_image" />
+	<meta
+		name="twitter:title"
+		content={pageTitle} />
+	<meta
+		name="twitter:description"
+		content={pageDescription} />
+	<meta
+		name="twitter:image"
+		content={ogImageUrl} />
+	{@html personSchemaScript}
+	{@html breadcrumbSchemaScript}
 </svelte:head>
 
 <div class="space-y-8">

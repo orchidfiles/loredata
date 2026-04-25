@@ -1,38 +1,38 @@
 {
-  "name": "@loredata/web",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite dev",
-    "build": "pnpm --filter @loredata/scripts run generate-og && vite build",
-    "preview": "vite preview",
-    "deploy": "wrangler pages deploy build",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
-  },
-  "dependencies": {
-    "bits-ui": "^2.16.4",
-    "loredata": "workspace:*",
-    "vaul-svelte": "1.0.0-next.7"
-  },
-  "devDependencies": {
-    "@iconify-json/lucide": "~1.2.98",
-    "@iconify-json/simple-icons": "~1.2.74",
-    "@loredata/dev-kit": "workspace:*",
-    "@skeletonlabs/skeleton": "~4.13.0",
-    "@sveltejs/adapter-static": "~3.0.10",
-    "@sveltejs/kit": "~2.55.0",
-    "@sveltejs/vite-plugin-svelte": "~5.0.3",
-    "@tailwindcss/vite": "~4.0.14",
-    "eslint": "~9.39.4",
-    "svelte": "~5.55.0",
-    "svelte-check": "~4.1.5",
-    "tsx": "~4.21.0",
-    "tailwindcss": "~4.0.14",
-    "typescript": "~5.8.2",
-    "unplugin-icons": "~23.0.1",
-    "vite": "~6.2.3",
-    "wrangler": "~4.77.0"
-  }
+	"name": "@loredata/web",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "pnpm --filter @loredata/scripts run generate-og && vite build",
+		"preview": "vite preview",
+		"deploy": "wrangler pages deploy build",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
+	},
+	"dependencies": {
+		"bits-ui": "^2.16.4",
+		"loredata": "workspace:*",
+		"vaul-svelte": "1.0.0-next.7"
+	},
+	"devDependencies": {
+		"@iconify-json/lucide": "~1.2.98",
+		"@iconify-json/simple-icons": "~1.2.74",
+		"@loredata/dev-kit": "workspace:*",
+		"@skeletonlabs/skeleton": "~4.13.0",
+		"@sveltejs/adapter-static": "~3.0.10",
+		"@sveltejs/kit": "~2.55.0",
+		"@sveltejs/vite-plugin-svelte": "~5.0.3",
+		"@tailwindcss/vite": "~4.0.14",
+		"eslint": "~9.39.4",
+		"svelte": "~5.55.0",
+		"svelte-check": "~4.1.5",
+		"tsx": "~4.21.0",
+		"tailwindcss": "~4.0.14",
+		"typescript": "~5.8.2",
+		"unplugin-icons": "~23.0.1",
+		"vite": "~6.2.3",
+		"wrangler": "~4.77.0"
+	}
 }

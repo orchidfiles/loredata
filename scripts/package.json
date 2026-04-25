@@ -4,6 +4,8 @@
 	"type": "module",
 	"scripts": {
 		"generate-og": "tsx og/cli.ts",
+		"seo:audit": "tsx seo/seo-audit.ts",
+		"seo:check-sitemap": "tsx seo/check-sitemap.ts",
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix"
 	},
